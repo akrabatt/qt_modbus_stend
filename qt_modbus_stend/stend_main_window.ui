@@ -14,19 +14,6 @@
    <string>stend_main_window</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>10</y>
-      <width>41</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>привет</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="button_read">
     <property name="geometry">
      <rect>
@@ -40,34 +27,71 @@
      <string>start read</string>
     </property>
    </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>181</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+    </widget>
+   </widget>
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>160</y>
-      <width>39</width>
-      <height>46</height>
+      <x>150</x>
+      <y>110</y>
+      <width>101</width>
+      <height>171</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
-      <widget class="QLabel" name="label_2">
+      <widget class="QLabel" name="lab_reg_1">
        <property name="text">
-        <string>-</string>
+        <string/>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLabel" name="label_3">
+      <widget class="QLabel" name="lab_reg_2">
        <property name="text">
-        <string>-</string>
+        <string/>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLabel" name="label_4">
+      <widget class="QLabel" name="lab_reg_3">
        <property name="text">
-        <string>-</string>
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="lab_reg_4">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="lab_reg_5">
+       <property name="text">
+        <string/>
        </property>
       </widget>
      </item>
@@ -80,7 +104,7 @@
      <x>0</x>
      <y>0</y>
      <width>595</width>
-     <height>17</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

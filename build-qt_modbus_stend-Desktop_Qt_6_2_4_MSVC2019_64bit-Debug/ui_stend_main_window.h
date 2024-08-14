@@ -16,6 +16,7 @@
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTabWidget>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -25,13 +26,17 @@ class Ui_stend_main_window
 {
 public:
     QWidget *centralwidget;
-    QLabel *label;
     QPushButton *button_read;
+    QTabWidget *tabWidget;
+    QWidget *tab;
+    QWidget *tab_2;
     QWidget *widget;
     QVBoxLayout *verticalLayout;
-    QLabel *label_2;
-    QLabel *label_3;
-    QLabel *label_4;
+    QLabel *lab_reg_1;
+    QLabel *lab_reg_2;
+    QLabel *lab_reg_3;
+    QLabel *lab_reg_4;
+    QLabel *lab_reg_5;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -42,37 +47,53 @@ public:
         stend_main_window->resize(595, 467);
         centralwidget = new QWidget(stend_main_window);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        label = new QLabel(centralwidget);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(190, 10, 41, 21));
         button_read = new QPushButton(centralwidget);
         button_read->setObjectName(QString::fromUtf8("button_read"));
         button_read->setGeometry(QRect(60, 170, 80, 18));
+        tabWidget = new QTabWidget(centralwidget);
+        tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
+        tabWidget->setGeometry(QRect(0, 0, 181, 101));
+        tab = new QWidget();
+        tab->setObjectName(QString::fromUtf8("tab"));
+        tabWidget->addTab(tab, QString());
+        tab_2 = new QWidget();
+        tab_2->setObjectName(QString::fromUtf8("tab_2"));
+        tabWidget->addTab(tab_2, QString());
         widget = new QWidget(centralwidget);
         widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(170, 160, 39, 46));
+        widget->setGeometry(QRect(150, 110, 101, 171));
         verticalLayout = new QVBoxLayout(widget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
-        label_2 = new QLabel(widget);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
+        lab_reg_1 = new QLabel(widget);
+        lab_reg_1->setObjectName(QString::fromUtf8("lab_reg_1"));
 
-        verticalLayout->addWidget(label_2);
+        verticalLayout->addWidget(lab_reg_1);
 
-        label_3 = new QLabel(widget);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
+        lab_reg_2 = new QLabel(widget);
+        lab_reg_2->setObjectName(QString::fromUtf8("lab_reg_2"));
 
-        verticalLayout->addWidget(label_3);
+        verticalLayout->addWidget(lab_reg_2);
 
-        label_4 = new QLabel(widget);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
+        lab_reg_3 = new QLabel(widget);
+        lab_reg_3->setObjectName(QString::fromUtf8("lab_reg_3"));
 
-        verticalLayout->addWidget(label_4);
+        verticalLayout->addWidget(lab_reg_3);
+
+        lab_reg_4 = new QLabel(widget);
+        lab_reg_4->setObjectName(QString::fromUtf8("lab_reg_4"));
+
+        verticalLayout->addWidget(lab_reg_4);
+
+        lab_reg_5 = new QLabel(widget);
+        lab_reg_5->setObjectName(QString::fromUtf8("lab_reg_5"));
+
+        verticalLayout->addWidget(lab_reg_5);
 
         stend_main_window->setCentralWidget(centralwidget);
         menubar = new QMenuBar(stend_main_window);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 595, 17));
+        menubar->setGeometry(QRect(0, 0, 595, 21));
         stend_main_window->setMenuBar(menubar);
         statusbar = new QStatusBar(stend_main_window);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -80,17 +101,23 @@ public:
 
         retranslateUi(stend_main_window);
 
+        tabWidget->setCurrentIndex(0);
+
+
         QMetaObject::connectSlotsByName(stend_main_window);
     } // setupUi
 
     void retranslateUi(QMainWindow *stend_main_window)
     {
         stend_main_window->setWindowTitle(QCoreApplication::translate("stend_main_window", "stend_main_window", nullptr));
-        label->setText(QCoreApplication::translate("stend_main_window", "\320\277\321\200\320\270\320\262\320\265\321\202", nullptr));
         button_read->setText(QCoreApplication::translate("stend_main_window", "start read", nullptr));
-        label_2->setText(QCoreApplication::translate("stend_main_window", "-", nullptr));
-        label_3->setText(QCoreApplication::translate("stend_main_window", "-", nullptr));
-        label_4->setText(QCoreApplication::translate("stend_main_window", "-", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tab), QCoreApplication::translate("stend_main_window", "Tab 1", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("stend_main_window", "Tab 2", nullptr));
+        lab_reg_1->setText(QString());
+        lab_reg_2->setText(QString());
+        lab_reg_3->setText(QString());
+        lab_reg_4->setText(QString());
+        lab_reg_5->setText(QString());
     } // retranslateUi
 
 };
