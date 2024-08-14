@@ -16,7 +16,6 @@
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
-#include <QtWidgets/QTabWidget>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -27,9 +26,6 @@ class Ui_stend_main_window
 public:
     QWidget *centralwidget;
     QPushButton *button_read;
-    QTabWidget *tabWidget;
-    QWidget *tab;
-    QWidget *tab_2;
     QWidget *widget;
     QVBoxLayout *verticalLayout;
     QLabel *lab_reg_1;
@@ -50,15 +46,6 @@ public:
         button_read = new QPushButton(centralwidget);
         button_read->setObjectName(QString::fromUtf8("button_read"));
         button_read->setGeometry(QRect(60, 170, 80, 18));
-        tabWidget = new QTabWidget(centralwidget);
-        tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
-        tabWidget->setGeometry(QRect(0, 0, 181, 101));
-        tab = new QWidget();
-        tab->setObjectName(QString::fromUtf8("tab"));
-        tabWidget->addTab(tab, QString());
-        tab_2 = new QWidget();
-        tab_2->setObjectName(QString::fromUtf8("tab_2"));
-        tabWidget->addTab(tab_2, QString());
         widget = new QWidget(centralwidget);
         widget->setObjectName(QString::fromUtf8("widget"));
         widget->setGeometry(QRect(150, 110, 101, 171));
@@ -101,9 +88,6 @@ public:
 
         retranslateUi(stend_main_window);
 
-        tabWidget->setCurrentIndex(0);
-
-
         QMetaObject::connectSlotsByName(stend_main_window);
     } // setupUi
 
@@ -111,8 +95,6 @@ public:
     {
         stend_main_window->setWindowTitle(QCoreApplication::translate("stend_main_window", "stend_main_window", nullptr));
         button_read->setText(QCoreApplication::translate("stend_main_window", "start read", nullptr));
-        tabWidget->setTabText(tabWidget->indexOf(tab), QCoreApplication::translate("stend_main_window", "Tab 1", nullptr));
-        tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("stend_main_window", "Tab 2", nullptr));
         lab_reg_1->setText(QString());
         lab_reg_2->setText(QString());
         lab_reg_3->setText(QString());
