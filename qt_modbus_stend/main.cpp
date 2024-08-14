@@ -5,6 +5,7 @@
 #include <QTranslator>
 #include <iostream>
 #include <vector>
+#include "libmodbus/modbus.h"
 
 int main(int argc, char *argv[])
 {

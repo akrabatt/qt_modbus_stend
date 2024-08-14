@@ -9,10 +9,24 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    libmodbus/modbus-data.c \
+    libmodbus/modbus-rtu.c \
+    libmodbus/modbus-tcp.c \
+    libmodbus/modbus.c \
     main.cpp \
+    modbus_funct/0x03.cpp \
     stend_main_window.cpp
 
 HEADERS += \
+    libmodbus/config.h \
+    libmodbus/modbus-private.h \
+    libmodbus/modbus-rtu-private.h \
+    libmodbus/modbus-rtu.h \
+    libmodbus/modbus-tcp-private.h \
+    libmodbus/modbus-tcp.h \
+    libmodbus/modbus-version.h \
+    libmodbus/modbus.h \
+    modbus_funct/0x03.h \
     stend_main_window.h
 
 FORMS += \

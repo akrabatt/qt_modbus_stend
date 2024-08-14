@@ -11,12 +11,12 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QComboBox>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -26,8 +26,12 @@ class Ui_stend_main_window
 public:
     QWidget *centralwidget;
     QLabel *label;
-    QComboBox *com_box;
-    QPushButton *button_start_send_message;
+    QPushButton *button_read;
+    QWidget *widget;
+    QVBoxLayout *verticalLayout;
+    QLabel *label_2;
+    QLabel *label_3;
+    QLabel *label_4;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -35,27 +39,40 @@ public:
     {
         if (stend_main_window->objectName().isEmpty())
             stend_main_window->setObjectName(QString::fromUtf8("stend_main_window"));
-        stend_main_window->resize(457, 412);
+        stend_main_window->resize(595, 467);
         centralwidget = new QWidget(stend_main_window);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         label = new QLabel(centralwidget);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(190, 10, 41, 21));
-        com_box = new QComboBox(centralwidget);
-        com_box->addItem(QString());
-        com_box->addItem(QString());
-        com_box->addItem(QString());
-        com_box->addItem(QString());
-        com_box->addItem(QString());
-        com_box->setObjectName(QString::fromUtf8("com_box"));
-        com_box->setGeometry(QRect(260, 150, 71, 22));
-        button_start_send_message = new QPushButton(centralwidget);
-        button_start_send_message->setObjectName(QString::fromUtf8("button_start_send_message"));
-        button_start_send_message->setGeometry(QRect(170, 150, 80, 18));
+        button_read = new QPushButton(centralwidget);
+        button_read->setObjectName(QString::fromUtf8("button_read"));
+        button_read->setGeometry(QRect(60, 170, 80, 18));
+        widget = new QWidget(centralwidget);
+        widget->setObjectName(QString::fromUtf8("widget"));
+        widget->setGeometry(QRect(170, 160, 39, 46));
+        verticalLayout = new QVBoxLayout(widget);
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        verticalLayout->setContentsMargins(0, 0, 0, 0);
+        label_2 = new QLabel(widget);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+
+        verticalLayout->addWidget(label_2);
+
+        label_3 = new QLabel(widget);
+        label_3->setObjectName(QString::fromUtf8("label_3"));
+
+        verticalLayout->addWidget(label_3);
+
+        label_4 = new QLabel(widget);
+        label_4->setObjectName(QString::fromUtf8("label_4"));
+
+        verticalLayout->addWidget(label_4);
+
         stend_main_window->setCentralWidget(centralwidget);
         menubar = new QMenuBar(stend_main_window);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 457, 17));
+        menubar->setGeometry(QRect(0, 0, 595, 17));
         stend_main_window->setMenuBar(menubar);
         statusbar = new QStatusBar(stend_main_window);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -70,13 +87,10 @@ public:
     {
         stend_main_window->setWindowTitle(QCoreApplication::translate("stend_main_window", "stend_main_window", nullptr));
         label->setText(QCoreApplication::translate("stend_main_window", "\320\277\321\200\320\270\320\262\320\265\321\202", nullptr));
-        com_box->setItemText(0, QCoreApplication::translate("stend_main_window", "COM1", nullptr));
-        com_box->setItemText(1, QCoreApplication::translate("stend_main_window", "COM2", nullptr));
-        com_box->setItemText(2, QCoreApplication::translate("stend_main_window", "COM3", nullptr));
-        com_box->setItemText(3, QCoreApplication::translate("stend_main_window", "OCM4", nullptr));
-        com_box->setItemText(4, QCoreApplication::translate("stend_main_window", "COM5", nullptr));
-
-        button_start_send_message->setText(QCoreApplication::translate("stend_main_window", "PushButton", nullptr));
+        button_read->setText(QCoreApplication::translate("stend_main_window", "start read", nullptr));
+        label_2->setText(QCoreApplication::translate("stend_main_window", "-", nullptr));
+        label_3->setText(QCoreApplication::translate("stend_main_window", "-", nullptr));
+        label_4->setText(QCoreApplication::translate("stend_main_window", "-", nullptr));
     } // retranslateUi
 
 };
