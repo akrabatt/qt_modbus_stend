@@ -39,7 +39,7 @@ std::vector<unsigned short> mb_0x03()
 
     // Определение адреса стартового регистра и количества регистров
     unsigned short start_register = 8000; // Начальный адрес регистра
-    const unsigned short num_registers = 5; // Количество регистров для чтения
+    unsigned short num_registers = 5; // Количество регистров для чтения
 
     // Резервирование места в векторе для значений регистров
     values.resize(num_registers);
