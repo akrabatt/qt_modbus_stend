@@ -384,50 +384,6 @@ release\moc_stend_main_window.cpp: ..\qt_modbus_stend\stend_main_window.h \
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qtabwidget.h \
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qicon.h \
 		ui_stend_main_window.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\QVariant \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QApplication \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qapplication.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qcoreapplication.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qeventloop.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qcoreapplication_platform.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qfuture.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qfutureinterface.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qmutex.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qresultstore.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qfuture_impl.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qthreadpool.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qthread.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qdeadlinetimer.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qelapsedtimer.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qrunnable.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qexception.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qpromise.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qguiapplication.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qinputmethod.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qlocale.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qguiapplication_platform.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QLabel \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qlabel.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qframe.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qpicture.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qtextdocument.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QMenuBar \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qmenubar.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qmenu.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qaction.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QPushButton \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qpushbutton.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qabstractbutton.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QStatusBar \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qstatusbar.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QToolBox \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qtoolbox.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QVBoxLayout \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qboxlayout.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qlayout.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qlayoutitem.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qgridlayout.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QWidget \
 		release\moc_predefs.h \
 		..\..\..\Qt\6.2.4\msvc2019_64\bin\moc.exe
 	C:\Qt\6.2.4\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/release/moc_predefs.h -IC:/Qt/6.2.4/msvc2019_64/mkspecs/win32-msvc -IC:/projects/qt_modbus_stend/qt_modbus_stend -IC:/Qt/6.2.4/msvc2019_64/include -IC:/Qt/6.2.4/msvc2019_64/include/QtWidgets -IC:/Qt/6.2.4/msvc2019_64/include/QtGui -IC:/Qt/6.2.4/msvc2019_64/include/QtCore -I. -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" ..\qt_modbus_stend\stend_main_window.h -o release\moc_stend_main_window.cpp
@@ -615,7 +571,6 @@ release\main.obj: ..\qt_modbus_stend\main.cpp ..\qt_modbus_stend\stend_main_wind
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qtabwidget.h \
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qicon.h \
 		ui_stend_main_window.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\QVariant \
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QApplication \
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qapplication.h \
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qcoreapplication.h \
@@ -637,28 +592,6 @@ release\main.obj: ..\qt_modbus_stend\main.cpp ..\qt_modbus_stend\stend_main_wind
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qinputmethod.h \
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qlocale.h \
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qguiapplication_platform.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QLabel \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qlabel.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qframe.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qpicture.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qtextdocument.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QMenuBar \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qmenubar.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qmenu.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qaction.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QPushButton \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qpushbutton.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qabstractbutton.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QStatusBar \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qstatusbar.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QToolBox \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qtoolbox.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QVBoxLayout \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qboxlayout.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qlayout.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qlayoutitem.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qgridlayout.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QWidget \
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\QLocale \
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\QTranslator \
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qtranslator.h \
@@ -803,50 +736,6 @@ release\stend_main_window.obj: ..\qt_modbus_stend\stend_main_window.cpp ..\qt_mo
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qtabwidget.h \
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qicon.h \
 		ui_stend_main_window.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\QVariant \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QApplication \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qapplication.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qcoreapplication.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qeventloop.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qcoreapplication_platform.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qfuture.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qfutureinterface.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qmutex.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qresultstore.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qfuture_impl.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qthreadpool.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qthread.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qdeadlinetimer.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qelapsedtimer.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qrunnable.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qexception.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qpromise.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qguiapplication.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qinputmethod.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtCore\qlocale.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qguiapplication_platform.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QLabel \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qlabel.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qframe.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qpicture.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qtextdocument.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QMenuBar \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qmenubar.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qmenu.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtGui\qaction.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QPushButton \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qpushbutton.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qabstractbutton.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QStatusBar \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qstatusbar.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QToolBox \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qtoolbox.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QVBoxLayout \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qboxlayout.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qlayout.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qlayoutitem.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qgridlayout.h \
-		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QWidget \
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\QMessageBox \
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qmessagebox.h \
 		..\..\..\Qt\6.2.4\msvc2019_64\include\QtWidgets\qdialog.h \

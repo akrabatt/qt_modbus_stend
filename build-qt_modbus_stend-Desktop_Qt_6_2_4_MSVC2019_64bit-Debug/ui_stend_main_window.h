@@ -16,7 +16,6 @@
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
-#include <QtWidgets/QToolBox>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -34,9 +33,6 @@ public:
     QLabel *lab_reg_3;
     QLabel *lab_reg_4;
     QLabel *lab_reg_5;
-    QToolBox *toolBox;
-    QWidget *page;
-    QWidget *page_2;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -81,17 +77,6 @@ public:
 
         verticalLayout->addWidget(lab_reg_5);
 
-        toolBox = new QToolBox(centralwidget);
-        toolBox->setObjectName(QString::fromUtf8("toolBox"));
-        toolBox->setGeometry(QRect(400, 260, 68, 128));
-        page = new QWidget();
-        page->setObjectName(QString::fromUtf8("page"));
-        page->setGeometry(QRect(0, 0, 68, 68));
-        toolBox->addItem(page, QString::fromUtf8("Page 1"));
-        page_2 = new QWidget();
-        page_2->setObjectName(QString::fromUtf8("page_2"));
-        page_2->setGeometry(QRect(0, 0, 68, 68));
-        toolBox->addItem(page_2, QString::fromUtf8("Page 2"));
         stend_main_window->setCentralWidget(centralwidget);
         menubar = new QMenuBar(stend_main_window);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -102,9 +87,6 @@ public:
         stend_main_window->setStatusBar(statusbar);
 
         retranslateUi(stend_main_window);
-
-        toolBox->setCurrentIndex(0);
-
 
         QMetaObject::connectSlotsByName(stend_main_window);
     } // setupUi
@@ -118,8 +100,6 @@ public:
         lab_reg_3->setText(QString());
         lab_reg_4->setText(QString());
         lab_reg_5->setText(QString());
-        toolBox->setItemText(toolBox->indexOf(page), QCoreApplication::translate("stend_main_window", "Page 1", nullptr));
-        toolBox->setItemText(toolBox->indexOf(page_2), QCoreApplication::translate("stend_main_window", "Page 2", nullptr));
     } // retranslateUi
 
 };
