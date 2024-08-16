@@ -7,7 +7,7 @@ std::vector<unsigned short> mb_0x03()
     std::vector<unsigned short> values;  // Массив для хранения значений регистров
 
     // Создание нового контекста Modbus RTU
-    modbus_t *ctx = modbus_new_rtu("COM6", 115200, 'N', 8, 1);
+    modbus_t *ctx = modbus_new_rtu("COM5", 115200, 'N', 8, 1);
     if (ctx == NULL) {
         std::cerr << "Unable to create the libmodbus context\n";
         return values;  // Возвращаем пустой массив при ошибке
@@ -38,7 +38,7 @@ std::vector<unsigned short> mb_0x03()
     }
 
     // Определение адреса стартового регистра и количества регистров
-    unsigned short start_register = 8000; // Начальный адрес регистра
+    unsigned short start_register = 0; // Начальный адрес регистра
     unsigned short num_registers = 5; // Количество регистров для чтения
 
     // Резервирование места в векторе для значений регистров
