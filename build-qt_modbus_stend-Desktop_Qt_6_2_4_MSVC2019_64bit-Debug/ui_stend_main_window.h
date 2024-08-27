@@ -35,7 +35,9 @@ public:
     QLabel *just_lable_2;
     QSpacerItem *horizontalSpacer;
     QLineEdit *line_in_com_num;
+    QSpacerItem *horizontalSpacer_2;
     QPushButton *button_test_connection;
+    QLabel *answer_connection_lable;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -43,12 +45,12 @@ public:
     {
         if (stend_main_window->objectName().isEmpty())
             stend_main_window->setObjectName(QString::fromUtf8("stend_main_window"));
-        stend_main_window->resize(1272, 789);
+        stend_main_window->resize(1280, 794);
         centralwidget = new QWidget(stend_main_window);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayoutWidget = new QWidget(centralwidget);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(10, 10, 281, 66));
+        verticalLayoutWidget->setGeometry(QRect(10, 10, 281, 61));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -73,6 +75,10 @@ public:
 
         horizontalLayout->addWidget(line_in_com_num);
 
+        horizontalSpacer_2 = new QSpacerItem(70, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_2);
+
         button_test_connection = new QPushButton(verticalLayoutWidget);
         button_test_connection->setObjectName(QString::fromUtf8("button_test_connection"));
 
@@ -81,10 +87,13 @@ public:
 
         verticalLayout->addLayout(horizontalLayout);
 
+        answer_connection_lable = new QLabel(centralwidget);
+        answer_connection_lable->setObjectName(QString::fromUtf8("answer_connection_lable"));
+        answer_connection_lable->setGeometry(QRect(300, 30, 101, 31));
         stend_main_window->setCentralWidget(centralwidget);
         menubar = new QMenuBar(stend_main_window);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1272, 21));
+        menubar->setGeometry(QRect(0, 0, 1280, 21));
         stend_main_window->setMenuBar(menubar);
         statusbar = new QStatusBar(stend_main_window);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -102,6 +111,7 @@ public:
         just_lable_2->setText(QCoreApplication::translate("stend_main_window", "COM \320\277\320\276\321\200\321\202:", nullptr));
         line_in_com_num->setPlaceholderText(QCoreApplication::translate("stend_main_window", "COM1...", nullptr));
         button_test_connection->setText(QCoreApplication::translate("stend_main_window", "\321\202\320\265\321\201\321\202", nullptr));
+        answer_connection_lable->setText(QString());
     } // retranslateUi
 
 };

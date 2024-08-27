@@ -15,6 +15,7 @@ SOURCES += \
     libmodbus/modbus.c \
     main.cpp \
     modbus_funct/0x03.cpp \
+    modbus_funct/modbusrtu.cpp \
     stend_main_window.cpp
 
 HEADERS += \
@@ -27,6 +28,7 @@ HEADERS += \
     libmodbus/modbus-version.h \
     libmodbus/modbus.h \
     modbus_funct/0x03.h \
+    modbus_funct/modbusrtu.h \
     stend_main_window.h
 
 FORMS += \
