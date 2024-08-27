@@ -11,10 +11,13 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
@@ -25,14 +28,14 @@ class Ui_stend_main_window
 {
 public:
     QWidget *centralwidget;
-    QPushButton *button_read;
-    QWidget *layoutWidget;
+    QWidget *verticalLayoutWidget;
     QVBoxLayout *verticalLayout;
-    QLabel *lab_reg_1;
-    QLabel *lab_reg_2;
-    QLabel *lab_reg_3;
-    QLabel *lab_reg_4;
-    QLabel *lab_reg_5;
+    QLabel *just_lable_1;
+    QHBoxLayout *horizontalLayout;
+    QLabel *just_lable_2;
+    QSpacerItem *horizontalSpacer;
+    QLineEdit *line_in_com_num;
+    QPushButton *button_test_connection;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -40,47 +43,48 @@ public:
     {
         if (stend_main_window->objectName().isEmpty())
             stend_main_window->setObjectName(QString::fromUtf8("stend_main_window"));
-        stend_main_window->resize(595, 467);
+        stend_main_window->resize(1272, 789);
         centralwidget = new QWidget(stend_main_window);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        button_read = new QPushButton(centralwidget);
-        button_read->setObjectName(QString::fromUtf8("button_read"));
-        button_read->setGeometry(QRect(60, 170, 80, 18));
-        layoutWidget = new QWidget(centralwidget);
-        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(150, 110, 101, 171));
-        verticalLayout = new QVBoxLayout(layoutWidget);
+        verticalLayoutWidget = new QWidget(centralwidget);
+        verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
+        verticalLayoutWidget->setGeometry(QRect(10, 10, 281, 66));
+        verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
-        lab_reg_1 = new QLabel(layoutWidget);
-        lab_reg_1->setObjectName(QString::fromUtf8("lab_reg_1"));
+        just_lable_1 = new QLabel(verticalLayoutWidget);
+        just_lable_1->setObjectName(QString::fromUtf8("just_lable_1"));
 
-        verticalLayout->addWidget(lab_reg_1);
+        verticalLayout->addWidget(just_lable_1);
 
-        lab_reg_2 = new QLabel(layoutWidget);
-        lab_reg_2->setObjectName(QString::fromUtf8("lab_reg_2"));
+        horizontalLayout = new QHBoxLayout();
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        just_lable_2 = new QLabel(verticalLayoutWidget);
+        just_lable_2->setObjectName(QString::fromUtf8("just_lable_2"));
 
-        verticalLayout->addWidget(lab_reg_2);
+        horizontalLayout->addWidget(just_lable_2);
 
-        lab_reg_3 = new QLabel(layoutWidget);
-        lab_reg_3->setObjectName(QString::fromUtf8("lab_reg_3"));
+        horizontalSpacer = new QSpacerItem(60, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
-        verticalLayout->addWidget(lab_reg_3);
+        horizontalLayout->addItem(horizontalSpacer);
 
-        lab_reg_4 = new QLabel(layoutWidget);
-        lab_reg_4->setObjectName(QString::fromUtf8("lab_reg_4"));
+        line_in_com_num = new QLineEdit(verticalLayoutWidget);
+        line_in_com_num->setObjectName(QString::fromUtf8("line_in_com_num"));
 
-        verticalLayout->addWidget(lab_reg_4);
+        horizontalLayout->addWidget(line_in_com_num);
 
-        lab_reg_5 = new QLabel(layoutWidget);
-        lab_reg_5->setObjectName(QString::fromUtf8("lab_reg_5"));
+        button_test_connection = new QPushButton(verticalLayoutWidget);
+        button_test_connection->setObjectName(QString::fromUtf8("button_test_connection"));
 
-        verticalLayout->addWidget(lab_reg_5);
+        horizontalLayout->addWidget(button_test_connection);
+
+
+        verticalLayout->addLayout(horizontalLayout);
 
         stend_main_window->setCentralWidget(centralwidget);
         menubar = new QMenuBar(stend_main_window);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 595, 21));
+        menubar->setGeometry(QRect(0, 0, 1272, 21));
         stend_main_window->setMenuBar(menubar);
         statusbar = new QStatusBar(stend_main_window);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -94,12 +98,10 @@ public:
     void retranslateUi(QMainWindow *stend_main_window)
     {
         stend_main_window->setWindowTitle(QCoreApplication::translate("stend_main_window", "stend_main_window", nullptr));
-        button_read->setText(QCoreApplication::translate("stend_main_window", "start read", nullptr));
-        lab_reg_1->setText(QString());
-        lab_reg_2->setText(QString());
-        lab_reg_3->setText(QString());
-        lab_reg_4->setText(QString());
-        lab_reg_5->setText(QString());
+        just_lable_1->setText(QCoreApplication::translate("stend_main_window", "\320\242\320\265\321\201\321\202 \321\201\320\276\320\265\320\264\320\270\320\275\320\265\320\275\320\270\321\217 (\321\201\320\272\320\276\321\200\320\276\321\201\321\202\321\214 \320\277\320\276 \321\203\320\274\320\276\320\273\321\207\320\260\320\275\320\270\321\216 115200)", nullptr));
+        just_lable_2->setText(QCoreApplication::translate("stend_main_window", "COM \320\277\320\276\321\200\321\202:", nullptr));
+        line_in_com_num->setPlaceholderText(QCoreApplication::translate("stend_main_window", "COM1...", nullptr));
+        button_test_connection->setText(QCoreApplication::translate("stend_main_window", "\321\202\320\265\321\201\321\202", nullptr));
     } // retranslateUi
 
 };

@@ -16,7 +16,7 @@ public:
     stend_main_window(QWidget *parent = nullptr);
     ~stend_main_window();
 private slots:
-    void on_button_start_send_message();
+    //void on_button_start_send_message();
 
 private:
     Ui::stend_main_window *ui;
