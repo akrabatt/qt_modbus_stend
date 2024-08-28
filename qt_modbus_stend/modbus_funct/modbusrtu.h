@@ -11,18 +11,22 @@ class modbusRTU
 {
 public:
     // пустой конструктор
-    modbusRTU(){};
+    modbusRTU();
 
     // конструктор с параметрами
-    modbusRTU(const std::string &device, int baud, char parity, int data_bit, int stop_bit, int slave_id)
-    {
-        // создаем контекст модбаса
-        modbus_t* ctx = modbus_new_rtu(device.c_str(), baud, parity, data_bit, stop_bit);
-        if(ctx == nullptr)
-        {
-            throw std::runtime_error("Unable to create the libmodbus context");
-        }
-    }
+    modbusRTU(const std::string &device, int baud, char parity, int data_bit, int stop_bit, int slave_id);
+
+    // деструктор
+    ~modbusRTU();
+
+private:
+    modbus_t* ctx;        // контекст libmodbus
+    std::string device;   // устройство
+    int baud;             // скорость
+    char parity;          // четность
+    int data_bit;         // кол-во бит данных
+    int stop_bit;         // стоповый бит
+
 };
 
 #endif // MODBUSRTU_H
