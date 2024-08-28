@@ -2,6 +2,16 @@
 
 modbusRTU::modbusRTU(){};   // пустой конструктор
 
+
+/**
+ * @brief modbusRTU::modbusRTU основной конструктор создает контекст соединения
+ * @param device номер COM порта, причем надо указывать так: пример "COM1"
+ * @param baud скорость в бодах, например 115200
+ * @param parity четнойть, например 'N'
+ * @param data_bit колличество данных в посылке, обычно 8
+ * @param stop_bit стоп бит, например 1
+ * @param slave_id id slave устройства, нашей платы
+ */
 modbusRTU::modbusRTU(const std::string &device, int baud, char parity, int data_bit, int stop_bit, int slave_id)
     : device(device), baud(baud), parity(parity), data_bit(data_bit), stop_bit(stop_bit)
 {
@@ -21,8 +31,8 @@ modbusRTU::modbusRTU(const std::string &device, int baud, char parity, int data_
 
             // Устанавливаем таймауты (опционально)
             struct timeval response_timeout;
-            response_timeout.tv_sec = 1;
-            response_timeout.tv_usec = 0;
+            response_timeout.tv_sec = 1;    // секунды
+            response_timeout.tv_usec = 0;   // мил.сек
             modbus_set_response_timeout(ctx, response_timeout.tv_sec, response_timeout.tv_usec);
 
             // Подключаемся к устройству
@@ -31,6 +41,17 @@ modbusRTU::modbusRTU(const std::string &device, int baud, char parity, int data_
                 modbus_free(ctx);
                 throw std::runtime_error("Connection failed: " + std::string(modbus_strerror(errno)));
             }
+}
+
+// деструктор
+modbusRTU::~modbusRTU()
+{
+    // освобождаем ресурсы
+    if(ctx)
+    {
+        modbus_close(ctx);
+        modbus_free(ctx);
+    }
 }
 
 
