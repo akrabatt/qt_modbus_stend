@@ -15,8 +15,13 @@ class stend_main_window : public QMainWindow
 public:
     stend_main_window(QWidget *parent = nullptr);
     ~stend_main_window();
+
+    // подлкючаем слот по тестирования связи с оборудованием
 private slots:
-    //void on_button_start_send_message();
+    /**
+     * @brief test_connection обработчик нажатия кнопки по тестированию связи
+     */
+    void test_connection();
 
 private:
     Ui::stend_main_window *ui;
