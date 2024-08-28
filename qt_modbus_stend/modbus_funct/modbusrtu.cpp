@@ -54,4 +54,38 @@ modbusRTU::~modbusRTU()
     }
 }
 
+/**
+ * @brief modbusRTU::mbm_16_write_registers данная функция служит для записи регистров
+ * @param start_address стартовый регистр
+ * @param values источник вектор со значениями
+ */
+void modbusRTU::mbm_16_write_registers(int start_address, const std::vector<uint16_t> &values)
+{
+    // Пишем значения в несколько регистров
+            if (modbus_write_registers(ctx, start_address, values.size(), values.data()) == -1)
+            {
+                throw std::runtime_error("Failed to write registers: " + std::string(modbus_strerror(errno)));
+            }
+}
+
+/**
+ * @brief mbm_03_read_registers функция чтения регистров
+ * @param start_address начальный регистр для чтения
+ * @param num_registers кол-во регистров для чтения
+ * @return возвращаем вектор с регистрами
+ */
+std::vector<uint16_t> modbusRTU::mbm_03_read_registers(int start_address, int num_registers)
+{
+    // создаем вектор с заданным кол-вом
+    std::vector<uint16_t> values(num_registers);
+
+       // Читаем значения из регистров
+       if (modbus_read_registers(ctx, start_address, num_registers, values.data()) == -1)
+       {
+           throw std::runtime_error("Failed to read registers: " + std::string(modbus_strerror(errno)));
+       }
+
+       return values;
+}
+
 
