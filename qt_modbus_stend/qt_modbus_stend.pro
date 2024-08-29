@@ -14,7 +14,6 @@ SOURCES += \
     libmodbus/modbus-tcp.c \
     libmodbus/modbus.c \
     main.cpp \
-    modbus_funct/0x03.cpp \
     modbus_funct/modbusrtu.cpp \
     stend_main_window.cpp
 
@@ -27,7 +26,6 @@ HEADERS += \
     libmodbus/modbus-tcp.h \
     libmodbus/modbus-version.h \
     libmodbus/modbus.h \
-    modbus_funct/0x03.h \
     modbus_funct/modbusrtu.h \
     stend_main_window.h
 

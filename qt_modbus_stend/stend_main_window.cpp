@@ -26,13 +26,31 @@ stend_main_window::~stend_main_window()
  */
 void stend_main_window::test_connection()
 {
-    // запускаем функцию чтения регистров
-    std::vector<unsigned short> registers = mb_0x03();
+    // Получаем текст из поля QLineEdit
+    QString com_port_text = ui->line_in_com_num->text();
 
-    // устанавливаем значения в лейблы
-    //ui->lab_reg_1->setText(QString::number(registers[0]));
-    //ui->lab_reg_2->setText(QString::number(registers[1]));
-    //ui->lab_reg_3->setText(QString::number(registers[2]));
-    //ui->lab_reg_4->setText(QString::number(registers[3]));
-    //ui->lab_reg_5->setText(QString::number(registers[4]));
+    // Проверяем, не пустое ли поле
+    if (com_port_text.isEmpty()) {
+        QMessageBox::warning(this, "Error", "Input COM port's num!");
+        return;
+    }
+
+    // Преобразуем QString в std::string для использования в вашей функции
+    std::string com_port = com_port_text.toStdString();
+
+    // Теперь можно передать номер COM порта в вашу функцию
+    // Пример вызова вашей функции, которую вы будете дописывать
+    try {
+        // Предположим, ваша функция называется "connect_to_device" и принимает строку с номером порта
+        bool success = connect_to_device(com_port);
+
+        // Обновляем лейбл в зависимости от результата подключения
+        if (success) {
+            ui->answer_connection_lable->setText("Успешное подключение!");
+        } else {
+            ui->answer_connection_lable->setText("Ошибка подключения.");
+        }
+    } catch (const std::exception &e) {
+        QMessageBox::critical(this, "Ошибка", QString("Не удалось подключиться: %1").arg(e.what()));
+    }
 }

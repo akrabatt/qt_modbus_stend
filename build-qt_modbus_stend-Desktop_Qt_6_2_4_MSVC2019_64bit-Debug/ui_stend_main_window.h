@@ -50,7 +50,7 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayoutWidget = new QWidget(centralwidget);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(10, 10, 281, 61));
+        verticalLayoutWidget->setGeometry(QRect(10, 10, 281, 76));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -107,7 +107,7 @@ public:
     void retranslateUi(QMainWindow *stend_main_window)
     {
         stend_main_window->setWindowTitle(QCoreApplication::translate("stend_main_window", "stend_main_window", nullptr));
-        just_lable_1->setText(QCoreApplication::translate("stend_main_window", "\320\242\320\265\321\201\321\202 \321\201\320\276\320\265\320\264\320\270\320\275\320\265\320\275\320\270\321\217 (\321\201\320\272\320\276\321\200\320\276\321\201\321\202\321\214 \320\277\320\276 \321\203\320\274\320\276\320\273\321\207\320\260\320\275\320\270\321\216 115200)", nullptr));
+        just_lable_1->setText(QCoreApplication::translate("stend_main_window", "            \320\242\320\265\321\201\321\202 \321\201\320\276\320\265\320\264\320\270\320\275\320\265\320\275\320\270\321\217 (\321\201\320\272\320\276\321\200\320\276\321\201\321\202\321\214 115200)", nullptr));
         just_lable_2->setText(QCoreApplication::translate("stend_main_window", "COM \320\277\320\276\321\200\321\202:", nullptr));
         line_in_com_num->setPlaceholderText(QCoreApplication::translate("stend_main_window", "COM1...", nullptr));
         button_test_connection->setText(QCoreApplication::translate("stend_main_window", "\321\202\320\265\321\201\321\202", nullptr));
