@@ -4,7 +4,8 @@
 #include <QString>
 #include <vector>
 #include "libmodbus/modbus.h"
-#include "modbus_funct/0x03.h"
+#include "modbus_funct/modbusrtu.h"
+
 
 stend_main_window::stend_main_window(QWidget *parent)
     : QMainWindow(parent)
@@ -41,14 +42,17 @@ void stend_main_window::test_connection()
     // Теперь можно передать номер COM порта в вашу функцию
     // Пример вызова вашей функции, которую вы будете дописывать
     try {
+        // создадим объект modbustru
+        modbusRTU modbus_check;
+
         // Предположим, ваша функция называется "connect_to_device" и принимает строку с номером порта
-        bool success = connect_to_device(com_port);
+        bool success = modbus_check.mbm_03_check_connection()
 
         // Обновляем лейбл в зависимости от результата подключения
         if (success) {
-            ui->answer_connection_lable->setText("Успешное подключение!");
+            ui->answer_connection_lable->setText("Successful connection!");
         } else {
-            ui->answer_connection_lable->setText("Ошибка подключения.");
+            ui->answer_connection_lable->setText("Connection error");
         }
     } catch (const std::exception &e) {
         QMessageBox::critical(this, "Ошибка", QString("Не удалось подключиться: %1").arg(e.what()));

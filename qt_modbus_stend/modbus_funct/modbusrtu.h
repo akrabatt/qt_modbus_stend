@@ -49,6 +49,12 @@ public:
      * @return возвращаем вектор с регистрами
      */
     std::vector<uint16_t> mbm_03_read_registers(int start_address, int num_registers);
+
+    /**
+     * @brief mbm_03_check_connection функция проверки связи с платой
+     * @return возвращает булевое значение (true - соединение успешное) (false - ошибка соединения)
+     */
+    bool mbm_03_check_connection();
 };
 
 #endif // MODBUSRTU_H
