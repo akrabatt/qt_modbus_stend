@@ -31,30 +31,33 @@ void stend_main_window::test_connection()
     QString com_port_text = ui->line_in_com_num->text();
 
     // Проверяем, не пустое ли поле
-    if (com_port_text.isEmpty()) {
+    if (com_port_text.isEmpty())
+    {
         QMessageBox::warning(this, "Error", "Input COM port's num!");
         return;
     }
 
     // Преобразуем QString в std::string для использования в вашей функции
-    std::string com_port = com_port_text.toStdString();
+    const std::string com_port = com_port_text.toStdString();
 
     // Теперь можно передать номер COM порта в вашу функцию
     // Пример вызова вашей функции, которую вы будете дописывать
-    try {
+    try
+    {
         // создадим объект modbustru
-        modbusRTU modbus_check;
+        modbusRTU modbus_check(com_port, 115200, 'N', 8, 1, 1);
 
         // Предположим, ваша функция называется "connect_to_device" и принимает строку с номером порта
-        bool success = modbus_check.mbm_03_check_connection()
+        bool success = modbus_check.mbm_03_check_connection();
 
         // Обновляем лейбл в зависимости от результата подключения
-        if (success) {
-            ui->answer_connection_lable->setText("Successful connection!");
-        } else {
-            ui->answer_connection_lable->setText("Connection error");
-        }
-    } catch (const std::exception &e) {
-        QMessageBox::critical(this, "Ошибка", QString("Не удалось подключиться: %1").arg(e.what()));
+        if (success)
+            {ui->answer_connection_lable->setText("Successful connection!");}
+        else
+            {ui->answer_connection_lable->setText("Connection error");}
     }
+    catch (const std::exception &e)
+        {QMessageBox::critical(this, "Error", QString("faild connection: %1").arg(e.what()));}
+    catch (...)
+        {QMessageBox::critical(this, "Error", "An unknown error occurred.");}
 }

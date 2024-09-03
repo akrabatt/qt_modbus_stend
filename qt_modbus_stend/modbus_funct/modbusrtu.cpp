@@ -106,6 +106,7 @@ bool modbusRTU::mbm_03_check_connection()
        {
            connection_flag = false;
            throw std::runtime_error("Failed to read registers: " + std::string(modbus_strerror(errno)));
+           throw std::runtime_error("Failed to connect to Modbus device on port " + device);
        }
 
        return connection_flag;
