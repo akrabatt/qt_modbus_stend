@@ -89,7 +89,7 @@ public:
 
         answer_connection_lable = new QLabel(centralwidget);
         answer_connection_lable->setObjectName(QString::fromUtf8("answer_connection_lable"));
-        answer_connection_lable->setGeometry(QRect(300, 30, 101, 31));
+        answer_connection_lable->setGeometry(QRect(300, 60, 121, 31));
         stend_main_window->setCentralWidget(centralwidget);
         menubar = new QMenuBar(stend_main_window);
         menubar->setObjectName(QString::fromUtf8("menubar"));

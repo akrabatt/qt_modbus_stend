@@ -47,17 +47,29 @@ void stend_main_window::test_connection()
         // создадим объект modbustru
         modbusRTU modbus_check(com_port, 115200, 'N', 8, 1, 1);
 
-        // Предположим, ваша функция называется "connect_to_device" и принимает строку с номером порта
+        // Вызываем метод проверки связи
         bool success = modbus_check.mbm_03_check_connection();
 
         // Обновляем лейбл в зависимости от результата подключения
         if (success)
-            {ui->answer_connection_lable->setText("Successful connection!");}
+        {
+            ui->answer_connection_lable->setStyleSheet("QLabel { color : green; }");    // зеленый цвет лейбла
+            ui->answer_connection_lable->setText("Successful connection!");             // текст лейбла
+            QMessageBox::warning(this, "Success", "Successful connection!");
+        }
         else
             {ui->answer_connection_lable->setText("Connection error");}
     }
     catch (const std::exception &e)
-        {QMessageBox::critical(this, "Error", QString("faild connection: %1").arg(e.what()));}
+    {
+        QMessageBox::critical(this, "Error", QString("faild connection: %1").arg(e.what()));    // ошибка соединения
+        ui->answer_connection_lable->setStyleSheet("QLabel { color : red; }");    // красный цвет лейбла
+        ui->answer_connection_lable->setText("Connection error");
+    }
     catch (...)
-        {QMessageBox::critical(this, "Error", "An unknown error occurred.");}
+    {
+        QMessageBox::critical(this, "Error", "An unknown error occurred.");         // неизвестная ошибка
+        ui->answer_connection_lable->setStyleSheet("QLabel { color : red; }");    // красный цвет лейбла
+        ui->answer_connection_lable->setText("Error");
+    }
 }
