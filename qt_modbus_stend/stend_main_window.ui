@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1280</width>
-    <height>794</height>
+    <width>1920</width>
+    <height>1026</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>281</width>
+      <width>293</width>
       <height>76</height>
      </rect>
     </property>
@@ -87,7 +87,7 @@
    <widget class="QLabel" name="answer_connection_lable">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>320</x>
       <y>60</y>
       <width>121</width>
       <height>31</height>
@@ -103,8 +103,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1280</width>
-     <height>21</height>
+     <width>1920</width>
+     <height>25</height>
     </rect>
    </property>
   </widget>

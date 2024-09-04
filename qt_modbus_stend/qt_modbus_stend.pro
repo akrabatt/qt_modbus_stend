@@ -9,6 +9,9 @@ CONFIG += c++17 console
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    devices/mops.cpp \
+    devices/mups.cpp \
+    devices/test_board.cpp \
     libmodbus/modbus-data.c \
     libmodbus/modbus-rtu.c \
     libmodbus/modbus-tcp.c \
@@ -18,6 +21,9 @@ SOURCES += \
     stend_main_window.cpp
 
 HEADERS += \
+    devices/mops.h \
+    devices/mups.h \
+    devices/test_board.h \
     libmodbus/config.h \
     libmodbus/modbus-private.h \
     libmodbus/modbus-rtu-private.h \

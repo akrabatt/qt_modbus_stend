@@ -45,12 +45,12 @@ public:
     {
         if (stend_main_window->objectName().isEmpty())
             stend_main_window->setObjectName(QString::fromUtf8("stend_main_window"));
-        stend_main_window->resize(1280, 794);
+        stend_main_window->resize(1920, 1026);
         centralwidget = new QWidget(stend_main_window);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayoutWidget = new QWidget(centralwidget);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
-        verticalLayoutWidget->setGeometry(QRect(10, 10, 281, 76));
+        verticalLayoutWidget->setGeometry(QRect(10, 10, 293, 76));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -89,11 +89,11 @@ public:
 
         answer_connection_lable = new QLabel(centralwidget);
         answer_connection_lable->setObjectName(QString::fromUtf8("answer_connection_lable"));
-        answer_connection_lable->setGeometry(QRect(300, 60, 121, 31));
+        answer_connection_lable->setGeometry(QRect(320, 60, 121, 31));
         stend_main_window->setCentralWidget(centralwidget);
         menubar = new QMenuBar(stend_main_window);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1280, 21));
+        menubar->setGeometry(QRect(0, 0, 1920, 25));
         stend_main_window->setMenuBar(menubar);
         statusbar = new QStatusBar(stend_main_window);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
