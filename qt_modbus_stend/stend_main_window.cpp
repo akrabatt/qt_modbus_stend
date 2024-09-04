@@ -57,8 +57,6 @@ void stend_main_window::test_connection()
             ui->answer_connection_lable->setText("Successful connection!");             // текст лейбла
             QMessageBox::warning(this, "Success", "Successful connection!");
         }
-        else
-            {ui->answer_connection_lable->setText("Connection error");}
     }
     catch (const std::exception &e)
     {
