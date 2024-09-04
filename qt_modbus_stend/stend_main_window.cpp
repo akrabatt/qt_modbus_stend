@@ -40,34 +40,48 @@ void stend_main_window::test_connection()
     // Преобразуем QString в std::string для использования в вашей функции
     const std::string com_port = com_port_text.toStdString();
 
-    // Теперь можно передать номер COM порта в вашу функцию
-    // Пример вызова вашей функции, которую вы будете дописывать
-    try
+    // создадим флаг обратной связи
+    bool success = false;
+
+    std::thread t1([this, &success, com_port]() // Захватываем указатель this для доступа к полям класса
     {
-        // создадим объект modbustru
-        modbusRTU modbus_check(com_port, 115200, 'N', 8, 1, 1);
-
-        // Вызываем метод проверки связи
-        bool success = modbus_check.mbm_03_check_connection();
-
-        // Обновляем лейбл в зависимости от результата подключения
-        if (success)
+        try
         {
-            ui->answer_connection_lable->setStyleSheet("QLabel { color : green; }");    // зеленый цвет лейбла
-            ui->answer_connection_lable->setText("Successful connection!");             // текст лейбла
-            QMessageBox::warning(this, "Success", "Successful connection!");
+            modbusRTU modbus_check(com_port, 115200, 'N', 8, 1, 1); // создадим объект
+            success = modbus_check.mbm_03_check_connection();   // выполняем функцию
+
+            // Обновляем лейбл в зависимости от результата подключения
+            if (success)
+            {
+                QMetaObject::invokeMethod(this, [this]()
+                {
+                    ui->answer_connection_lable->setStyleSheet("QLabel { color : green; }"); // зеленый цвет лейбла
+                    ui->answer_connection_lable->setText("Successful connection!"); // текст лейбла
+                    QMessageBox::information(this, "Success", "Successful connection!");
+                });
+            }
         }
-    }
-    catch (const std::exception &e)
-    {
-        QMessageBox::critical(this, "Error", QString("faild connection: %1").arg(e.what()));    // ошибка соединения
-        ui->answer_connection_lable->setStyleSheet("QLabel { color : red; }");    // красный цвет лейбла
-        ui->answer_connection_lable->setText("Connection error");
-    }
-    catch (...)
-    {
-        QMessageBox::critical(this, "Error", "An unknown error occurred.");         // неизвестная ошибка
-        ui->answer_connection_lable->setStyleSheet("QLabel { color : red; }");    // красный цвет лейбла
-        ui->answer_connection_lable->setText("Error");
-    }
+        catch (const std::exception &e) // в случае неуспеха
+        {
+            QMetaObject::invokeMethod(this, [this, e]()
+            {
+                QMessageBox::critical(this, "Error", QString("Failed connection: %1").arg(e.what())); // ошибка соединения
+                ui->answer_connection_lable->setStyleSheet("QLabel { color : red; }"); // красный цвет лейбла
+                ui->answer_connection_lable->setText("Connection error");
+            });
+        }
+        catch (...)     // все остальные ошибки
+        {
+            QMetaObject::invokeMethod(this, [this]()
+            {
+                QMessageBox::critical(this, "Error", "An unknown error occurred."); // неизвестная ошибка
+                ui->answer_connection_lable->setStyleSheet("QLabel { color : red; }"); // красный цвет лейбла
+                ui->answer_connection_lable->setText("Error");
+            });
+        }
+    });
+
+    // отсоединяем поток
+    t1.detach();
+
 }

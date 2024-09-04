@@ -101,13 +101,18 @@ bool modbusRTU::mbm_03_check_connection()
     // создаем булевое значение флаг
     bool connection_flag = true;
 
+    mtx.lock();
+
        // Читаем значения из регистров
        if (modbus_read_registers(ctx, 0, 3, values.data()) == -1)
        {
            connection_flag = false;
+           mtx.unlock();
            throw std::runtime_error("Failed to read registers: " + std::string(modbus_strerror(errno)));
            throw std::runtime_error("Failed to connect to Modbus device on port " + device);
        }
+
+       mtx.unlock();
 
        return connection_flag;
 }

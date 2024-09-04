@@ -6,6 +6,8 @@
 #include <iostream>
 #include <stdexcept>
 #include <vector>
+#include <thread>
+#include <mutex>
 
 class modbusRTU
 {
@@ -16,6 +18,7 @@ private:
     char parity;          // четность
     int data_bit;         // кол-во бит данных
     int stop_bit;         // стоповый бит
+    std::mutex mtx;
 
 public:
     // пустой конструктор
