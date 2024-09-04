@@ -81,7 +81,7 @@ void stend_main_window::test_connection()
         }
     });
 
-    // отсоединяем поток
+    // запускаем поток параллельно
     t1.detach();
 
 }

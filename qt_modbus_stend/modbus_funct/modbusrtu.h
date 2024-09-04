@@ -18,7 +18,7 @@ private:
     char parity;          // четность
     int data_bit;         // кол-во бит данных
     int stop_bit;         // стоповый бит
-    std::mutex mtx;
+    std::mutex mtx_constr;  // мьютикс конструктора
 
 public:
     // пустой конструктор

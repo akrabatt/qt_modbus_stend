@@ -15,32 +15,35 @@ modbusRTU::modbusRTU(){};   // пустой конструктор
 modbusRTU::modbusRTU(const std::string &device, int baud, char parity, int data_bit, int stop_bit, int slave_id)
     : device(device), baud(baud), parity(parity), data_bit(data_bit), stop_bit(stop_bit)
 {
-            // Создаем контекст Modbus RTU
-            ctx = modbus_new_rtu(device.c_str(), baud, parity, data_bit, stop_bit);
-            if (ctx == nullptr)
-            {
-                throw std::runtime_error("Unable to create the libmodbus context");
-            }
+    // блокируем мьютексом конструктор
+    std::lock_guard<std::mutex> lock(mtx_constr);
 
-            // Устанавливаем идентификатор slave
-            if (modbus_set_slave(ctx, slave_id) == -1)
-            {
-                modbus_free(ctx);
-                throw std::runtime_error("Unable to set slave ID");
-            }
+    // Создаем контекст Modbus RTU
+    ctx = modbus_new_rtu(device.c_str(), baud, parity, data_bit, stop_bit);
+    if (ctx == nullptr)
+    {
+        throw std::runtime_error("Unable to create the libmodbus context");
+    }
 
-            // Устанавливаем таймауты (опционально)
-            struct timeval response_timeout;
-            response_timeout.tv_sec = 1;    // секунды
-            response_timeout.tv_usec = 0;   // мил.сек
-            modbus_set_response_timeout(ctx, response_timeout.tv_sec, response_timeout.tv_usec);
+    // Устанавливаем идентификатор slave
+    if (modbus_set_slave(ctx, slave_id) == -1)
+    {
+        modbus_free(ctx);
+        throw std::runtime_error("Unable to set slave ID");
+    }
 
-            // Подключаемся к устройству
-            if (modbus_connect(ctx) == -1)
-            {
-                modbus_free(ctx);
-                throw std::runtime_error("Connection failed: " + std::string(modbus_strerror(errno)));
-            }
+    // Устанавливаем таймауты (опционально)
+    struct timeval response_timeout;
+    response_timeout.tv_sec = 1;    // секунды
+    response_timeout.tv_usec = 0;   // мил.сек
+    modbus_set_response_timeout(ctx, response_timeout.tv_sec, response_timeout.tv_usec);
+
+    // Подключаемся к устройству
+    if (modbus_connect(ctx) == -1)
+    {
+        modbus_free(ctx);
+        throw std::runtime_error("Connection failed: " + std::string(modbus_strerror(errno)));
+    }
 }
 
 // деструктор
@@ -62,10 +65,10 @@ modbusRTU::~modbusRTU()
 void modbusRTU::mbm_16_write_registers(int start_address, const std::vector<uint16_t> &values)
 {
     // Пишем значения в несколько регистров
-            if (modbus_write_registers(ctx, start_address, values.size(), values.data()) == -1)
-            {
-                throw std::runtime_error("Failed to write registers: " + std::string(modbus_strerror(errno)));
-            }
+    if (modbus_write_registers(ctx, start_address, values.size(), values.data()) == -1)
+    {
+        throw std::runtime_error("Failed to write registers: " + std::string(modbus_strerror(errno)));
+    }
 }
 
 /**
@@ -79,13 +82,13 @@ std::vector<uint16_t> modbusRTU::mbm_03_read_registers(int start_address, int nu
     // создаем вектор с заданным кол-вом
     std::vector<uint16_t> values(num_registers);
 
-       // Читаем значения из регистров
-       if (modbus_read_registers(ctx, start_address, num_registers, values.data()) == -1)
-       {
-           throw std::runtime_error("Failed to read registers: " + std::string(modbus_strerror(errno)));
-       }
+    // Читаем значения из регистров
+    if (modbus_read_registers(ctx, start_address, num_registers, values.data()) == -1)
+    {
+        throw std::runtime_error("Failed to read registers: " + std::string(modbus_strerror(errno)));
+    }
 
-       return values;
+    return values;
 }
 
 
@@ -101,19 +104,17 @@ bool modbusRTU::mbm_03_check_connection()
     // создаем булевое значение флаг
     bool connection_flag = true;
 
-    mtx.lock();
+    // блокируем данные
+    // std::lock_guard<std::mutex> lock(mtx);  // Используйте QMutexLocker, если мьютекс типа QMutex
 
-       // Читаем значения из регистров
-       if (modbus_read_registers(ctx, 0, 3, values.data()) == -1)
-       {
-           connection_flag = false;
-           mtx.unlock();
-           throw std::runtime_error("Failed to read registers: " + std::string(modbus_strerror(errno)));
-           throw std::runtime_error("Failed to connect to Modbus device on port " + device);
-       }
+    // Читаем значения из регистров
+    if (modbus_read_registers(ctx, 0, 3, values.data()) == -1)
+    {
+        connection_flag = false;
+        throw std::runtime_error("Failed to read registers: " + std::string(modbus_strerror(errno)));
+        throw std::runtime_error("Failed to connect to Modbus device on port " + device);
+    }
 
-       mtx.unlock();
-
-       return connection_flag;
+    return connection_flag;
 }
 
