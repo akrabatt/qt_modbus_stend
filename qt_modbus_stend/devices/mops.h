@@ -21,7 +21,7 @@ private:
                 int mops_operable;               // is the module working properly or not
                 int mops_not_operable;           // the module is not working properly
             }mops_statment;
-            int mops_current_ch_status[8];                   // buffer for the value of the states
+            int mops_current_ch_status[8];                  // buffer for the value of the states
             struct
             {
                 int mops_ch_err_break[8];                   // break(1)
@@ -58,6 +58,12 @@ public:
      * @param status сам статус
      */
     void mops_set_operable_status(bool status);
+
+    /**
+     * @brief mops_set_id устанавливаем адресс модуля
+     * @param id адресс модуля
+     */
+    void mops_set_id(int id);
 };
 
 #endif // MOPS_H

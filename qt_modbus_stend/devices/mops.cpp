@@ -18,3 +18,13 @@ void mops::mops_set_operable_status(bool status)
 {
     this -> operable = status;  // ставим сам статус
 }
+
+
+/**
+ * @brief mops::mops_set_id
+ * @param id
+ */
+void mops::mops_set_id(int id)
+{
+    this -> id = id;
+}
