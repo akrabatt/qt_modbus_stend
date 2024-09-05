@@ -1,12 +1,15 @@
 #ifndef MOPS_H
 #define MOPS_H
 
+#include "device_base_class.h"
 
-class mops
+/**
+ * @brief The mops class
+ * @note данный класс реализует состояние МОПСов и наследует класс device_base_class
+ */
+class mops : public device_base_class
 {
 private:
-    int id;         // mupses id
-    bool operable;  // operable status
 
     // структура данных состояния мопса
     union tag_mops_stand_statment
@@ -40,30 +43,19 @@ private:
         int main_buff[56];
     }mops_stand_statment;
 
+
 public:
     // пустой конструктор
     mops();
 
     /**
-     * @brief mops параметризированный конструктор
-     * @param id адрес мупса
+     * @brief mops параметризированный конструктор присваивает адресс модулю
+     * @param id сам адресс модуля
      */
-    mops(const int id);
+    mops(int id);
 
     // деструктор
     ~mops();
-
-    /**
-     * @brief mops_set_operable_status устанавливает статус исправен или нет
-     * @param status сам статус
-     */
-    void mops_set_operable_status(bool status);
-
-    /**
-     * @brief mops_set_id устанавливаем адресс модуля
-     * @param id адресс модуля
-     */
-    void mops_set_id(int id);
 };
 
 #endif // MOPS_H

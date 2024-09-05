@@ -9,6 +9,7 @@ CONFIG += c++17 console
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    devices/device_base_class.cpp \
     devices/mops.cpp \
     devices/mups.cpp \
     devices/test_board.cpp \
@@ -21,6 +22,7 @@ SOURCES += \
     stend_main_window.cpp
 
 HEADERS += \
+    devices/device_base_class.h \
     devices/mops.h \
     devices/mups.h \
     devices/test_board.h \

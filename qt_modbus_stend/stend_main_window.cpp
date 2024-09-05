@@ -50,6 +50,12 @@ void stend_main_window::test_connection()
             modbusRTU modbus_check(com_port, 115200, 'N', 8, 1, 1); // создадим объект
             success = modbus_check.mbm_03_check_connection();   // выполняем функцию
 
+            //modbusRTU modbus_check;   // создадим объект
+            //modbus_check.create_modbus_context(com_port, 115200, 'N', 8, 1, 1); // создадим контекст
+            //success = modbus_check.mbm_03_check_connection();   // запускаем проверку
+
+            //success = modbus_check.init_and_check_connection(com_port, 115200, 'N', 8, 1, 1, 1, 3);
+
             // Обновляем лейбл в зависимости от результата подключения
             if (success)
             {
@@ -70,18 +76,8 @@ void stend_main_window::test_connection()
                 ui->answer_connection_lable->setText("Connection error");
             });
         }
-        catch (...)     // все остальные ошибки
-        {
-            QMetaObject::invokeMethod(this, [this]()
-            {
-                QMessageBox::critical(this, "Error", "An unknown error occurred."); // неизвестная ошибка
-                ui->answer_connection_lable->setStyleSheet("QLabel { color : red; }"); // красный цвет лейбла
-                ui->answer_connection_lable->setText("Error");
-            });
-        }
     });
 
     // запускаем поток параллельно
     t1.detach();
-
 }
