@@ -148,17 +148,15 @@ bool modbusRTU::mbm_03_check_connection()
     // создаем вектор с заданным кол-вом
     std::vector<uint16_t> values(3);
 
-    // создаем булевое значение флаг
-    bool connection_flag = true;
-
     // Читаем значения из регистров
     if (modbus_read_registers(ctx, 0, 3, values.data()) == -1)
     {
-        connection_flag = false;
+
         throw std::runtime_error("Failed to read registers: " + std::string(modbus_strerror(errno)));
+        return false;
     }
 
-    return connection_flag;
+    return true;
 }
 
 /**
