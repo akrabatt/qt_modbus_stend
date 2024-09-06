@@ -64,6 +64,9 @@ public:
     QCheckBox *checkBox_active_mups_8;
     QCheckBox *checkBox_active_mups_9;
     QCheckBox *checkBox_active_mups_10;
+    QLabel *just_lable_3;
+    QPushButton *button_start_main_test;
+    QPushButton *button_stop_main_test;
     QLabel *label;
     QMenuBar *menubar;
     QStatusBar *statusbar;
@@ -72,7 +75,7 @@ public:
     {
         if (stend_main_window->objectName().isEmpty())
             stend_main_window->setObjectName(QString::fromUtf8("stend_main_window"));
-        stend_main_window->resize(590, 921);
+        stend_main_window->resize(662, 921);
         centralwidget = new QWidget(stend_main_window);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayoutWidget = new QWidget(centralwidget);
@@ -239,13 +242,22 @@ public:
 
         horizontalLayout_2->addLayout(verticalLayout_2);
 
+        just_lable_3 = new QLabel(centralwidget);
+        just_lable_3->setObjectName(QString::fromUtf8("just_lable_3"));
+        just_lable_3->setGeometry(QRect(60, 130, 211, 16));
+        button_start_main_test = new QPushButton(centralwidget);
+        button_start_main_test->setObjectName(QString::fromUtf8("button_start_main_test"));
+        button_start_main_test->setGeometry(QRect(360, 370, 151, 51));
+        button_stop_main_test = new QPushButton(centralwidget);
+        button_stop_main_test->setObjectName(QString::fromUtf8("button_stop_main_test"));
+        button_stop_main_test->setGeometry(QRect(360, 440, 151, 51));
         label = new QLabel(centralwidget);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(60, 130, 211, 16));
+        label->setGeometry(QRect(400, 330, 111, 16));
         stend_main_window->setCentralWidget(centralwidget);
         menubar = new QMenuBar(stend_main_window);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 590, 25));
+        menubar->setGeometry(QRect(0, 0, 662, 25));
         stend_main_window->setMenuBar(menubar);
         statusbar = new QStatusBar(stend_main_window);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -284,7 +296,10 @@ public:
         checkBox_active_mups_8->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\243\320\237\320\241 8", nullptr));
         checkBox_active_mups_9->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\243\320\237\320\241 9", nullptr));
         checkBox_active_mups_10->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\243\320\237\320\241 10", nullptr));
-        label->setText(QCoreApplication::translate("stend_main_window", "\320\222\321\213\320\261\320\265\321\200\320\270\321\202\320\265 \320\270\321\201\320\277\321\213\321\202\321\203\320\265\320\274\321\213\320\265 \320\274\320\276\320\264\321\203\320\273\320\270", nullptr));
+        just_lable_3->setText(QCoreApplication::translate("stend_main_window", "\320\222\321\213\320\261\320\265\321\200\320\270\321\202\320\265 \320\270\321\201\320\277\321\213\321\202\321\203\320\265\320\274\321\213\320\265 \320\274\320\276\320\264\321\203\320\273\320\270", nullptr));
+        button_start_main_test->setText(QCoreApplication::translate("stend_main_window", "\320\241\321\202\320\260\321\200\321\202 ", nullptr));
+        button_stop_main_test->setText(QCoreApplication::translate("stend_main_window", "\320\241\321\202\320\276\320\277 ", nullptr));
+        label->setText(QCoreApplication::translate("stend_main_window", "\320\230\321\201\320\277\321\213\321\202\320\260\320\275\320\270\321\217", nullptr));
     } // retranslateUi
 
 };

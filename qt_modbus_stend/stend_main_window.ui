@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>590</width>
+    <width>662</width>
     <height>921</height>
    </rect>
   </property>
@@ -301,7 +301,7 @@
    <widget class="QPushButton" name="button_start_main_test">
     <property name="geometry">
      <rect>
-      <x>390</x>
+      <x>360</x>
       <y>370</y>
       <width>151</width>
       <height>51</height>
@@ -314,7 +314,7 @@
    <widget class="QPushButton" name="button_stop_main_test">
     <property name="geometry">
      <rect>
-      <x>390</x>
+      <x>360</x>
       <y>440</y>
       <width>151</width>
       <height>51</height>
@@ -327,7 +327,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>430</x>
+      <x>400</x>
       <y>330</y>
       <width>111</width>
       <height>16</height>
@@ -343,7 +343,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>590</width>
+     <width>662</width>
      <height>25</height>
     </rect>
    </property>
