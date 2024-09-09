@@ -23,6 +23,11 @@ private slots:
      */
     void test_connection();
 
+    /**
+     * @brief start_main_test обработчик нажатия кнопки по старту испытаний МОПСов и МУПСов
+     */
+    void start_main_test();
+
 private:
     Ui::stend_main_window *ui;
 };

@@ -14,7 +14,12 @@ stend_main_window::stend_main_window(QWidget *parent)
     ui->setupUi(this);
 
     // подлкючаем слот к сигналу кнопки(...(название кнопки, ..., ..., название метода))
+    // тест соединения с платой
     connect(ui->button_test_connection, &QPushButton::clicked, this, &stend_main_window::test_connection);
+
+    // запуск испытаний МОПСов и МУПСов
+    connect(ui->button_start_main_test, &QPushButton::clicked, this, &stend_main_window::start_main_test);
+
 }
 
 stend_main_window::~stend_main_window()
@@ -80,4 +85,28 @@ void stend_main_window::test_connection()
 
     // запускаем поток параллельно
     t1.detach();
+}
+
+void stend_main_window::start_main_test()
+{
+    // Получаем текст из поля QLineEdit
+    QString com_port_text = ui->line_in_com_num->text();
+
+    // Проверяем, не пустое ли поле
+    if (com_port_text.isEmpty())
+    {
+        QMessageBox::warning(this, "Error", "Input COM port's num!");
+        return;
+    }
+
+    // Преобразуем QString в std::string для использования в вашей функции
+    const std::string com_port = com_port_text.toStdString();
+
+    if (ui->checkBox_active_mops_1->isChecked()) {
+            QMessageBox::information(this, "CheckBox State", "CheckBox is checked!");
+        } else {
+            QMessageBox::warning(this, "CheckBox State", "CheckBox is not checked!");
+            return;
+        }
+
 }
