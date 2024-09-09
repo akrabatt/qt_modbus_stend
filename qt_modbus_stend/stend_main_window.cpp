@@ -102,11 +102,14 @@ void stend_main_window::start_main_test()
     // Преобразуем QString в std::string для использования в вашей функции
     const std::string com_port = com_port_text.toStdString();
 
-    if (ui->checkBox_active_mops_1->isChecked()) {
-            QMessageBox::information(this, "CheckBox State", "CheckBox is checked!");
-        } else {
-            QMessageBox::warning(this, "CheckBox State", "CheckBox is not checked!");
-            return;
-        }
+    if (ui->checkBox_active_mops_1->isChecked())
+    {
+        QMessageBox::information(this, "CheckBox State", "CheckBox is checked!");
+    }
+    else
+    {
+        QMessageBox::warning(this, "CheckBox State", "CheckBox is not checked!");
+        return;
+    }
 
 }

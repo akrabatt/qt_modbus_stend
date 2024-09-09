@@ -54,6 +54,9 @@ private:
         mops_id_10 = 10504
     }mops_start_reg;        // стартовые регистры для каждого из мопсов
 
+    std::vector<bool> mops_active_checkbox;  // вектор хранящий выбранные для проверки МОПСы
+    std::vector<bool> mups_active_checkbox;  // векстр хранящий выбранные для проверки МУПСы
+
 
 public:
     // пустой конструктор
@@ -64,6 +67,17 @@ public:
      * @param id адрес платы
      */
     test_board(int id);
+
+    // СЕТТЕРЫ
+
+    /**
+     * @brief set_active_mops_checkbox метод активации МОПСов для испытания
+     * @param select_bool 1 - включить в испытания, 0 - исключить из испытаний
+     * @param position_in_arr позиция в векторе
+     */
+    void set_active_mops_checkbox(bool select_bool, int position_in_arr);
+
+    // ГЕТТЕРЫ
 
 };
 
