@@ -6,6 +6,7 @@
 #include "libmodbus/modbus.h"
 #include "modbus_funct/modbusrtu.h"
 #include "devices/test_board.h"
+#include <numeric>
 
 
 stend_main_window::stend_main_window(QWidget *parent)
@@ -129,6 +130,9 @@ void stend_main_window::start_main_test()
 
         // Обрабатываем чекбоксы для МУПС
         for (int i = 0; i < 10; ++i) {stand_test_board.set_active_mups_checkbox(mups_checkboxes[i]->isChecked() ? 1 : 0, i);}
+
+        int test_var = stand_test_board.get_sum_mops_checkbox();
+
     }
     catch (const std::exception &e)
     {

@@ -1,4 +1,5 @@
 #include "test_board.h"
+#include <numeric>
 
 // пустой конструктор
 test_board::test_board(){}
@@ -70,3 +71,12 @@ int test_board::get_active_mups_checkbox(unsigned int position_in_arr)
     return mups_active_checkbox[position_in_arr];
 }
 
+/**
+ * @brief get_sum_mops_checkbox функция сложения всех элементов вектора
+ * @param vec ссылка на вектор
+ * @return сумма элементов вектора
+ */
+int test_board::get_sum_mops_checkbox()
+{
+    return std::accumulate(this->mops_active_checkbox.begin(), this->mops_active_checkbox.end(), 0, std::plus<int>());
+}

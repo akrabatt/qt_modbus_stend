@@ -103,6 +103,13 @@ public:
      */
     int get_active_mups_checkbox(unsigned int position_in_arr);
 
+    /**
+     * @brief get_sum_mops_checkbox функция сложения всех элементов вектора МОПСов
+     * @param vec ссылка на вектор
+     * @return сумма элементов вектора
+     */
+    int get_sum_mops_checkbox();
+
 };
 
 #endif // TEST_BOARD_H
