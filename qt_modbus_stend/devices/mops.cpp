@@ -8,3 +8,6 @@ mops::mops(){}
  * @param id адрес модуля
  */
 mops::mops(int id) : device_base_class(id) {}
+
+// деструктор
+mops::~mops(){};

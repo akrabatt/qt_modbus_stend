@@ -9,6 +9,9 @@ device_base_class::device_base_class(){}
  */
 device_base_class::device_base_class(int id) : id(){}
 
+// деструктор
+device_base_class::~device_base_class(){};
+
 /**
  * @brief device_base_class::device_metod_set_oper_status устанавливаем статус исправности
  * @param status булевое значение 1 - исправен, 0 - неисправен

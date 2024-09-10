@@ -54,8 +54,8 @@ private:
         mops_id_10 = 10504
     }mops_start_reg;        // стартовые регистры для каждого из мопсов
 
-    std::vector<bool> mops_active_checkbox;  // вектор хранящий выбранные для проверки МОПСы
-    std::vector<bool> mups_active_checkbox;  // векстр хранящий выбранные для проверки МУПСы
+    std::vector<int> mops_active_checkbox;  // вектор хранящий выбранные для проверки МОПСы
+    std::vector<int> mups_active_checkbox;  // векстр хранящий выбранные для проверки МУПСы
 
 
 public:
@@ -68,16 +68,40 @@ public:
      */
     test_board(int id);
 
+    // деструктор
+    ~test_board();
+
     // СЕТТЕРЫ
 
     /**
      * @brief set_active_mops_checkbox метод активации МОПСов для испытания
-     * @param select_bool 1 - включить в испытания, 0 - исключить из испытаний
+     * @param select_var если > 0 - включить в испытания, если == 0 - исключить из испытаний
      * @param position_in_arr позиция в векторе
      */
-    void set_active_mops_checkbox(bool select_bool, int position_in_arr);
+    void set_active_mops_checkbox(unsigned int select_var, int position_in_arr);
+
+    /**
+     * @brief set_active_mups_checkbox метод активации МУПСов для испытания
+     * @param select_var если > 0 - включить в испытания, если == 0 - исключить из испытаний
+     * @param position_in_arr позиция в векторе
+     */
+    void set_active_mups_checkbox(unsigned int select_var, int position_in_arr);
 
     // ГЕТТЕРЫ
+
+    /**
+     * @brief get_active_mops_checkbox геттер возвращает значение 1 или 0
+     * @param position_in_arr позицию в векторе
+     * @return 1 или 0
+     */
+    int get_active_mops_checkbox(unsigned int position_in_arr);
+
+    /**
+     * @brief get_active_mups_checkbox геттер возвращает значение 1 или 0
+     * @param position_in_arr позицию в векторе
+     * @return 1 или 0
+     */
+    int get_active_mups_checkbox(unsigned int position_in_arr);
 
 };
 

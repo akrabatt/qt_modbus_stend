@@ -8,3 +8,6 @@ mups::mups(){}
  * @param id сам адрес
  */
 mups::mups(int id) : device_base_class(id){}
+
+// деструктор
+mups::~mups(){};
