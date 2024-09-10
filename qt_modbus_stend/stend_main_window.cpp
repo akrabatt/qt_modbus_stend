@@ -108,87 +108,27 @@ void stend_main_window::start_main_test()
         // создадим объект испытательной платы
         test_board stand_test_board(1);
 
-        // МОПС 1
-        if (ui->checkBox_active_mops_1->isChecked()) {stand_test_board.set_active_mops_checkbox(1, 0);}
-        else {stand_test_board.set_active_mops_checkbox(0, 0);}
+        // Массив указателей на QCheckBox для МОПС
+        QCheckBox* mops_checkboxes[] = {
+            ui->checkBox_active_mops_1, ui->checkBox_active_mops_2, ui->checkBox_active_mops_3,
+            ui->checkBox_active_mops_4, ui->checkBox_active_mops_5, ui->checkBox_active_mops_6,
+            ui->checkBox_active_mops_7, ui->checkBox_active_mops_8, ui->checkBox_active_mops_9,
+            ui->checkBox_active_mops_10
+        };
 
-        // МОПС 2
-        if (ui->checkBox_active_mops_2->isChecked()) {stand_test_board.set_active_mops_checkbox(1, 1);}
-        else {stand_test_board.set_active_mops_checkbox(0, 1);}
+        // Массив указателей на QCheckBox для МУПС
+        QCheckBox* mups_checkboxes[] = {
+            ui->checkBox_active_mups_1, ui->checkBox_active_mups_2, ui->checkBox_active_mups_3,
+            ui->checkBox_active_mups_4, ui->checkBox_active_mups_5, ui->checkBox_active_mups_6,
+            ui->checkBox_active_mups_7, ui->checkBox_active_mups_8, ui->checkBox_active_mups_9,
+            ui->checkBox_active_mups_10
+        };
 
-        // МОПС 3
-        if (ui->checkBox_active_mops_3->isChecked()) {stand_test_board.set_active_mops_checkbox(1, 2);}
-        else {stand_test_board.set_active_mops_checkbox(0, 2);}
+        // Обрабатываем чекбоксы для МОПС
+        for (int i = 0; i < 10; ++i) {stand_test_board.set_active_mops_checkbox(mops_checkboxes[i]->isChecked() ? 1 : 0, i);}
 
-        // МОПС 4
-        if (ui->checkBox_active_mops_4->isChecked()) {stand_test_board.set_active_mops_checkbox(1, 3);}
-        else {stand_test_board.set_active_mops_checkbox(0, 3);}
-
-        // МОПС 5
-        if (ui->checkBox_active_mops_5->isChecked()) {stand_test_board.set_active_mops_checkbox(1, 4);}
-        else {stand_test_board.set_active_mops_checkbox(0, 4);}
-
-        // МОПС 6
-        if (ui->checkBox_active_mops_6->isChecked()) {stand_test_board.set_active_mops_checkbox(1, 5);}
-        else {stand_test_board.set_active_mops_checkbox(0, 5);}
-
-        // МОПС 7
-        if (ui->checkBox_active_mops_7->isChecked()) {stand_test_board.set_active_mops_checkbox(1, 6);}
-        else {stand_test_board.set_active_mops_checkbox(0, 6);}
-
-        // МОПС 8
-        if (ui->checkBox_active_mops_8->isChecked()) {stand_test_board.set_active_mops_checkbox(1, 7);}
-        else {stand_test_board.set_active_mops_checkbox(0, 7);}
-
-        // МОПС 9
-        if (ui->checkBox_active_mops_9->isChecked()) {stand_test_board.set_active_mops_checkbox(1, 8);}
-        else {stand_test_board.set_active_mops_checkbox(0, 8);}
-
-        // МОПС 10
-        if (ui->checkBox_active_mops_10->isChecked()) {stand_test_board.set_active_mops_checkbox(1, 9);}
-        else {stand_test_board.set_active_mops_checkbox(0, 9);}
-
-
-
-        // МУПС 1
-        if (ui->checkBox_active_mups_1->isChecked()) {stand_test_board.set_active_mups_checkbox(1, 0);}
-        else {stand_test_board.set_active_mups_checkbox(0, 0);}
-
-        // МУПС 2
-        if (ui->checkBox_active_mups_2->isChecked()) {stand_test_board.set_active_mups_checkbox(1, 1);}
-        else {stand_test_board.set_active_mups_checkbox(0, 1);}
-
-        // МУПС 3
-        if (ui->checkBox_active_mups_3->isChecked()) {stand_test_board.set_active_mups_checkbox(1, 2);}
-        else {stand_test_board.set_active_mups_checkbox(0, 2);}
-
-        // МУПС 4
-        if (ui->checkBox_active_mups_4->isChecked()) {stand_test_board.set_active_mups_checkbox(1, 3);}
-        else {stand_test_board.set_active_mups_checkbox(0, 3);}
-
-        // МУПС 5
-        if (ui->checkBox_active_mups_5->isChecked()) {stand_test_board.set_active_mups_checkbox(1, 4);}
-        else {stand_test_board.set_active_mups_checkbox(0, 4);}
-
-        // МУПС 6
-        if (ui->checkBox_active_mups_6->isChecked()) {stand_test_board.set_active_mups_checkbox(1, 5);}
-        else {stand_test_board.set_active_mups_checkbox(0, 5);}
-
-        // МУПС 7
-        if (ui->checkBox_active_mups_7->isChecked()) {stand_test_board.set_active_mups_checkbox(1, 6);}
-        else {stand_test_board.set_active_mups_checkbox(0, 6);}
-
-        // МУПС 8
-        if (ui->checkBox_active_mups_8->isChecked()) {stand_test_board.set_active_mups_checkbox(1, 7);}
-        else {stand_test_board.set_active_mups_checkbox(0, 7);}
-
-        // МУПС 9
-        if (ui->checkBox_active_mups_9->isChecked()) {stand_test_board.set_active_mups_checkbox(1, 8);}
-        else {stand_test_board.set_active_mups_checkbox(0, 8);}
-
-        // МУПС 10
-        if (ui->checkBox_active_mups_10->isChecked()) {stand_test_board.set_active_mups_checkbox(1, 9);}
-        else {stand_test_board.set_active_mups_checkbox(0, 9);}
+        // Обрабатываем чекбоксы для МУПС
+        for (int i = 0; i < 10; ++i) {stand_test_board.set_active_mups_checkbox(mups_checkboxes[i]->isChecked() ? 1 : 0, i);}
     }
     catch (const std::exception &e)
     {
