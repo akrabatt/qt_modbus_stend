@@ -131,8 +131,21 @@ void stend_main_window::start_main_test()
         // Обрабатываем чекбоксы для МУПС
         for (int i = 0; i < 10; ++i) {stand_test_board.set_active_mups_checkbox(mups_checkboxes[i]->isChecked() ? 1 : 0, i);}
 
-        int test_var = stand_test_board.get_sum_mops_checkbox();
+        int mops_var_sum = stand_test_board.get_sum_mops_checkbox();    // проверяем отмеченные МОПСы
+        int mups_var_sum = stand_test_board.get_sum_mups_checkbox();    // проверяем отмеченные МУПСы
+        // если не отмечены, ты выводим ошибку и выходим
+        if(mops_var_sum == 0 && mups_var_sum == 0)
+        {
+            QMessageBox::warning(this, "Error", "The module is not selected");
+            return;
+        }
 
+        modbusRTU modbus_stand_board(com_port, 115200, 'N', 8, 1, 1); // создадим объект
+
+        bool success = stand_test_board.wirte_active_mops_and_mups_to_test_board_flag(&modbus_stand_board);
+
+        if(success){QMessageBox::information(this, "End", "End");}
+        else {QMessageBox::warning(this, "Error", "Error");}
     }
     catch (const std::exception &e)
     {

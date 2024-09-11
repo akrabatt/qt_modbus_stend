@@ -73,10 +73,61 @@ int test_board::get_active_mups_checkbox(unsigned int position_in_arr)
 
 /**
  * @brief get_sum_mops_checkbox функция сложения всех элементов вектора
- * @param vec ссылка на вектор
  * @return сумма элементов вектора
  */
 int test_board::get_sum_mops_checkbox()
 {
     return std::accumulate(this->mops_active_checkbox.begin(), this->mops_active_checkbox.end(), 0, std::plus<int>());
+}
+
+/**
+ * @brief test_board::get_sum_mups_checkbox функция всех элементов вектора
+ * @return сумма элементов векторов
+ */
+int test_board::get_sum_mups_checkbox()
+{
+    return std::accumulate(this->mups_active_checkbox.begin(), this->mups_active_checkbox.end(), 0, std::plus<int>());
+}
+
+/**
+ * @brief write_active_mops_to_test_board_flag метод записи МОПСов активных для испытания в плату
+ * @param modbusobj ссылка на объект
+ * @return успех/неуспех
+ */
+bool test_board::write_active_mops_to_test_board_flag(modbusRTU *modbusobj)
+{
+   return modbusobj->mbm_16_write_registers_flag(this->mops_active_start_reg, this->mops_active_quant_reg, this->mops_active_checkbox);
+}
+
+/**
+ * @brief write_active_mups_to_test_board_flag метод записи МУПСов активных для испытания в плату
+ * @param modbusobj ссылка на объект
+ * @return успех/неуспех
+ */
+bool test_board::write_active_mups_to_test_board_flag(modbusRTU *modbusobj)
+{
+    return modbusobj->mbm_16_write_registers_flag(this->mups_active_start_reg, this->mups_active_quant_reg, this->mups_active_checkbox);
+}
+
+/**
+ * @brief wirte_active_mops_and_mups_to_test_board_flag метод записи МОПСов и МУПСов активный для испытания в плату
+ * @param modbusobj ссылка на объект
+ * @return успех/неуспех
+ */
+bool test_board::wirte_active_mops_and_mups_to_test_board_flag(modbusRTU *modbusobj)
+{
+    // создадим главный вектор который будет в себе содержать чекбоксы МОПСов и МУПСов
+    std::vector<uint16_t> main_buf;
+
+    // создадим сумарную переменную по кол-ву регистров для записи
+    uint16_t main_quant_reg = this->mops_quant_reg + this->mups_quant_reg;
+
+    // резервируем место в буфере под два вектора чекбоксов
+    main_buf.reserve(this->mops_active_checkbox.size() + this->mups_active_checkbox.size());
+
+   // добавляем в буфер МОПСы и МУПСы
+    main_buf.insert(main_buf.end(), this->mops_active_checkbox.begin(), this->mops_active_checkbox.end());  // МОПСы
+    main_buf.insert(main_buf.end(), this->mups_active_checkbox.begin(), this->mups_active_checkbox.end());  // МУПСы
+
+    return modbusobj->mbm_16_write_registers_flag(this->mops_active_start_reg, main_quant_reg, main_buf);
 }

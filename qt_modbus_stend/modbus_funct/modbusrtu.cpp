@@ -96,20 +96,55 @@ void modbusRTU::create_modbus_context(const std::string &device, int baud, char 
 }
 
 /**
- * @brief modbusRTU::mbm_16_write_registers данная функция служит для записи регистров
- * @param start_address стартовый регистр
- * @param values источник вектор со значениями
+ * @brief modbusRTU::mbm_16_write_registers Функция для записи регистров.
+ * @param start_address Стартовый регистр.
+ * @param size Количество регистров для записи.
+ * @param values Вектор значений для записи.
  */
-void modbusRTU::mbm_16_write_registers(int start_address, const std::vector<uint16_t> &values)
+void modbusRTU::mbm_16_write_registers(const int &start_address, const int &size, const std::vector<uint16_t> &values)
 {
-    // блокируем доступ к ресурам
+    // Блокируем доступ к ресурсу с помощью мьютекса
     std::lock_guard<std::mutex> lock(mtx_constr);
 
+    // Проверяем, что указанный размер не превышает размер вектора
+    if (size > values.size()) {
+        throw std::runtime_error("Size parameter exceeds the size of the values vector.");
+    }
+
     // Пишем значения в несколько регистров
-    if (modbus_write_registers(ctx, start_address, values.size(), values.data()) == -1)
+    if (modbus_write_registers(ctx, start_address, size, values.data()) == -1)
     {
         throw std::runtime_error("Failed to write registers: " + std::string(modbus_strerror(errno)));
     }
+}
+
+/**
+ * @brief modbusRTU::mbm_16_write_registers Функция для записи регистров. с флагом
+ * @param start_address Стартовый регистр.
+ * @param size Количество регистров для записи.
+ * @param values Вектор значений для записи.
+ * @return возвращает успех/неуспех
+ */
+bool modbusRTU::mbm_16_write_registers_flag(const int &start_address, const int &size, const std::vector<uint16_t> &values)
+{
+    // Блокируем доступ к ресурсу с помощью мьютекса
+    std::lock_guard<std::mutex> lock(mtx_constr);
+
+    // Проверяем, что указанный размер не превышает размер вектора
+    if (size > values.size())
+    {
+        throw std::runtime_error("Size parameter exceeds the size of the values vector.");
+        return false;
+    }
+
+    // Пишем значения в несколько регистров
+    if (modbus_write_registers(ctx, start_address, size, values.data()) == -1)
+    {
+        throw std::runtime_error("Failed to write registers: " + std::string(modbus_strerror(errno)));
+        return false;
+    }
+
+    return true;
 }
 
 /**

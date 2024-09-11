@@ -20,10 +20,10 @@ private:
     uint16_t mups_quant_reg = 36;     // кол-во запрашиваемых регистров для МУПСов
     uint16_t mops_quant_reg = 56;     // кол-во запрашиваемых регистров для МОПСов
 
-    uint16_t mops_active_start_reg = 5001;  // стартовый регистр МОПСов для активации проверки
+    uint16_t mops_active_start_reg = 500;   // стартовый регистр МОПСов для активации проверки
     uint16_t mops_active_quant_reg = 10;    // кол-во регистров
 
-    uint16_t mups_active_start_reg = 5011;  // стартовый регистр МУПСов для активации проверки
+    uint16_t mups_active_start_reg = 510;   // стартовый регистр МУПСов для активации проверки
     uint16_t mups_active_quant_reg = 10;    // кол-во регистров
 
     enum : uint16_t
@@ -54,8 +54,8 @@ private:
         mops_id_10 = 10504
     }mops_start_reg;        // стартовые регистры для каждого из мопсов
 
-    std::vector<int> mops_active_checkbox;  // вектор хранящий выбранные для проверки МОПСы
-    std::vector<int> mups_active_checkbox;  // векстр хранящий выбранные для проверки МУПСы
+    std::vector<uint16_t> mops_active_checkbox;  // вектор хранящий выбранные для проверки МОПСы
+    std::vector<uint16_t> mups_active_checkbox;  // векстр хранящий выбранные для проверки МУПСы
 
 
 public:
@@ -105,10 +105,38 @@ public:
 
     /**
      * @brief get_sum_mops_checkbox функция сложения всех элементов вектора МОПСов
-     * @param vec ссылка на вектор
      * @return сумма элементов вектора
      */
     int get_sum_mops_checkbox();
+
+    /**
+     * @brief get_sum_mups_checkbox функция сложения всех элементов вектора МУПСов
+     * @return сумма элементов вектора
+     */
+    int get_sum_mups_checkbox();
+
+    // МЕТОДЫ
+
+    /**
+     * @brief write_active_mops_to_test_board_flag метод записи МОПСов активных для испытания в плату
+     * @param modbusobj ссылка на объект
+     * @return успех/неуспех
+     */
+    bool write_active_mops_to_test_board_flag(modbusRTU *modbusobj);
+
+    /**
+     * @brief write_active_mups_to_test_board_flag метод записи МУПСов активных для испытания в плату
+     * @param modbusobj ссылка на объект
+     * @return успех/неуспех
+     */
+    bool write_active_mups_to_test_board_flag(modbusRTU *modbusobj);
+
+    /**
+     * @brief wirte_active_mops_and_mups_to_test_board_flag метод записи МОПСов и МУПСов активный для испытания в плату
+     * @param modbusobj ссылка на объект
+     * @return успех/неуспех
+     */
+    bool wirte_active_mops_and_mups_to_test_board_flag(modbusRTU *modbusobj);
 
 };
 

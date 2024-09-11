@@ -52,9 +52,19 @@ public:
     /**
      * @brief modbusRTU::mbm_16_write_registers данная функция служит для записи регистров
      * @param start_address стартовый регистр
+     * @param size ссылка на размер для записи
      * @param values источник вектор со значениями
      */
-    void mbm_16_write_registers(int start_address, const std::vector<uint16_t> &values);
+    void mbm_16_write_registers(const int &start_address, const int &size, const std::vector<uint16_t> &values);
+
+    /**
+     * @brief modbusRTU::mbm_16_write_registers Функция для записи регистров. с флагом
+     * @param start_address Стартовый регистр.
+     * @param size Количество регистров для записи.
+     * @param values Вектор значений для записи.
+     * @return возвращает успех/неуспех
+     */
+    bool mbm_16_write_registers_flag(const int &start_address, const int &size, const std::vector<uint16_t> &values);
 
     /**
      * @brief mbm_03_read_registers функция чтения регистров
