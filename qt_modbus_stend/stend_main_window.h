@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include "ui_stend_main_window.h"
 #include <QMutex>
+#include "stend_moduls_info_result.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class stend_main_window; }

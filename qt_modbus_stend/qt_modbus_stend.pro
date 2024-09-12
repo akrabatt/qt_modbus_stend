@@ -19,7 +19,8 @@ SOURCES += \
     libmodbus/modbus.c \
     main.cpp \
     modbus_funct/modbusrtu.cpp \
-    stend_main_window.cpp
+    stend_main_window.cpp \
+    stend_moduls_info_result.cpp
 
 HEADERS += \
     devices/device_base_class.h \
@@ -35,10 +36,12 @@ HEADERS += \
     libmodbus/modbus-version.h \
     libmodbus/modbus.h \
     modbus_funct/modbusrtu.h \
-    stend_main_window.h
+    stend_main_window.h \
+    stend_moduls_info_result.h
 
 FORMS += \
-    stend_main_window.ui
+    stend_main_window.ui \
+    stend_moduls_info_result.ui
 
 TRANSLATIONS += \
     qt_modbus_stend_ru_RU.ts

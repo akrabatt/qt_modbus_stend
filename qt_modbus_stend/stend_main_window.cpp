@@ -7,6 +7,7 @@
 #include "modbus_funct/modbusrtu.h"
 #include "devices/test_board.h"
 #include <numeric>
+#include "stend_moduls_info_result.h"
 
 
 stend_main_window::stend_main_window(QWidget *parent)
@@ -158,6 +159,10 @@ void stend_main_window::start_main_test()
         // информация о записи
         if(success){QMessageBox::information(this, "End", "End");}
         else {QMessageBox::warning(this, "Error", "Error");}
+
+        stend_moduls_info_result *info_moduls_window = new stend_moduls_info_result(this);
+        info_moduls_window->show();
+
     }
     catch (const std::exception &e)
     {
