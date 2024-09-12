@@ -117,17 +117,14 @@ bool test_board::write_active_mups_to_test_board_flag(modbusRTU *modbusobj)
 bool test_board::wirte_active_mops_and_mups_to_test_board_flag(modbusRTU *modbusobj)
 {
     // создадим главный вектор который будет в себе содержать чекбоксы МОПСов и МУПСов
-    std::vector<uint16_t> main_buf;
+    std::vector<uint16_t> main_buf(20);
 
     // создадим сумарную переменную по кол-ву регистров для записи
-    uint16_t main_quant_reg = this->mops_quant_reg + this->mups_quant_reg;
-
-    // резервируем место в буфере под два вектора чекбоксов
-    main_buf.reserve(this->mops_active_checkbox.size() + this->mups_active_checkbox.size());
+    uint16_t main_quant_reg = this->mops_active_quant_reg + this->mups_active_quant_reg;
 
    // добавляем в буфер МОПСы и МУПСы
-    main_buf.insert(main_buf.end(), this->mops_active_checkbox.begin(), this->mops_active_checkbox.end());  // МОПСы
-    main_buf.insert(main_buf.end(), this->mups_active_checkbox.begin(), this->mups_active_checkbox.end());  // МУПСы
+    std::copy(this->mops_active_checkbox.begin(), this->mops_active_checkbox.end(), main_buf.begin());          // МОПСы
+    std::copy(this->mups_active_checkbox.begin(), this->mups_active_checkbox.end(), main_buf.begin() + 10);     // МУПСы
 
     return modbusobj->mbm_16_write_registers_flag(this->mops_active_start_reg, main_quant_reg, main_buf);
 }

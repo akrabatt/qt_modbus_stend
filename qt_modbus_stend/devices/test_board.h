@@ -4,6 +4,8 @@
 #include "device_base_class.h"
 #include "modbus_funct/modbusrtu.h"
 #include <cstdint>
+#include <vector>
+#include <iostream>
 
 /**
  * @brief The test_board class
