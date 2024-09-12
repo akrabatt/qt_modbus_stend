@@ -1,6 +1,8 @@
 #ifndef DEVICE_BASE_CLASS_H
 #define DEVICE_BASE_CLASS_H
 
+#include <iostream>
+
 /**
  * @brief The device_base_class class
  * @note данный класс является базовым классом для всех девайсов, с помощью него задается id устройста

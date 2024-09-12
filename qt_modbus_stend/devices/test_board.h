@@ -10,7 +10,7 @@
 /**
  * @brief The test_board class
  */
-class test_board : public device_base_class
+class test_board : public device_base_class/*, public std::runtime_error*/
 {
 private:
     uint16_t start_check_mops_button_reg = 9000;    // регистр кнопки запуска проверки МОПСов
@@ -137,6 +137,7 @@ public:
      * @brief wirte_active_mops_and_mups_to_test_board_flag метод записи МОПСов и МУПСов активный для испытания в плату
      * @param modbusobj ссылка на объект
      * @return успех/неуспех
+     * @note данная функция записывает регистры, и проверяет свою запись считыванием этих же регистров из платы и сравнением
      */
     bool wirte_active_mops_and_mups_to_test_board_flag(modbusRTU *modbusobj);
 

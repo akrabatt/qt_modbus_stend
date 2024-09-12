@@ -1,5 +1,6 @@
 #include "test_board.h"
 #include <numeric>
+#include <iostream>
 
 // пустой конструктор
 test_board::test_board(){}
@@ -8,7 +9,7 @@ test_board::test_board(){}
  * @brief test_board::test_board конструктор с пар-ми который вызывает конструктор базового касса
  * @param id адрес
  */
-test_board::test_board(int id) : device_base_class(id){};
+test_board::test_board(int id) : device_base_class(id){}
 
 // деструктор
 test_board::~test_board(){};
@@ -113,18 +114,57 @@ bool test_board::write_active_mups_to_test_board_flag(modbusRTU *modbusobj)
  * @brief wirte_active_mops_and_mups_to_test_board_flag метод записи МОПСов и МУПСов активный для испытания в плату
  * @param modbusobj ссылка на объект
  * @return успех/неуспех
+ * @note данная функция записывает регистры, и проверяет свою запись считыванием этих же регистров из платы и сравнением
  */
 bool test_board::wirte_active_mops_and_mups_to_test_board_flag(modbusRTU *modbusobj)
 {
-    // создадим главный вектор который будет в себе содержать чекбоксы МОПСов и МУПСов
-    std::vector<uint16_t> main_buf(20);
+    // Главный вектор для хранения МОПСов и МУПСов (размер фиксированный)
+    std::vector<uint16_t> main_buf(20, 0);
 
-    // создадим сумарную переменную по кол-ву регистров для записи
+    // Вектор для хранения прочитанных данных
+    std::vector<uint16_t> main_buf_read(20, 0);
+
+    // Переменная успешности записи
+    bool write_success = false;
+
+    // Суммарное количество регистров для записи
     uint16_t main_quant_reg = this->mops_active_quant_reg + this->mups_active_quant_reg;
 
-   // добавляем в буфер МОПСы и МУПСы
+    // Заполняем буфер данными МОПСов и МУПСов
     std::copy(this->mops_active_checkbox.begin(), this->mops_active_checkbox.end(), main_buf.begin());          // МОПСы
     std::copy(this->mups_active_checkbox.begin(), this->mups_active_checkbox.end(), main_buf.begin() + 10);     // МУПСы
 
-    return modbusobj->mbm_16_write_registers_flag(this->mops_active_start_reg, main_quant_reg, main_buf);
+    // Пытаемся записать регистры
+    try
+    {
+        write_success = modbusobj->mbm_16_write_registers_flag(this->mops_active_start_reg, main_quant_reg, main_buf);  // записываем
+
+        if (!write_success)
+        {
+            // Если запись неуспешна, выбрасываем исключение
+            throw std::runtime_error("Error write reg.");
+        }
+    }
+    catch (const std::runtime_error &err)
+    {
+        // Логируем ошибку и возвращаем false
+        std::cerr << "Write Error: " << err.what() << std::endl;
+        return false;
+    }
+
+    // Пытаемся считать данные для проверки
+    try
+    {
+        main_buf_read = modbusobj->mbm_03_read_registers(this->mops_active_start_reg, main_buf_read.size());  // считываем
+    }
+    catch (const std::runtime_error &err)
+    {
+        // Логируем ошибку и возвращаем false
+        std::cerr << "Read Error: " << err.what() << std::endl;
+        return false;
+    }
+
+    // Сравниваем записанные и прочитанные данные и возвращаем результат
+    return std::equal(main_buf.begin(), main_buf.end(), main_buf_read.begin());
 }
+

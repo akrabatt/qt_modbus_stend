@@ -133,17 +133,20 @@ void stend_main_window::start_main_test()
 
         int mops_var_sum = stand_test_board.get_sum_mops_checkbox();    // проверяем отмеченные МОПСы
         int mups_var_sum = stand_test_board.get_sum_mups_checkbox();    // проверяем отмеченные МУПСы
-        // если не отмечены, ты выводим ошибку и выходим
+        // если не отмечены, то выводим ошибку и выходим
         if(mops_var_sum == 0 && mups_var_sum == 0)
         {
             QMessageBox::warning(this, "Error", "The module is not selected");
             return;
         }
 
-        modbusRTU modbus_stand_board(com_port, 115200, 'N', 8, 1, 1); // создадим объект
+        // создадим объект контекст подключения
+        modbusRTU modbus_stand_board(com_port, 115200, 'N', 8, 1, 1);
 
+        // записываем регистры с МОПСами и МУПСами которые будем испытывать в плату
         bool success = stand_test_board.wirte_active_mops_and_mups_to_test_board_flag(&modbus_stand_board);
 
+        // информация о записи
         if(success){QMessageBox::information(this, "End", "End");}
         else {QMessageBox::warning(this, "Error", "Error");}
     }
@@ -152,8 +155,6 @@ void stend_main_window::start_main_test()
         QMetaObject::invokeMethod(this, [this, e]()
         {
             QMessageBox::critical(this, "Error", QString("Internal error: %1").arg(e.what())); // ошибка соединения
-            //ui->answer_connection_lable->setStyleSheet("QLabel { color : red; }"); // красный цвет лейбла
-            //ui->answer_connection_lable->setText("Connection error");
         });
     }
 }
