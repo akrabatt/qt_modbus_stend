@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "ui_stend_main_window.h"
+#include <QMutex>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class stend_main_window; }
@@ -30,5 +31,8 @@ private slots:
 
 private:
     Ui::stend_main_window *ui;
+
+    // мьютекс для синхронизации методов
+    QMutex mutex;
 };
 #endif // STEND_MAIN_WINDOW_H

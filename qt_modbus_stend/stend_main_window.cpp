@@ -34,6 +34,9 @@ stend_main_window::~stend_main_window()
  */
 void stend_main_window::test_connection()
 {
+    // блокируем мьютекс, разблокируется автоматически по завершению фукнции
+    QMutexLocker locker(&mutex);
+
     // Получаем текст из поля QLineEdit
     QString com_port_text = ui->line_in_com_num->text();
 
@@ -89,8 +92,14 @@ void stend_main_window::test_connection()
     t1.detach();
 }
 
+/**
+ * @brief stend_main_window::start_main_test
+ */
 void stend_main_window::start_main_test()
 {
+    // блокируем мьютекс, разблокируется автоматически по завершению фукнции
+    QMutexLocker locker(&mutex);
+
     // Получаем текст из поля QLineEdit
     QString com_port_text = ui->line_in_com_num->text();
 
