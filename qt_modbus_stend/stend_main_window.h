@@ -30,10 +30,18 @@ private slots:
      */
     void start_main_test();
 
+    /**
+     * @brief stop_main_test обработчик нажатия кнопки по завершению испытаний
+     */
+    void stop_main_test();
+
 private:
     Ui::stend_main_window *ui;
 
     // мьютекс для синхронизации методов
     QMutex mutex;
+
+    // флаг выполнения теста
+    bool isTestRunning = false;
 };
 #endif // STEND_MAIN_WINDOW_H

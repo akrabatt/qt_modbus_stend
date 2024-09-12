@@ -8,6 +8,7 @@
 #include "devices/test_board.h"
 #include <numeric>
 #include "stend_moduls_info_result.h"
+#include <QThread>
 
 
 stend_main_window::stend_main_window(QWidget *parent)
@@ -23,11 +24,22 @@ stend_main_window::stend_main_window(QWidget *parent)
     // запуск испытаний МОПСов и МУПСов
     connect(ui->button_start_main_test, &QPushButton::clicked, this, &stend_main_window::start_main_test);
 
+    // остановка испытаний МОПСов и МУПСов
+    connect(ui->button_stop_main_test, &QPushButton::clicked, this, &stend_main_window::stop_main_test);
+
 }
 
 stend_main_window::~stend_main_window()
 {
     delete ui;
+}
+
+/**
+ * @brief stend_main_window::stop_main_test данный метод останавливает испытания модулей
+ */
+void stend_main_window::stop_main_test()
+{
+    this->isTestRunning = false;
 }
 
 /**
@@ -98,8 +110,21 @@ void stend_main_window::test_connection()
  */
 void stend_main_window::start_main_test()
 {
+    // прверка запущен ли метод в настоящее время
+    if(this->isTestRunning)
+    {
+        QMessageBox::warning(this, "Warning", "Test is already running !");
+        return;
+    }
+
     // блокируем мьютекс, разблокируется автоматически по завершению фукнции
     QMutexLocker locker(&mutex);
+
+    // поднимаем флаг выполнения теста
+    this -> isTestRunning = true;
+
+    // деактивируем кнопку старт на время выполнения
+    ui->button_start_main_test->setEnabled(false);
 
     // Получаем текст из поля QLineEdit
     QString com_port_text = ui->line_in_com_num->text();
@@ -160,8 +185,18 @@ void stend_main_window::start_main_test()
         if(success){QMessageBox::information(this, "End", "End");}
         else {QMessageBox::warning(this, "Error", "Error");}
 
+        // открываем окно в котором будет передаваться информация об испытаниях
         stend_moduls_info_result *info_moduls_window = new stend_moduls_info_result(this);
-        info_moduls_window->show();
+        info_moduls_window->setWindowFlags(Qt::Window); // указываем что это отдельное окно
+        info_moduls_window->show();                     // открываем
+
+        while(this->isTestRunning)
+        {
+
+             QThread::sleep(2);  // Пример паузы в 2 секунды (Qt-подход)
+            // если нажата кнопка стоп, то завершаем
+            if(!this->isTestRunning){QMessageBox::information(this, "End", "End END"); break;}
+        }
 
     }
     catch (const std::exception &e)
@@ -171,4 +206,11 @@ void stend_main_window::start_main_test()
             QMessageBox::critical(this, "Error", QString("Internal error: %1").arg(e.what())); // ошибка соединения
         });
     }
+
+
+    // Сбрасываем флаг выполнения теста и активируем кнопку "Старт"
+    this->isTestRunning = false;
+
+    // активируем кнопку(разрешаем на нее нажимать)
+    ui->button_start_main_test->setEnabled(true);
 }
