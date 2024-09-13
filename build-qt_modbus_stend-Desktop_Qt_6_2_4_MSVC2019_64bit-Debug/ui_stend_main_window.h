@@ -20,6 +20,7 @@
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTabWidget>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -68,6 +69,9 @@ public:
     QPushButton *button_start_main_test;
     QPushButton *button_stop_main_test;
     QLabel *label;
+    QTabWidget *tabWidget;
+    QWidget *tab;
+    QWidget *tab_2;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -75,7 +79,7 @@ public:
     {
         if (stend_main_window->objectName().isEmpty())
             stend_main_window->setObjectName(QString::fromUtf8("stend_main_window"));
-        stend_main_window->resize(631, 839);
+        stend_main_window->resize(1740, 961);
         centralwidget = new QWidget(stend_main_window);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayoutWidget = new QWidget(centralwidget);
@@ -254,10 +258,19 @@ public:
         label = new QLabel(centralwidget);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(400, 330, 111, 16));
+        tabWidget = new QTabWidget(centralwidget);
+        tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
+        tabWidget->setGeometry(QRect(610, 50, 1001, 801));
+        tab = new QWidget();
+        tab->setObjectName(QString::fromUtf8("tab"));
+        tabWidget->addTab(tab, QString());
+        tab_2 = new QWidget();
+        tab_2->setObjectName(QString::fromUtf8("tab_2"));
+        tabWidget->addTab(tab_2, QString());
         stend_main_window->setCentralWidget(centralwidget);
         menubar = new QMenuBar(stend_main_window);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 631, 21));
+        menubar->setGeometry(QRect(0, 0, 1740, 25));
         stend_main_window->setMenuBar(menubar);
         statusbar = new QStatusBar(stend_main_window);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -300,6 +313,8 @@ public:
         button_start_main_test->setText(QCoreApplication::translate("stend_main_window", "\320\241\321\202\320\260\321\200\321\202 ", nullptr));
         button_stop_main_test->setText(QCoreApplication::translate("stend_main_window", "\320\241\321\202\320\276\320\277 ", nullptr));
         label->setText(QCoreApplication::translate("stend_main_window", "\320\230\321\201\320\277\321\213\321\202\320\260\320\275\320\270\321\217", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tab), QCoreApplication::translate("stend_main_window", "Tab 1", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("stend_main_window", "Tab 2", nullptr));
     } // retranslateUi
 
 };

@@ -7,7 +7,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -55,7 +55,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -65,9 +65,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -98,10 +98,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\devices\\device_base_class.cpp"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\devices\\device_base_class.cpp"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/devices/device_base_class.cpp"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/devices/device_base_class.cpp"
 },
 {
     "arguments": [
@@ -111,7 +111,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -159,7 +159,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -169,9 +169,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -202,10 +202,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\devices\\mops.cpp"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\devices\\mops.cpp"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/devices/mops.cpp"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/devices/mops.cpp"
 },
 {
     "arguments": [
@@ -215,7 +215,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -263,7 +263,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -273,9 +273,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -306,10 +306,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\devices\\mups.cpp"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\devices\\mups.cpp"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/devices/mups.cpp"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/devices/mups.cpp"
 },
 {
     "arguments": [
@@ -319,7 +319,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -367,7 +367,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -377,9 +377,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -410,10 +410,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\devices\\test_board.cpp"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\devices\\test_board.cpp"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/devices/test_board.cpp"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/devices/test_board.cpp"
 },
 {
     "arguments": [
@@ -423,7 +423,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -471,7 +471,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -481,9 +481,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -514,10 +514,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\main.cpp"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\main.cpp"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/main.cpp"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/main.cpp"
 },
 {
     "arguments": [
@@ -527,7 +527,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -575,7 +575,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -585,9 +585,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -618,10 +618,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\modbus_funct\\modbusrtu.cpp"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\modbus_funct\\modbusrtu.cpp"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/modbus_funct/modbusrtu.cpp"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/modbus_funct/modbusrtu.cpp"
 },
 {
     "arguments": [
@@ -631,7 +631,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -679,7 +679,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -689,9 +689,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -722,10 +722,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\stend_main_window.cpp"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\stend_main_window.cpp"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/stend_main_window.cpp"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/stend_main_window.cpp"
 },
 {
     "arguments": [
@@ -735,7 +735,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -783,7 +783,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -793,9 +793,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -826,10 +826,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\stend_moduls_info_result.cpp"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\test_worker_thread.cpp"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/stend_moduls_info_result.cpp"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/test_worker_thread.cpp"
 },
 {
     "arguments": [
@@ -839,7 +839,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -887,7 +887,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -897,9 +897,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -930,10 +930,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\devices\\device_base_class.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\devices\\device_base_class.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/devices/device_base_class.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/devices/device_base_class.h"
 },
 {
     "arguments": [
@@ -943,7 +943,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -991,7 +991,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -1001,9 +1001,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1034,10 +1034,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\devices\\mops.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\devices\\mops.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/devices/mops.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/devices/mops.h"
 },
 {
     "arguments": [
@@ -1047,7 +1047,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -1095,7 +1095,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -1105,9 +1105,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1138,10 +1138,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\devices\\mups.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\devices\\mups.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/devices/mups.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/devices/mups.h"
 },
 {
     "arguments": [
@@ -1151,7 +1151,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -1199,7 +1199,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -1209,9 +1209,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1242,10 +1242,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\devices\\test_board.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\devices\\test_board.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/devices/test_board.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/devices/test_board.h"
 },
 {
     "arguments": [
@@ -1255,7 +1255,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -1303,7 +1303,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -1313,9 +1313,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1346,10 +1346,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\config.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\config.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/config.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/config.h"
 },
 {
     "arguments": [
@@ -1359,7 +1359,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -1407,7 +1407,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -1417,9 +1417,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1450,10 +1450,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus-private.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus-private.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus-private.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus-private.h"
 },
 {
     "arguments": [
@@ -1463,7 +1463,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -1511,7 +1511,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -1521,9 +1521,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1554,10 +1554,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus-rtu-private.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus-rtu-private.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus-rtu-private.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus-rtu-private.h"
 },
 {
     "arguments": [
@@ -1567,7 +1567,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -1615,7 +1615,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -1625,9 +1625,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1658,10 +1658,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus-rtu.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus-rtu.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus-rtu.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus-rtu.h"
 },
 {
     "arguments": [
@@ -1671,7 +1671,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -1719,7 +1719,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -1729,9 +1729,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1762,10 +1762,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus-tcp-private.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus-tcp-private.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus-tcp-private.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus-tcp-private.h"
 },
 {
     "arguments": [
@@ -1775,7 +1775,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -1823,7 +1823,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -1833,9 +1833,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1866,10 +1866,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus-tcp.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus-tcp.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus-tcp.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus-tcp.h"
 },
 {
     "arguments": [
@@ -1879,7 +1879,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -1927,7 +1927,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -1937,9 +1937,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -1970,10 +1970,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus-version.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus-version.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus-version.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus-version.h"
 },
 {
     "arguments": [
@@ -1983,7 +1983,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -2031,7 +2031,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -2041,9 +2041,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -2074,10 +2074,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus.h"
 },
 {
     "arguments": [
@@ -2087,7 +2087,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -2135,7 +2135,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -2145,9 +2145,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -2178,10 +2178,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\modbus_funct\\modbusrtu.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\modbus_funct\\modbusrtu.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/modbus_funct/modbusrtu.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/modbus_funct/modbusrtu.h"
 },
 {
     "arguments": [
@@ -2191,7 +2191,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -2239,7 +2239,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -2249,9 +2249,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -2282,10 +2282,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\stend_main_window.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\stend_main_window.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/stend_main_window.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/stend_main_window.h"
 },
 {
     "arguments": [
@@ -2295,7 +2295,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -2343,7 +2343,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -2353,9 +2353,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -2386,10 +2386,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\stend_moduls_info_result.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\test_worker_thread.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/stend_moduls_info_result.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/test_worker_thread.h"
 },
 {
     "arguments": [
@@ -2399,7 +2399,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -2447,7 +2447,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -2457,9 +2457,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -2490,10 +2490,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\ui_stend_moduls_info_result.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\ui_stend_main_window.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/ui_stend_moduls_info_result.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/ui_stend_main_window.h"
 },
 {
     "arguments": [
@@ -2503,111 +2503,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
-        "-nostdinc",
-        "-nostdinc++",
-        "--driver-mode=cl",
-        "-nologo",
-        "-Zc:wchar_t",
-        "-FS",
-        "-Zc:rvalueCast",
-        "-Zc:inline",
-        "-Zc:strictStrings",
-        "-Zc:throwingNew",
-        "-permissive-",
-        "-Zc:__cplusplus",
-        "-Zc:externConstexpr",
-        "-Zi",
-        "-MDd",
-        "-std:c++17",
-        "-utf-8",
-        "-W3",
-        "-w34100",
-        "-w34189",
-        "-w44996",
-        "-w44456",
-        "-w44457",
-        "-w44458",
-        "-wd4577",
-        "-wd4467",
-        "-EHsc",
-        "/Zs",
-        "-m64",
-        "--target=x86_64-pc-windows-msvc",
-        "-fcxx-exceptions",
-        "-fexceptions",
-        "-fms-compatibility-version=19.40",
-        "-DQ_CREATOR_RUN",
-        "-DUNICODE",
-        "-D_UNICODE",
-        "-DWIN32",
-        "-D_ENABLE_EXTENDED_ALIGNED_STORAGE",
-        "-DWIN64",
-        "-DQT_QML_DEBUG",
-        "-DQT_WIDGETS_LIB",
-        "-DQT_GUI_LIB",
-        "-DQT_CORE_LIB",
-        "-D__FUNCSIG__=\"void __cdecl someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580(void)\"",
-        "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
-        "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
-        "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
-        "-I",
-        "C:\\Qt\\6.2.4\\msvc2019_64\\include",
-        "-I",
-        "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtWidgets",
-        "-I",
-        "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtGui",
-        "-I",
-        "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
-        "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
-        "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
-        "-I",
-        "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
-        "/clang:-isystem",
-        "/clang:C:\\Qt\\Tools\\QtCreator-7.0.0\\bin\\clang\\lib\\clang\\14.0.0\\include",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\ATLMFC\\include",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\um",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\shared",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\winrt",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\cppwinrt",
-        "/clang:-fmessage-length=0",
-        "/clang:-fdiagnostics-show-note-include-stack",
-        "/clang:-fretain-comments-from-system-headers",
-        "-fmacro-backtrace-limit=0",
-        "-ferror-limit=1000",
-        "/TP",
-        "-Wno-unknown-pragmas",
-        "-Wno-unknown-warning-option",
-        "-Wno-documentation-unknown-command",
-        "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\ui_stend_main_window.h"
-    ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/ui_stend_main_window.h"
-},
-{
-    "arguments": [
-        "clang",
-        "-I",
-        "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
-        "-I",
-        "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -2641,7 +2537,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -2651,9 +2547,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -2684,10 +2580,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus-data.c"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus-data.c"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus-data.c"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus-data.c"
 },
 {
     "arguments": [
@@ -2697,7 +2593,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -2731,7 +2627,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -2741,9 +2637,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -2774,10 +2670,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus-rtu.c"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus-rtu.c"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus-rtu.c"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus-rtu.c"
 },
 {
     "arguments": [
@@ -2787,7 +2683,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -2821,7 +2717,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -2831,9 +2727,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -2864,10 +2760,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus-tcp.c"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus-tcp.c"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus-tcp.c"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus-tcp.c"
 },
 {
     "arguments": [
@@ -2877,7 +2773,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -2911,7 +2807,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -2921,9 +2817,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -2954,10 +2850,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus.c"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus.c"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus.c"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus.c"
 },
 {
     "arguments": [
@@ -2967,7 +2863,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -3001,7 +2897,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -3011,9 +2907,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -3044,10 +2940,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\devices\\device_base_class.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\devices\\device_base_class.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/devices/device_base_class.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/devices/device_base_class.h"
 },
 {
     "arguments": [
@@ -3057,7 +2953,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -3091,7 +2987,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -3101,9 +2997,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -3134,10 +3030,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\devices\\mops.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\devices\\mops.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/devices/mops.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/devices/mops.h"
 },
 {
     "arguments": [
@@ -3147,7 +3043,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -3181,7 +3077,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -3191,9 +3087,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -3224,10 +3120,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\devices\\mups.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\devices\\mups.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/devices/mups.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/devices/mups.h"
 },
 {
     "arguments": [
@@ -3237,7 +3133,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -3271,7 +3167,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -3281,9 +3177,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -3314,10 +3210,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\devices\\test_board.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\devices\\test_board.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/devices/test_board.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/devices/test_board.h"
 },
 {
     "arguments": [
@@ -3327,7 +3223,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -3361,7 +3257,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -3371,9 +3267,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -3404,10 +3300,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\config.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\config.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/config.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/config.h"
 },
 {
     "arguments": [
@@ -3417,7 +3313,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -3451,7 +3347,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -3461,9 +3357,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -3494,10 +3390,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus-private.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus-private.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus-private.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus-private.h"
 },
 {
     "arguments": [
@@ -3507,7 +3403,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -3541,7 +3437,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -3551,9 +3447,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -3584,10 +3480,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus-rtu-private.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus-rtu-private.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus-rtu-private.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus-rtu-private.h"
 },
 {
     "arguments": [
@@ -3597,7 +3493,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -3631,7 +3527,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -3641,9 +3537,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -3674,10 +3570,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus-rtu.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus-rtu.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus-rtu.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus-rtu.h"
 },
 {
     "arguments": [
@@ -3687,7 +3583,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -3721,7 +3617,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -3731,9 +3627,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -3764,10 +3660,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus-tcp-private.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus-tcp-private.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus-tcp-private.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus-tcp-private.h"
 },
 {
     "arguments": [
@@ -3777,7 +3673,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -3811,7 +3707,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -3821,9 +3717,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -3854,10 +3750,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus-tcp.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus-tcp.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus-tcp.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus-tcp.h"
 },
 {
     "arguments": [
@@ -3867,7 +3763,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -3901,7 +3797,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -3911,9 +3807,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -3944,10 +3840,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus-version.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus-version.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus-version.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus-version.h"
 },
 {
     "arguments": [
@@ -3957,7 +3853,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -3991,7 +3887,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -4001,9 +3897,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -4034,10 +3930,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\libmodbus\\modbus.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\libmodbus\\modbus.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/libmodbus/modbus.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/libmodbus/modbus.h"
 },
 {
     "arguments": [
@@ -4047,7 +3943,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -4081,7 +3977,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -4091,9 +3987,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -4124,10 +4020,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\modbus_funct\\modbusrtu.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\modbus_funct\\modbusrtu.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/modbus_funct/modbusrtu.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/modbus_funct/modbusrtu.h"
 },
 {
     "arguments": [
@@ -4137,7 +4033,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -4171,7 +4067,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -4181,9 +4077,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -4214,10 +4110,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\stend_main_window.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\stend_main_window.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/stend_main_window.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/stend_main_window.h"
 },
 {
     "arguments": [
@@ -4227,7 +4123,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -4261,7 +4157,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -4271,9 +4167,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -4304,10 +4200,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend\\stend_moduls_info_result.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend\\test_worker_thread.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/qt_modbus_stend/stend_moduls_info_result.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/qt_modbus_stend/test_worker_thread.h"
 },
 {
     "arguments": [
@@ -4317,7 +4213,7 @@
         "-I",
         "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
+        "C:\\Users\\usr\\AppData\\Local\\Temp\\QtCreator-KscpfS\\clang-uiheader-NeGyjq",
         "-nostdinc",
         "-nostdinc++",
         "--driver-mode=cl",
@@ -4351,7 +4247,7 @@
         "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
         "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\qt_modbus_stend",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include",
         "-I",
@@ -4361,9 +4257,9 @@
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
         "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
         "-I",
         "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
         "/clang:-isystem",
@@ -4394,99 +4290,9 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\ui_stend_moduls_info_result.h"
+        "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\qt_proj\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\ui_stend_main_window.h"
     ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/ui_stend_moduls_info_result.h"
-},
-{
-    "arguments": [
-        "clang",
-        "-I",
-        "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
-        "-I",
-        "C:\\Qt\\Tools\\QtCreator-7.0.0\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-I",
-        "C:\\Users\\Dmitrii\\AppData\\Local\\Temp\\QtCreator-nCDalv\\clang-uiheader-EDJPoL",
-        "-nostdinc",
-        "-nostdinc++",
-        "--driver-mode=cl",
-        "-nologo",
-        "-Zc:wchar_t",
-        "-FS",
-        "-Zc:strictStrings",
-        "-Zi",
-        "-MDd",
-        "-utf-8",
-        "-W3",
-        "-w44456",
-        "-w44457",
-        "-w44458",
-        "/Zs",
-        "-m64",
-        "--target=x86_64-pc-windows-msvc",
-        "/clang:-std=c11",
-        "-fms-compatibility-version=19.40",
-        "-DQ_CREATOR_RUN",
-        "-DUNICODE",
-        "-D_UNICODE",
-        "-DWIN32",
-        "-D_ENABLE_EXTENDED_ALIGNED_STORAGE",
-        "-DWIN64",
-        "-DQT_QML_DEBUG",
-        "-DQT_WIDGETS_LIB",
-        "-DQT_GUI_LIB",
-        "-DQT_CORE_LIB",
-        "-D__FUNCSIG__=\"void __cdecl someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580(void)\"",
-        "-D__FUNCTION__=\"someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580\"",
-        "-D__FUNCDNAME__=\"?someLegalAndLongishFunctionNameThatWorksAroundQTCREATORBUG-24580@@YAXXZ\"",
-        "-I",
-        "C:\\projects\\qt_modbus_stend\\qt_modbus_stend",
-        "-I",
-        "C:\\Qt\\6.2.4\\msvc2019_64\\include",
-        "-I",
-        "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtWidgets",
-        "-I",
-        "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtGui",
-        "-I",
-        "C:\\Qt\\6.2.4\\msvc2019_64\\include\\QtCore",
-        "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\debug",
-        "-I",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug",
-        "-I",
-        "C:\\Qt\\6.2.4\\msvc2019_64\\mkspecs\\win32-msvc",
-        "/clang:-isystem",
-        "/clang:C:\\Qt\\Tools\\QtCreator-7.0.0\\bin\\clang\\lib\\clang\\14.0.0\\include",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\include",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\ATLMFC\\include",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\um",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\shared",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\winrt",
-        "/clang:-isystem",
-        "/clang:C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22621.0\\\\cppwinrt",
-        "/clang:-fmessage-length=0",
-        "/clang:-fdiagnostics-show-note-include-stack",
-        "/clang:-fretain-comments-from-system-headers",
-        "-fmacro-backtrace-limit=0",
-        "-ferror-limit=1000",
-        "/TC",
-        "-Wno-unknown-pragmas",
-        "-Wno-unknown-warning-option",
-        "-Wno-documentation-unknown-command",
-        "-fno-delayed-template-parsing",
-        "C:\\projects\\qt_modbus_stend\\build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug\\ui_stend_main_window.h"
-    ],
-    "directory": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
-    "file": "C:/projects/qt_modbus_stend/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/ui_stend_main_window.h"
+    "directory": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/.qtc_clangd",
+    "file": "C:/Users/usr/YandexDisk/projeckts_cpp/qt_proj/build-qt_modbus_stend-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/ui_stend_main_window.h"
 }
 ]

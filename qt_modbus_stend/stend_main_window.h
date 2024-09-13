@@ -4,8 +4,9 @@
 #include <QMainWindow>
 #include "ui_stend_main_window.h"
 #include <QMutex>
-#include "stend_moduls_info_result.h"
+#include "test_worker_thread.h"
 
+// GUI КЛАСС
 QT_BEGIN_NAMESPACE
 namespace Ui { class stend_main_window; }
 QT_END_NAMESPACE
@@ -35,13 +36,25 @@ private slots:
      */
     void stop_main_test();
 
+    /**
+     * @brief handle_test_error
+     * @param error_message
+     */
+    void handle_test_error(const QString &error_message);
+
 private:
     Ui::stend_main_window *ui;
 
     // мьютекс для синхронизации методов
     QMutex mutex;
 
-    // флаг выполнения теста
+    // флаг выполнения теста в данный момент для защиты
     bool isTestRunning = false;
+
+    // указатель на поток
+    QThread *test_thread;
+
+    //указатель на объект класса с реализующий отдельный поток
+    test_worker_thread *test_worker_thread_obj;
 };
 #endif // STEND_MAIN_WINDOW_H

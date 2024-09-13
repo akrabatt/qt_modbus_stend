@@ -6,14 +6,17 @@
 #include "libmodbus/modbus.h"
 #include "modbus_funct/modbusrtu.h"
 #include "devices/test_board.h"
+#include "test_worker_thread.h"
 #include <numeric>
-#include "stend_moduls_info_result.h"
 #include <QThread>
 
 
 stend_main_window::stend_main_window(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::stend_main_window)
+    , test_thread(new QThread(this))
+    , test_worker_thread_obj(new test_worker_thread)
+    , isTestRunning(false)
 {
     ui->setupUi(this);
 
@@ -26,7 +29,6 @@ stend_main_window::stend_main_window(QWidget *parent)
 
     // остановка испытаний МОПСов и МУПСов
     connect(ui->button_stop_main_test, &QPushButton::clicked, this, &stend_main_window::stop_main_test);
-
 }
 
 stend_main_window::~stend_main_window()
@@ -184,11 +186,6 @@ void stend_main_window::start_main_test()
         // информация о записи
         if(success){QMessageBox::information(this, "End", "End");}
         else {QMessageBox::warning(this, "Error", "Error");}
-
-        // открываем окно в котором будет передаваться информация об испытаниях
-        stend_moduls_info_result *info_moduls_window = new stend_moduls_info_result(this);
-        info_moduls_window->setWindowFlags(Qt::Window); // указываем что это отдельное окно
-        info_moduls_window->show();                     // открываем
 
         while(this->isTestRunning)
         {
