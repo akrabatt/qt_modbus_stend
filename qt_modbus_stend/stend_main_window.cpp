@@ -14,9 +14,9 @@
 stend_main_window::stend_main_window(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::stend_main_window)
+    , isTestRunning(false)
     , test_thread(new QThread(this))
     , test_worker_thread_obj(new test_worker_thread)
-    , isTestRunning(false)
 {
     ui->setupUi(this);
 
@@ -31,17 +31,45 @@ stend_main_window::stend_main_window(QWidget *parent)
     connect(ui->button_stop_main_test, &QPushButton::clicked, this, &stend_main_window::stop_main_test);
 }
 
+/**
+ * @brief stend_main_window::~stend_main_window деструктор очищающий память
+ */
 stend_main_window::~stend_main_window()
 {
     delete ui;
 }
 
 /**
- * @brief stend_main_window::stop_main_test данный метод останавливает испытания модулей
+ * @brief stend_main_window::handle_test_error обработчик ошибок
+ * @param error_message
+ */
+void stend_main_window::handle_test_error(const QString &error_message)
+{
+    // Выводим сообщение об ошибке
+    QMessageBox::critical(this, "Test error", error_message);
+    stop_main_test();   // останавливаем тест
+}
+
+/**
+ * @brief stend_main_window::stop_main_test данный метод останавливает параллельный поток по испытанию модулей
  */
 void stend_main_window::stop_main_test()
 {
+    // проверяем может тест и не запущен
+    if(!this->isTestRunning){return;}
+
+    // останавливаем worker'a
+    test_worker_thread_obj->stop();
+
+    // останавливаем поток
+    test_thread->quit();
+    test_thread->wait();
+
+    // сбрасываем наш флаг выполнения теста
     this->isTestRunning = false;
+
+    // делаем обратно доступной кнопку старт
+    ui->button_start_main_test->setEnabled(true);
 }
 
 /**
@@ -106,6 +134,7 @@ void stend_main_window::test_connection()
     // запускаем поток параллельно
     t1.detach();
 }
+
 
 /**
  * @brief stend_main_window::start_main_test
@@ -203,7 +232,6 @@ void stend_main_window::start_main_test()
             QMessageBox::critical(this, "Error", QString("Internal error: %1").arg(e.what())); // ошибка соединения
         });
     }
-
 
     // Сбрасываем флаг выполнения теста и активируем кнопку "Старт"
     this->isTestRunning = false;
