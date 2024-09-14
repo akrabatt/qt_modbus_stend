@@ -6,44 +6,21 @@
 #include "libmodbus/modbus.h"
 #include "modbus_funct/modbusrtu.h"
 #include "devices/test_board.h"
-#include "test_worker_thread.h"
 #include <numeric>
-#include <QThread>
+#include <thread>
+#include <mutex>
 
 
 stend_main_window::stend_main_window(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::stend_main_window)
-    , isTestRunning(false)                              // флаг выполнения теста
-    , test_thread(new QThread(this))                    // инициализация потока
-    , test_worker_thread_obj(new test_worker_thread)    // инициализация объекта worker
+    : QMainWindow(parent),
+      ui(new Ui::stend_main_window),
+      isTestRunning(false)
 {
     ui->setupUi(this);
 
-
-
-    // Подключаем сигналы от Worker-а
-    // Слот завершения
-    connect(test_worker_thread_obj, &test_worker_thread::finished, this, &stend_main_window::stop_main_test);
-    // Обработка ошибок
-    connect(test_worker_thread_obj, &test_worker_thread::error_occurred, this, &stend_main_window::handle_test_error);
-    // Перемещаем Worker в отдельный поток
-    test_worker_thread_obj->moveToThread(test_thread);
-    // Когда поток запустится, выполнится метод run() Worker-а
-    connect(test_thread, &QThread::started, test_worker_thread_obj, &test_worker_thread::run);
-    // Когда поток завершится, удаляем его
-    connect(test_thread, &QThread::finished, test_thread, &QThread::deleteLater);
-
-
-
-    // СЛОТЫ КНОПОК
-    // тест соединения с платой
+    // Подключаем сигналы кнопок к слотам
     connect(ui->button_test_connection, &QPushButton::clicked, this, &stend_main_window::test_connection);
-
-    // запуск испытаний МОПСов и МУПСов
     connect(ui->button_start_main_test, &QPushButton::clicked, this, &stend_main_window::start_main_test);
-
-    // остановка испытаний МОПСов и МУПСов
     connect(ui->button_stop_main_test, &QPushButton::clicked, this, &stend_main_window::stop_main_test);
 }
 
@@ -52,50 +29,33 @@ stend_main_window::stend_main_window(QWidget *parent)
  */
 stend_main_window::~stend_main_window()
 {
-    // Если поток еще выполняется, останавливаем его
-    if (test_thread->isRunning())
-    {
-        test_worker_thread_obj->stop();   // Останавливаем Worker
-        test_thread->quit();              // Завершаем поток
-        test_thread->wait();              // Ждем завершения
+    if (test_thread.joinable()) {
+        isTestRunning = false;
+        test_thread.join(); // Ждем завершения потока
     }
 
-    // Удаляем объекты
     delete ui;
-    delete test_worker_thread_obj;
 }
 
 /**
- * @brief stend_main_window::handle_test_error обработчик ошибок
- * @param error_message
- */
-void stend_main_window::handle_test_error(const QString &error_message)
-{
-    // Выводим сообщение об ошибке
-    QMessageBox::critical(this, "Test error", error_message);
-    stop_main_test();   // останавливаем тест
-}
-
-/**
- * @brief stend_main_window::stop_main_test данный метод останавливает параллельный поток по испытанию модулей
+ * @brief Остановка теста
  */
 void stend_main_window::stop_main_test()
 {
-    // проверяем может тест и не запущен
-    if(!this->isTestRunning){return;}
+    if (!isTestRunning) return;
 
-    // останавливаем worker'a
-    test_worker_thread_obj->stop();
+    // Останавливаем тест
+    isTestRunning = false;
 
-    // останавливаем поток
-    test_thread->quit();
-    test_thread->wait();
+    if (test_thread.joinable()) {
+        test_thread.join();  // Ждем завершения потока
+    }
 
-    // сбрасываем наш флаг выполнения теста
-    this->isTestRunning = false;
-
-    // делаем обратно доступной кнопку старт
+    // Включаем кнопку "Старт"
     ui->button_start_main_test->setEnabled(true);
+
+    // Обновляем статус лейбла
+    ui->answer_connection_lable->setText("Test stopped.");
 }
 
 /**
@@ -170,25 +130,16 @@ void stend_main_window::test_connection()
 
 
 /**
- * @brief stend_main_window::start_main_test
+ * @brief Запуск теста в отдельном потоке с использованием std::thread
  */
 void stend_main_window::start_main_test()
 {
-    // прверка запущен ли метод в настоящее время
-    if(this->isTestRunning)
+    // Проверяем, не запущен ли тест уже
+    if (isTestRunning)
     {
-        QMessageBox::warning(this, "Warning", "Test is already running !");
+        QMessageBox::warning(this, "Warning", "Test is already running!");
         return;
     }
-
-    // блокируем мьютекс, разблокируется автоматически по завершению фукнции
-    QMutexLocker locker(&mutex);
-
-    // поднимаем флаг выполнения теста
-    this -> isTestRunning = true;
-
-    // деактивируем кнопку старт на время выполнения
-    ui->button_start_main_test->setEnabled(false);
 
     // Получаем текст из поля QLineEdit
     QString com_port_text = ui->line_in_com_num->text();
@@ -200,75 +151,120 @@ void stend_main_window::start_main_test()
         return;
     }
 
-    // Преобразуем QString в std::string для использования в вашей функции
+    // Преобразуем QString в std::string для использования в функции
     const std::string com_port = com_port_text.toStdString();
 
-    try
+    // Устанавливаем флаг, что тест запущен
+    isTestRunning = true;
+
+    // Отключаем кнопку "Старт"
+    ui->button_start_main_test->setEnabled(false);
+
+    // Запуск потока
+    test_thread = std::thread([this, com_port]()
     {
-        // создадим объект испытательной платы
-        test_board stand_test_board(1);
-
-        // Массив указателей на QCheckBox для МОПС
-        QCheckBox* mops_checkboxes[] = {
-            ui->checkBox_active_mops_1, ui->checkBox_active_mops_2, ui->checkBox_active_mops_3,
-            ui->checkBox_active_mops_4, ui->checkBox_active_mops_5, ui->checkBox_active_mops_6,
-            ui->checkBox_active_mops_7, ui->checkBox_active_mops_8, ui->checkBox_active_mops_9,
-            ui->checkBox_active_mops_10
-        };
-
-        // Массив указателей на QCheckBox для МУПС
-        QCheckBox* mups_checkboxes[] = {
-            ui->checkBox_active_mups_1, ui->checkBox_active_mups_2, ui->checkBox_active_mups_3,
-            ui->checkBox_active_mups_4, ui->checkBox_active_mups_5, ui->checkBox_active_mups_6,
-            ui->checkBox_active_mups_7, ui->checkBox_active_mups_8, ui->checkBox_active_mups_9,
-            ui->checkBox_active_mups_10
-        };
-
-        // Обрабатываем чекбоксы для МОПС
-        for (int i = 0; i < 10; ++i) {stand_test_board.set_active_mops_checkbox(mops_checkboxes[i]->isChecked() ? 1 : 0, i);}
-
-        // Обрабатываем чекбоксы для МУПС
-        for (int i = 0; i < 10; ++i) {stand_test_board.set_active_mups_checkbox(mups_checkboxes[i]->isChecked() ? 1 : 0, i);}
-
-        int mops_var_sum = stand_test_board.get_sum_mops_checkbox();    // проверяем отмеченные МОПСы
-        int mups_var_sum = stand_test_board.get_sum_mups_checkbox();    // проверяем отмеченные МУПСы
-        // если не отмечены, то выводим ошибку и выходим
-        if(mops_var_sum == 0 && mups_var_sum == 0)
+        try
         {
-            QMessageBox::warning(this, "Error", "The module is not selected");
-            return;
+            // создаем объект контекст подключения
+            modbusRTU modbus_stand_board(com_port, 115200, 'N', 8, 1, 1);
+
+            // создадим объект испытательной платы
+            test_board stand_test_board(1);
+
+            // Массив указателей на QCheckBox для МОПС
+            QCheckBox* mops_checkboxes[] = {
+                ui->checkBox_active_mops_1, ui->checkBox_active_mops_2, ui->checkBox_active_mops_3,
+                ui->checkBox_active_mops_4, ui->checkBox_active_mops_5, ui->checkBox_active_mops_6,
+                ui->checkBox_active_mops_7, ui->checkBox_active_mops_8, ui->checkBox_active_mops_9,
+                ui->checkBox_active_mops_10
+            };
+
+            // Массив указателей на QCheckBox для МУПС
+            QCheckBox* mups_checkboxes[] = {
+                ui->checkBox_active_mups_1, ui->checkBox_active_mups_2, ui->checkBox_active_mups_3,
+                ui->checkBox_active_mups_4, ui->checkBox_active_mups_5, ui->checkBox_active_mups_6,
+                ui->checkBox_active_mups_7, ui->checkBox_active_mups_8, ui->checkBox_active_mups_9,
+                ui->checkBox_active_mups_10
+            };
+
+            // Обрабатываем чекбоксы для МОПС
+            for (int i = 0; i < 10; ++i) {
+                stand_test_board.set_active_mops_checkbox(mops_checkboxes[i]->isChecked() ? 1 : 0, i);
+            }
+
+            // Обрабатываем чекбоксы для МУПС
+            for (int i = 0; i < 10; ++i) {
+                stand_test_board.set_active_mups_checkbox(mups_checkboxes[i]->isChecked() ? 1 : 0, i);
+            }
+
+            // Проверяем количество отмеченных МОПСов и МУПСов
+            int mops_var_sum = stand_test_board.get_sum_mops_checkbox();
+            int mups_var_sum = stand_test_board.get_sum_mups_checkbox();
+
+            // если не отмечены модули, то выводим ошибку и выходим
+            if (mops_var_sum == 0 && mups_var_sum == 0)
+            {
+                QMetaObject::invokeMethod(this, [this]()
+                {
+                    QMessageBox::warning(this, "Error", "The module is not selected");
+                });
+                return; // Завершаем выполнение потока
+            }
+
+            // записываем регистры с МОПСами и МУПСами которые будем испытывать в плату
+            bool success = stand_test_board.wirte_active_mops_and_mups_to_test_board_flag(&modbus_stand_board);
+
+            // Проверяем успех операции
+            if (success)
+            {
+                QMetaObject::invokeMethod(this, [this]()
+                {
+                    QMessageBox::information(this, "Success", "Registers written successfully.");
+                });
+            }
+            else
+            {
+                QMetaObject::invokeMethod(this, [this]()
+                {
+                    QMessageBox::warning(this, "Error", "Error writing registers.");
+                });
+            }
+
+            // Пример выполнения некоторой операции
+            for (int i = 0; i < 10 && isTestRunning; ++i)
+            {
+                std::this_thread::sleep_for(std::chrono::seconds(1));
+
+                // Пример обновления GUI из потока
+                QMetaObject::invokeMethod(this, [this, i]()
+                {
+                    ui->answer_connection_lable->setText(QString("Testing... Step %1").arg(i+1));
+                });
+
+                if (!isTestRunning) break;
+            }
+
+            if (isTestRunning)
+            {
+                QMetaObject::invokeMethod(this, [this]()
+                {
+                    QMessageBox::information(this, "Test Finished", "Test completed successfully!");
+                });
+            }
+        }
+        catch (const std::exception &e)
+        {
+            QMetaObject::invokeMethod(this, [this, e]()
+            {
+                QMessageBox::critical(this, "Error", QString("Internal error: %1").arg(e.what()));
+            });
         }
 
-        // создадим объект контекст подключения
-        modbusRTU modbus_stand_board(com_port, 115200, 'N', 8, 1, 1);
-
-        // записываем регистры с МОПСами и МУПСами которые будем испытывать в плату
-        bool success = stand_test_board.wirte_active_mops_and_mups_to_test_board_flag(&modbus_stand_board);
-
-        // информация о записи
-        if(success){QMessageBox::information(this, "End", "End");}
-        else {QMessageBox::warning(this, "Error", "Error");}
-
-        while(this->isTestRunning)
+        // В конце теста, даже если он был прерван, сбрасываем флаг
+        QMetaObject::invokeMethod(this, [this]()
         {
-
-             QThread::sleep(2);  // Пример паузы в 2 секунды (Qt-подход)
-            // если нажата кнопка стоп, то завершаем
-            if(!this->isTestRunning){QMessageBox::information(this, "End", "End END"); break;}
-        }
-
-    }
-    catch (const std::exception &e)
-    {
-        QMetaObject::invokeMethod(this, [this, e]()
-        {
-            QMessageBox::critical(this, "Error", QString("Internal error: %1").arg(e.what())); // ошибка соединения
+            this->stop_main_test();
         });
-    }
-
-    // Сбрасываем флаг выполнения теста и активируем кнопку "Старт"
-    this->isTestRunning = false;
-
-    // активируем кнопку(разрешаем на нее нажимать)
-    ui->button_start_main_test->setEnabled(true);
+    });
 }
+

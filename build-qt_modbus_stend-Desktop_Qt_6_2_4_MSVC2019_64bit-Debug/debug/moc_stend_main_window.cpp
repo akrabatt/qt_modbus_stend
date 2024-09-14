@@ -23,8 +23,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_stend_main_window_t {
-    const uint offsetsAndSize[14];
-    char stringdata0[98];
+    const uint offsetsAndSize[10];
+    char stringdata0[66];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_stend_main_window_t, stringdata0) + ofs), len 
@@ -34,14 +34,11 @@ QT_MOC_LITERAL(0, 17), // "stend_main_window"
 QT_MOC_LITERAL(18, 15), // "test_connection"
 QT_MOC_LITERAL(34, 0), // ""
 QT_MOC_LITERAL(35, 15), // "start_main_test"
-QT_MOC_LITERAL(51, 14), // "stop_main_test"
-QT_MOC_LITERAL(66, 17), // "handle_test_error"
-QT_MOC_LITERAL(84, 13) // "error_message"
+QT_MOC_LITERAL(51, 14) // "stop_main_test"
 
     },
     "stend_main_window\0test_connection\0\0"
-    "start_main_test\0stop_main_test\0"
-    "handle_test_error\0error_message"
+    "start_main_test\0stop_main_test"
 };
 #undef QT_MOC_LITERAL
 
@@ -51,7 +48,7 @@ static const uint qt_meta_data_stend_main_window[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-       4,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -59,16 +56,14 @@ static const uint qt_meta_data_stend_main_window[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   38,    2, 0x08,    1 /* Private */,
-       3,    0,   39,    2, 0x08,    2 /* Private */,
-       4,    0,   40,    2, 0x08,    3 /* Private */,
-       5,    1,   41,    2, 0x08,    4 /* Private */,
+       1,    0,   32,    2, 0x08,    1 /* Private */,
+       3,    0,   33,    2, 0x08,    2 /* Private */,
+       4,    0,   34,    2, 0x08,    3 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,    6,
 
        0        // eod
 };
@@ -82,10 +77,10 @@ void stend_main_window::qt_static_metacall(QObject *_o, QMetaObject::Call _c, in
         case 0: _t->test_connection(); break;
         case 1: _t->start_main_test(); break;
         case 2: _t->stop_main_test(); break;
-        case 3: _t->handle_test_error((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         default: ;
         }
     }
+    (void)_a;
 }
 
 const QMetaObject stend_main_window::staticMetaObject = { {
@@ -96,7 +91,7 @@ const QMetaObject stend_main_window::staticMetaObject = { {
     nullptr,
 qt_incomplete_metaTypeArray<qt_meta_stringdata_stend_main_window_t
 , QtPrivate::TypeAndForceComplete<stend_main_window, std::true_type>
-, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QString &, std::false_type>
+, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>
 
 
 >,
@@ -123,13 +118,13 @@ int stend_main_window::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 3;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 3)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 4;
+        _id -= 3;
     }
     return _id;
 }
