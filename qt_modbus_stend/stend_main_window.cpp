@@ -18,6 +18,30 @@ stend_main_window::stend_main_window(QWidget *parent)
 {
     ui->setupUi(this);
 
+    // Инициализация массива чекбоксов для МОПС
+    mops_checkboxes[0] = ui->checkBox_active_mops_1;
+    mops_checkboxes[1] = ui->checkBox_active_mops_2;
+    mops_checkboxes[2] = ui->checkBox_active_mops_3;
+    mops_checkboxes[3] = ui->checkBox_active_mops_4;
+    mops_checkboxes[4] = ui->checkBox_active_mops_5;
+    mops_checkboxes[5] = ui->checkBox_active_mops_6;
+    mops_checkboxes[6] = ui->checkBox_active_mops_7;
+    mops_checkboxes[7] = ui->checkBox_active_mops_8;
+    mops_checkboxes[8] = ui->checkBox_active_mops_9;
+    mops_checkboxes[9] = ui->checkBox_active_mops_10;
+
+    // Инициализация массива чекбоксов для МУПС
+    mups_checkboxes[0] = ui->checkBox_active_mups_1;
+    mups_checkboxes[1] = ui->checkBox_active_mups_2;
+    mups_checkboxes[2] = ui->checkBox_active_mups_3;
+    mups_checkboxes[3] = ui->checkBox_active_mups_4;
+    mups_checkboxes[4] = ui->checkBox_active_mups_5;
+    mups_checkboxes[5] = ui->checkBox_active_mups_6;
+    mups_checkboxes[6] = ui->checkBox_active_mups_7;
+    mups_checkboxes[7] = ui->checkBox_active_mups_8;
+    mups_checkboxes[8] = ui->checkBox_active_mups_9;
+    mups_checkboxes[9] = ui->checkBox_active_mups_10;
+
     // Подключаем сигналы кнопок к слотам
     connect(ui->button_test_connection, &QPushButton::clicked, this, &stend_main_window::test_connection);
     connect(ui->button_start_main_test, &QPushButton::clicked, this, &stend_main_window::start_main_test);
@@ -171,29 +195,10 @@ void stend_main_window::start_main_test()
             // создадим объект испытательной платы
             test_board stand_test_board(1);
 
-            // Массив указателей на QCheckBox для МОПС
-            QCheckBox* mops_checkboxes[] = {
-                ui->checkBox_active_mops_1, ui->checkBox_active_mops_2, ui->checkBox_active_mops_3,
-                ui->checkBox_active_mops_4, ui->checkBox_active_mops_5, ui->checkBox_active_mops_6,
-                ui->checkBox_active_mops_7, ui->checkBox_active_mops_8, ui->checkBox_active_mops_9,
-                ui->checkBox_active_mops_10
-            };
-
-            // Массив указателей на QCheckBox для МУПС
-            QCheckBox* mups_checkboxes[] = {
-                ui->checkBox_active_mups_1, ui->checkBox_active_mups_2, ui->checkBox_active_mups_3,
-                ui->checkBox_active_mups_4, ui->checkBox_active_mups_5, ui->checkBox_active_mups_6,
-                ui->checkBox_active_mups_7, ui->checkBox_active_mups_8, ui->checkBox_active_mups_9,
-                ui->checkBox_active_mups_10
-            };
-
-            // Обрабатываем чекбоксы для МОПС
-            for (int i = 0; i < 10; ++i) {
+            // обрабатываем чек-боксы для МОПСов и МУПСов
+            for (int i = 0; i < 10; ++i)
+            {
                 stand_test_board.set_active_mops_checkbox(mops_checkboxes[i]->isChecked() ? 1 : 0, i);
-            }
-
-            // Обрабатываем чекбоксы для МУПС
-            for (int i = 0; i < 10; ++i) {
                 stand_test_board.set_active_mups_checkbox(mups_checkboxes[i]->isChecked() ? 1 : 0, i);
             }
 

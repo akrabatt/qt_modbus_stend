@@ -168,3 +168,25 @@ bool test_board::wirte_active_mops_and_mups_to_test_board_flag(modbusRTU *modbus
     return std::equal(main_buf.begin(), main_buf.end(), main_buf_read.begin());
 }
 
+/**
+ * @brief process_checkboxes метод обработки чекбоксом
+ * @param mops массив указателей на чек-боксы мопсов
+ * @param mups массив указателей не чек-боксы мупсов
+ * @param mops_count кол-во чек-боксов
+ * @param mups_count кол-во чек-боксов
+ */
+void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mops_count, int mups_count)
+{
+    // Обрабатываем чекбоксы для МОПС
+    for (int i = 0; i < mops_count; ++i)
+    {
+        set_active_mops_checkbox(mops[i]->isChecked() ? 1 : 0, i);
+    }
+
+    // Обрабатываем чекбоксы для МУПС
+    for (int i = 0; i < mups_count; ++i)
+    {
+        set_active_mups_checkbox(mups[i]->isChecked() ? 1 : 0, i);
+    }
+}
+

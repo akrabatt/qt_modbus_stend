@@ -48,6 +48,9 @@ private:
 
     // Поток для выполнения тестов
     std::thread test_thread;
+
+    QCheckBox* mops_checkboxes[10];  // Массив указателей на чекбоксы МОПС
+    QCheckBox* mups_checkboxes[10];  // Массив указателей на чекбоксы МУПС
 };
 
 #endif // STEND_MAIN_WINDOW_H

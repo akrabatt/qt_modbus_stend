@@ -3,9 +3,11 @@
 
 #include "device_base_class.h"
 #include "modbus_funct/modbusrtu.h"
+#include "stend_main_window.h"
 #include <cstdint>
 #include <vector>
 #include <iostream>
+#include <QWidget>
 
 /**
  * @brief The test_board class
@@ -140,6 +142,15 @@ public:
      * @note данная функция записывает регистры, и проверяет свою запись считыванием этих же регистров из платы и сравнением
      */
     bool wirte_active_mops_and_mups_to_test_board_flag(modbusRTU *modbusobj);
+
+    /**
+     * @brief process_checkboxes метод обработки чекбоксом
+     * @param mops массив указателей на чек-боксы мопсов
+     * @param mups массив указателей не чек-боксы мупсов
+     * @param mops_count кол-во чек-боксов
+     * @param mups_count кол-во чек-боксов
+     */
+    void process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mops_count, int mups_count);
 
 };
 
