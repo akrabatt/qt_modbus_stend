@@ -14,13 +14,29 @@
 stend_main_window::stend_main_window(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::stend_main_window)
-    , isTestRunning(false)
-    , test_thread(new QThread(this))
-    , test_worker_thread_obj(new test_worker_thread)
+    , isTestRunning(false)                              // флаг выполнения теста
+    , test_thread(new QThread(this))                    // инициализация потока
+    , test_worker_thread_obj(new test_worker_thread)    // инициализация объекта worker
 {
     ui->setupUi(this);
 
-    // подлкючаем слот к сигналу кнопки(...(название кнопки, ..., ..., название метода))
+
+
+    // Подключаем сигналы от Worker-а
+    // Слот завершения
+    connect(test_worker_thread_obj, &test_worker_thread::finished, this, &stend_main_window::stop_main_test);
+    // Обработка ошибок
+    connect(test_worker_thread_obj, &test_worker_thread::error_occurred, this, &stend_main_window::handle_test_error);
+    // Перемещаем Worker в отдельный поток
+    test_worker_thread_obj->moveToThread(test_thread);
+    // Когда поток запустится, выполнится метод run() Worker-а
+    connect(test_thread, &QThread::started, test_worker_thread_obj, &test_worker_thread::run);
+    // Когда поток завершится, удаляем его
+    connect(test_thread, &QThread::finished, test_thread, &QThread::deleteLater);
+
+
+
+    // СЛОТЫ КНОПОК
     // тест соединения с платой
     connect(ui->button_test_connection, &QPushButton::clicked, this, &stend_main_window::test_connection);
 
@@ -36,7 +52,17 @@ stend_main_window::stend_main_window(QWidget *parent)
  */
 stend_main_window::~stend_main_window()
 {
+    // Если поток еще выполняется, останавливаем его
+    if (test_thread->isRunning())
+    {
+        test_worker_thread_obj->stop();   // Останавливаем Worker
+        test_thread->quit();              // Завершаем поток
+        test_thread->wait();              // Ждем завершения
+    }
+
+    // Удаляем объекты
     delete ui;
+    delete test_worker_thread_obj;
 }
 
 /**
@@ -77,6 +103,13 @@ void stend_main_window::stop_main_test()
  */
 void stend_main_window::test_connection()
 {
+    // Проверяем, не запущен ли тест уже
+    if (isTestRunning)
+    {
+        QMessageBox::warning(this, "Warning", "Test is already running!");
+        return;
+    }
+
     // блокируем мьютекс, разблокируется автоматически по завершению фукнции
     QMutexLocker locker(&mutex);
 
