@@ -8,6 +8,7 @@
 #include <vector>
 #include <iostream>
 #include <QWidget>
+#include <QMessageBox>
 
 /**
  * @brief The test_board class
@@ -149,8 +150,11 @@ public:
      * @param mups массив указателей не чек-боксы мупсов
      * @param mops_count кол-во чек-боксов
      * @param mups_count кол-во чек-боксов
+     * @param test_board_ptr указатель на объект тестовой платы
+     * @param modbustru_ptr указатель на объект контекста соединения модбаса
+     * @param window указатель на объект главного окна
      */
-    void process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mops_count, int mups_count);
+    void process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mops_count, int mups_count, test_board *test_board_ptr, modbusRTU *modbusrtu_ptr, stend_main_window* window);
 
 };
 

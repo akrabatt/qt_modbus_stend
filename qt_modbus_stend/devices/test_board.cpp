@@ -174,19 +174,51 @@ bool test_board::wirte_active_mops_and_mups_to_test_board_flag(modbusRTU *modbus
  * @param mups массив указателей не чек-боксы мупсов
  * @param mops_count кол-во чек-боксов
  * @param mups_count кол-во чек-боксов
+ * @param test_board_ptr указатель на объект тестовой платы
+ * @param modbustru_ptr указатель на объект контекста соединения модбаса
+ * @param window указатель на объект главного окна
  */
-void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mops_count, int mups_count)
+void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mops_count, int mups_count, test_board *test_board_ptr, modbusRTU *modbusrtu_ptr, stend_main_window* window)
 {
-    // Обрабатываем чекбоксы для МОПС
-    for (int i = 0; i < mops_count; ++i)
+    // обрабатываем чек-боксы для МОПСов и МУПСов
+    for (int i = 0; i < 10; ++i)
     {
-        set_active_mops_checkbox(mops[i]->isChecked() ? 1 : 0, i);
+        test_board_ptr->set_active_mops_checkbox(mops[i]->isChecked() ? 1 : 0, i);
+        test_board_ptr->set_active_mups_checkbox(mups[i]->isChecked() ? 1 : 0, i);
     }
 
-    // Обрабатываем чекбоксы для МУПС
-    for (int i = 0; i < mups_count; ++i)
+    // Проверяем количество отмеченных МОПСов и МУПСов
+    int mops_var_sum = test_board_ptr->get_sum_mops_checkbox();
+    int mups_var_sum = test_board_ptr->get_sum_mups_checkbox();
+
+    // если не отмечены модули, то выводим ошибку и выходим
+    if (mops_var_sum == 0 && mups_var_sum == 0)
     {
-        set_active_mups_checkbox(mups[i]->isChecked() ? 1 : 0, i);
+        QMetaObject::invokeMethod(window, [window]()
+        {
+            QMessageBox::warning(window, "Error", "The module is not selected");
+        });
+        return; // Завершаем выполнение потока
+    }
+
+    // записываем регистры с МОПСами и МУПСами которые будем испытывать в плату
+    bool success = test_board_ptr->wirte_active_mops_and_mups_to_test_board_flag(modbusrtu_ptr);
+
+    // Проверяем успех операции
+    if (success)
+    {
+        QMetaObject::invokeMethod(window, [window]()
+        {
+            QMessageBox::information(window, "Success", "Registers written successfully.");
+        });
+    }
+    else
+    {
+        QMetaObject::invokeMethod(window, [window]()
+        {
+            QMessageBox::warning(window, "Error", "Error writing registers.");
+        });
     }
 }
+
 

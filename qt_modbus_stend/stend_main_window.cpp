@@ -190,51 +190,14 @@ void stend_main_window::start_main_test()
     // создадим объект испытательной платы
     test_board stand_test_board(1);
 
+    // записывыем модули для испытания
+    stand_test_board.process_checkboxes(mops_checkboxes, mups_checkboxes, 10, 10, &stand_test_board, &modbus_stand_board, this);
+
     // Запуск потока
     test_thread = std::thread([this, com_port, &modbus_stand_board, &stand_test_board]()
     {
         try
         {
-            // обрабатываем чек-боксы для МОПСов и МУПСов
-            for (int i = 0; i < 10; ++i)
-            {
-                stand_test_board.set_active_mops_checkbox(mops_checkboxes[i]->isChecked() ? 1 : 0, i);
-                stand_test_board.set_active_mups_checkbox(mups_checkboxes[i]->isChecked() ? 1 : 0, i);
-            }
-
-            // Проверяем количество отмеченных МОПСов и МУПСов
-            int mops_var_sum = stand_test_board.get_sum_mops_checkbox();
-            int mups_var_sum = stand_test_board.get_sum_mups_checkbox();
-
-            // если не отмечены модули, то выводим ошибку и выходим
-            if (mops_var_sum == 0 && mups_var_sum == 0)
-            {
-                QMetaObject::invokeMethod(this, [this]()
-                {
-                    QMessageBox::warning(this, "Error", "The module is not selected");
-                });
-                return; // Завершаем выполнение потока
-            }
-
-            // записываем регистры с МОПСами и МУПСами которые будем испытывать в плату
-            bool success = stand_test_board.wirte_active_mops_and_mups_to_test_board_flag(&modbus_stand_board);
-
-            // Проверяем успех операции
-            if (success)
-            {
-                QMetaObject::invokeMethod(this, [this]()
-                {
-                    QMessageBox::information(this, "Success", "Registers written successfully.");
-                });
-            }
-            else
-            {
-                QMetaObject::invokeMethod(this, [this]()
-                {
-                    QMessageBox::warning(this, "Error", "Error writing registers.");
-                });
-            }
-
             // Пример выполнения некоторой операции
             for (int i = 0; i < 10 && isTestRunning; ++i)
             {
