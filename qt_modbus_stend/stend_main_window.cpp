@@ -184,17 +184,17 @@ void stend_main_window::start_main_test()
     // Отключаем кнопку "Старт"
     ui->button_start_main_test->setEnabled(false);
 
+    // создаем объект контекст подключения
+    modbusRTU modbus_stand_board(com_port, 115200, 'N', 8, 1, 1);
+
+    // создадим объект испытательной платы
+    test_board stand_test_board(1);
+
     // Запуск потока
-    test_thread = std::thread([this, com_port]()
+    test_thread = std::thread([this, com_port, &modbus_stand_board, &stand_test_board]()
     {
         try
         {
-            // создаем объект контекст подключения
-            modbusRTU modbus_stand_board(com_port, 115200, 'N', 8, 1, 1);
-
-            // создадим объект испытательной платы
-            test_board stand_test_board(1);
-
             // обрабатываем чек-боксы для МОПСов и МУПСов
             for (int i = 0; i < 10; ++i)
             {
