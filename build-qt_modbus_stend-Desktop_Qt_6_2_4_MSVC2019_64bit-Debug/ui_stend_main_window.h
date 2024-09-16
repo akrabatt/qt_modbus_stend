@@ -69,9 +69,39 @@ public:
     QPushButton *button_start_main_test;
     QPushButton *button_stop_main_test;
     QLabel *label;
-    QTabWidget *tabWidget;
-    QWidget *tab;
-    QWidget *tab_2;
+    QWidget *widget;
+    QHBoxLayout *horizontalLayout_3;
+    QTabWidget *tab_widget_for_mops;
+    QWidget *mops_1;
+    QWidget *widget1;
+    QHBoxLayout *horizontalLayout_5;
+    QLabel *just_lable_online_status_req_mops_1;
+    QLabel *just_lable_online_status_ans_mops_1;
+    QWidget *mops_2;
+    QWidget *mops_3;
+    QWidget *mops_4;
+    QWidget *mops_5;
+    QWidget *mops_6;
+    QWidget *mops_7;
+    QWidget *mops_8;
+    QWidget *mops_9;
+    QWidget *mops_10;
+    QTabWidget *tab_widget_for_mups;
+    QWidget *mups_1;
+    QWidget *mups_2;
+    QWidget *mups_3;
+    QWidget *mups_4;
+    QWidget *mups_5;
+    QWidget *mups_6;
+    QWidget *mups_7;
+    QWidget *mups_8;
+    QWidget *mups_9;
+    QWidget *mups_10;
+    QWidget *widget2;
+    QHBoxLayout *horizontalLayout_4;
+    QLabel *just_mops_lable;
+    QSpacerItem *horizontalSpacer_4;
+    QLabel *just_mups_lable;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -80,6 +110,8 @@ public:
         if (stend_main_window->objectName().isEmpty())
             stend_main_window->setObjectName(QString::fromUtf8("stend_main_window"));
         stend_main_window->resize(1740, 961);
+        stend_main_window->setMinimumSize(QSize(0, 0));
+        stend_main_window->setSizeIncrement(QSize(0, -1));
         centralwidget = new QWidget(stend_main_window);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayoutWidget = new QWidget(centralwidget);
@@ -258,15 +290,121 @@ public:
         label = new QLabel(centralwidget);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(400, 330, 111, 16));
-        tabWidget = new QTabWidget(centralwidget);
-        tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
-        tabWidget->setGeometry(QRect(610, 50, 1001, 801));
-        tab = new QWidget();
-        tab->setObjectName(QString::fromUtf8("tab"));
-        tabWidget->addTab(tab, QString());
-        tab_2 = new QWidget();
-        tab_2->setObjectName(QString::fromUtf8("tab_2"));
-        tabWidget->addTab(tab_2, QString());
+        widget = new QWidget(centralwidget);
+        widget->setObjectName(QString::fromUtf8("widget"));
+        widget->setGeometry(QRect(610, 50, 1081, 861));
+        horizontalLayout_3 = new QHBoxLayout(widget);
+        horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
+        horizontalLayout_3->setContentsMargins(0, 0, 0, 0);
+        tab_widget_for_mops = new QTabWidget(widget);
+        tab_widget_for_mops->setObjectName(QString::fromUtf8("tab_widget_for_mops"));
+        mops_1 = new QWidget();
+        mops_1->setObjectName(QString::fromUtf8("mops_1"));
+        widget1 = new QWidget(mops_1);
+        widget1->setObjectName(QString::fromUtf8("widget1"));
+        widget1->setGeometry(QRect(10, 10, 219, 22));
+        horizontalLayout_5 = new QHBoxLayout(widget1);
+        horizontalLayout_5->setObjectName(QString::fromUtf8("horizontalLayout_5"));
+        horizontalLayout_5->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_1 = new QLabel(widget1);
+        just_lable_online_status_req_mops_1->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_1"));
+
+        horizontalLayout_5->addWidget(just_lable_online_status_req_mops_1);
+
+        just_lable_online_status_ans_mops_1 = new QLabel(widget1);
+        just_lable_online_status_ans_mops_1->setObjectName(QString::fromUtf8("just_lable_online_status_ans_mops_1"));
+        just_lable_online_status_ans_mops_1->setMinimumSize(QSize(102, 0));
+        just_lable_online_status_ans_mops_1->setScaledContents(false);
+        just_lable_online_status_ans_mops_1->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_5->addWidget(just_lable_online_status_ans_mops_1);
+
+        tab_widget_for_mops->addTab(mops_1, QString());
+        mops_2 = new QWidget();
+        mops_2->setObjectName(QString::fromUtf8("mops_2"));
+        tab_widget_for_mops->addTab(mops_2, QString());
+        mops_3 = new QWidget();
+        mops_3->setObjectName(QString::fromUtf8("mops_3"));
+        tab_widget_for_mops->addTab(mops_3, QString());
+        mops_4 = new QWidget();
+        mops_4->setObjectName(QString::fromUtf8("mops_4"));
+        tab_widget_for_mops->addTab(mops_4, QString());
+        mops_5 = new QWidget();
+        mops_5->setObjectName(QString::fromUtf8("mops_5"));
+        tab_widget_for_mops->addTab(mops_5, QString());
+        mops_6 = new QWidget();
+        mops_6->setObjectName(QString::fromUtf8("mops_6"));
+        tab_widget_for_mops->addTab(mops_6, QString());
+        mops_7 = new QWidget();
+        mops_7->setObjectName(QString::fromUtf8("mops_7"));
+        tab_widget_for_mops->addTab(mops_7, QString());
+        mops_8 = new QWidget();
+        mops_8->setObjectName(QString::fromUtf8("mops_8"));
+        tab_widget_for_mops->addTab(mops_8, QString());
+        mops_9 = new QWidget();
+        mops_9->setObjectName(QString::fromUtf8("mops_9"));
+        tab_widget_for_mops->addTab(mops_9, QString());
+        mops_10 = new QWidget();
+        mops_10->setObjectName(QString::fromUtf8("mops_10"));
+        tab_widget_for_mops->addTab(mops_10, QString());
+
+        horizontalLayout_3->addWidget(tab_widget_for_mops);
+
+        tab_widget_for_mups = new QTabWidget(widget);
+        tab_widget_for_mups->setObjectName(QString::fromUtf8("tab_widget_for_mups"));
+        mups_1 = new QWidget();
+        mups_1->setObjectName(QString::fromUtf8("mups_1"));
+        tab_widget_for_mups->addTab(mups_1, QString());
+        mups_2 = new QWidget();
+        mups_2->setObjectName(QString::fromUtf8("mups_2"));
+        tab_widget_for_mups->addTab(mups_2, QString());
+        mups_3 = new QWidget();
+        mups_3->setObjectName(QString::fromUtf8("mups_3"));
+        tab_widget_for_mups->addTab(mups_3, QString());
+        mups_4 = new QWidget();
+        mups_4->setObjectName(QString::fromUtf8("mups_4"));
+        tab_widget_for_mups->addTab(mups_4, QString());
+        mups_5 = new QWidget();
+        mups_5->setObjectName(QString::fromUtf8("mups_5"));
+        tab_widget_for_mups->addTab(mups_5, QString());
+        mups_6 = new QWidget();
+        mups_6->setObjectName(QString::fromUtf8("mups_6"));
+        tab_widget_for_mups->addTab(mups_6, QString());
+        mups_7 = new QWidget();
+        mups_7->setObjectName(QString::fromUtf8("mups_7"));
+        tab_widget_for_mups->addTab(mups_7, QString());
+        mups_8 = new QWidget();
+        mups_8->setObjectName(QString::fromUtf8("mups_8"));
+        tab_widget_for_mups->addTab(mups_8, QString());
+        mups_9 = new QWidget();
+        mups_9->setObjectName(QString::fromUtf8("mups_9"));
+        tab_widget_for_mups->addTab(mups_9, QString());
+        mups_10 = new QWidget();
+        mups_10->setObjectName(QString::fromUtf8("mups_10"));
+        tab_widget_for_mups->addTab(mups_10, QString());
+
+        horizontalLayout_3->addWidget(tab_widget_for_mups);
+
+        widget2 = new QWidget(centralwidget);
+        widget2->setObjectName(QString::fromUtf8("widget2"));
+        widget2->setGeometry(QRect(610, 0, 591, 51));
+        horizontalLayout_4 = new QHBoxLayout(widget2);
+        horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
+        horizontalLayout_4->setContentsMargins(0, 0, 0, 0);
+        just_mops_lable = new QLabel(widget2);
+        just_mops_lable->setObjectName(QString::fromUtf8("just_mops_lable"));
+
+        horizontalLayout_4->addWidget(just_mops_lable);
+
+        horizontalSpacer_4 = new QSpacerItem(110, 30, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_4->addItem(horizontalSpacer_4);
+
+        just_mups_lable = new QLabel(widget2);
+        just_mups_lable->setObjectName(QString::fromUtf8("just_mups_lable"));
+
+        horizontalLayout_4->addWidget(just_mups_lable);
+
         stend_main_window->setCentralWidget(centralwidget);
         menubar = new QMenuBar(stend_main_window);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -277,6 +415,10 @@ public:
         stend_main_window->setStatusBar(statusbar);
 
         retranslateUi(stend_main_window);
+
+        tab_widget_for_mops->setCurrentIndex(0);
+        tab_widget_for_mups->setCurrentIndex(2);
+
 
         QMetaObject::connectSlotsByName(stend_main_window);
     } // setupUi
@@ -313,8 +455,33 @@ public:
         button_start_main_test->setText(QCoreApplication::translate("stend_main_window", "\320\241\321\202\320\260\321\200\321\202 ", nullptr));
         button_stop_main_test->setText(QCoreApplication::translate("stend_main_window", "\320\241\321\202\320\276\320\277 ", nullptr));
         label->setText(QCoreApplication::translate("stend_main_window", "\320\230\321\201\320\277\321\213\321\202\320\260\320\275\320\270\321\217", nullptr));
-        tabWidget->setTabText(tabWidget->indexOf(tab), QCoreApplication::translate("stend_main_window", "Tab 1", nullptr));
-        tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("stend_main_window", "Tab 2", nullptr));
+#if QT_CONFIG(tooltip)
+        mops_1->setToolTip(QCoreApplication::translate("stend_main_window", "<html><head/><body><p>1</p></body></html>", nullptr));
+#endif // QT_CONFIG(tooltip)
+        just_lable_online_status_req_mops_1->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\276\320\275\320\273\320\260\320\271\320\275:", nullptr));
+        just_lable_online_status_ans_mops_1->setText(QString());
+        tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_1), QCoreApplication::translate("stend_main_window", "1", nullptr));
+        tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_2), QCoreApplication::translate("stend_main_window", "2", nullptr));
+        tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_3), QCoreApplication::translate("stend_main_window", "3", nullptr));
+        tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_4), QCoreApplication::translate("stend_main_window", "4", nullptr));
+        tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_5), QCoreApplication::translate("stend_main_window", "5", nullptr));
+        tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_6), QCoreApplication::translate("stend_main_window", "6", nullptr));
+        tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_7), QCoreApplication::translate("stend_main_window", "7", nullptr));
+        tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_8), QCoreApplication::translate("stend_main_window", "8", nullptr));
+        tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_9), QCoreApplication::translate("stend_main_window", "9", nullptr));
+        tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_10), QCoreApplication::translate("stend_main_window", "10", nullptr));
+        tab_widget_for_mups->setTabText(tab_widget_for_mups->indexOf(mups_1), QCoreApplication::translate("stend_main_window", "1", nullptr));
+        tab_widget_for_mups->setTabText(tab_widget_for_mups->indexOf(mups_2), QCoreApplication::translate("stend_main_window", "2", nullptr));
+        tab_widget_for_mups->setTabText(tab_widget_for_mups->indexOf(mups_3), QCoreApplication::translate("stend_main_window", "3", nullptr));
+        tab_widget_for_mups->setTabText(tab_widget_for_mups->indexOf(mups_4), QCoreApplication::translate("stend_main_window", "4", nullptr));
+        tab_widget_for_mups->setTabText(tab_widget_for_mups->indexOf(mups_5), QCoreApplication::translate("stend_main_window", "5", nullptr));
+        tab_widget_for_mups->setTabText(tab_widget_for_mups->indexOf(mups_6), QCoreApplication::translate("stend_main_window", "6", nullptr));
+        tab_widget_for_mups->setTabText(tab_widget_for_mups->indexOf(mups_7), QCoreApplication::translate("stend_main_window", "7", nullptr));
+        tab_widget_for_mups->setTabText(tab_widget_for_mups->indexOf(mups_8), QCoreApplication::translate("stend_main_window", "8", nullptr));
+        tab_widget_for_mups->setTabText(tab_widget_for_mups->indexOf(mups_9), QCoreApplication::translate("stend_main_window", "9", nullptr));
+        tab_widget_for_mups->setTabText(tab_widget_for_mups->indexOf(mups_10), QCoreApplication::translate("stend_main_window", "10", nullptr));
+        just_mops_lable->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\236\320\237\320\241", nullptr));
+        just_mups_lable->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\243\320\237\320\241", nullptr));
     } // retranslateUi
 
 };
