@@ -66,17 +66,21 @@ stend_main_window::~stend_main_window()
  */
 void stend_main_window::stop_main_test()
 {
-    if (!isTestRunning) return;
+    if (!isTestRunning) {return;}
 
     // Останавливаем тест
     isTestRunning = false;
 
-    if (test_thread.joinable()) {
+    if (test_thread.joinable())
+    {
         test_thread.join();  // Ждем завершения потока
     }
 
     // Включаем кнопку "Старт"
     ui->button_start_main_test->setEnabled(true);
+
+    // включаем кнопку тест соединения
+    ui->button_test_connection->setEnabled(true);
 
     // Обновляем статус лейбла
     ui->answer_connection_lable->setText("Test stopped.");
@@ -183,6 +187,8 @@ void stend_main_window::start_main_test()
 
     // Отключаем кнопку "Старт"
     ui->button_start_main_test->setEnabled(false);
+    // отключаем кнопку тест соединения
+    ui->button_test_connection->setEnabled(false);
 
     // Запуск потока
     test_thread = std::thread([this, com_port]()
@@ -195,13 +201,15 @@ void stend_main_window::start_main_test()
             // создадим объект испытательной платы
             test_board stand_test_board(1);
 
-            // записываем id модулей
+            // записываем id модулей в плату которые будем испытывать
             stand_test_board.process_checkboxes(mops_checkboxes, mups_checkboxes, 10, 10, &stand_test_board, &modbus_stand_board, this);
 
+            int i = 0;
             // Пример выполнения некоторой операции
-            for (int i = 0; i < 10 && isTestRunning; ++i)
+            while (isTestRunning)
             {
                 std::this_thread::sleep_for(std::chrono::seconds(1));
+                i++;
 
                 // Пример обновления GUI из потока
                 QMetaObject::invokeMethod(this, [this, i]()
@@ -209,7 +217,7 @@ void stend_main_window::start_main_test()
                     ui->answer_connection_lable->setText(QString("Testing... Step %1").arg(i+1));
                 });
 
-                if (!isTestRunning) break;
+                if (!isTestRunning) {break;}
             }
 
             if (isTestRunning)
