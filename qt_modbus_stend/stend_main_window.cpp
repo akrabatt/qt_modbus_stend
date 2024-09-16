@@ -195,7 +195,9 @@ void stend_main_window::start_main_test()
             // создадим объект испытательной платы
             test_board stand_test_board(1);
 
+            // записываем id модулей
             stand_test_board.process_checkboxes(mops_checkboxes, mups_checkboxes, 10, 10, &stand_test_board, &modbus_stand_board, this);
+
             // Пример выполнения некоторой операции
             for (int i = 0; i < 10 && isTestRunning; ++i)
             {
