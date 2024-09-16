@@ -205,6 +205,12 @@ void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mo
     bool success = test_board_ptr->wirte_active_mops_and_mups_to_test_board_flag(modbusrtu_ptr);
 
     // Проверяем успех операции
+    if (!success)
+    {
+        throw std::runtime_error("Error writing registers.");
+    }
+
+    // Проверяем успех операции
     if (success)
     {
         QMetaObject::invokeMethod(window, [window]()
