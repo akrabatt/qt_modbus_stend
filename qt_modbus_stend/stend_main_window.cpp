@@ -184,30 +184,18 @@ void stend_main_window::start_main_test()
     // Отключаем кнопку "Старт"
     ui->button_start_main_test->setEnabled(false);
 
-    // создаем объект контекст подключения
-    modbusRTU modbus_stand_board(com_port, 115200, 'N', 8, 1, 1);
-
-    // создадим объект испытательной платы
-    test_board stand_test_board(1);
-
-    try
-    {
-        // Записывыем модули для испытания
-        stand_test_board.process_checkboxes(mops_checkboxes, mups_checkboxes, 10, 10, &stand_test_board, &modbus_stand_board, this);
-    }
-    catch (const std::exception &e)
-    {
-        QMessageBox::critical(this, "Error", QString("Error during test setup: %1").arg(e.what()));
-        isTestRunning = false;
-        ui->button_start_main_test->setEnabled(true);
-        return;
-    }
-
     // Запуск потока
-    test_thread = std::thread([this, com_port, &modbus_stand_board, &stand_test_board]()
+    test_thread = std::thread([this, com_port]()
     {
         try
         {
+            // создаем объект контекст подключения
+            modbusRTU modbus_stand_board(com_port, 115200, 'N', 8, 1, 1);
+
+            // создадим объект испытательной платы
+            test_board stand_test_board(1);
+
+            stand_test_board.process_checkboxes(mops_checkboxes, mups_checkboxes, 10, 10, &stand_test_board, &modbus_stand_board, this);
             // Пример выполнения некоторой операции
             for (int i = 0; i < 10 && isTestRunning; ++i)
             {
