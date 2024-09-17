@@ -22,6 +22,8 @@ private:
     uint16_t start_check_mups_button_reg = 9002;    // регистр кнопки запуска проверки МУПСов
     uint16_t mups_diagnostics_in_progress = 9003;   // регистр флага проверки мупса(1 - если проверка идет в данный момент, 0 - если проверки нет в данный момент)
 
+    uint16_t stand_config_area_quant_reg = 4;       // кол-во регистров управляющей зоны запуском тестов
+
     uint16_t mups_quant_reg = 36;     // кол-во запрашиваемых регистров для МУПСов
     uint16_t mops_quant_reg = 56;     // кол-во запрашиваемых регистров для МОПСов
 
@@ -45,6 +47,8 @@ private:
         musp_id_10 = 11324
     }mups_start_reg;        // стартовые регистры для каждого из мупсов
 
+    uint16_t mups_start_reg_arr[10] = {11000, 11036, 11072, 11108, 11144, 11180, 11216, 11252, 11288, 11324};       // стартовые регистры МУПСов в массиве
+
     enum : uint16_t
     {
         mops_id_1 = 10000,
@@ -58,6 +62,8 @@ private:
         mops_id_9 = 10448,
         mops_id_10 = 10504
     }mops_start_reg;        // стартовые регистры для каждого из мопсов
+
+    uint16_t mops_start_reg_arr[10] = {10000, 10056, 10112, 10168, 10224, 10280, 10336, 10392, 10448, 10504};       // стартовые регистры МОПСов в массиве
 
     std::vector<uint16_t> mops_active_checkbox;  // вектор хранящий выбранные для проверки МОПСы
     std::vector<uint16_t> mups_active_checkbox;  // векстр хранящий выбранные для проверки МУПСы
@@ -155,6 +161,17 @@ public:
      * @param window указатель на объект главного окна
      */
     void process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mops_count, int mups_count, test_board *test_board_ptr, modbusRTU *modbusrtu_ptr, stend_main_window* window);
+
+
+    bool start_main_test_mops(modbusRTU *modbusrtu_ptr, stend_main_window *window_ptr, test_board *test_board_ptr);
+
+    /**
+     * @brief check_test_is_busy данный метод проверяет 9001 и 9003 регистры платы, которые являются флагами что в данный момент идет проверка
+     * @param modbusrtu_ptr указатель на объект контекста соединения модбаса
+     * @param test_board_ptr    указатель на объект тестовой платы
+     * @return если флаги не подняты, то возвращает - 1 и можно работать, если флаги подняты, то возвращает - 0
+     */
+    bool check_test_is_busy(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
 
 };
 

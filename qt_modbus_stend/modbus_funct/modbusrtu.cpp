@@ -142,6 +142,29 @@ void modbusRTU::mbm_16_write_registers(const int &start_address, const int &size
 }
 
 /**
+ * @brief modbusRTU::mbm_16_write_registers Функция для записи регистра
+ * @param start_address Стартовый регистр.
+ * @param size Количество регистров для записи.
+ * @param values Вектор значений для записи.
+ */
+void modbusRTU::mbm_16_write_register(const int &start_address, const int &size, const int val)
+{
+    // Блокируем доступ к ресурсу с помощью мьютекса
+    std::lock_guard<std::mutex> lock(mtx_constr);
+
+    // Проверяем, что указанный размер не превышает размер вектора
+    if (size > val) {
+        throw std::runtime_error("Size parameter exceeds the size of the values vector.");
+    }
+
+    // Пишем значения в несколько регистров
+    if (modbus_write_registers(ctx, start_address, size, val) == -1)
+    {
+        throw std::runtime_error("Failed to write registers: " + std::string(modbus_strerror(errno)));
+    }
+}
+
+/**
  * @brief modbusRTU::mbm_16_write_registers Функция для записи регистров. с флагом
  * @param start_address Стартовый регистр.
  * @param size Количество регистров для записи.

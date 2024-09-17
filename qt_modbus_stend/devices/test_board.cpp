@@ -227,4 +227,30 @@ void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mo
     }
 }
 
+/**
+ * @brief check_test_is_busy данный метод проверяет 9001 и 9003 регистры платы, которые являются флагами что в данный момент идет проверка
+ * @param modbusrtu_ptr      указатель на объект контекста соединения модбаса
+ * @param test_board_ptr     указатель на объект тестовой платы
+ * @return                   если флаги не подняты, то возвращает - 1 и можно работать, если флаги подняты, то возвращает - 0
+ */
+bool test_board::check_test_is_busy(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr)
+{
+    // считываем зону запуска тестов и их флагов
+    std::vector<uint16_t> stand_config_area = modbusrtu_ptr->mbm_03_read_registers(this->start_check_mops_button_reg, this->stand_config_area_quant_reg);
+
+    // проверяем стоят ли какие либо флаги
+    uint16_t result_sum = std::accumulate(stand_config_area.begin(), stand_config_area.end(), 0, std::plus<uint16_t>());
+
+    return result_sum == 0 ? 1 : 0;
+}
+
+
+bool test_board::start_main_test_mops(modbusRTU *modbusrtu_ptr, stend_main_window *window_ptr, test_board *test_board_ptr)
+{
+    // проверяем стоит ли какой либо из флагов, если да, то выходим
+    if(test_board_ptr->check_test_is_busy(modbusrtu_ptr, test_board_ptr) == 0) {return false;}
+
+    // записываем флаг старта испытания МОПСов
+    modbusrtu_ptr->mbm_16_write_registers(this->start_check_mops_button_reg, 1, 1);
+}
 
