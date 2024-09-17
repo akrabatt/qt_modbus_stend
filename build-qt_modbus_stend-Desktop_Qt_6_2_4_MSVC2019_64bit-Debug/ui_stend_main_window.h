@@ -69,19 +69,165 @@ public:
     QPushButton *button_start_main_test;
     QPushButton *button_stop_main_test;
     QLabel *label;
-    QWidget *widget;
+    QWidget *verticalLayoutWidget_13;
+    QVBoxLayout *verticalLayout_18;
+    QHBoxLayout *horizontalLayout_36;
+    QLabel *just_lable_status_12;
+    QSpacerItem *horizontalSpacer_27;
+    QLabel *label_94;
+    QLabel *label_95;
+    QLabel *label_96;
+    QLabel *label_97;
+    QLabel *label_98;
+    QLabel *label_99;
+    QLabel *label_100;
+    QLabel *label_101;
+    QHBoxLayout *horizontalLayout_37;
+    QLabel *just_lable_error_12;
+    QSpacerItem *horizontalSpacer_28;
+    QLabel *lable_break_mops_1_sc_9;
+    QLabel *lable_break_mops_1_sc_10;
+    QLabel *lable_break_mops_1_sc_11;
+    QLabel *lable_break_mops_1_sc_12;
+    QLabel *lable_break_mops_1_sc_13;
+    QLabel *lable_break_mops_1_sc_14;
+    QLabel *lable_break_mops_1_sc_15;
+    QLabel *lable_break_mops_1_sc_16;
+    QWidget *layoutWidget_7;
+    QVBoxLayout *verticalLayout_19;
+    QLabel *just_lable_supply_err_2;
+    QHBoxLayout *horizontalLayout_38;
+    QVBoxLayout *verticalLayout_20;
+    QLabel *just_lable_18v_2;
+    QLabel *just_lable_24v_2;
+    QLabel *just_lable_28v_2;
+    QVBoxLayout *verticalLayout_21;
+    QLabel *lable_18v_ans_2;
+    QLabel *lable_24v_ans_2;
+    QLabel *lable_28v_ans_2;
+    QLabel *just_lable_norm_2;
+    QWidget *verticalLayoutWidget_9;
+    QVBoxLayout *verticalLayout_14;
+    QHBoxLayout *horizontalLayout_28;
+    QLabel *just_lable_status_8;
+    QSpacerItem *horizontalSpacer_19;
+    QLabel *label_10;
+    QLabel *label_11;
+    QLabel *label_40;
+    QLabel *label_41;
+    QLabel *label_50;
+    QLabel *label_51;
+    QLabel *label_60;
+    QLabel *label_61;
+    QHBoxLayout *horizontalLayout_29;
+    QLabel *just_lable_error_8;
+    QSpacerItem *horizontalSpacer_20;
+    QLabel *lable_break_mops_1_ch_9;
+    QLabel *lable_break_mops_1_ch_10;
+    QLabel *lable_break_mops_1_ch_31;
+    QLabel *lable_break_mops_1_ch_32;
+    QLabel *lable_break_mops_1_ch_33;
+    QLabel *lable_break_mops_1_ch_34;
+    QLabel *lable_break_mops_1_ch_35;
+    QLabel *lable_break_mops_1_ch_36;
+    QWidget *layoutWidget_4;
+    QHBoxLayout *horizontalLayout_27;
+    QLabel *just_lable_online_status_req_mops_7;
+    QLabel *just_lable_online_status_ans_mops_;
+    QWidget *verticalLayoutWidget_10;
+    QVBoxLayout *verticalLayout_15;
+    QHBoxLayout *horizontalLayout_30;
+    QLabel *just_lable_status_9;
+    QSpacerItem *horizontalSpacer_21;
+    QLabel *label_70;
+    QLabel *label_71;
+    QLabel *label_72;
+    QLabel *label_73;
+    QLabel *label_74;
+    QLabel *label_75;
+    QLabel *label_76;
+    QLabel *label_77;
+    QHBoxLayout *horizontalLayout_31;
+    QLabel *just_lable_error_9;
+    QSpacerItem *horizontalSpacer_22;
+    QLabel *lable_norm_mops_1_ch_9;
+    QLabel *lable_norm_mops_1_ch_10;
+    QLabel *lable_norm_mops_1_ch_11;
+    QLabel *lable_norm_mops_1_ch_12;
+    QLabel *lable_norm_mops_1_ch_13;
+    QLabel *lable_norm_mops_1_ch_14;
+    QLabel *lable_norm_mops_1_ch_15;
+    QLabel *lable_norm_mops_1_ch_16;
+    QWidget *layoutWidget_8;
+    QHBoxLayout *horizontalLayout_39;
+    QLabel *just_lable_online_status_req_mops_8;
+    QLabel *just_lable_online_status_ans_mop;
+    QWidget *verticalLayoutWidget_12;
+    QVBoxLayout *verticalLayout_17;
+    QHBoxLayout *horizontalLayout_34;
+    QLabel *just_lable_status_11;
+    QSpacerItem *horizontalSpacer_25;
+    QLabel *label_86;
+    QLabel *label_87;
+    QLabel *label_88;
+    QLabel *label_89;
+    QLabel *label_90;
+    QLabel *label_91;
+    QLabel *label_92;
+    QLabel *label_93;
+    QHBoxLayout *horizontalLayout_35;
+    QLabel *just_lable_error_11;
+    QSpacerItem *horizontalSpacer_26;
+    QLabel *lable_fire_mops_1_ch_8;
+    QLabel *lable_fire_mops_1_ch_10;
+    QLabel *lable_fire_mops_1_ch_11;
+    QLabel *lable_fire_mops_1_ch_12;
+    QLabel *lable_fire_mops_1_ch_13;
+    QLabel *lable_fire_mops_1_ch_14;
+    QLabel *lable_fire_mops_1_ch_15;
+    QLabel *lable_fire_mops_1_ch_16;
+    QWidget *verticalLayoutWidget_11;
+    QVBoxLayout *verticalLayout_16;
+    QHBoxLayout *horizontalLayout_32;
+    QLabel *just_lable_status_10;
+    QSpacerItem *horizontalSpacer_23;
+    QLabel *label_78;
+    QLabel *label_79;
+    QLabel *label_80;
+    QLabel *label_81;
+    QLabel *label_82;
+    QLabel *label_83;
+    QLabel *label_84;
+    QLabel *label_85;
+    QHBoxLayout *horizontalLayout_33;
+    QLabel *just_lable_error_10;
+    QSpacerItem *horizontalSpacer_24;
+    QLabel *lable_attantion_mops_1_ch_9;
+    QLabel *lable_attantion_mops_1_ch_10;
+    QLabel *lable_attantion_mops_1_ch_11;
+    QLabel *lable_attantion_mops_1_ch_12;
+    QLabel *lable_attantion_mops_1_ch_13;
+    QLabel *lable_attantion_mops_1_ch_14;
+    QLabel *lable_attantion_mops_1_ch_15;
+    QLabel *lable_attantion_mops_1_ch_16;
+    QLabel *just_lable_attantion_5;
+    QLabel *just_lable_break_7;
+    QLabel *just_lable_break_6;
+    QLabel *just_lable_status_ch_4;
+    QLabel *just_lable_break_8;
+    QWidget *layoutWidget;
     QHBoxLayout *horizontalLayout_4;
     QLabel *just_mops_lable;
     QSpacerItem *horizontalSpacer_4;
     QLabel *just_mups_lable;
-    QWidget *widget1;
+    QWidget *layoutWidget1;
     QHBoxLayout *horizontalLayout_3;
     QTabWidget *tab_widget_for_mops;
     QWidget *mops_1;
-    QWidget *layoutWidget;
+    QWidget *layoutWidget2;
     QHBoxLayout *horizontalLayout_6;
     QLabel *just_lable_online_status_req_mops_2;
-    QLabel *just_lable_online_status_ans_mops_2;
+    QLabel *just_lable_oper_status_ans_mops_1;
     QLabel *just_lable_status_ch;
     QLabel *just_lable_break;
     QWidget *verticalLayoutWidget_2;
@@ -97,8 +243,6 @@ public:
     QLabel *label_7;
     QLabel *label_8;
     QLabel *label_9;
-    QLabel *label_10;
-    QLabel *label_11;
     QHBoxLayout *horizontalLayout_8;
     QLabel *just_lable_error;
     QSpacerItem *horizontalSpacer_5;
@@ -110,8 +254,6 @@ public:
     QLabel *lable_break_mops_1_ch_6;
     QLabel *lable_break_mops_1_ch_7;
     QLabel *lable_break_mops_1_ch_8;
-    QLabel *lable_break_mops_1_ch_9;
-    QLabel *lable_break_mops_1_ch_10;
     QLabel *just_lable_norm_1;
     QWidget *verticalLayoutWidget_5;
     QVBoxLayout *verticalLayout_7;
@@ -126,8 +268,6 @@ public:
     QLabel *label_37;
     QLabel *label_38;
     QLabel *label_39;
-    QLabel *label_40;
-    QLabel *label_41;
     QHBoxLayout *horizontalLayout_19;
     QLabel *just_lable_error_4;
     QSpacerItem *horizontalSpacer_12;
@@ -139,8 +279,6 @@ public:
     QLabel *lable_norm_mops_1_ch_6;
     QLabel *lable_norm_mops_1_ch_7;
     QLabel *lable_norm_mops_1_ch_8;
-    QLabel *lable_norm_mops_1_ch_9;
-    QLabel *lable_norm_mops_1_ch_10;
     QWidget *verticalLayoutWidget_6;
     QVBoxLayout *verticalLayout_8;
     QHBoxLayout *horizontalLayout_20;
@@ -154,8 +292,6 @@ public:
     QLabel *label_47;
     QLabel *label_48;
     QLabel *label_49;
-    QLabel *label_50;
-    QLabel *label_51;
     QHBoxLayout *horizontalLayout_21;
     QLabel *just_lable_error_5;
     QSpacerItem *horizontalSpacer_14;
@@ -167,8 +303,6 @@ public:
     QLabel *lable_attantion_mops_1_ch_6;
     QLabel *lable_attantion_mops_1_ch_7;
     QLabel *lable_attantion_mops_1_ch_8;
-    QLabel *lable_attantion_mops_1_ch_9;
-    QLabel *lable_attantion_mops_1_ch_10;
     QLabel *just_lable_attantion_4;
     QWidget *verticalLayoutWidget_7;
     QVBoxLayout *verticalLayout_9;
@@ -183,8 +317,6 @@ public:
     QLabel *label_57;
     QLabel *label_58;
     QLabel *label_59;
-    QLabel *label_60;
-    QLabel *label_61;
     QHBoxLayout *horizontalLayout_23;
     QLabel *just_lable_error_6;
     QSpacerItem *horizontalSpacer_16;
@@ -196,8 +328,6 @@ public:
     QLabel *lable_fire_mops_1_ch_6;
     QLabel *lable_fire_mops_1_ch_7;
     QLabel *lable_fire_mops_1_ch_9;
-    QLabel *lable_break_mops_1_ch_39;
-    QLabel *lable_break_mops_1_ch_40;
     QLabel *just_lable_break_4;
     QLabel *just_lable_break_5;
     QWidget *verticalLayoutWidget_8;
@@ -213,8 +343,6 @@ public:
     QLabel *label_67;
     QLabel *label_68;
     QLabel *label_69;
-    QLabel *label_70;
-    QLabel *label_71;
     QHBoxLayout *horizontalLayout_25;
     QLabel *just_lable_error_7;
     QSpacerItem *horizontalSpacer_18;
@@ -226,9 +354,7 @@ public:
     QLabel *lable_break_mops_1_sc_6;
     QLabel *lable_break_mops_1_sc_7;
     QLabel *lable_break_mops_1_sc_8;
-    QLabel *lable_break_mops_1_sc_9;
-    QLabel *lable_break_mops_1_sc_10;
-    QWidget *widget2;
+    QWidget *layoutWidget3;
     QVBoxLayout *verticalLayout_13;
     QLabel *just_lable_supply_err;
     QHBoxLayout *horizontalLayout_26;
@@ -237,22 +363,1336 @@ public:
     QLabel *just_lable_24v;
     QLabel *just_lable_28v;
     QVBoxLayout *verticalLayout_11;
-    QLabel *lable_18v_ans;
-    QLabel *lable_24v_ans;
-    QLabel *lable_28v_ans;
-    QWidget *widget3;
+    QLabel *lable_18v_ans_mops_1;
+    QLabel *lable_24v_ans_mops_1;
+    QLabel *lable_28v_ans_mops_1;
+    QWidget *layoutWidget4;
     QHBoxLayout *horizontalLayout_5;
     QLabel *just_lable_online_status_req_mops_1;
     QLabel *just_lable_online_status_ans_mops_1;
     QWidget *mops_2;
+    QWidget *layoutWidget_9;
+    QHBoxLayout *horizontalLayout_66;
+    QLabel *just_lable_online_status_req_mops_13;
+    QLabel *just_lable_online_status_ans_mops_2;
+    QLabel *just_lable_norm_3;
+    QWidget *verticalLayoutWidget_14;
+    QVBoxLayout *verticalLayout_38;
+    QHBoxLayout *horizontalLayout_67;
+    QLabel *just_lable_status_23;
+    QSpacerItem *horizontalSpacer_49;
+    QLabel *label_182;
+    QLabel *label_183;
+    QLabel *label_184;
+    QLabel *label_185;
+    QLabel *label_186;
+    QLabel *label_187;
+    QLabel *label_188;
+    QLabel *label_189;
+    QHBoxLayout *horizontalLayout_68;
+    QLabel *just_lable_error_23;
+    QSpacerItem *horizontalSpacer_50;
+    QLabel *lable_break_mops_2_ch_1;
+    QLabel *lable_break_mops_2_ch_2;
+    QLabel *lable_break_mops_2_ch_3;
+    QLabel *lable_break_mops_2_ch_4;
+    QLabel *lable_break_mops_2_ch_5;
+    QLabel *lable_break_mops_2_ch_6;
+    QLabel *lable_break_mops_2_ch_7;
+    QLabel *lable_break_mops_2_ch_8;
+    QWidget *verticalLayoutWidget_15;
+    QVBoxLayout *verticalLayout_39;
+    QHBoxLayout *horizontalLayout_69;
+    QLabel *just_lable_status_24;
+    QSpacerItem *horizontalSpacer_51;
+    QLabel *label_190;
+    QLabel *label_191;
+    QLabel *label_192;
+    QLabel *label_193;
+    QLabel *label_194;
+    QLabel *label_195;
+    QLabel *label_196;
+    QLabel *label_197;
+    QHBoxLayout *horizontalLayout_70;
+    QLabel *just_lable_error_24;
+    QSpacerItem *horizontalSpacer_52;
+    QLabel *lable_break_mops_2_sc_1;
+    QLabel *lable_break_mops_2_sc_2;
+    QLabel *lable_break_mops_2_sc_3;
+    QLabel *lable_break_mops_2_sc_4;
+    QLabel *lable_break_mops_2_sc_5;
+    QLabel *lable_break_mops_2_sc_6;
+    QLabel *lable_break_mops_2_sc_7;
+    QLabel *lable_break_mops_2_sc_8;
+    QLabel *just_lable_break_9;
+    QWidget *verticalLayoutWidget_16;
+    QVBoxLayout *verticalLayout_40;
+    QHBoxLayout *horizontalLayout_71;
+    QLabel *just_lable_status_25;
+    QSpacerItem *horizontalSpacer_53;
+    QLabel *label_198;
+    QLabel *label_199;
+    QLabel *label_200;
+    QLabel *label_201;
+    QLabel *label_202;
+    QLabel *label_203;
+    QLabel *label_204;
+    QLabel *label_205;
+    QHBoxLayout *horizontalLayout_72;
+    QLabel *just_lable_error_25;
+    QSpacerItem *horizontalSpacer_54;
+    QLabel *lable_norm_mops_2_ch_1;
+    QLabel *lable_norm_mops_2_ch_2;
+    QLabel *lable_norm_mops_2_ch_3;
+    QLabel *lable_norm_mops_2_ch_4;
+    QLabel *lable_norm_mops_2_ch_5;
+    QLabel *lable_norm_mops_2_ch_6;
+    QLabel *lable_norm_mops_2_ch_7;
+    QLabel *lable_norm_mops_2_ch_8;
+    QLabel *just_lable_break_10;
+    QLabel *just_lable_status_ch_5;
+    QWidget *verticalLayoutWidget_17;
+    QVBoxLayout *verticalLayout_41;
+    QHBoxLayout *horizontalLayout_73;
+    QLabel *just_lable_status_26;
+    QSpacerItem *horizontalSpacer_55;
+    QLabel *label_206;
+    QLabel *label_207;
+    QLabel *label_208;
+    QLabel *label_209;
+    QLabel *label_210;
+    QLabel *label_211;
+    QLabel *label_212;
+    QLabel *label_213;
+    QHBoxLayout *horizontalLayout_74;
+    QLabel *just_lable_error_26;
+    QSpacerItem *horizontalSpacer_56;
+    QLabel *lable_fire_mops_2_ch_1;
+    QLabel *lable_fire_mops_2_ch_2;
+    QLabel *lable_fire_mops_2_ch_3;
+    QLabel *lable_fire_mops_2_ch_4;
+    QLabel *lable_fire_mops_2_ch_5;
+    QLabel *lable_fire_mops_2_ch_6;
+    QLabel *lable_fire_mops_2_ch_7;
+    QLabel *lable_fire_mops_2_ch_8;
+    QLabel *just_lable_break_11;
+    QLabel *just_lable_attantion_6;
+    QWidget *verticalLayoutWidget_18;
+    QVBoxLayout *verticalLayout_42;
+    QHBoxLayout *horizontalLayout_75;
+    QLabel *just_lable_status_27;
+    QSpacerItem *horizontalSpacer_57;
+    QLabel *label_214;
+    QLabel *label_215;
+    QLabel *label_216;
+    QLabel *label_217;
+    QLabel *label_218;
+    QLabel *label_219;
+    QLabel *label_220;
+    QLabel *label_221;
+    QHBoxLayout *horizontalLayout_76;
+    QLabel *just_lable_error_27;
+    QSpacerItem *horizontalSpacer_58;
+    QLabel *lable_attantion_mops_2_ch_1;
+    QLabel *lable_attantion_mops_2_ch_2;
+    QLabel *lable_attantion_mops_2_ch_3;
+    QLabel *lable_attantion_mops_2_ch_4;
+    QLabel *lable_attantion_mops_2_ch_5;
+    QLabel *lable_attantion_mops_2_ch_6;
+    QLabel *lable_attantion_mops_2_ch_7;
+    QLabel *lable_attantion_mops_2_ch_8;
+    QWidget *layoutWidget_10;
+    QVBoxLayout *verticalLayout_43;
+    QLabel *just_lable_supply_err_5;
+    QHBoxLayout *horizontalLayout_77;
+    QVBoxLayout *verticalLayout_44;
+    QLabel *just_lable_18v_5;
+    QLabel *just_lable_24v_5;
+    QLabel *just_lable_28v_5;
+    QVBoxLayout *verticalLayout_45;
+    QLabel *lable_18v_ans_mops_2;
+    QLabel *lable_24v_ans_mops_2;
+    QLabel *lable_28v_ans_mops_2;
+    QWidget *layoutWidget_11;
+    QHBoxLayout *horizontalLayout_78;
+    QLabel *just_lable_online_status_req_mops_14;
+    QLabel *just_lable_oper_status_ans_mops_2;
     QWidget *mops_3;
+    QWidget *layoutWidget_12;
+    QHBoxLayout *horizontalLayout_79;
+    QLabel *just_lable_online_status_req_mops_15;
+    QLabel *just_lable_online_status_ans_mops_3;
+    QLabel *just_lable_norm_4;
+    QWidget *verticalLayoutWidget_19;
+    QVBoxLayout *verticalLayout_46;
+    QHBoxLayout *horizontalLayout_80;
+    QLabel *just_lable_status_28;
+    QSpacerItem *horizontalSpacer_59;
+    QLabel *label_222;
+    QLabel *label_223;
+    QLabel *label_224;
+    QLabel *label_225;
+    QLabel *label_226;
+    QLabel *label_227;
+    QLabel *label_228;
+    QLabel *label_229;
+    QHBoxLayout *horizontalLayout_81;
+    QLabel *just_lable_error_28;
+    QSpacerItem *horizontalSpacer_60;
+    QLabel *lable_break_mops_3_ch_1;
+    QLabel *lable_break_mops_3_ch_2;
+    QLabel *lable_break_mops_3_ch_3;
+    QLabel *lable_break_mops_3_ch_4;
+    QLabel *lable_break_mops_3_ch_5;
+    QLabel *lable_break_mops_3_ch_6;
+    QLabel *lable_break_mops_3_ch_7;
+    QLabel *lable_break_mops_3_ch_8;
+    QWidget *verticalLayoutWidget_20;
+    QVBoxLayout *verticalLayout_47;
+    QHBoxLayout *horizontalLayout_82;
+    QLabel *just_lable_status_29;
+    QSpacerItem *horizontalSpacer_61;
+    QLabel *label_230;
+    QLabel *label_231;
+    QLabel *label_232;
+    QLabel *label_233;
+    QLabel *label_234;
+    QLabel *label_235;
+    QLabel *label_236;
+    QLabel *label_237;
+    QHBoxLayout *horizontalLayout_83;
+    QLabel *just_lable_error_29;
+    QSpacerItem *horizontalSpacer_62;
+    QLabel *lable_break_mops_3_sc_1;
+    QLabel *lable_break_mops_3_sc_2;
+    QLabel *lable_break_mops_3_sc_3;
+    QLabel *lable_break_mops_3_sc_4;
+    QLabel *lable_break_mops_3_sc_5;
+    QLabel *lable_break_mops_3_sc_6;
+    QLabel *lable_break_mops_3_sc_7;
+    QLabel *lable_break_mops_3_sc_8;
+    QLabel *just_lable_break_12;
+    QWidget *verticalLayoutWidget_21;
+    QVBoxLayout *verticalLayout_48;
+    QHBoxLayout *horizontalLayout_84;
+    QLabel *just_lable_status_30;
+    QSpacerItem *horizontalSpacer_63;
+    QLabel *label_238;
+    QLabel *label_239;
+    QLabel *label_240;
+    QLabel *label_241;
+    QLabel *label_242;
+    QLabel *label_243;
+    QLabel *label_244;
+    QLabel *label_245;
+    QHBoxLayout *horizontalLayout_85;
+    QLabel *just_lable_error_30;
+    QSpacerItem *horizontalSpacer_64;
+    QLabel *lable_norm_mops_3_ch_1;
+    QLabel *lable_norm_mops_3_ch_2;
+    QLabel *lable_norm_mops_3_ch_3;
+    QLabel *lable_norm_mops_3_ch_4;
+    QLabel *lable_norm_mops_3_ch_5;
+    QLabel *lable_norm_mops_3_ch_6;
+    QLabel *lable_norm_mops_3_ch_7;
+    QLabel *lable_norm_mops_3_ch_8;
+    QLabel *just_lable_break_13;
+    QLabel *just_lable_status_ch_6;
+    QWidget *verticalLayoutWidget_22;
+    QVBoxLayout *verticalLayout_49;
+    QHBoxLayout *horizontalLayout_86;
+    QLabel *just_lable_status_31;
+    QSpacerItem *horizontalSpacer_65;
+    QLabel *label_246;
+    QLabel *label_247;
+    QLabel *label_248;
+    QLabel *label_249;
+    QLabel *label_250;
+    QLabel *label_251;
+    QLabel *label_252;
+    QLabel *label_253;
+    QHBoxLayout *horizontalLayout_87;
+    QLabel *just_lable_error_31;
+    QSpacerItem *horizontalSpacer_66;
+    QLabel *lable_fire_mops_3_ch_1;
+    QLabel *lable_fire_mops_3_ch_2;
+    QLabel *lable_fire_mops_3_ch_3;
+    QLabel *lable_fire_mops_3_ch_4;
+    QLabel *lable_fire_mops_3_ch_5;
+    QLabel *lable_fire_mops_3_ch_6;
+    QLabel *lable_fire_mops_3_ch_7;
+    QLabel *lable_fire_mops_3_ch_8;
+    QLabel *just_lable_break_14;
+    QLabel *just_lable_attantion_7;
+    QWidget *verticalLayoutWidget_23;
+    QVBoxLayout *verticalLayout_50;
+    QHBoxLayout *horizontalLayout_88;
+    QLabel *just_lable_status_32;
+    QSpacerItem *horizontalSpacer_67;
+    QLabel *label_254;
+    QLabel *label_255;
+    QLabel *label_256;
+    QLabel *label_257;
+    QLabel *label_258;
+    QLabel *label_259;
+    QLabel *label_260;
+    QLabel *label_261;
+    QHBoxLayout *horizontalLayout_89;
+    QLabel *just_lable_error_32;
+    QSpacerItem *horizontalSpacer_68;
+    QLabel *lable_attantion_mops_3_ch_1;
+    QLabel *lable_attantion_mops_3_ch_2;
+    QLabel *lable_attantion_mops_3_ch_3;
+    QLabel *lable_attantion_mops_3_ch_4;
+    QLabel *lable_attantion_mops_3_ch_5;
+    QLabel *lable_attantion_mops_3_ch_6;
+    QLabel *lable_attantion_mops_3_ch_7;
+    QLabel *lable_attantion_mops_3_ch_8;
+    QWidget *layoutWidget_13;
+    QVBoxLayout *verticalLayout_51;
+    QLabel *just_lable_supply_err_6;
+    QHBoxLayout *horizontalLayout_90;
+    QVBoxLayout *verticalLayout_52;
+    QLabel *just_lable_18v_6;
+    QLabel *just_lable_24v_6;
+    QLabel *just_lable_28v_6;
+    QVBoxLayout *verticalLayout_53;
+    QLabel *lable_18v_ans_mops_3;
+    QLabel *lable_24v_ans_mops_3;
+    QLabel *lable_28v_ans_mops_3;
+    QWidget *layoutWidget_14;
+    QHBoxLayout *horizontalLayout_91;
+    QLabel *just_lable_online_status_req_mops_16;
+    QLabel *just_lable_oper_status_ans_mops_3;
     QWidget *mops_4;
+    QWidget *layoutWidget_15;
+    QHBoxLayout *horizontalLayout_92;
+    QLabel *just_lable_online_status_req_mops_17;
+    QLabel *just_lable_online_status_ans_mops_4;
+    QLabel *just_lable_norm_5;
+    QWidget *verticalLayoutWidget_24;
+    QVBoxLayout *verticalLayout_54;
+    QHBoxLayout *horizontalLayout_93;
+    QLabel *just_lable_status_33;
+    QSpacerItem *horizontalSpacer_69;
+    QLabel *label_262;
+    QLabel *label_263;
+    QLabel *label_264;
+    QLabel *label_265;
+    QLabel *label_266;
+    QLabel *label_267;
+    QLabel *label_268;
+    QLabel *label_269;
+    QHBoxLayout *horizontalLayout_94;
+    QLabel *just_lable_error_33;
+    QSpacerItem *horizontalSpacer_70;
+    QLabel *lable_break_mops_4_ch_1;
+    QLabel *lable_break_mops_4_ch_2;
+    QLabel *lable_break_mops_4_ch_3;
+    QLabel *lable_break_mops_4_ch_4;
+    QLabel *lable_break_mops_4_ch_5;
+    QLabel *lable_break_mops_4_ch_6;
+    QLabel *lable_break_mops_4_ch_7;
+    QLabel *lable_break_mops_4_ch_8;
+    QWidget *verticalLayoutWidget_25;
+    QVBoxLayout *verticalLayout_55;
+    QHBoxLayout *horizontalLayout_95;
+    QLabel *just_lable_status_34;
+    QSpacerItem *horizontalSpacer_71;
+    QLabel *label_270;
+    QLabel *label_271;
+    QLabel *label_272;
+    QLabel *label_273;
+    QLabel *label_274;
+    QLabel *label_275;
+    QLabel *label_276;
+    QLabel *label_277;
+    QHBoxLayout *horizontalLayout_96;
+    QLabel *just_lable_error_34;
+    QSpacerItem *horizontalSpacer_72;
+    QLabel *lable_break_mops_4_sc_1;
+    QLabel *lable_break_mops_4_sc_2;
+    QLabel *lable_break_mops_4_sc_3;
+    QLabel *lable_break_mops_4_sc_4;
+    QLabel *lable_break_mops_4_sc_5;
+    QLabel *lable_break_mops_4_sc_6;
+    QLabel *lable_break_mops_4_sc_7;
+    QLabel *lable_break_mops_4_sc_8;
+    QLabel *just_lable_break_15;
+    QWidget *verticalLayoutWidget_26;
+    QVBoxLayout *verticalLayout_56;
+    QHBoxLayout *horizontalLayout_97;
+    QLabel *just_lable_status_35;
+    QSpacerItem *horizontalSpacer_73;
+    QLabel *label_278;
+    QLabel *label_279;
+    QLabel *label_280;
+    QLabel *label_281;
+    QLabel *label_282;
+    QLabel *label_283;
+    QLabel *label_284;
+    QLabel *label_285;
+    QHBoxLayout *horizontalLayout_98;
+    QLabel *just_lable_error_35;
+    QSpacerItem *horizontalSpacer_74;
+    QLabel *lable_norm_mops_4_ch_1;
+    QLabel *lable_norm_mops_4_ch_2;
+    QLabel *lable_norm_mops_4_ch_3;
+    QLabel *lable_norm_mops_4_ch_4;
+    QLabel *lable_norm_mops_4_ch_5;
+    QLabel *lable_norm_mops_4_ch_6;
+    QLabel *lable_norm_mops_4_ch_7;
+    QLabel *lable_norm_mops_4_ch_8;
+    QLabel *just_lable_break_16;
+    QLabel *just_lable_status_ch_7;
+    QWidget *verticalLayoutWidget_27;
+    QVBoxLayout *verticalLayout_57;
+    QHBoxLayout *horizontalLayout_99;
+    QLabel *just_lable_status_36;
+    QSpacerItem *horizontalSpacer_75;
+    QLabel *label_286;
+    QLabel *label_287;
+    QLabel *label_288;
+    QLabel *label_289;
+    QLabel *label_290;
+    QLabel *label_291;
+    QLabel *label_292;
+    QLabel *label_293;
+    QHBoxLayout *horizontalLayout_100;
+    QLabel *just_lable_error_36;
+    QSpacerItem *horizontalSpacer_76;
+    QLabel *lable_fire_mops_4_ch_1;
+    QLabel *lable_fire_mops_4_ch_2;
+    QLabel *lable_fire_mops_4_ch_3;
+    QLabel *lable_fire_mops_4_ch_4;
+    QLabel *lable_fire_mops_4_ch_5;
+    QLabel *lable_fire_mops_4_ch_6;
+    QLabel *lable_fire_mops_4_ch_7;
+    QLabel *lable_fire_mops_4_ch_8;
+    QLabel *just_lable_break_17;
+    QLabel *just_lable_attantion_8;
+    QWidget *verticalLayoutWidget_28;
+    QVBoxLayout *verticalLayout_58;
+    QHBoxLayout *horizontalLayout_101;
+    QLabel *just_lable_status_37;
+    QSpacerItem *horizontalSpacer_77;
+    QLabel *label_294;
+    QLabel *label_295;
+    QLabel *label_296;
+    QLabel *label_297;
+    QLabel *label_298;
+    QLabel *label_299;
+    QLabel *label_300;
+    QLabel *label_301;
+    QHBoxLayout *horizontalLayout_102;
+    QLabel *just_lable_error_37;
+    QSpacerItem *horizontalSpacer_78;
+    QLabel *lable_attantion_mops_4_ch_1;
+    QLabel *lable_attantion_mops_4_ch_2;
+    QLabel *lable_attantion_mops_4_ch_3;
+    QLabel *lable_attantion_mops_4_ch_4;
+    QLabel *lable_attantion_mops_4_ch_5;
+    QLabel *lable_attantion_mops_4_ch_6;
+    QLabel *lable_attantion_mops_4_ch_7;
+    QLabel *lable_attantion_mops_4_ch_8;
+    QWidget *layoutWidget_16;
+    QVBoxLayout *verticalLayout_59;
+    QLabel *just_lable_supply_err_7;
+    QHBoxLayout *horizontalLayout_103;
+    QVBoxLayout *verticalLayout_60;
+    QLabel *just_lable_18v_7;
+    QLabel *just_lable_24v_7;
+    QLabel *just_lable_28v_7;
+    QVBoxLayout *verticalLayout_61;
+    QLabel *lable_18v_ans_mops_4;
+    QLabel *lable_24v_ans_mops_4;
+    QLabel *lable_28v_ans_mops_4;
+    QWidget *layoutWidget_17;
+    QHBoxLayout *horizontalLayout_104;
+    QLabel *just_lable_online_status_req_mops_18;
+    QLabel *just_lable_oper_status_ans_mops_4;
     QWidget *mops_5;
+    QWidget *layoutWidget_18;
+    QHBoxLayout *horizontalLayout_105;
+    QLabel *just_lable_online_status_req_mops_19;
+    QLabel *just_lable_online_status_ans_mops_5;
+    QLabel *just_lable_norm_6;
+    QWidget *verticalLayoutWidget_29;
+    QVBoxLayout *verticalLayout_62;
+    QHBoxLayout *horizontalLayout_106;
+    QLabel *just_lable_status_38;
+    QSpacerItem *horizontalSpacer_79;
+    QLabel *label_302;
+    QLabel *label_303;
+    QLabel *label_304;
+    QLabel *label_305;
+    QLabel *label_306;
+    QLabel *label_307;
+    QLabel *label_308;
+    QLabel *label_309;
+    QHBoxLayout *horizontalLayout_107;
+    QLabel *just_lable_error_38;
+    QSpacerItem *horizontalSpacer_80;
+    QLabel *lable_break_mops_5_ch_1;
+    QLabel *lable_break_mops_5_ch_2;
+    QLabel *lable_break_mops_5_ch_3;
+    QLabel *lable_break_mops_5_ch_4;
+    QLabel *lable_break_mops_5_ch_5;
+    QLabel *lable_break_mops_5_ch_6;
+    QLabel *lable_break_mops_5_ch_7;
+    QLabel *lable_break_mops_5_ch_8;
+    QWidget *verticalLayoutWidget_30;
+    QVBoxLayout *verticalLayout_63;
+    QHBoxLayout *horizontalLayout_108;
+    QLabel *just_lable_status_39;
+    QSpacerItem *horizontalSpacer_81;
+    QLabel *label_310;
+    QLabel *label_311;
+    QLabel *label_312;
+    QLabel *label_313;
+    QLabel *label_314;
+    QLabel *label_315;
+    QLabel *label_316;
+    QLabel *label_317;
+    QHBoxLayout *horizontalLayout_109;
+    QLabel *just_lable_error_39;
+    QSpacerItem *horizontalSpacer_82;
+    QLabel *lable_break_mops_5_sc_1;
+    QLabel *lable_break_mops_5_sc_2;
+    QLabel *lable_break_mops_5_sc_3;
+    QLabel *lable_break_mops_5_sc_4;
+    QLabel *lable_break_mops_5_sc_5;
+    QLabel *lable_break_mops_5_sc_6;
+    QLabel *lable_break_mops_5_sc_7;
+    QLabel *lable_break_mops_5_sc_8;
+    QLabel *just_lable_break_18;
+    QWidget *verticalLayoutWidget_31;
+    QVBoxLayout *verticalLayout_64;
+    QHBoxLayout *horizontalLayout_110;
+    QLabel *just_lable_status_40;
+    QSpacerItem *horizontalSpacer_83;
+    QLabel *label_318;
+    QLabel *label_319;
+    QLabel *label_320;
+    QLabel *label_321;
+    QLabel *label_322;
+    QLabel *label_323;
+    QLabel *label_324;
+    QLabel *label_325;
+    QHBoxLayout *horizontalLayout_111;
+    QLabel *just_lable_error_40;
+    QSpacerItem *horizontalSpacer_84;
+    QLabel *lable_norm_mops_5_ch_1;
+    QLabel *lable_norm_mops_5_ch_2;
+    QLabel *lable_norm_mops_5_ch_3;
+    QLabel *lable_norm_mops_5_ch_4;
+    QLabel *lable_norm_mops_5_ch_5;
+    QLabel *lable_norm_mops_5_ch_6;
+    QLabel *lable_norm_mops_5_ch_7;
+    QLabel *lable_norm_mops_5_ch_8;
+    QLabel *just_lable_break_19;
+    QLabel *just_lable_status_ch_8;
+    QWidget *verticalLayoutWidget_32;
+    QVBoxLayout *verticalLayout_65;
+    QHBoxLayout *horizontalLayout_112;
+    QLabel *just_lable_status_41;
+    QSpacerItem *horizontalSpacer_85;
+    QLabel *label_326;
+    QLabel *label_327;
+    QLabel *label_328;
+    QLabel *label_329;
+    QLabel *label_330;
+    QLabel *label_331;
+    QLabel *label_332;
+    QLabel *label_333;
+    QHBoxLayout *horizontalLayout_113;
+    QLabel *just_lable_error_41;
+    QSpacerItem *horizontalSpacer_86;
+    QLabel *lable_fire_mops_5_ch_1;
+    QLabel *lable_fire_mops_5_ch_2;
+    QLabel *lable_fire_mops_5_ch_3;
+    QLabel *lable_fire_mops_5_ch_4;
+    QLabel *lable_fire_mops_5_ch_5;
+    QLabel *lable_fire_mops_5_ch_6;
+    QLabel *lable_fire_mops_5_ch_7;
+    QLabel *lable_fire_mops_5_ch_8;
+    QLabel *just_lable_break_20;
+    QLabel *just_lable_attantion_9;
+    QWidget *verticalLayoutWidget_33;
+    QVBoxLayout *verticalLayout_66;
+    QHBoxLayout *horizontalLayout_114;
+    QLabel *just_lable_status_42;
+    QSpacerItem *horizontalSpacer_87;
+    QLabel *label_334;
+    QLabel *label_335;
+    QLabel *label_336;
+    QLabel *label_337;
+    QLabel *label_338;
+    QLabel *label_339;
+    QLabel *label_340;
+    QLabel *label_341;
+    QHBoxLayout *horizontalLayout_115;
+    QLabel *just_lable_error_42;
+    QSpacerItem *horizontalSpacer_88;
+    QLabel *lable_attantion_mops_5_ch_1;
+    QLabel *lable_attantion_mops_5_ch_2;
+    QLabel *lable_attantion_mops_5_ch_3;
+    QLabel *lable_attantion_mops_5_ch_4;
+    QLabel *lable_attantion_mops_5_ch_5;
+    QLabel *lable_attantion_mops_5_ch_6;
+    QLabel *lable_attantion_mops_5_ch_7;
+    QLabel *lable_attantion_mops_5_ch_8;
+    QWidget *layoutWidget_19;
+    QVBoxLayout *verticalLayout_67;
+    QLabel *just_lable_supply_err_8;
+    QHBoxLayout *horizontalLayout_116;
+    QVBoxLayout *verticalLayout_68;
+    QLabel *just_lable_18v_8;
+    QLabel *just_lable_24v_8;
+    QLabel *just_lable_28v_8;
+    QVBoxLayout *verticalLayout_69;
+    QLabel *lable_18v_ans_mops_5;
+    QLabel *lable_24v_ans_mops_5;
+    QLabel *lable_28v_ans_mops_5;
+    QWidget *layoutWidget_20;
+    QHBoxLayout *horizontalLayout_117;
+    QLabel *just_lable_online_status_req_mops_20;
+    QLabel *just_lable_oper_status_ans_mops_5;
     QWidget *mops_6;
+    QWidget *layoutWidget_21;
+    QHBoxLayout *horizontalLayout_118;
+    QLabel *just_lable_online_status_req_mops_21;
+    QLabel *just_lable_online_status_ans_mops_6;
+    QLabel *just_lable_norm_7;
+    QWidget *verticalLayoutWidget_34;
+    QVBoxLayout *verticalLayout_70;
+    QHBoxLayout *horizontalLayout_119;
+    QLabel *just_lable_status_43;
+    QSpacerItem *horizontalSpacer_89;
+    QLabel *label_342;
+    QLabel *label_343;
+    QLabel *label_344;
+    QLabel *label_345;
+    QLabel *label_346;
+    QLabel *label_347;
+    QLabel *label_348;
+    QLabel *label_349;
+    QHBoxLayout *horizontalLayout_120;
+    QLabel *just_lable_error_43;
+    QSpacerItem *horizontalSpacer_90;
+    QLabel *lable_break_mops_6_ch_1;
+    QLabel *lable_break_mops_6_ch_2;
+    QLabel *lable_break_mops_6_ch_3;
+    QLabel *lable_break_mops_6_ch_4;
+    QLabel *lable_break_mops_6_ch_5;
+    QLabel *lable_break_mops_6_ch_6;
+    QLabel *lable_break_mops_6_ch_7;
+    QLabel *lable_break_mops_6_ch_8;
+    QWidget *verticalLayoutWidget_35;
+    QVBoxLayout *verticalLayout_71;
+    QHBoxLayout *horizontalLayout_121;
+    QLabel *just_lable_status_44;
+    QSpacerItem *horizontalSpacer_91;
+    QLabel *label_350;
+    QLabel *label_351;
+    QLabel *label_352;
+    QLabel *label_353;
+    QLabel *label_354;
+    QLabel *label_355;
+    QLabel *label_356;
+    QLabel *label_357;
+    QHBoxLayout *horizontalLayout_122;
+    QLabel *just_lable_error_44;
+    QSpacerItem *horizontalSpacer_92;
+    QLabel *lable_break_mops_6_sc_1;
+    QLabel *lable_break_mops_6_sc_2;
+    QLabel *lable_break_mops_6_sc_3;
+    QLabel *lable_break_mops_6_sc_4;
+    QLabel *lable_break_mops_6_sc_5;
+    QLabel *lable_break_mops_6_sc_6;
+    QLabel *lable_break_mops_6_sc_7;
+    QLabel *lable_break_mops_6_sc_8;
+    QLabel *just_lable_break_21;
+    QWidget *verticalLayoutWidget_36;
+    QVBoxLayout *verticalLayout_72;
+    QHBoxLayout *horizontalLayout_123;
+    QLabel *just_lable_status_45;
+    QSpacerItem *horizontalSpacer_93;
+    QLabel *label_358;
+    QLabel *label_359;
+    QLabel *label_360;
+    QLabel *label_361;
+    QLabel *label_362;
+    QLabel *label_363;
+    QLabel *label_364;
+    QLabel *label_365;
+    QHBoxLayout *horizontalLayout_124;
+    QLabel *just_lable_error_45;
+    QSpacerItem *horizontalSpacer_94;
+    QLabel *lable_norm_mops_6_ch_1;
+    QLabel *lable_norm_mops_6_ch_2;
+    QLabel *lable_norm_mops_6_ch_3;
+    QLabel *lable_norm_mops_6_ch_4;
+    QLabel *lable_norm_mops_6_ch_5;
+    QLabel *lable_norm_mops_6_ch_6;
+    QLabel *lable_norm_mops_6_ch_7;
+    QLabel *lable_norm_mops_6_ch_8;
+    QLabel *just_lable_break_22;
+    QLabel *just_lable_status_ch_9;
+    QWidget *verticalLayoutWidget_37;
+    QVBoxLayout *verticalLayout_73;
+    QHBoxLayout *horizontalLayout_125;
+    QLabel *just_lable_status_46;
+    QSpacerItem *horizontalSpacer_95;
+    QLabel *label_366;
+    QLabel *label_367;
+    QLabel *label_368;
+    QLabel *label_369;
+    QLabel *label_370;
+    QLabel *label_371;
+    QLabel *label_372;
+    QLabel *label_373;
+    QHBoxLayout *horizontalLayout_126;
+    QLabel *just_lable_error_46;
+    QSpacerItem *horizontalSpacer_96;
+    QLabel *lable_fire_mops_6_ch_1;
+    QLabel *lable_fire_mops_6_ch_2;
+    QLabel *lable_fire_mops_6_ch_3;
+    QLabel *lable_fire_mops_6_ch_4;
+    QLabel *lable_fire_mops_6_ch_5;
+    QLabel *lable_fire_mops_6_ch_6;
+    QLabel *lable_fire_mops_6_ch_7;
+    QLabel *lable_fire_mops_6_ch_8;
+    QLabel *just_lable_break_23;
+    QLabel *just_lable_attantion_10;
+    QWidget *verticalLayoutWidget_38;
+    QVBoxLayout *verticalLayout_74;
+    QHBoxLayout *horizontalLayout_127;
+    QLabel *just_lable_status_47;
+    QSpacerItem *horizontalSpacer_97;
+    QLabel *label_374;
+    QLabel *label_375;
+    QLabel *label_376;
+    QLabel *label_377;
+    QLabel *label_378;
+    QLabel *label_379;
+    QLabel *label_380;
+    QLabel *label_381;
+    QHBoxLayout *horizontalLayout_128;
+    QLabel *just_lable_error_47;
+    QSpacerItem *horizontalSpacer_98;
+    QLabel *lable_attantion_mops_6_ch_1;
+    QLabel *lable_attantion_mops_6_ch_2;
+    QLabel *lable_attantion_mops_6_ch_3;
+    QLabel *lable_attantion_mops_6_ch_4;
+    QLabel *lable_attantion_mops_6_ch_5;
+    QLabel *lable_attantion_mops_6_ch_6;
+    QLabel *lable_attantion_mops_6_ch_7;
+    QLabel *lable_attantion_mops_6_ch_8;
+    QWidget *layoutWidget_22;
+    QVBoxLayout *verticalLayout_75;
+    QLabel *just_lable_supply_err_9;
+    QHBoxLayout *horizontalLayout_129;
+    QVBoxLayout *verticalLayout_76;
+    QLabel *just_lable_18v_9;
+    QLabel *just_lable_24v_9;
+    QLabel *just_lable_28v_9;
+    QVBoxLayout *verticalLayout_77;
+    QLabel *lable_18v_ans_mops_6;
+    QLabel *lable_24v_ans_mops_6;
+    QLabel *lable_28v_ans_mops_6;
+    QWidget *layoutWidget_23;
+    QHBoxLayout *horizontalLayout_130;
+    QLabel *just_lable_online_status_req_mops_22;
+    QLabel *just_lable_oper_status_ans_mops_6;
     QWidget *mops_7;
+    QWidget *layoutWidget_24;
+    QHBoxLayout *horizontalLayout_131;
+    QLabel *just_lable_online_status_req_mops_23;
+    QLabel *just_lable_online_status_ans_mops_7;
+    QLabel *just_lable_norm_8;
+    QWidget *verticalLayoutWidget_39;
+    QVBoxLayout *verticalLayout_78;
+    QHBoxLayout *horizontalLayout_132;
+    QLabel *just_lable_status_48;
+    QSpacerItem *horizontalSpacer_99;
+    QLabel *label_382;
+    QLabel *label_383;
+    QLabel *label_384;
+    QLabel *label_385;
+    QLabel *label_386;
+    QLabel *label_387;
+    QLabel *label_388;
+    QLabel *label_389;
+    QHBoxLayout *horizontalLayout_133;
+    QLabel *just_lable_error_48;
+    QSpacerItem *horizontalSpacer_100;
+    QLabel *lable_break_mops_7_ch_1;
+    QLabel *lable_break_mops_7_ch_2;
+    QLabel *lable_break_mops_7_ch_3;
+    QLabel *lable_break_mops_7_ch_4;
+    QLabel *lable_break_mops_7_ch_5;
+    QLabel *lable_break_mops_7_ch_6;
+    QLabel *lable_break_mops_7_ch_7;
+    QLabel *lable_break_mops_7_ch_8;
+    QWidget *verticalLayoutWidget_40;
+    QVBoxLayout *verticalLayout_79;
+    QHBoxLayout *horizontalLayout_134;
+    QLabel *just_lable_status_49;
+    QSpacerItem *horizontalSpacer_101;
+    QLabel *label_390;
+    QLabel *label_391;
+    QLabel *label_392;
+    QLabel *label_393;
+    QLabel *label_394;
+    QLabel *label_395;
+    QLabel *label_396;
+    QLabel *label_397;
+    QHBoxLayout *horizontalLayout_135;
+    QLabel *just_lable_error_49;
+    QSpacerItem *horizontalSpacer_102;
+    QLabel *lable_break_mops_7_sc_1;
+    QLabel *lable_break_mops_7_sc_2;
+    QLabel *lable_break_mops_7_sc_3;
+    QLabel *lable_break_mops_7_sc_4;
+    QLabel *lable_break_mops_7_sc_5;
+    QLabel *lable_break_mops_7_sc_6;
+    QLabel *lable_break_mops_7_sc_7;
+    QLabel *lable_break_mops_7_sc_8;
+    QLabel *just_lable_break_24;
+    QWidget *verticalLayoutWidget_41;
+    QVBoxLayout *verticalLayout_80;
+    QHBoxLayout *horizontalLayout_136;
+    QLabel *just_lable_status_50;
+    QSpacerItem *horizontalSpacer_103;
+    QLabel *label_398;
+    QLabel *label_399;
+    QLabel *label_400;
+    QLabel *label_401;
+    QLabel *label_402;
+    QLabel *label_403;
+    QLabel *label_404;
+    QLabel *label_405;
+    QHBoxLayout *horizontalLayout_137;
+    QLabel *just_lable_error_50;
+    QSpacerItem *horizontalSpacer_104;
+    QLabel *lable_norm_mops_7_ch_1;
+    QLabel *lable_norm_mops_7_ch_2;
+    QLabel *lable_norm_mops_7_ch_3;
+    QLabel *lable_norm_mops_7_ch_4;
+    QLabel *lable_norm_mops_7_ch_5;
+    QLabel *lable_norm_mops_7_ch_6;
+    QLabel *lable_norm_mops_7_ch_7;
+    QLabel *lable_norm_mops_7_ch_8;
+    QLabel *just_lable_break_25;
+    QLabel *just_lable_status_ch_10;
+    QWidget *verticalLayoutWidget_42;
+    QVBoxLayout *verticalLayout_81;
+    QHBoxLayout *horizontalLayout_138;
+    QLabel *just_lable_status_51;
+    QSpacerItem *horizontalSpacer_105;
+    QLabel *label_406;
+    QLabel *label_407;
+    QLabel *label_408;
+    QLabel *label_409;
+    QLabel *label_410;
+    QLabel *label_411;
+    QLabel *label_412;
+    QLabel *label_413;
+    QHBoxLayout *horizontalLayout_139;
+    QLabel *just_lable_error_51;
+    QSpacerItem *horizontalSpacer_106;
+    QLabel *lable_fire_mops_7_ch_1;
+    QLabel *lable_fire_mops_7_ch_2;
+    QLabel *lable_fire_mops_7_ch_3;
+    QLabel *lable_fire_mops_7_ch_4;
+    QLabel *lable_fire_mops_7_ch_5;
+    QLabel *lable_fire_mops_7_ch_6;
+    QLabel *lable_fire_mops_7_ch_7;
+    QLabel *lable_fire_mops_7_ch_8;
+    QLabel *just_lable_break_26;
+    QLabel *just_lable_attantion_11;
+    QWidget *verticalLayoutWidget_43;
+    QVBoxLayout *verticalLayout_82;
+    QHBoxLayout *horizontalLayout_140;
+    QLabel *just_lable_status_52;
+    QSpacerItem *horizontalSpacer_107;
+    QLabel *label_414;
+    QLabel *label_415;
+    QLabel *label_416;
+    QLabel *label_417;
+    QLabel *label_418;
+    QLabel *label_419;
+    QLabel *label_420;
+    QLabel *label_421;
+    QHBoxLayout *horizontalLayout_141;
+    QLabel *just_lable_error_52;
+    QSpacerItem *horizontalSpacer_108;
+    QLabel *lable_attantion_mops_7_ch_1;
+    QLabel *lable_attantion_mops_7_ch_2;
+    QLabel *lable_attantion_mops_7_ch_3;
+    QLabel *lable_attantion_mops_7_ch_4;
+    QLabel *lable_attantion_mops_7_ch_5;
+    QLabel *lable_attantion_mops_7_ch_6;
+    QLabel *lable_attantion_mops_7_ch_7;
+    QLabel *lable_attantion_mops_7_ch_8;
+    QWidget *layoutWidget_25;
+    QVBoxLayout *verticalLayout_83;
+    QLabel *just_lable_supply_err_10;
+    QHBoxLayout *horizontalLayout_142;
+    QVBoxLayout *verticalLayout_84;
+    QLabel *just_lable_18v_10;
+    QLabel *just_lable_24v_10;
+    QLabel *just_lable_28v_10;
+    QVBoxLayout *verticalLayout_85;
+    QLabel *lable_18v_ans_mops_7;
+    QLabel *lable_24v_ans_mops_7;
+    QLabel *lable_28v_ans_mops_7;
+    QWidget *layoutWidget_26;
+    QHBoxLayout *horizontalLayout_143;
+    QLabel *just_lable_online_status_req_mops_24;
+    QLabel *just_lable_oper_status_ans_mops_7;
     QWidget *mops_8;
+    QWidget *layoutWidget_29;
+    QHBoxLayout *horizontalLayout_156;
+    QLabel *just_lable_online_status_req_mops_26;
+    QLabel *just_lable_oper_status_ans_mops_8;
+    QWidget *verticalLayoutWidget_46;
+    QVBoxLayout *verticalLayout_88;
+    QHBoxLayout *horizontalLayout_149;
+    QLabel *just_lable_status_55;
+    QSpacerItem *horizontalSpacer_113;
+    QLabel *label_438;
+    QLabel *label_439;
+    QLabel *label_440;
+    QLabel *label_441;
+    QLabel *label_442;
+    QLabel *label_443;
+    QLabel *label_444;
+    QLabel *label_445;
+    QHBoxLayout *horizontalLayout_150;
+    QLabel *just_lable_error_55;
+    QSpacerItem *horizontalSpacer_114;
+    QLabel *lable_norm_mops_8_ch_1;
+    QLabel *lable_norm_mops_8_ch_2;
+    QLabel *lable_norm_mops_8_ch_3;
+    QLabel *lable_norm_mops_8_ch_4;
+    QLabel *lable_norm_mops_8_ch_5;
+    QLabel *lable_norm_mops_8_ch_6;
+    QLabel *lable_norm_mops_8_ch_7;
+    QLabel *lable_norm_mops_8_ch_8;
+    QLabel *just_lable_break_29;
+    QLabel *just_lable_break_27;
+    QWidget *verticalLayoutWidget_45;
+    QVBoxLayout *verticalLayout_87;
+    QHBoxLayout *horizontalLayout_147;
+    QLabel *just_lable_status_54;
+    QSpacerItem *horizontalSpacer_111;
+    QLabel *label_430;
+    QLabel *label_431;
+    QLabel *label_432;
+    QLabel *label_433;
+    QLabel *label_434;
+    QLabel *label_435;
+    QLabel *label_436;
+    QLabel *label_437;
+    QHBoxLayout *horizontalLayout_148;
+    QLabel *just_lable_error_54;
+    QSpacerItem *horizontalSpacer_112;
+    QLabel *lable_break_mops_8_sc_1;
+    QLabel *lable_break_mops_8_sc_2;
+    QLabel *lable_break_mops_8_sc_3;
+    QLabel *lable_break_mops_8_sc_4;
+    QLabel *lable_break_mops_8_sc_5;
+    QLabel *lable_break_mops_8_sc_6;
+    QLabel *lable_break_mops_8_sc_7;
+    QLabel *lable_break_mops_8_sc_8;
+    QWidget *layoutWidget_28;
+    QVBoxLayout *verticalLayout_91;
+    QLabel *just_lable_supply_err_11;
+    QHBoxLayout *horizontalLayout_155;
+    QVBoxLayout *verticalLayout_92;
+    QLabel *just_lable_18v_11;
+    QLabel *just_lable_24v_11;
+    QLabel *just_lable_28v_11;
+    QVBoxLayout *verticalLayout_93;
+    QLabel *lable_18v_ans_mops_8;
+    QLabel *lable_24v_ans_mops_8;
+    QLabel *lable_28v_ans_mops_8;
+    QWidget *layoutWidget_27;
+    QHBoxLayout *horizontalLayout_144;
+    QLabel *just_lable_online_status_req_mops_25;
+    QLabel *just_lable_online_status_ans_mops_8;
+    QWidget *verticalLayoutWidget_47;
+    QVBoxLayout *verticalLayout_89;
+    QHBoxLayout *horizontalLayout_151;
+    QLabel *just_lable_status_56;
+    QSpacerItem *horizontalSpacer_115;
+    QLabel *label_446;
+    QLabel *label_447;
+    QLabel *label_448;
+    QLabel *label_449;
+    QLabel *label_450;
+    QLabel *label_451;
+    QLabel *label_452;
+    QLabel *label_453;
+    QHBoxLayout *horizontalLayout_152;
+    QLabel *just_lable_error_56;
+    QSpacerItem *horizontalSpacer_116;
+    QLabel *lable_fire_mops_8_ch_1;
+    QLabel *lable_fire_mops_8_ch_2;
+    QLabel *lable_fire_mops_8_ch_3;
+    QLabel *lable_fire_mops_8_ch_4;
+    QLabel *lable_fire_mops_8_ch_5;
+    QLabel *lable_fire_mops_8_ch_6;
+    QLabel *lable_fire_mops_8_ch_7;
+    QLabel *lable_fire_mops_8_ch_8;
+    QWidget *verticalLayoutWidget_44;
+    QVBoxLayout *verticalLayout_86;
+    QHBoxLayout *horizontalLayout_145;
+    QLabel *just_lable_status_53;
+    QSpacerItem *horizontalSpacer_109;
+    QLabel *label_422;
+    QLabel *label_423;
+    QLabel *label_424;
+    QLabel *label_425;
+    QLabel *label_426;
+    QLabel *label_427;
+    QLabel *label_428;
+    QLabel *label_429;
+    QHBoxLayout *horizontalLayout_146;
+    QLabel *just_lable_error_53;
+    QSpacerItem *horizontalSpacer_110;
+    QLabel *lable_break_mops_8_ch_1;
+    QLabel *lable_break_mops_8_ch_2;
+    QLabel *lable_break_mops_8_ch_3;
+    QLabel *lable_break_mops_8_ch_4;
+    QLabel *lable_break_mops_8_ch_5;
+    QLabel *lable_break_mops_8_ch_6;
+    QLabel *lable_break_mops_8_ch_7;
+    QLabel *lable_break_mops_8_ch_8;
+    QLabel *just_lable_status_ch_11;
+    QLabel *just_lable_norm_9;
+    QLabel *just_lable_break_28;
+    QWidget *verticalLayoutWidget_48;
+    QVBoxLayout *verticalLayout_90;
+    QHBoxLayout *horizontalLayout_153;
+    QLabel *just_lable_status_57;
+    QSpacerItem *horizontalSpacer_117;
+    QLabel *label_454;
+    QLabel *label_455;
+    QLabel *label_456;
+    QLabel *label_457;
+    QLabel *label_458;
+    QLabel *label_459;
+    QLabel *label_460;
+    QLabel *label_461;
+    QHBoxLayout *horizontalLayout_154;
+    QLabel *just_lable_error_57;
+    QSpacerItem *horizontalSpacer_118;
+    QLabel *lable_attantion_mops_8_ch_1;
+    QLabel *lable_attantion_mops_8_ch_2;
+    QLabel *lable_attantion_mops_8_ch_3;
+    QLabel *lable_attantion_mops_8_ch_4;
+    QLabel *lable_attantion_mops_8_ch_5;
+    QLabel *lable_attantion_mops_8_ch_6;
+    QLabel *lable_attantion_mops_8_ch_7;
+    QLabel *lable_attantion_mops_8_ch_8;
+    QLabel *just_lable_attantion_12;
     QWidget *mops_9;
+    QWidget *layoutWidget_30;
+    QHBoxLayout *horizontalLayout_157;
+    QLabel *just_lable_online_status_req_mops_27;
+    QLabel *just_lable_online_status_ans_mops_9;
+    QLabel *just_lable_norm_10;
+    QWidget *verticalLayoutWidget_49;
+    QVBoxLayout *verticalLayout_94;
+    QHBoxLayout *horizontalLayout_158;
+    QLabel *just_lable_status_58;
+    QSpacerItem *horizontalSpacer_119;
+    QLabel *label_462;
+    QLabel *label_463;
+    QLabel *label_464;
+    QLabel *label_465;
+    QLabel *label_466;
+    QLabel *label_467;
+    QLabel *label_468;
+    QLabel *label_469;
+    QHBoxLayout *horizontalLayout_159;
+    QLabel *just_lable_error_58;
+    QSpacerItem *horizontalSpacer_120;
+    QLabel *lable_break_mops_9_ch_1;
+    QLabel *lable_break_mops_9_ch_2;
+    QLabel *lable_break_mops_9_ch_3;
+    QLabel *lable_break_mops_9_ch_4;
+    QLabel *lable_break_mops_9_ch_5;
+    QLabel *lable_break_mops_9_ch_6;
+    QLabel *lable_break_mops_9_ch_7;
+    QLabel *lable_break_mops_9_ch_8;
+    QWidget *verticalLayoutWidget_50;
+    QVBoxLayout *verticalLayout_95;
+    QHBoxLayout *horizontalLayout_160;
+    QLabel *just_lable_status_59;
+    QSpacerItem *horizontalSpacer_121;
+    QLabel *label_470;
+    QLabel *label_471;
+    QLabel *label_472;
+    QLabel *label_473;
+    QLabel *label_474;
+    QLabel *label_475;
+    QLabel *label_476;
+    QLabel *label_477;
+    QHBoxLayout *horizontalLayout_161;
+    QLabel *just_lable_error_59;
+    QSpacerItem *horizontalSpacer_122;
+    QLabel *lable_break_mops_9_sc_1;
+    QLabel *lable_break_mops_9_sc_2;
+    QLabel *lable_break_mops_9_sc_3;
+    QLabel *lable_break_mops_9_sc_4;
+    QLabel *lable_break_mops_9_sc_5;
+    QLabel *lable_break_mops_9_sc_6;
+    QLabel *lable_break_mops_9_sc_7;
+    QLabel *lable_break_mops_9_sc_8;
+    QLabel *just_lable_break_30;
+    QWidget *verticalLayoutWidget_51;
+    QVBoxLayout *verticalLayout_96;
+    QHBoxLayout *horizontalLayout_162;
+    QLabel *just_lable_status_60;
+    QSpacerItem *horizontalSpacer_123;
+    QLabel *label_478;
+    QLabel *label_479;
+    QLabel *label_480;
+    QLabel *label_481;
+    QLabel *label_482;
+    QLabel *label_483;
+    QLabel *label_484;
+    QLabel *label_485;
+    QHBoxLayout *horizontalLayout_163;
+    QLabel *just_lable_error_60;
+    QSpacerItem *horizontalSpacer_124;
+    QLabel *lable_norm_mops_9_ch_1;
+    QLabel *lable_norm_mops_9_ch_2;
+    QLabel *lable_norm_mops_9_ch_3;
+    QLabel *lable_norm_mops_9_ch_4;
+    QLabel *lable_norm_mops_9_ch_5;
+    QLabel *lable_norm_mops_9_ch_6;
+    QLabel *lable_norm_mops_9_ch_7;
+    QLabel *lable_norm_mops_9_ch_8;
+    QLabel *just_lable_break_31;
+    QLabel *just_lable_status_ch_12;
+    QWidget *verticalLayoutWidget_52;
+    QVBoxLayout *verticalLayout_97;
+    QHBoxLayout *horizontalLayout_164;
+    QLabel *just_lable_status_61;
+    QSpacerItem *horizontalSpacer_125;
+    QLabel *label_486;
+    QLabel *label_487;
+    QLabel *label_488;
+    QLabel *label_489;
+    QLabel *label_490;
+    QLabel *label_491;
+    QLabel *label_492;
+    QLabel *label_493;
+    QHBoxLayout *horizontalLayout_165;
+    QLabel *just_lable_error_61;
+    QSpacerItem *horizontalSpacer_126;
+    QLabel *lable_fire_mops_9_ch_1;
+    QLabel *lable_fire_mops_9_ch_2;
+    QLabel *lable_fire_mops_9_ch_3;
+    QLabel *lable_fire_mops_9_ch_4;
+    QLabel *lable_fire_mops_9_ch_5;
+    QLabel *lable_fire_mops_9_ch_6;
+    QLabel *lable_fire_mops_9_ch_7;
+    QLabel *lable_fire_mops_9_ch_8;
+    QLabel *just_lable_break_32;
+    QLabel *just_lable_attantion_13;
+    QWidget *verticalLayoutWidget_53;
+    QVBoxLayout *verticalLayout_98;
+    QHBoxLayout *horizontalLayout_166;
+    QLabel *just_lable_status_62;
+    QSpacerItem *horizontalSpacer_127;
+    QLabel *label_494;
+    QLabel *label_495;
+    QLabel *label_496;
+    QLabel *label_497;
+    QLabel *label_498;
+    QLabel *label_499;
+    QLabel *label_500;
+    QLabel *label_501;
+    QHBoxLayout *horizontalLayout_167;
+    QLabel *just_lable_error_62;
+    QSpacerItem *horizontalSpacer_128;
+    QLabel *lable_attantion_mops_9_ch_1;
+    QLabel *lable_attantion_mops_9_ch_2;
+    QLabel *lable_attantion_mops_9_ch_3;
+    QLabel *lable_attantion_mops_9_ch_4;
+    QLabel *lable_attantion_mops_9_ch_5;
+    QLabel *lable_attantion_mops_9_ch_6;
+    QLabel *lable_attantion_mops_9_ch_7;
+    QLabel *lable_attantion_mops_9_ch_8;
+    QWidget *layoutWidget_31;
+    QVBoxLayout *verticalLayout_99;
+    QLabel *just_lable_supply_err_12;
+    QHBoxLayout *horizontalLayout_168;
+    QVBoxLayout *verticalLayout_100;
+    QLabel *just_lable_18v_12;
+    QLabel *just_lable_24v_12;
+    QLabel *just_lable_28v_12;
+    QVBoxLayout *verticalLayout_101;
+    QLabel *lable_18v_ans_mops_9;
+    QLabel *lable_24v_ans_mops_9;
+    QLabel *lable_28v_ans_mops_9;
+    QWidget *layoutWidget_32;
+    QHBoxLayout *horizontalLayout_169;
+    QLabel *just_lable_online_status_req_mops_28;
+    QLabel *just_lable_oper_status_ans_mops_9;
     QWidget *mops_10;
+    QWidget *layoutWidget_33;
+    QHBoxLayout *horizontalLayout_170;
+    QLabel *just_lable_online_status_req_mops_29;
+    QLabel *just_lable_online_status_ans_mops_10;
+    QLabel *just_lable_norm_11;
+    QWidget *verticalLayoutWidget_54;
+    QVBoxLayout *verticalLayout_102;
+    QHBoxLayout *horizontalLayout_171;
+    QLabel *just_lable_status_63;
+    QSpacerItem *horizontalSpacer_129;
+    QLabel *label_502;
+    QLabel *label_503;
+    QLabel *label_504;
+    QLabel *label_505;
+    QLabel *label_506;
+    QLabel *label_507;
+    QLabel *label_508;
+    QLabel *label_509;
+    QHBoxLayout *horizontalLayout_172;
+    QLabel *just_lable_error_63;
+    QSpacerItem *horizontalSpacer_130;
+    QLabel *lable_break_mops_10_ch_1;
+    QLabel *lable_break_mops_10_ch_2;
+    QLabel *lable_break_mops_10_ch_3;
+    QLabel *lable_break_mops_10_ch_4;
+    QLabel *lable_break_mops_10_ch_5;
+    QLabel *lable_break_mops_10_ch_6;
+    QLabel *lable_break_mops_10_ch_7;
+    QLabel *lable_break_mops_10_ch_8;
+    QWidget *verticalLayoutWidget_55;
+    QVBoxLayout *verticalLayout_103;
+    QHBoxLayout *horizontalLayout_173;
+    QLabel *just_lable_status_64;
+    QSpacerItem *horizontalSpacer_131;
+    QLabel *label_510;
+    QLabel *label_511;
+    QLabel *label_512;
+    QLabel *label_513;
+    QLabel *label_514;
+    QLabel *label_515;
+    QLabel *label_516;
+    QLabel *label_517;
+    QHBoxLayout *horizontalLayout_174;
+    QLabel *just_lable_error_64;
+    QSpacerItem *horizontalSpacer_132;
+    QLabel *lable_break_mops_10_sc_1;
+    QLabel *lable_break_mops_10_sc_2;
+    QLabel *lable_break_mops_10_sc_3;
+    QLabel *lable_break_mops_10_sc_4;
+    QLabel *lable_break_mops_10_sc_5;
+    QLabel *lable_break_mops_10_sc_6;
+    QLabel *lable_break_mops_10_sc_7;
+    QLabel *lable_break_mops_10_sc_8;
+    QLabel *just_lable_break_33;
+    QWidget *verticalLayoutWidget_56;
+    QVBoxLayout *verticalLayout_104;
+    QHBoxLayout *horizontalLayout_175;
+    QLabel *just_lable_status_65;
+    QSpacerItem *horizontalSpacer_133;
+    QLabel *label_518;
+    QLabel *label_519;
+    QLabel *label_520;
+    QLabel *label_521;
+    QLabel *label_522;
+    QLabel *label_523;
+    QLabel *label_524;
+    QLabel *label_525;
+    QHBoxLayout *horizontalLayout_176;
+    QLabel *just_lable_error_65;
+    QSpacerItem *horizontalSpacer_134;
+    QLabel *lable_norm_mops_10_ch_1;
+    QLabel *lable_norm_mops_10_ch_2;
+    QLabel *lable_norm_mops_10_ch_3;
+    QLabel *lable_norm_mops_10_ch_4;
+    QLabel *lable_norm_mops_10_ch_5;
+    QLabel *lable_norm_mops_10_ch_6;
+    QLabel *lable_norm_mops_10_ch_7;
+    QLabel *lable_norm_mops_10_ch_8;
+    QLabel *just_lable_break_34;
+    QLabel *just_lable_status_ch_13;
+    QWidget *verticalLayoutWidget_57;
+    QVBoxLayout *verticalLayout_105;
+    QHBoxLayout *horizontalLayout_177;
+    QLabel *just_lable_status_66;
+    QSpacerItem *horizontalSpacer_135;
+    QLabel *label_526;
+    QLabel *label_527;
+    QLabel *label_528;
+    QLabel *label_529;
+    QLabel *label_530;
+    QLabel *label_531;
+    QLabel *label_532;
+    QLabel *label_533;
+    QHBoxLayout *horizontalLayout_178;
+    QLabel *just_lable_error_66;
+    QSpacerItem *horizontalSpacer_136;
+    QLabel *lable_fire_mops_10_ch_1;
+    QLabel *lable_fire_mops_10_ch_2;
+    QLabel *lable_fire_mops_10_ch_3;
+    QLabel *lable_fire_mops_10_ch_4;
+    QLabel *lable_fire_mops_10_ch_5;
+    QLabel *lable_fire_mops_10_ch_6;
+    QLabel *lable_fire_mops_10_ch_7;
+    QLabel *lable_fire_mops_10_ch_8;
+    QLabel *just_lable_break_35;
+    QLabel *just_lable_attantion_14;
+    QWidget *verticalLayoutWidget_58;
+    QVBoxLayout *verticalLayout_106;
+    QHBoxLayout *horizontalLayout_179;
+    QLabel *just_lable_status_67;
+    QSpacerItem *horizontalSpacer_137;
+    QLabel *label_534;
+    QLabel *label_535;
+    QLabel *label_536;
+    QLabel *label_537;
+    QLabel *label_538;
+    QLabel *label_539;
+    QLabel *label_540;
+    QLabel *label_541;
+    QHBoxLayout *horizontalLayout_180;
+    QLabel *just_lable_error_67;
+    QSpacerItem *horizontalSpacer_138;
+    QLabel *lable_attantion_mops_10_ch_1;
+    QLabel *lable_attantion_mops_10_ch_2;
+    QLabel *lable_attantion_mops_10_ch_3;
+    QLabel *lable_attantion_mops_10_ch_4;
+    QLabel *lable_attantion_mops_10_ch_5;
+    QLabel *lable_attantion_mops_10_ch_6;
+    QLabel *lable_attantion_mops_10_ch_7;
+    QLabel *lable_attantion_mops_10_ch_8;
+    QWidget *layoutWidget_34;
+    QVBoxLayout *verticalLayout_107;
+    QLabel *just_lable_supply_err_13;
+    QHBoxLayout *horizontalLayout_181;
+    QVBoxLayout *verticalLayout_108;
+    QLabel *just_lable_18v_13;
+    QLabel *just_lable_24v_13;
+    QLabel *just_lable_28v_13;
+    QVBoxLayout *verticalLayout_109;
+    QLabel *lable_18v_ans_mops_10;
+    QLabel *lable_24v_ans_mops_10;
+    QLabel *lable_28v_ans_mops_10;
+    QWidget *layoutWidget_35;
+    QHBoxLayout *horizontalLayout_182;
+    QLabel *just_lable_online_status_req_mops_30;
+    QLabel *just_lable_oper_status_ans_mops_10;
     QTabWidget *tab_widget_for_mups;
     QWidget *mups_1;
     QWidget *mups_2;
@@ -264,6 +1704,144 @@ public:
     QWidget *mups_8;
     QWidget *mups_9;
     QWidget *mups_10;
+    QWidget *verticalLayoutWidget_59;
+    QVBoxLayout *verticalLayout_22;
+    QHBoxLayout *horizontalLayout_40;
+    QLabel *just_lable_status_13;
+    QSpacerItem *horizontalSpacer_29;
+    QLabel *label_12;
+    QLabel *label_13;
+    QLabel *label_102;
+    QLabel *label_103;
+    QHBoxLayout *horizontalLayout_41;
+    QLabel *just_lable_error_13;
+    QSpacerItem *horizontalSpacer_30;
+    QLabel *lable_break_mops_1_ch_11;
+    QLabel *lable_break_mops_1_ch_12;
+    QLabel *lable_break_mops_1_ch_37;
+    QLabel *lable_break_mops_1_ch_38;
+    QWidget *verticalLayoutWidget_60;
+    QVBoxLayout *verticalLayout_23;
+    QHBoxLayout *horizontalLayout_42;
+    QLabel *just_lable_status_14;
+    QSpacerItem *horizontalSpacer_31;
+    QLabel *label_108;
+    QLabel *label_109;
+    QLabel *label_110;
+    QLabel *label_111;
+    QLabel *label_112;
+    QLabel *label_113;
+    QLabel *label_114;
+    QLabel *label_115;
+    QHBoxLayout *horizontalLayout_43;
+    QLabel *just_lable_error_14;
+    QSpacerItem *horizontalSpacer_32;
+    QLabel *lable_attantion_mops_1_ch_17;
+    QLabel *lable_attantion_mops_1_ch_18;
+    QLabel *lable_attantion_mops_1_ch_19;
+    QLabel *lable_attantion_mops_1_ch_20;
+    QLabel *lable_attantion_mops_1_ch_21;
+    QLabel *lable_attantion_mops_1_ch_22;
+    QLabel *lable_attantion_mops_1_ch_23;
+    QLabel *lable_attantion_mops_1_ch_24;
+    QLabel *just_lable_status_ch_14;
+    QWidget *layoutWidget_5;
+    QHBoxLayout *horizontalLayout_44;
+    QLabel *just_lable_online_status_req_mops_9;
+    QLabel *just_lable_oper_status_ans_mups_;
+    QLabel *just_lable_break_36;
+    QLabel *just_lable_break_37;
+    QLabel *just_lable_attantion_15;
+    QWidget *layoutWidget_36;
+    QHBoxLayout *horizontalLayout_45;
+    QLabel *just_lable_online_status_req_mops_10;
+    QLabel *just_lable_online_status_ans_mups_;
+    QWidget *verticalLayoutWidget_61;
+    QVBoxLayout *verticalLayout_24;
+    QHBoxLayout *horizontalLayout_46;
+    QLabel *just_lable_status_15;
+    QSpacerItem *horizontalSpacer_33;
+    QLabel *label_116;
+    QLabel *label_117;
+    QLabel *label_118;
+    QLabel *label_119;
+    QLabel *label_120;
+    QLabel *label_121;
+    QLabel *label_122;
+    QLabel *label_123;
+    QHBoxLayout *horizontalLayout_47;
+    QLabel *just_lable_error_15;
+    QSpacerItem *horizontalSpacer_34;
+    QLabel *lable_norm_mops_1_ch_17;
+    QLabel *lable_norm_mops_1_ch_18;
+    QLabel *lable_norm_mops_1_ch_19;
+    QLabel *lable_norm_mops_1_ch_20;
+    QLabel *lable_norm_mops_1_ch_21;
+    QLabel *lable_norm_mops_1_ch_22;
+    QLabel *lable_norm_mops_1_ch_23;
+    QLabel *lable_norm_mops_1_ch_24;
+    QWidget *layoutWidget_37;
+    QVBoxLayout *verticalLayout_25;
+    QLabel *just_lable_supply_err_3;
+    QHBoxLayout *horizontalLayout_48;
+    QVBoxLayout *verticalLayout_26;
+    QLabel *just_lable_18v_3;
+    QLabel *just_lable_24v_3;
+    QLabel *just_lable_28v_3;
+    QVBoxLayout *verticalLayout_27;
+    QLabel *lable_18v_ans_mups_;
+    QLabel *lable_24v_ans_mups_;
+    QLabel *lable_28v_ans_mups_;
+    QWidget *verticalLayoutWidget_62;
+    QVBoxLayout *verticalLayout_28;
+    QHBoxLayout *horizontalLayout_49;
+    QLabel *just_lable_status_16;
+    QSpacerItem *horizontalSpacer_35;
+    QLabel *label_124;
+    QLabel *label_125;
+    QLabel *label_126;
+    QLabel *label_127;
+    QLabel *label_128;
+    QLabel *label_129;
+    QLabel *label_130;
+    QLabel *label_131;
+    QHBoxLayout *horizontalLayout_50;
+    QLabel *just_lable_error_16;
+    QSpacerItem *horizontalSpacer_36;
+    QLabel *lable_fire_mops_1_ch_17;
+    QLabel *lable_fire_mops_1_ch_18;
+    QLabel *lable_fire_mops_1_ch_19;
+    QLabel *lable_fire_mops_1_ch_20;
+    QLabel *lable_fire_mops_1_ch_21;
+    QLabel *lable_fire_mops_1_ch_22;
+    QLabel *lable_fire_mops_1_ch_23;
+    QLabel *lable_fire_mops_1_ch_24;
+    QLabel *just_lable_norm_12;
+    QLabel *just_lable_break_38;
+    QWidget *verticalLayoutWidget_63;
+    QVBoxLayout *verticalLayout_29;
+    QHBoxLayout *horizontalLayout_51;
+    QLabel *just_lable_status_17;
+    QSpacerItem *horizontalSpacer_37;
+    QLabel *label_132;
+    QLabel *label_133;
+    QLabel *label_134;
+    QLabel *label_135;
+    QLabel *label_136;
+    QLabel *label_137;
+    QLabel *label_138;
+    QLabel *label_139;
+    QHBoxLayout *horizontalLayout_52;
+    QLabel *just_lable_error_17;
+    QSpacerItem *horizontalSpacer_38;
+    QLabel *lable_break_mops_1_sc_17;
+    QLabel *lable_break_mops_1_sc_18;
+    QLabel *lable_break_mops_1_sc_19;
+    QLabel *lable_break_mops_1_sc_20;
+    QLabel *lable_break_mops_1_sc_21;
+    QLabel *lable_break_mops_1_sc_22;
+    QLabel *lable_break_mops_1_sc_23;
+    QLabel *lable_break_mops_1_sc_24;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -271,7 +1849,7 @@ public:
     {
         if (stend_main_window->objectName().isEmpty())
             stend_main_window->setObjectName(QString::fromUtf8("stend_main_window"));
-        stend_main_window->resize(1740, 961);
+        stend_main_window->resize(1743, 1768);
         stend_main_window->setMinimumSize(QSize(0, 0));
         stend_main_window->setSizeIncrement(QSize(0, -1));
         centralwidget = new QWidget(stend_main_window);
@@ -452,13 +2030,695 @@ public:
         label = new QLabel(centralwidget);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(400, 330, 111, 16));
-        widget = new QWidget(centralwidget);
-        widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(610, 0, 591, 51));
-        horizontalLayout_4 = new QHBoxLayout(widget);
+        verticalLayoutWidget_13 = new QWidget(centralwidget);
+        verticalLayoutWidget_13->setObjectName(QString::fromUtf8("verticalLayoutWidget_13"));
+        verticalLayoutWidget_13->setGeometry(QRect(30, 1540, 491, 91));
+        verticalLayout_18 = new QVBoxLayout(verticalLayoutWidget_13);
+        verticalLayout_18->setObjectName(QString::fromUtf8("verticalLayout_18"));
+        verticalLayout_18->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_36 = new QHBoxLayout();
+        horizontalLayout_36->setObjectName(QString::fromUtf8("horizontalLayout_36"));
+        just_lable_status_12 = new QLabel(verticalLayoutWidget_13);
+        just_lable_status_12->setObjectName(QString::fromUtf8("just_lable_status_12"));
+
+        horizontalLayout_36->addWidget(just_lable_status_12);
+
+        horizontalSpacer_27 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_36->addItem(horizontalSpacer_27);
+
+        label_94 = new QLabel(verticalLayoutWidget_13);
+        label_94->setObjectName(QString::fromUtf8("label_94"));
+
+        horizontalLayout_36->addWidget(label_94);
+
+        label_95 = new QLabel(verticalLayoutWidget_13);
+        label_95->setObjectName(QString::fromUtf8("label_95"));
+
+        horizontalLayout_36->addWidget(label_95);
+
+        label_96 = new QLabel(verticalLayoutWidget_13);
+        label_96->setObjectName(QString::fromUtf8("label_96"));
+
+        horizontalLayout_36->addWidget(label_96);
+
+        label_97 = new QLabel(verticalLayoutWidget_13);
+        label_97->setObjectName(QString::fromUtf8("label_97"));
+
+        horizontalLayout_36->addWidget(label_97);
+
+        label_98 = new QLabel(verticalLayoutWidget_13);
+        label_98->setObjectName(QString::fromUtf8("label_98"));
+
+        horizontalLayout_36->addWidget(label_98);
+
+        label_99 = new QLabel(verticalLayoutWidget_13);
+        label_99->setObjectName(QString::fromUtf8("label_99"));
+
+        horizontalLayout_36->addWidget(label_99);
+
+        label_100 = new QLabel(verticalLayoutWidget_13);
+        label_100->setObjectName(QString::fromUtf8("label_100"));
+
+        horizontalLayout_36->addWidget(label_100);
+
+        label_101 = new QLabel(verticalLayoutWidget_13);
+        label_101->setObjectName(QString::fromUtf8("label_101"));
+
+        horizontalLayout_36->addWidget(label_101);
+
+
+        verticalLayout_18->addLayout(horizontalLayout_36);
+
+        horizontalLayout_37 = new QHBoxLayout();
+        horizontalLayout_37->setObjectName(QString::fromUtf8("horizontalLayout_37"));
+        just_lable_error_12 = new QLabel(verticalLayoutWidget_13);
+        just_lable_error_12->setObjectName(QString::fromUtf8("just_lable_error_12"));
+
+        horizontalLayout_37->addWidget(just_lable_error_12);
+
+        horizontalSpacer_28 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_37->addItem(horizontalSpacer_28);
+
+        lable_break_mops_1_sc_9 = new QLabel(verticalLayoutWidget_13);
+        lable_break_mops_1_sc_9->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_9"));
+
+        horizontalLayout_37->addWidget(lable_break_mops_1_sc_9);
+
+        lable_break_mops_1_sc_10 = new QLabel(verticalLayoutWidget_13);
+        lable_break_mops_1_sc_10->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_10"));
+
+        horizontalLayout_37->addWidget(lable_break_mops_1_sc_10);
+
+        lable_break_mops_1_sc_11 = new QLabel(verticalLayoutWidget_13);
+        lable_break_mops_1_sc_11->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_11"));
+
+        horizontalLayout_37->addWidget(lable_break_mops_1_sc_11);
+
+        lable_break_mops_1_sc_12 = new QLabel(verticalLayoutWidget_13);
+        lable_break_mops_1_sc_12->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_12"));
+
+        horizontalLayout_37->addWidget(lable_break_mops_1_sc_12);
+
+        lable_break_mops_1_sc_13 = new QLabel(verticalLayoutWidget_13);
+        lable_break_mops_1_sc_13->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_13"));
+
+        horizontalLayout_37->addWidget(lable_break_mops_1_sc_13);
+
+        lable_break_mops_1_sc_14 = new QLabel(verticalLayoutWidget_13);
+        lable_break_mops_1_sc_14->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_14"));
+
+        horizontalLayout_37->addWidget(lable_break_mops_1_sc_14);
+
+        lable_break_mops_1_sc_15 = new QLabel(verticalLayoutWidget_13);
+        lable_break_mops_1_sc_15->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_15"));
+
+        horizontalLayout_37->addWidget(lable_break_mops_1_sc_15);
+
+        lable_break_mops_1_sc_16 = new QLabel(verticalLayoutWidget_13);
+        lable_break_mops_1_sc_16->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_16"));
+
+        horizontalLayout_37->addWidget(lable_break_mops_1_sc_16);
+
+
+        verticalLayout_18->addLayout(horizontalLayout_37);
+
+        layoutWidget_7 = new QWidget(centralwidget);
+        layoutWidget_7->setObjectName(QString::fromUtf8("layoutWidget_7"));
+        layoutWidget_7->setGeometry(QRect(370, 910, 150, 98));
+        verticalLayout_19 = new QVBoxLayout(layoutWidget_7);
+        verticalLayout_19->setObjectName(QString::fromUtf8("verticalLayout_19"));
+        verticalLayout_19->setContentsMargins(0, 0, 0, 0);
+        just_lable_supply_err_2 = new QLabel(layoutWidget_7);
+        just_lable_supply_err_2->setObjectName(QString::fromUtf8("just_lable_supply_err_2"));
+
+        verticalLayout_19->addWidget(just_lable_supply_err_2);
+
+        horizontalLayout_38 = new QHBoxLayout();
+        horizontalLayout_38->setObjectName(QString::fromUtf8("horizontalLayout_38"));
+        verticalLayout_20 = new QVBoxLayout();
+        verticalLayout_20->setObjectName(QString::fromUtf8("verticalLayout_20"));
+        just_lable_18v_2 = new QLabel(layoutWidget_7);
+        just_lable_18v_2->setObjectName(QString::fromUtf8("just_lable_18v_2"));
+
+        verticalLayout_20->addWidget(just_lable_18v_2);
+
+        just_lable_24v_2 = new QLabel(layoutWidget_7);
+        just_lable_24v_2->setObjectName(QString::fromUtf8("just_lable_24v_2"));
+
+        verticalLayout_20->addWidget(just_lable_24v_2);
+
+        just_lable_28v_2 = new QLabel(layoutWidget_7);
+        just_lable_28v_2->setObjectName(QString::fromUtf8("just_lable_28v_2"));
+
+        verticalLayout_20->addWidget(just_lable_28v_2);
+
+
+        horizontalLayout_38->addLayout(verticalLayout_20);
+
+        verticalLayout_21 = new QVBoxLayout();
+        verticalLayout_21->setObjectName(QString::fromUtf8("verticalLayout_21"));
+        lable_18v_ans_2 = new QLabel(layoutWidget_7);
+        lable_18v_ans_2->setObjectName(QString::fromUtf8("lable_18v_ans_2"));
+
+        verticalLayout_21->addWidget(lable_18v_ans_2);
+
+        lable_24v_ans_2 = new QLabel(layoutWidget_7);
+        lable_24v_ans_2->setObjectName(QString::fromUtf8("lable_24v_ans_2"));
+
+        verticalLayout_21->addWidget(lable_24v_ans_2);
+
+        lable_28v_ans_2 = new QLabel(layoutWidget_7);
+        lable_28v_ans_2->setObjectName(QString::fromUtf8("lable_28v_ans_2"));
+
+        verticalLayout_21->addWidget(lable_28v_ans_2);
+
+
+        horizontalLayout_38->addLayout(verticalLayout_21);
+
+
+        verticalLayout_19->addLayout(horizontalLayout_38);
+
+        just_lable_norm_2 = new QLabel(centralwidget);
+        just_lable_norm_2->setObjectName(QString::fromUtf8("just_lable_norm_2"));
+        just_lable_norm_2->setGeometry(QRect(230, 1130, 61, 21));
+        verticalLayoutWidget_9 = new QWidget(centralwidget);
+        verticalLayoutWidget_9->setObjectName(QString::fromUtf8("verticalLayoutWidget_9"));
+        verticalLayoutWidget_9->setGeometry(QRect(30, 1040, 491, 91));
+        verticalLayout_14 = new QVBoxLayout(verticalLayoutWidget_9);
+        verticalLayout_14->setObjectName(QString::fromUtf8("verticalLayout_14"));
+        verticalLayout_14->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_28 = new QHBoxLayout();
+        horizontalLayout_28->setObjectName(QString::fromUtf8("horizontalLayout_28"));
+        just_lable_status_8 = new QLabel(verticalLayoutWidget_9);
+        just_lable_status_8->setObjectName(QString::fromUtf8("just_lable_status_8"));
+
+        horizontalLayout_28->addWidget(just_lable_status_8);
+
+        horizontalSpacer_19 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_28->addItem(horizontalSpacer_19);
+
+        label_10 = new QLabel(verticalLayoutWidget_9);
+        label_10->setObjectName(QString::fromUtf8("label_10"));
+
+        horizontalLayout_28->addWidget(label_10);
+
+        label_11 = new QLabel(verticalLayoutWidget_9);
+        label_11->setObjectName(QString::fromUtf8("label_11"));
+
+        horizontalLayout_28->addWidget(label_11);
+
+        label_40 = new QLabel(verticalLayoutWidget_9);
+        label_40->setObjectName(QString::fromUtf8("label_40"));
+
+        horizontalLayout_28->addWidget(label_40);
+
+        label_41 = new QLabel(verticalLayoutWidget_9);
+        label_41->setObjectName(QString::fromUtf8("label_41"));
+
+        horizontalLayout_28->addWidget(label_41);
+
+        label_50 = new QLabel(verticalLayoutWidget_9);
+        label_50->setObjectName(QString::fromUtf8("label_50"));
+
+        horizontalLayout_28->addWidget(label_50);
+
+        label_51 = new QLabel(verticalLayoutWidget_9);
+        label_51->setObjectName(QString::fromUtf8("label_51"));
+
+        horizontalLayout_28->addWidget(label_51);
+
+        label_60 = new QLabel(verticalLayoutWidget_9);
+        label_60->setObjectName(QString::fromUtf8("label_60"));
+
+        horizontalLayout_28->addWidget(label_60);
+
+        label_61 = new QLabel(verticalLayoutWidget_9);
+        label_61->setObjectName(QString::fromUtf8("label_61"));
+
+        horizontalLayout_28->addWidget(label_61);
+
+
+        verticalLayout_14->addLayout(horizontalLayout_28);
+
+        horizontalLayout_29 = new QHBoxLayout();
+        horizontalLayout_29->setObjectName(QString::fromUtf8("horizontalLayout_29"));
+        just_lable_error_8 = new QLabel(verticalLayoutWidget_9);
+        just_lable_error_8->setObjectName(QString::fromUtf8("just_lable_error_8"));
+
+        horizontalLayout_29->addWidget(just_lable_error_8);
+
+        horizontalSpacer_20 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_29->addItem(horizontalSpacer_20);
+
+        lable_break_mops_1_ch_9 = new QLabel(verticalLayoutWidget_9);
+        lable_break_mops_1_ch_9->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_9"));
+
+        horizontalLayout_29->addWidget(lable_break_mops_1_ch_9);
+
+        lable_break_mops_1_ch_10 = new QLabel(verticalLayoutWidget_9);
+        lable_break_mops_1_ch_10->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_10"));
+
+        horizontalLayout_29->addWidget(lable_break_mops_1_ch_10);
+
+        lable_break_mops_1_ch_31 = new QLabel(verticalLayoutWidget_9);
+        lable_break_mops_1_ch_31->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_31"));
+
+        horizontalLayout_29->addWidget(lable_break_mops_1_ch_31);
+
+        lable_break_mops_1_ch_32 = new QLabel(verticalLayoutWidget_9);
+        lable_break_mops_1_ch_32->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_32"));
+
+        horizontalLayout_29->addWidget(lable_break_mops_1_ch_32);
+
+        lable_break_mops_1_ch_33 = new QLabel(verticalLayoutWidget_9);
+        lable_break_mops_1_ch_33->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_33"));
+
+        horizontalLayout_29->addWidget(lable_break_mops_1_ch_33);
+
+        lable_break_mops_1_ch_34 = new QLabel(verticalLayoutWidget_9);
+        lable_break_mops_1_ch_34->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_34"));
+
+        horizontalLayout_29->addWidget(lable_break_mops_1_ch_34);
+
+        lable_break_mops_1_ch_35 = new QLabel(verticalLayoutWidget_9);
+        lable_break_mops_1_ch_35->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_35"));
+
+        horizontalLayout_29->addWidget(lable_break_mops_1_ch_35);
+
+        lable_break_mops_1_ch_36 = new QLabel(verticalLayoutWidget_9);
+        lable_break_mops_1_ch_36->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_36"));
+
+        horizontalLayout_29->addWidget(lable_break_mops_1_ch_36);
+
+
+        verticalLayout_14->addLayout(horizontalLayout_29);
+
+        layoutWidget_4 = new QWidget(centralwidget);
+        layoutWidget_4->setObjectName(QString::fromUtf8("layoutWidget_4"));
+        layoutWidget_4->setGeometry(QRect(20, 940, 244, 22));
+        horizontalLayout_27 = new QHBoxLayout(layoutWidget_4);
+        horizontalLayout_27->setObjectName(QString::fromUtf8("horizontalLayout_27"));
+        horizontalLayout_27->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_7 = new QLabel(layoutWidget_4);
+        just_lable_online_status_req_mops_7->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_7"));
+
+        horizontalLayout_27->addWidget(just_lable_online_status_req_mops_7);
+
+        just_lable_online_status_ans_mops_ = new QLabel(layoutWidget_4);
+        just_lable_online_status_ans_mops_->setObjectName(QString::fromUtf8("just_lable_online_status_ans_mops_"));
+        just_lable_online_status_ans_mops_->setMinimumSize(QSize(102, 0));
+        just_lable_online_status_ans_mops_->setScaledContents(false);
+        just_lable_online_status_ans_mops_->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_27->addWidget(just_lable_online_status_ans_mops_);
+
+        verticalLayoutWidget_10 = new QWidget(centralwidget);
+        verticalLayoutWidget_10->setObjectName(QString::fromUtf8("verticalLayoutWidget_10"));
+        verticalLayoutWidget_10->setGeometry(QRect(30, 1160, 491, 91));
+        verticalLayout_15 = new QVBoxLayout(verticalLayoutWidget_10);
+        verticalLayout_15->setObjectName(QString::fromUtf8("verticalLayout_15"));
+        verticalLayout_15->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_30 = new QHBoxLayout();
+        horizontalLayout_30->setObjectName(QString::fromUtf8("horizontalLayout_30"));
+        just_lable_status_9 = new QLabel(verticalLayoutWidget_10);
+        just_lable_status_9->setObjectName(QString::fromUtf8("just_lable_status_9"));
+
+        horizontalLayout_30->addWidget(just_lable_status_9);
+
+        horizontalSpacer_21 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_30->addItem(horizontalSpacer_21);
+
+        label_70 = new QLabel(verticalLayoutWidget_10);
+        label_70->setObjectName(QString::fromUtf8("label_70"));
+
+        horizontalLayout_30->addWidget(label_70);
+
+        label_71 = new QLabel(verticalLayoutWidget_10);
+        label_71->setObjectName(QString::fromUtf8("label_71"));
+
+        horizontalLayout_30->addWidget(label_71);
+
+        label_72 = new QLabel(verticalLayoutWidget_10);
+        label_72->setObjectName(QString::fromUtf8("label_72"));
+
+        horizontalLayout_30->addWidget(label_72);
+
+        label_73 = new QLabel(verticalLayoutWidget_10);
+        label_73->setObjectName(QString::fromUtf8("label_73"));
+
+        horizontalLayout_30->addWidget(label_73);
+
+        label_74 = new QLabel(verticalLayoutWidget_10);
+        label_74->setObjectName(QString::fromUtf8("label_74"));
+
+        horizontalLayout_30->addWidget(label_74);
+
+        label_75 = new QLabel(verticalLayoutWidget_10);
+        label_75->setObjectName(QString::fromUtf8("label_75"));
+
+        horizontalLayout_30->addWidget(label_75);
+
+        label_76 = new QLabel(verticalLayoutWidget_10);
+        label_76->setObjectName(QString::fromUtf8("label_76"));
+
+        horizontalLayout_30->addWidget(label_76);
+
+        label_77 = new QLabel(verticalLayoutWidget_10);
+        label_77->setObjectName(QString::fromUtf8("label_77"));
+
+        horizontalLayout_30->addWidget(label_77);
+
+
+        verticalLayout_15->addLayout(horizontalLayout_30);
+
+        horizontalLayout_31 = new QHBoxLayout();
+        horizontalLayout_31->setObjectName(QString::fromUtf8("horizontalLayout_31"));
+        just_lable_error_9 = new QLabel(verticalLayoutWidget_10);
+        just_lable_error_9->setObjectName(QString::fromUtf8("just_lable_error_9"));
+
+        horizontalLayout_31->addWidget(just_lable_error_9);
+
+        horizontalSpacer_22 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_31->addItem(horizontalSpacer_22);
+
+        lable_norm_mops_1_ch_9 = new QLabel(verticalLayoutWidget_10);
+        lable_norm_mops_1_ch_9->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_9"));
+
+        horizontalLayout_31->addWidget(lable_norm_mops_1_ch_9);
+
+        lable_norm_mops_1_ch_10 = new QLabel(verticalLayoutWidget_10);
+        lable_norm_mops_1_ch_10->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_10"));
+
+        horizontalLayout_31->addWidget(lable_norm_mops_1_ch_10);
+
+        lable_norm_mops_1_ch_11 = new QLabel(verticalLayoutWidget_10);
+        lable_norm_mops_1_ch_11->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_11"));
+
+        horizontalLayout_31->addWidget(lable_norm_mops_1_ch_11);
+
+        lable_norm_mops_1_ch_12 = new QLabel(verticalLayoutWidget_10);
+        lable_norm_mops_1_ch_12->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_12"));
+
+        horizontalLayout_31->addWidget(lable_norm_mops_1_ch_12);
+
+        lable_norm_mops_1_ch_13 = new QLabel(verticalLayoutWidget_10);
+        lable_norm_mops_1_ch_13->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_13"));
+
+        horizontalLayout_31->addWidget(lable_norm_mops_1_ch_13);
+
+        lable_norm_mops_1_ch_14 = new QLabel(verticalLayoutWidget_10);
+        lable_norm_mops_1_ch_14->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_14"));
+
+        horizontalLayout_31->addWidget(lable_norm_mops_1_ch_14);
+
+        lable_norm_mops_1_ch_15 = new QLabel(verticalLayoutWidget_10);
+        lable_norm_mops_1_ch_15->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_15"));
+
+        horizontalLayout_31->addWidget(lable_norm_mops_1_ch_15);
+
+        lable_norm_mops_1_ch_16 = new QLabel(verticalLayoutWidget_10);
+        lable_norm_mops_1_ch_16->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_16"));
+
+        horizontalLayout_31->addWidget(lable_norm_mops_1_ch_16);
+
+
+        verticalLayout_15->addLayout(horizontalLayout_31);
+
+        layoutWidget_8 = new QWidget(centralwidget);
+        layoutWidget_8->setObjectName(QString::fromUtf8("layoutWidget_8"));
+        layoutWidget_8->setGeometry(QRect(20, 910, 219, 22));
+        horizontalLayout_39 = new QHBoxLayout(layoutWidget_8);
+        horizontalLayout_39->setObjectName(QString::fromUtf8("horizontalLayout_39"));
+        horizontalLayout_39->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_8 = new QLabel(layoutWidget_8);
+        just_lable_online_status_req_mops_8->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_8"));
+
+        horizontalLayout_39->addWidget(just_lable_online_status_req_mops_8);
+
+        just_lable_online_status_ans_mop = new QLabel(layoutWidget_8);
+        just_lable_online_status_ans_mop->setObjectName(QString::fromUtf8("just_lable_online_status_ans_mop"));
+        just_lable_online_status_ans_mop->setMinimumSize(QSize(102, 0));
+        just_lable_online_status_ans_mop->setScaledContents(false);
+        just_lable_online_status_ans_mop->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_39->addWidget(just_lable_online_status_ans_mop);
+
+        verticalLayoutWidget_12 = new QWidget(centralwidget);
+        verticalLayoutWidget_12->setObjectName(QString::fromUtf8("verticalLayoutWidget_12"));
+        verticalLayoutWidget_12->setGeometry(QRect(30, 1410, 491, 91));
+        verticalLayout_17 = new QVBoxLayout(verticalLayoutWidget_12);
+        verticalLayout_17->setObjectName(QString::fromUtf8("verticalLayout_17"));
+        verticalLayout_17->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_34 = new QHBoxLayout();
+        horizontalLayout_34->setObjectName(QString::fromUtf8("horizontalLayout_34"));
+        just_lable_status_11 = new QLabel(verticalLayoutWidget_12);
+        just_lable_status_11->setObjectName(QString::fromUtf8("just_lable_status_11"));
+
+        horizontalLayout_34->addWidget(just_lable_status_11);
+
+        horizontalSpacer_25 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_34->addItem(horizontalSpacer_25);
+
+        label_86 = new QLabel(verticalLayoutWidget_12);
+        label_86->setObjectName(QString::fromUtf8("label_86"));
+
+        horizontalLayout_34->addWidget(label_86);
+
+        label_87 = new QLabel(verticalLayoutWidget_12);
+        label_87->setObjectName(QString::fromUtf8("label_87"));
+
+        horizontalLayout_34->addWidget(label_87);
+
+        label_88 = new QLabel(verticalLayoutWidget_12);
+        label_88->setObjectName(QString::fromUtf8("label_88"));
+
+        horizontalLayout_34->addWidget(label_88);
+
+        label_89 = new QLabel(verticalLayoutWidget_12);
+        label_89->setObjectName(QString::fromUtf8("label_89"));
+
+        horizontalLayout_34->addWidget(label_89);
+
+        label_90 = new QLabel(verticalLayoutWidget_12);
+        label_90->setObjectName(QString::fromUtf8("label_90"));
+
+        horizontalLayout_34->addWidget(label_90);
+
+        label_91 = new QLabel(verticalLayoutWidget_12);
+        label_91->setObjectName(QString::fromUtf8("label_91"));
+
+        horizontalLayout_34->addWidget(label_91);
+
+        label_92 = new QLabel(verticalLayoutWidget_12);
+        label_92->setObjectName(QString::fromUtf8("label_92"));
+
+        horizontalLayout_34->addWidget(label_92);
+
+        label_93 = new QLabel(verticalLayoutWidget_12);
+        label_93->setObjectName(QString::fromUtf8("label_93"));
+
+        horizontalLayout_34->addWidget(label_93);
+
+
+        verticalLayout_17->addLayout(horizontalLayout_34);
+
+        horizontalLayout_35 = new QHBoxLayout();
+        horizontalLayout_35->setObjectName(QString::fromUtf8("horizontalLayout_35"));
+        just_lable_error_11 = new QLabel(verticalLayoutWidget_12);
+        just_lable_error_11->setObjectName(QString::fromUtf8("just_lable_error_11"));
+
+        horizontalLayout_35->addWidget(just_lable_error_11);
+
+        horizontalSpacer_26 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_35->addItem(horizontalSpacer_26);
+
+        lable_fire_mops_1_ch_8 = new QLabel(verticalLayoutWidget_12);
+        lable_fire_mops_1_ch_8->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_8"));
+
+        horizontalLayout_35->addWidget(lable_fire_mops_1_ch_8);
+
+        lable_fire_mops_1_ch_10 = new QLabel(verticalLayoutWidget_12);
+        lable_fire_mops_1_ch_10->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_10"));
+
+        horizontalLayout_35->addWidget(lable_fire_mops_1_ch_10);
+
+        lable_fire_mops_1_ch_11 = new QLabel(verticalLayoutWidget_12);
+        lable_fire_mops_1_ch_11->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_11"));
+
+        horizontalLayout_35->addWidget(lable_fire_mops_1_ch_11);
+
+        lable_fire_mops_1_ch_12 = new QLabel(verticalLayoutWidget_12);
+        lable_fire_mops_1_ch_12->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_12"));
+
+        horizontalLayout_35->addWidget(lable_fire_mops_1_ch_12);
+
+        lable_fire_mops_1_ch_13 = new QLabel(verticalLayoutWidget_12);
+        lable_fire_mops_1_ch_13->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_13"));
+
+        horizontalLayout_35->addWidget(lable_fire_mops_1_ch_13);
+
+        lable_fire_mops_1_ch_14 = new QLabel(verticalLayoutWidget_12);
+        lable_fire_mops_1_ch_14->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_14"));
+
+        horizontalLayout_35->addWidget(lable_fire_mops_1_ch_14);
+
+        lable_fire_mops_1_ch_15 = new QLabel(verticalLayoutWidget_12);
+        lable_fire_mops_1_ch_15->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_15"));
+
+        horizontalLayout_35->addWidget(lable_fire_mops_1_ch_15);
+
+        lable_fire_mops_1_ch_16 = new QLabel(verticalLayoutWidget_12);
+        lable_fire_mops_1_ch_16->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_16"));
+
+        horizontalLayout_35->addWidget(lable_fire_mops_1_ch_16);
+
+
+        verticalLayout_17->addLayout(horizontalLayout_35);
+
+        verticalLayoutWidget_11 = new QWidget(centralwidget);
+        verticalLayoutWidget_11->setObjectName(QString::fromUtf8("verticalLayoutWidget_11"));
+        verticalLayoutWidget_11->setGeometry(QRect(30, 1290, 491, 91));
+        verticalLayout_16 = new QVBoxLayout(verticalLayoutWidget_11);
+        verticalLayout_16->setObjectName(QString::fromUtf8("verticalLayout_16"));
+        verticalLayout_16->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_32 = new QHBoxLayout();
+        horizontalLayout_32->setObjectName(QString::fromUtf8("horizontalLayout_32"));
+        just_lable_status_10 = new QLabel(verticalLayoutWidget_11);
+        just_lable_status_10->setObjectName(QString::fromUtf8("just_lable_status_10"));
+
+        horizontalLayout_32->addWidget(just_lable_status_10);
+
+        horizontalSpacer_23 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_32->addItem(horizontalSpacer_23);
+
+        label_78 = new QLabel(verticalLayoutWidget_11);
+        label_78->setObjectName(QString::fromUtf8("label_78"));
+
+        horizontalLayout_32->addWidget(label_78);
+
+        label_79 = new QLabel(verticalLayoutWidget_11);
+        label_79->setObjectName(QString::fromUtf8("label_79"));
+
+        horizontalLayout_32->addWidget(label_79);
+
+        label_80 = new QLabel(verticalLayoutWidget_11);
+        label_80->setObjectName(QString::fromUtf8("label_80"));
+
+        horizontalLayout_32->addWidget(label_80);
+
+        label_81 = new QLabel(verticalLayoutWidget_11);
+        label_81->setObjectName(QString::fromUtf8("label_81"));
+
+        horizontalLayout_32->addWidget(label_81);
+
+        label_82 = new QLabel(verticalLayoutWidget_11);
+        label_82->setObjectName(QString::fromUtf8("label_82"));
+
+        horizontalLayout_32->addWidget(label_82);
+
+        label_83 = new QLabel(verticalLayoutWidget_11);
+        label_83->setObjectName(QString::fromUtf8("label_83"));
+
+        horizontalLayout_32->addWidget(label_83);
+
+        label_84 = new QLabel(verticalLayoutWidget_11);
+        label_84->setObjectName(QString::fromUtf8("label_84"));
+
+        horizontalLayout_32->addWidget(label_84);
+
+        label_85 = new QLabel(verticalLayoutWidget_11);
+        label_85->setObjectName(QString::fromUtf8("label_85"));
+
+        horizontalLayout_32->addWidget(label_85);
+
+
+        verticalLayout_16->addLayout(horizontalLayout_32);
+
+        horizontalLayout_33 = new QHBoxLayout();
+        horizontalLayout_33->setObjectName(QString::fromUtf8("horizontalLayout_33"));
+        just_lable_error_10 = new QLabel(verticalLayoutWidget_11);
+        just_lable_error_10->setObjectName(QString::fromUtf8("just_lable_error_10"));
+
+        horizontalLayout_33->addWidget(just_lable_error_10);
+
+        horizontalSpacer_24 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_33->addItem(horizontalSpacer_24);
+
+        lable_attantion_mops_1_ch_9 = new QLabel(verticalLayoutWidget_11);
+        lable_attantion_mops_1_ch_9->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_9"));
+
+        horizontalLayout_33->addWidget(lable_attantion_mops_1_ch_9);
+
+        lable_attantion_mops_1_ch_10 = new QLabel(verticalLayoutWidget_11);
+        lable_attantion_mops_1_ch_10->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_10"));
+
+        horizontalLayout_33->addWidget(lable_attantion_mops_1_ch_10);
+
+        lable_attantion_mops_1_ch_11 = new QLabel(verticalLayoutWidget_11);
+        lable_attantion_mops_1_ch_11->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_11"));
+
+        horizontalLayout_33->addWidget(lable_attantion_mops_1_ch_11);
+
+        lable_attantion_mops_1_ch_12 = new QLabel(verticalLayoutWidget_11);
+        lable_attantion_mops_1_ch_12->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_12"));
+
+        horizontalLayout_33->addWidget(lable_attantion_mops_1_ch_12);
+
+        lable_attantion_mops_1_ch_13 = new QLabel(verticalLayoutWidget_11);
+        lable_attantion_mops_1_ch_13->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_13"));
+
+        horizontalLayout_33->addWidget(lable_attantion_mops_1_ch_13);
+
+        lable_attantion_mops_1_ch_14 = new QLabel(verticalLayoutWidget_11);
+        lable_attantion_mops_1_ch_14->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_14"));
+
+        horizontalLayout_33->addWidget(lable_attantion_mops_1_ch_14);
+
+        lable_attantion_mops_1_ch_15 = new QLabel(verticalLayoutWidget_11);
+        lable_attantion_mops_1_ch_15->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_15"));
+
+        horizontalLayout_33->addWidget(lable_attantion_mops_1_ch_15);
+
+        lable_attantion_mops_1_ch_16 = new QLabel(verticalLayoutWidget_11);
+        lable_attantion_mops_1_ch_16->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_16"));
+
+        horizontalLayout_33->addWidget(lable_attantion_mops_1_ch_16);
+
+
+        verticalLayout_16->addLayout(horizontalLayout_33);
+
+        just_lable_attantion_5 = new QLabel(centralwidget);
+        just_lable_attantion_5->setObjectName(QString::fromUtf8("just_lable_attantion_5"));
+        just_lable_attantion_5->setGeometry(QRect(230, 1260, 81, 21));
+        just_lable_break_7 = new QLabel(centralwidget);
+        just_lable_break_7->setObjectName(QString::fromUtf8("just_lable_break_7"));
+        just_lable_break_7->setGeometry(QRect(230, 1380, 61, 21));
+        just_lable_break_6 = new QLabel(centralwidget);
+        just_lable_break_6->setObjectName(QString::fromUtf8("just_lable_break_6"));
+        just_lable_break_6->setGeometry(QRect(230, 1010, 61, 21));
+        just_lable_status_ch_4 = new QLabel(centralwidget);
+        just_lable_status_ch_4->setObjectName(QString::fromUtf8("just_lable_status_ch_4"));
+        just_lable_status_ch_4->setGeometry(QRect(190, 980, 151, 31));
+        just_lable_break_8 = new QLabel(centralwidget);
+        just_lable_break_8->setObjectName(QString::fromUtf8("just_lable_break_8"));
+        just_lable_break_8->setGeometry(QRect(230, 1510, 151, 21));
+        layoutWidget = new QWidget(centralwidget);
+        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
+        layoutWidget->setGeometry(QRect(610, 0, 591, 51));
+        horizontalLayout_4 = new QHBoxLayout(layoutWidget);
         horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
         horizontalLayout_4->setContentsMargins(0, 0, 0, 0);
-        just_mops_lable = new QLabel(widget);
+        just_mops_lable = new QLabel(layoutWidget);
         just_mops_lable->setObjectName(QString::fromUtf8("just_mops_lable"));
 
         horizontalLayout_4->addWidget(just_mops_lable);
@@ -467,39 +2727,39 @@ public:
 
         horizontalLayout_4->addItem(horizontalSpacer_4);
 
-        just_mups_lable = new QLabel(widget);
+        just_mups_lable = new QLabel(layoutWidget);
         just_mups_lable->setObjectName(QString::fromUtf8("just_mups_lable"));
 
         horizontalLayout_4->addWidget(just_mups_lable);
 
-        widget1 = new QWidget(centralwidget);
-        widget1->setObjectName(QString::fromUtf8("widget1"));
-        widget1->setGeometry(QRect(610, 50, 1081, 821));
-        horizontalLayout_3 = new QHBoxLayout(widget1);
+        layoutWidget1 = new QWidget(centralwidget);
+        layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
+        layoutWidget1->setGeometry(QRect(610, 50, 1081, 821));
+        horizontalLayout_3 = new QHBoxLayout(layoutWidget1);
         horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
         horizontalLayout_3->setContentsMargins(0, 0, 0, 0);
-        tab_widget_for_mops = new QTabWidget(widget1);
+        tab_widget_for_mops = new QTabWidget(layoutWidget1);
         tab_widget_for_mops->setObjectName(QString::fromUtf8("tab_widget_for_mops"));
         mops_1 = new QWidget();
         mops_1->setObjectName(QString::fromUtf8("mops_1"));
-        layoutWidget = new QWidget(mops_1);
-        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(10, 40, 244, 22));
-        horizontalLayout_6 = new QHBoxLayout(layoutWidget);
+        layoutWidget2 = new QWidget(mops_1);
+        layoutWidget2->setObjectName(QString::fromUtf8("layoutWidget2"));
+        layoutWidget2->setGeometry(QRect(10, 40, 244, 22));
+        horizontalLayout_6 = new QHBoxLayout(layoutWidget2);
         horizontalLayout_6->setObjectName(QString::fromUtf8("horizontalLayout_6"));
         horizontalLayout_6->setContentsMargins(0, 0, 0, 0);
-        just_lable_online_status_req_mops_2 = new QLabel(layoutWidget);
+        just_lable_online_status_req_mops_2 = new QLabel(layoutWidget2);
         just_lable_online_status_req_mops_2->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_2"));
 
         horizontalLayout_6->addWidget(just_lable_online_status_req_mops_2);
 
-        just_lable_online_status_ans_mops_2 = new QLabel(layoutWidget);
-        just_lable_online_status_ans_mops_2->setObjectName(QString::fromUtf8("just_lable_online_status_ans_mops_2"));
-        just_lable_online_status_ans_mops_2->setMinimumSize(QSize(102, 0));
-        just_lable_online_status_ans_mops_2->setScaledContents(false);
-        just_lable_online_status_ans_mops_2->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        just_lable_oper_status_ans_mops_1 = new QLabel(layoutWidget2);
+        just_lable_oper_status_ans_mops_1->setObjectName(QString::fromUtf8("just_lable_oper_status_ans_mops_1"));
+        just_lable_oper_status_ans_mops_1->setMinimumSize(QSize(102, 0));
+        just_lable_oper_status_ans_mops_1->setScaledContents(false);
+        just_lable_oper_status_ans_mops_1->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        horizontalLayout_6->addWidget(just_lable_online_status_ans_mops_2);
+        horizontalLayout_6->addWidget(just_lable_oper_status_ans_mops_1);
 
         just_lable_status_ch = new QLabel(mops_1);
         just_lable_status_ch->setObjectName(QString::fromUtf8("just_lable_status_ch"));
@@ -564,16 +2824,6 @@ public:
 
         horizontalLayout_7->addWidget(label_9);
 
-        label_10 = new QLabel(verticalLayoutWidget_2);
-        label_10->setObjectName(QString::fromUtf8("label_10"));
-
-        horizontalLayout_7->addWidget(label_10);
-
-        label_11 = new QLabel(verticalLayoutWidget_2);
-        label_11->setObjectName(QString::fromUtf8("label_11"));
-
-        horizontalLayout_7->addWidget(label_11);
-
 
         verticalLayout_4->addLayout(horizontalLayout_7);
 
@@ -627,16 +2877,6 @@ public:
         lable_break_mops_1_ch_8->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_8"));
 
         horizontalLayout_8->addWidget(lable_break_mops_1_ch_8);
-
-        lable_break_mops_1_ch_9 = new QLabel(verticalLayoutWidget_2);
-        lable_break_mops_1_ch_9->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_9"));
-
-        horizontalLayout_8->addWidget(lable_break_mops_1_ch_9);
-
-        lable_break_mops_1_ch_10 = new QLabel(verticalLayoutWidget_2);
-        lable_break_mops_1_ch_10->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_10"));
-
-        horizontalLayout_8->addWidget(lable_break_mops_1_ch_10);
 
 
         verticalLayout_4->addLayout(horizontalLayout_8);
@@ -701,16 +2941,6 @@ public:
 
         horizontalLayout_18->addWidget(label_39);
 
-        label_40 = new QLabel(verticalLayoutWidget_5);
-        label_40->setObjectName(QString::fromUtf8("label_40"));
-
-        horizontalLayout_18->addWidget(label_40);
-
-        label_41 = new QLabel(verticalLayoutWidget_5);
-        label_41->setObjectName(QString::fromUtf8("label_41"));
-
-        horizontalLayout_18->addWidget(label_41);
-
 
         verticalLayout_7->addLayout(horizontalLayout_18);
 
@@ -764,16 +2994,6 @@ public:
         lable_norm_mops_1_ch_8->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_8"));
 
         horizontalLayout_19->addWidget(lable_norm_mops_1_ch_8);
-
-        lable_norm_mops_1_ch_9 = new QLabel(verticalLayoutWidget_5);
-        lable_norm_mops_1_ch_9->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_9"));
-
-        horizontalLayout_19->addWidget(lable_norm_mops_1_ch_9);
-
-        lable_norm_mops_1_ch_10 = new QLabel(verticalLayoutWidget_5);
-        lable_norm_mops_1_ch_10->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_10"));
-
-        horizontalLayout_19->addWidget(lable_norm_mops_1_ch_10);
 
 
         verticalLayout_7->addLayout(horizontalLayout_19);
@@ -835,16 +3055,6 @@ public:
 
         horizontalLayout_20->addWidget(label_49);
 
-        label_50 = new QLabel(verticalLayoutWidget_6);
-        label_50->setObjectName(QString::fromUtf8("label_50"));
-
-        horizontalLayout_20->addWidget(label_50);
-
-        label_51 = new QLabel(verticalLayoutWidget_6);
-        label_51->setObjectName(QString::fromUtf8("label_51"));
-
-        horizontalLayout_20->addWidget(label_51);
-
 
         verticalLayout_8->addLayout(horizontalLayout_20);
 
@@ -898,16 +3108,6 @@ public:
         lable_attantion_mops_1_ch_8->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_8"));
 
         horizontalLayout_21->addWidget(lable_attantion_mops_1_ch_8);
-
-        lable_attantion_mops_1_ch_9 = new QLabel(verticalLayoutWidget_6);
-        lable_attantion_mops_1_ch_9->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_9"));
-
-        horizontalLayout_21->addWidget(lable_attantion_mops_1_ch_9);
-
-        lable_attantion_mops_1_ch_10 = new QLabel(verticalLayoutWidget_6);
-        lable_attantion_mops_1_ch_10->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_10"));
-
-        horizontalLayout_21->addWidget(lable_attantion_mops_1_ch_10);
 
 
         verticalLayout_8->addLayout(horizontalLayout_21);
@@ -972,16 +3172,6 @@ public:
 
         horizontalLayout_22->addWidget(label_59);
 
-        label_60 = new QLabel(verticalLayoutWidget_7);
-        label_60->setObjectName(QString::fromUtf8("label_60"));
-
-        horizontalLayout_22->addWidget(label_60);
-
-        label_61 = new QLabel(verticalLayoutWidget_7);
-        label_61->setObjectName(QString::fromUtf8("label_61"));
-
-        horizontalLayout_22->addWidget(label_61);
-
 
         verticalLayout_9->addLayout(horizontalLayout_22);
 
@@ -1035,16 +3225,6 @@ public:
         lable_fire_mops_1_ch_9->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_9"));
 
         horizontalLayout_23->addWidget(lable_fire_mops_1_ch_9);
-
-        lable_break_mops_1_ch_39 = new QLabel(verticalLayoutWidget_7);
-        lable_break_mops_1_ch_39->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_39"));
-
-        horizontalLayout_23->addWidget(lable_break_mops_1_ch_39);
-
-        lable_break_mops_1_ch_40 = new QLabel(verticalLayoutWidget_7);
-        lable_break_mops_1_ch_40->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_40"));
-
-        horizontalLayout_23->addWidget(lable_break_mops_1_ch_40);
 
 
         verticalLayout_9->addLayout(horizontalLayout_23);
@@ -1112,16 +3292,6 @@ public:
 
         horizontalLayout_24->addWidget(label_69);
 
-        label_70 = new QLabel(verticalLayoutWidget_8);
-        label_70->setObjectName(QString::fromUtf8("label_70"));
-
-        horizontalLayout_24->addWidget(label_70);
-
-        label_71 = new QLabel(verticalLayoutWidget_8);
-        label_71->setObjectName(QString::fromUtf8("label_71"));
-
-        horizontalLayout_24->addWidget(label_71);
-
 
         verticalLayout_10->addLayout(horizontalLayout_24);
 
@@ -1176,26 +3346,16 @@ public:
 
         horizontalLayout_25->addWidget(lable_break_mops_1_sc_8);
 
-        lable_break_mops_1_sc_9 = new QLabel(verticalLayoutWidget_8);
-        lable_break_mops_1_sc_9->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_9"));
-
-        horizontalLayout_25->addWidget(lable_break_mops_1_sc_9);
-
-        lable_break_mops_1_sc_10 = new QLabel(verticalLayoutWidget_8);
-        lable_break_mops_1_sc_10->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_10"));
-
-        horizontalLayout_25->addWidget(lable_break_mops_1_sc_10);
-
 
         verticalLayout_10->addLayout(horizontalLayout_25);
 
-        widget2 = new QWidget(mops_1);
-        widget2->setObjectName(QString::fromUtf8("widget2"));
-        widget2->setGeometry(QRect(360, 10, 150, 98));
-        verticalLayout_13 = new QVBoxLayout(widget2);
+        layoutWidget3 = new QWidget(mops_1);
+        layoutWidget3->setObjectName(QString::fromUtf8("layoutWidget3"));
+        layoutWidget3->setGeometry(QRect(360, 10, 150, 98));
+        verticalLayout_13 = new QVBoxLayout(layoutWidget3);
         verticalLayout_13->setObjectName(QString::fromUtf8("verticalLayout_13"));
         verticalLayout_13->setContentsMargins(0, 0, 0, 0);
-        just_lable_supply_err = new QLabel(widget2);
+        just_lable_supply_err = new QLabel(layoutWidget3);
         just_lable_supply_err->setObjectName(QString::fromUtf8("just_lable_supply_err"));
 
         verticalLayout_13->addWidget(just_lable_supply_err);
@@ -1204,17 +3364,17 @@ public:
         horizontalLayout_26->setObjectName(QString::fromUtf8("horizontalLayout_26"));
         verticalLayout_12 = new QVBoxLayout();
         verticalLayout_12->setObjectName(QString::fromUtf8("verticalLayout_12"));
-        just_lable_18v = new QLabel(widget2);
+        just_lable_18v = new QLabel(layoutWidget3);
         just_lable_18v->setObjectName(QString::fromUtf8("just_lable_18v"));
 
         verticalLayout_12->addWidget(just_lable_18v);
 
-        just_lable_24v = new QLabel(widget2);
+        just_lable_24v = new QLabel(layoutWidget3);
         just_lable_24v->setObjectName(QString::fromUtf8("just_lable_24v"));
 
         verticalLayout_12->addWidget(just_lable_24v);
 
-        just_lable_28v = new QLabel(widget2);
+        just_lable_28v = new QLabel(layoutWidget3);
         just_lable_28v->setObjectName(QString::fromUtf8("just_lable_28v"));
 
         verticalLayout_12->addWidget(just_lable_28v);
@@ -1224,20 +3384,20 @@ public:
 
         verticalLayout_11 = new QVBoxLayout();
         verticalLayout_11->setObjectName(QString::fromUtf8("verticalLayout_11"));
-        lable_18v_ans = new QLabel(widget2);
-        lable_18v_ans->setObjectName(QString::fromUtf8("lable_18v_ans"));
+        lable_18v_ans_mops_1 = new QLabel(layoutWidget3);
+        lable_18v_ans_mops_1->setObjectName(QString::fromUtf8("lable_18v_ans_mops_1"));
 
-        verticalLayout_11->addWidget(lable_18v_ans);
+        verticalLayout_11->addWidget(lable_18v_ans_mops_1);
 
-        lable_24v_ans = new QLabel(widget2);
-        lable_24v_ans->setObjectName(QString::fromUtf8("lable_24v_ans"));
+        lable_24v_ans_mops_1 = new QLabel(layoutWidget3);
+        lable_24v_ans_mops_1->setObjectName(QString::fromUtf8("lable_24v_ans_mops_1"));
 
-        verticalLayout_11->addWidget(lable_24v_ans);
+        verticalLayout_11->addWidget(lable_24v_ans_mops_1);
 
-        lable_28v_ans = new QLabel(widget2);
-        lable_28v_ans->setObjectName(QString::fromUtf8("lable_28v_ans"));
+        lable_28v_ans_mops_1 = new QLabel(layoutWidget3);
+        lable_28v_ans_mops_1->setObjectName(QString::fromUtf8("lable_28v_ans_mops_1"));
 
-        verticalLayout_11->addWidget(lable_28v_ans);
+        verticalLayout_11->addWidget(lable_28v_ans_mops_1);
 
 
         horizontalLayout_26->addLayout(verticalLayout_11);
@@ -1245,18 +3405,18 @@ public:
 
         verticalLayout_13->addLayout(horizontalLayout_26);
 
-        widget3 = new QWidget(mops_1);
-        widget3->setObjectName(QString::fromUtf8("widget3"));
-        widget3->setGeometry(QRect(10, 10, 219, 22));
-        horizontalLayout_5 = new QHBoxLayout(widget3);
+        layoutWidget4 = new QWidget(mops_1);
+        layoutWidget4->setObjectName(QString::fromUtf8("layoutWidget4"));
+        layoutWidget4->setGeometry(QRect(10, 10, 219, 22));
+        horizontalLayout_5 = new QHBoxLayout(layoutWidget4);
         horizontalLayout_5->setObjectName(QString::fromUtf8("horizontalLayout_5"));
         horizontalLayout_5->setContentsMargins(0, 0, 0, 0);
-        just_lable_online_status_req_mops_1 = new QLabel(widget3);
+        just_lable_online_status_req_mops_1 = new QLabel(layoutWidget4);
         just_lable_online_status_req_mops_1->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_1"));
 
         horizontalLayout_5->addWidget(just_lable_online_status_req_mops_1);
 
-        just_lable_online_status_ans_mops_1 = new QLabel(widget3);
+        just_lable_online_status_ans_mops_1 = new QLabel(layoutWidget4);
         just_lable_online_status_ans_mops_1->setObjectName(QString::fromUtf8("just_lable_online_status_ans_mops_1"));
         just_lable_online_status_ans_mops_1->setMinimumSize(QSize(102, 0));
         just_lable_online_status_ans_mops_1->setScaledContents(false);
@@ -1267,35 +3427,6173 @@ public:
         tab_widget_for_mops->addTab(mops_1, QString());
         mops_2 = new QWidget();
         mops_2->setObjectName(QString::fromUtf8("mops_2"));
+        layoutWidget_9 = new QWidget(mops_2);
+        layoutWidget_9->setObjectName(QString::fromUtf8("layoutWidget_9"));
+        layoutWidget_9->setGeometry(QRect(10, 10, 219, 22));
+        horizontalLayout_66 = new QHBoxLayout(layoutWidget_9);
+        horizontalLayout_66->setObjectName(QString::fromUtf8("horizontalLayout_66"));
+        horizontalLayout_66->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_13 = new QLabel(layoutWidget_9);
+        just_lable_online_status_req_mops_13->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_13"));
+
+        horizontalLayout_66->addWidget(just_lable_online_status_req_mops_13);
+
+        just_lable_online_status_ans_mops_2 = new QLabel(layoutWidget_9);
+        just_lable_online_status_ans_mops_2->setObjectName(QString::fromUtf8("just_lable_online_status_ans_mops_2"));
+        just_lable_online_status_ans_mops_2->setMinimumSize(QSize(102, 0));
+        just_lable_online_status_ans_mops_2->setScaledContents(false);
+        just_lable_online_status_ans_mops_2->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_66->addWidget(just_lable_online_status_ans_mops_2);
+
+        just_lable_norm_3 = new QLabel(mops_2);
+        just_lable_norm_3->setObjectName(QString::fromUtf8("just_lable_norm_3"));
+        just_lable_norm_3->setGeometry(QRect(220, 230, 61, 21));
+        verticalLayoutWidget_14 = new QWidget(mops_2);
+        verticalLayoutWidget_14->setObjectName(QString::fromUtf8("verticalLayoutWidget_14"));
+        verticalLayoutWidget_14->setGeometry(QRect(20, 140, 491, 91));
+        verticalLayout_38 = new QVBoxLayout(verticalLayoutWidget_14);
+        verticalLayout_38->setObjectName(QString::fromUtf8("verticalLayout_38"));
+        verticalLayout_38->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_67 = new QHBoxLayout();
+        horizontalLayout_67->setObjectName(QString::fromUtf8("horizontalLayout_67"));
+        just_lable_status_23 = new QLabel(verticalLayoutWidget_14);
+        just_lable_status_23->setObjectName(QString::fromUtf8("just_lable_status_23"));
+
+        horizontalLayout_67->addWidget(just_lable_status_23);
+
+        horizontalSpacer_49 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_67->addItem(horizontalSpacer_49);
+
+        label_182 = new QLabel(verticalLayoutWidget_14);
+        label_182->setObjectName(QString::fromUtf8("label_182"));
+
+        horizontalLayout_67->addWidget(label_182);
+
+        label_183 = new QLabel(verticalLayoutWidget_14);
+        label_183->setObjectName(QString::fromUtf8("label_183"));
+
+        horizontalLayout_67->addWidget(label_183);
+
+        label_184 = new QLabel(verticalLayoutWidget_14);
+        label_184->setObjectName(QString::fromUtf8("label_184"));
+
+        horizontalLayout_67->addWidget(label_184);
+
+        label_185 = new QLabel(verticalLayoutWidget_14);
+        label_185->setObjectName(QString::fromUtf8("label_185"));
+
+        horizontalLayout_67->addWidget(label_185);
+
+        label_186 = new QLabel(verticalLayoutWidget_14);
+        label_186->setObjectName(QString::fromUtf8("label_186"));
+
+        horizontalLayout_67->addWidget(label_186);
+
+        label_187 = new QLabel(verticalLayoutWidget_14);
+        label_187->setObjectName(QString::fromUtf8("label_187"));
+
+        horizontalLayout_67->addWidget(label_187);
+
+        label_188 = new QLabel(verticalLayoutWidget_14);
+        label_188->setObjectName(QString::fromUtf8("label_188"));
+
+        horizontalLayout_67->addWidget(label_188);
+
+        label_189 = new QLabel(verticalLayoutWidget_14);
+        label_189->setObjectName(QString::fromUtf8("label_189"));
+
+        horizontalLayout_67->addWidget(label_189);
+
+
+        verticalLayout_38->addLayout(horizontalLayout_67);
+
+        horizontalLayout_68 = new QHBoxLayout();
+        horizontalLayout_68->setObjectName(QString::fromUtf8("horizontalLayout_68"));
+        just_lable_error_23 = new QLabel(verticalLayoutWidget_14);
+        just_lable_error_23->setObjectName(QString::fromUtf8("just_lable_error_23"));
+
+        horizontalLayout_68->addWidget(just_lable_error_23);
+
+        horizontalSpacer_50 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_68->addItem(horizontalSpacer_50);
+
+        lable_break_mops_2_ch_1 = new QLabel(verticalLayoutWidget_14);
+        lable_break_mops_2_ch_1->setObjectName(QString::fromUtf8("lable_break_mops_2_ch_1"));
+
+        horizontalLayout_68->addWidget(lable_break_mops_2_ch_1);
+
+        lable_break_mops_2_ch_2 = new QLabel(verticalLayoutWidget_14);
+        lable_break_mops_2_ch_2->setObjectName(QString::fromUtf8("lable_break_mops_2_ch_2"));
+
+        horizontalLayout_68->addWidget(lable_break_mops_2_ch_2);
+
+        lable_break_mops_2_ch_3 = new QLabel(verticalLayoutWidget_14);
+        lable_break_mops_2_ch_3->setObjectName(QString::fromUtf8("lable_break_mops_2_ch_3"));
+
+        horizontalLayout_68->addWidget(lable_break_mops_2_ch_3);
+
+        lable_break_mops_2_ch_4 = new QLabel(verticalLayoutWidget_14);
+        lable_break_mops_2_ch_4->setObjectName(QString::fromUtf8("lable_break_mops_2_ch_4"));
+
+        horizontalLayout_68->addWidget(lable_break_mops_2_ch_4);
+
+        lable_break_mops_2_ch_5 = new QLabel(verticalLayoutWidget_14);
+        lable_break_mops_2_ch_5->setObjectName(QString::fromUtf8("lable_break_mops_2_ch_5"));
+
+        horizontalLayout_68->addWidget(lable_break_mops_2_ch_5);
+
+        lable_break_mops_2_ch_6 = new QLabel(verticalLayoutWidget_14);
+        lable_break_mops_2_ch_6->setObjectName(QString::fromUtf8("lable_break_mops_2_ch_6"));
+
+        horizontalLayout_68->addWidget(lable_break_mops_2_ch_6);
+
+        lable_break_mops_2_ch_7 = new QLabel(verticalLayoutWidget_14);
+        lable_break_mops_2_ch_7->setObjectName(QString::fromUtf8("lable_break_mops_2_ch_7"));
+
+        horizontalLayout_68->addWidget(lable_break_mops_2_ch_7);
+
+        lable_break_mops_2_ch_8 = new QLabel(verticalLayoutWidget_14);
+        lable_break_mops_2_ch_8->setObjectName(QString::fromUtf8("lable_break_mops_2_ch_8"));
+
+        horizontalLayout_68->addWidget(lable_break_mops_2_ch_8);
+
+
+        verticalLayout_38->addLayout(horizontalLayout_68);
+
+        verticalLayoutWidget_15 = new QWidget(mops_2);
+        verticalLayoutWidget_15->setObjectName(QString::fromUtf8("verticalLayoutWidget_15"));
+        verticalLayoutWidget_15->setGeometry(QRect(20, 640, 491, 91));
+        verticalLayout_39 = new QVBoxLayout(verticalLayoutWidget_15);
+        verticalLayout_39->setObjectName(QString::fromUtf8("verticalLayout_39"));
+        verticalLayout_39->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_69 = new QHBoxLayout();
+        horizontalLayout_69->setObjectName(QString::fromUtf8("horizontalLayout_69"));
+        just_lable_status_24 = new QLabel(verticalLayoutWidget_15);
+        just_lable_status_24->setObjectName(QString::fromUtf8("just_lable_status_24"));
+
+        horizontalLayout_69->addWidget(just_lable_status_24);
+
+        horizontalSpacer_51 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_69->addItem(horizontalSpacer_51);
+
+        label_190 = new QLabel(verticalLayoutWidget_15);
+        label_190->setObjectName(QString::fromUtf8("label_190"));
+
+        horizontalLayout_69->addWidget(label_190);
+
+        label_191 = new QLabel(verticalLayoutWidget_15);
+        label_191->setObjectName(QString::fromUtf8("label_191"));
+
+        horizontalLayout_69->addWidget(label_191);
+
+        label_192 = new QLabel(verticalLayoutWidget_15);
+        label_192->setObjectName(QString::fromUtf8("label_192"));
+
+        horizontalLayout_69->addWidget(label_192);
+
+        label_193 = new QLabel(verticalLayoutWidget_15);
+        label_193->setObjectName(QString::fromUtf8("label_193"));
+
+        horizontalLayout_69->addWidget(label_193);
+
+        label_194 = new QLabel(verticalLayoutWidget_15);
+        label_194->setObjectName(QString::fromUtf8("label_194"));
+
+        horizontalLayout_69->addWidget(label_194);
+
+        label_195 = new QLabel(verticalLayoutWidget_15);
+        label_195->setObjectName(QString::fromUtf8("label_195"));
+
+        horizontalLayout_69->addWidget(label_195);
+
+        label_196 = new QLabel(verticalLayoutWidget_15);
+        label_196->setObjectName(QString::fromUtf8("label_196"));
+
+        horizontalLayout_69->addWidget(label_196);
+
+        label_197 = new QLabel(verticalLayoutWidget_15);
+        label_197->setObjectName(QString::fromUtf8("label_197"));
+
+        horizontalLayout_69->addWidget(label_197);
+
+
+        verticalLayout_39->addLayout(horizontalLayout_69);
+
+        horizontalLayout_70 = new QHBoxLayout();
+        horizontalLayout_70->setObjectName(QString::fromUtf8("horizontalLayout_70"));
+        just_lable_error_24 = new QLabel(verticalLayoutWidget_15);
+        just_lable_error_24->setObjectName(QString::fromUtf8("just_lable_error_24"));
+
+        horizontalLayout_70->addWidget(just_lable_error_24);
+
+        horizontalSpacer_52 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_70->addItem(horizontalSpacer_52);
+
+        lable_break_mops_2_sc_1 = new QLabel(verticalLayoutWidget_15);
+        lable_break_mops_2_sc_1->setObjectName(QString::fromUtf8("lable_break_mops_2_sc_1"));
+
+        horizontalLayout_70->addWidget(lable_break_mops_2_sc_1);
+
+        lable_break_mops_2_sc_2 = new QLabel(verticalLayoutWidget_15);
+        lable_break_mops_2_sc_2->setObjectName(QString::fromUtf8("lable_break_mops_2_sc_2"));
+
+        horizontalLayout_70->addWidget(lable_break_mops_2_sc_2);
+
+        lable_break_mops_2_sc_3 = new QLabel(verticalLayoutWidget_15);
+        lable_break_mops_2_sc_3->setObjectName(QString::fromUtf8("lable_break_mops_2_sc_3"));
+
+        horizontalLayout_70->addWidget(lable_break_mops_2_sc_3);
+
+        lable_break_mops_2_sc_4 = new QLabel(verticalLayoutWidget_15);
+        lable_break_mops_2_sc_4->setObjectName(QString::fromUtf8("lable_break_mops_2_sc_4"));
+
+        horizontalLayout_70->addWidget(lable_break_mops_2_sc_4);
+
+        lable_break_mops_2_sc_5 = new QLabel(verticalLayoutWidget_15);
+        lable_break_mops_2_sc_5->setObjectName(QString::fromUtf8("lable_break_mops_2_sc_5"));
+
+        horizontalLayout_70->addWidget(lable_break_mops_2_sc_5);
+
+        lable_break_mops_2_sc_6 = new QLabel(verticalLayoutWidget_15);
+        lable_break_mops_2_sc_6->setObjectName(QString::fromUtf8("lable_break_mops_2_sc_6"));
+
+        horizontalLayout_70->addWidget(lable_break_mops_2_sc_6);
+
+        lable_break_mops_2_sc_7 = new QLabel(verticalLayoutWidget_15);
+        lable_break_mops_2_sc_7->setObjectName(QString::fromUtf8("lable_break_mops_2_sc_7"));
+
+        horizontalLayout_70->addWidget(lable_break_mops_2_sc_7);
+
+        lable_break_mops_2_sc_8 = new QLabel(verticalLayoutWidget_15);
+        lable_break_mops_2_sc_8->setObjectName(QString::fromUtf8("lable_break_mops_2_sc_8"));
+
+        horizontalLayout_70->addWidget(lable_break_mops_2_sc_8);
+
+
+        verticalLayout_39->addLayout(horizontalLayout_70);
+
+        just_lable_break_9 = new QLabel(mops_2);
+        just_lable_break_9->setObjectName(QString::fromUtf8("just_lable_break_9"));
+        just_lable_break_9->setGeometry(QRect(220, 610, 151, 21));
+        verticalLayoutWidget_16 = new QWidget(mops_2);
+        verticalLayoutWidget_16->setObjectName(QString::fromUtf8("verticalLayoutWidget_16"));
+        verticalLayoutWidget_16->setGeometry(QRect(20, 260, 491, 91));
+        verticalLayout_40 = new QVBoxLayout(verticalLayoutWidget_16);
+        verticalLayout_40->setObjectName(QString::fromUtf8("verticalLayout_40"));
+        verticalLayout_40->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_71 = new QHBoxLayout();
+        horizontalLayout_71->setObjectName(QString::fromUtf8("horizontalLayout_71"));
+        just_lable_status_25 = new QLabel(verticalLayoutWidget_16);
+        just_lable_status_25->setObjectName(QString::fromUtf8("just_lable_status_25"));
+
+        horizontalLayout_71->addWidget(just_lable_status_25);
+
+        horizontalSpacer_53 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_71->addItem(horizontalSpacer_53);
+
+        label_198 = new QLabel(verticalLayoutWidget_16);
+        label_198->setObjectName(QString::fromUtf8("label_198"));
+
+        horizontalLayout_71->addWidget(label_198);
+
+        label_199 = new QLabel(verticalLayoutWidget_16);
+        label_199->setObjectName(QString::fromUtf8("label_199"));
+
+        horizontalLayout_71->addWidget(label_199);
+
+        label_200 = new QLabel(verticalLayoutWidget_16);
+        label_200->setObjectName(QString::fromUtf8("label_200"));
+
+        horizontalLayout_71->addWidget(label_200);
+
+        label_201 = new QLabel(verticalLayoutWidget_16);
+        label_201->setObjectName(QString::fromUtf8("label_201"));
+
+        horizontalLayout_71->addWidget(label_201);
+
+        label_202 = new QLabel(verticalLayoutWidget_16);
+        label_202->setObjectName(QString::fromUtf8("label_202"));
+
+        horizontalLayout_71->addWidget(label_202);
+
+        label_203 = new QLabel(verticalLayoutWidget_16);
+        label_203->setObjectName(QString::fromUtf8("label_203"));
+
+        horizontalLayout_71->addWidget(label_203);
+
+        label_204 = new QLabel(verticalLayoutWidget_16);
+        label_204->setObjectName(QString::fromUtf8("label_204"));
+
+        horizontalLayout_71->addWidget(label_204);
+
+        label_205 = new QLabel(verticalLayoutWidget_16);
+        label_205->setObjectName(QString::fromUtf8("label_205"));
+
+        horizontalLayout_71->addWidget(label_205);
+
+
+        verticalLayout_40->addLayout(horizontalLayout_71);
+
+        horizontalLayout_72 = new QHBoxLayout();
+        horizontalLayout_72->setObjectName(QString::fromUtf8("horizontalLayout_72"));
+        just_lable_error_25 = new QLabel(verticalLayoutWidget_16);
+        just_lable_error_25->setObjectName(QString::fromUtf8("just_lable_error_25"));
+
+        horizontalLayout_72->addWidget(just_lable_error_25);
+
+        horizontalSpacer_54 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_72->addItem(horizontalSpacer_54);
+
+        lable_norm_mops_2_ch_1 = new QLabel(verticalLayoutWidget_16);
+        lable_norm_mops_2_ch_1->setObjectName(QString::fromUtf8("lable_norm_mops_2_ch_1"));
+
+        horizontalLayout_72->addWidget(lable_norm_mops_2_ch_1);
+
+        lable_norm_mops_2_ch_2 = new QLabel(verticalLayoutWidget_16);
+        lable_norm_mops_2_ch_2->setObjectName(QString::fromUtf8("lable_norm_mops_2_ch_2"));
+
+        horizontalLayout_72->addWidget(lable_norm_mops_2_ch_2);
+
+        lable_norm_mops_2_ch_3 = new QLabel(verticalLayoutWidget_16);
+        lable_norm_mops_2_ch_3->setObjectName(QString::fromUtf8("lable_norm_mops_2_ch_3"));
+
+        horizontalLayout_72->addWidget(lable_norm_mops_2_ch_3);
+
+        lable_norm_mops_2_ch_4 = new QLabel(verticalLayoutWidget_16);
+        lable_norm_mops_2_ch_4->setObjectName(QString::fromUtf8("lable_norm_mops_2_ch_4"));
+
+        horizontalLayout_72->addWidget(lable_norm_mops_2_ch_4);
+
+        lable_norm_mops_2_ch_5 = new QLabel(verticalLayoutWidget_16);
+        lable_norm_mops_2_ch_5->setObjectName(QString::fromUtf8("lable_norm_mops_2_ch_5"));
+
+        horizontalLayout_72->addWidget(lable_norm_mops_2_ch_5);
+
+        lable_norm_mops_2_ch_6 = new QLabel(verticalLayoutWidget_16);
+        lable_norm_mops_2_ch_6->setObjectName(QString::fromUtf8("lable_norm_mops_2_ch_6"));
+
+        horizontalLayout_72->addWidget(lable_norm_mops_2_ch_6);
+
+        lable_norm_mops_2_ch_7 = new QLabel(verticalLayoutWidget_16);
+        lable_norm_mops_2_ch_7->setObjectName(QString::fromUtf8("lable_norm_mops_2_ch_7"));
+
+        horizontalLayout_72->addWidget(lable_norm_mops_2_ch_7);
+
+        lable_norm_mops_2_ch_8 = new QLabel(verticalLayoutWidget_16);
+        lable_norm_mops_2_ch_8->setObjectName(QString::fromUtf8("lable_norm_mops_2_ch_8"));
+
+        horizontalLayout_72->addWidget(lable_norm_mops_2_ch_8);
+
+
+        verticalLayout_40->addLayout(horizontalLayout_72);
+
+        just_lable_break_10 = new QLabel(mops_2);
+        just_lable_break_10->setObjectName(QString::fromUtf8("just_lable_break_10"));
+        just_lable_break_10->setGeometry(QRect(220, 110, 61, 21));
+        just_lable_status_ch_5 = new QLabel(mops_2);
+        just_lable_status_ch_5->setObjectName(QString::fromUtf8("just_lable_status_ch_5"));
+        just_lable_status_ch_5->setGeometry(QRect(180, 80, 151, 31));
+        verticalLayoutWidget_17 = new QWidget(mops_2);
+        verticalLayoutWidget_17->setObjectName(QString::fromUtf8("verticalLayoutWidget_17"));
+        verticalLayoutWidget_17->setGeometry(QRect(20, 510, 491, 91));
+        verticalLayout_41 = new QVBoxLayout(verticalLayoutWidget_17);
+        verticalLayout_41->setObjectName(QString::fromUtf8("verticalLayout_41"));
+        verticalLayout_41->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_73 = new QHBoxLayout();
+        horizontalLayout_73->setObjectName(QString::fromUtf8("horizontalLayout_73"));
+        just_lable_status_26 = new QLabel(verticalLayoutWidget_17);
+        just_lable_status_26->setObjectName(QString::fromUtf8("just_lable_status_26"));
+
+        horizontalLayout_73->addWidget(just_lable_status_26);
+
+        horizontalSpacer_55 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_73->addItem(horizontalSpacer_55);
+
+        label_206 = new QLabel(verticalLayoutWidget_17);
+        label_206->setObjectName(QString::fromUtf8("label_206"));
+
+        horizontalLayout_73->addWidget(label_206);
+
+        label_207 = new QLabel(verticalLayoutWidget_17);
+        label_207->setObjectName(QString::fromUtf8("label_207"));
+
+        horizontalLayout_73->addWidget(label_207);
+
+        label_208 = new QLabel(verticalLayoutWidget_17);
+        label_208->setObjectName(QString::fromUtf8("label_208"));
+
+        horizontalLayout_73->addWidget(label_208);
+
+        label_209 = new QLabel(verticalLayoutWidget_17);
+        label_209->setObjectName(QString::fromUtf8("label_209"));
+
+        horizontalLayout_73->addWidget(label_209);
+
+        label_210 = new QLabel(verticalLayoutWidget_17);
+        label_210->setObjectName(QString::fromUtf8("label_210"));
+
+        horizontalLayout_73->addWidget(label_210);
+
+        label_211 = new QLabel(verticalLayoutWidget_17);
+        label_211->setObjectName(QString::fromUtf8("label_211"));
+
+        horizontalLayout_73->addWidget(label_211);
+
+        label_212 = new QLabel(verticalLayoutWidget_17);
+        label_212->setObjectName(QString::fromUtf8("label_212"));
+
+        horizontalLayout_73->addWidget(label_212);
+
+        label_213 = new QLabel(verticalLayoutWidget_17);
+        label_213->setObjectName(QString::fromUtf8("label_213"));
+
+        horizontalLayout_73->addWidget(label_213);
+
+
+        verticalLayout_41->addLayout(horizontalLayout_73);
+
+        horizontalLayout_74 = new QHBoxLayout();
+        horizontalLayout_74->setObjectName(QString::fromUtf8("horizontalLayout_74"));
+        just_lable_error_26 = new QLabel(verticalLayoutWidget_17);
+        just_lable_error_26->setObjectName(QString::fromUtf8("just_lable_error_26"));
+
+        horizontalLayout_74->addWidget(just_lable_error_26);
+
+        horizontalSpacer_56 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_74->addItem(horizontalSpacer_56);
+
+        lable_fire_mops_2_ch_1 = new QLabel(verticalLayoutWidget_17);
+        lable_fire_mops_2_ch_1->setObjectName(QString::fromUtf8("lable_fire_mops_2_ch_1"));
+
+        horizontalLayout_74->addWidget(lable_fire_mops_2_ch_1);
+
+        lable_fire_mops_2_ch_2 = new QLabel(verticalLayoutWidget_17);
+        lable_fire_mops_2_ch_2->setObjectName(QString::fromUtf8("lable_fire_mops_2_ch_2"));
+
+        horizontalLayout_74->addWidget(lable_fire_mops_2_ch_2);
+
+        lable_fire_mops_2_ch_3 = new QLabel(verticalLayoutWidget_17);
+        lable_fire_mops_2_ch_3->setObjectName(QString::fromUtf8("lable_fire_mops_2_ch_3"));
+
+        horizontalLayout_74->addWidget(lable_fire_mops_2_ch_3);
+
+        lable_fire_mops_2_ch_4 = new QLabel(verticalLayoutWidget_17);
+        lable_fire_mops_2_ch_4->setObjectName(QString::fromUtf8("lable_fire_mops_2_ch_4"));
+
+        horizontalLayout_74->addWidget(lable_fire_mops_2_ch_4);
+
+        lable_fire_mops_2_ch_5 = new QLabel(verticalLayoutWidget_17);
+        lable_fire_mops_2_ch_5->setObjectName(QString::fromUtf8("lable_fire_mops_2_ch_5"));
+
+        horizontalLayout_74->addWidget(lable_fire_mops_2_ch_5);
+
+        lable_fire_mops_2_ch_6 = new QLabel(verticalLayoutWidget_17);
+        lable_fire_mops_2_ch_6->setObjectName(QString::fromUtf8("lable_fire_mops_2_ch_6"));
+
+        horizontalLayout_74->addWidget(lable_fire_mops_2_ch_6);
+
+        lable_fire_mops_2_ch_7 = new QLabel(verticalLayoutWidget_17);
+        lable_fire_mops_2_ch_7->setObjectName(QString::fromUtf8("lable_fire_mops_2_ch_7"));
+
+        horizontalLayout_74->addWidget(lable_fire_mops_2_ch_7);
+
+        lable_fire_mops_2_ch_8 = new QLabel(verticalLayoutWidget_17);
+        lable_fire_mops_2_ch_8->setObjectName(QString::fromUtf8("lable_fire_mops_2_ch_8"));
+
+        horizontalLayout_74->addWidget(lable_fire_mops_2_ch_8);
+
+
+        verticalLayout_41->addLayout(horizontalLayout_74);
+
+        just_lable_break_11 = new QLabel(mops_2);
+        just_lable_break_11->setObjectName(QString::fromUtf8("just_lable_break_11"));
+        just_lable_break_11->setGeometry(QRect(220, 480, 61, 21));
+        just_lable_attantion_6 = new QLabel(mops_2);
+        just_lable_attantion_6->setObjectName(QString::fromUtf8("just_lable_attantion_6"));
+        just_lable_attantion_6->setGeometry(QRect(220, 360, 81, 21));
+        verticalLayoutWidget_18 = new QWidget(mops_2);
+        verticalLayoutWidget_18->setObjectName(QString::fromUtf8("verticalLayoutWidget_18"));
+        verticalLayoutWidget_18->setGeometry(QRect(20, 390, 491, 91));
+        verticalLayout_42 = new QVBoxLayout(verticalLayoutWidget_18);
+        verticalLayout_42->setObjectName(QString::fromUtf8("verticalLayout_42"));
+        verticalLayout_42->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_75 = new QHBoxLayout();
+        horizontalLayout_75->setObjectName(QString::fromUtf8("horizontalLayout_75"));
+        just_lable_status_27 = new QLabel(verticalLayoutWidget_18);
+        just_lable_status_27->setObjectName(QString::fromUtf8("just_lable_status_27"));
+
+        horizontalLayout_75->addWidget(just_lable_status_27);
+
+        horizontalSpacer_57 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_75->addItem(horizontalSpacer_57);
+
+        label_214 = new QLabel(verticalLayoutWidget_18);
+        label_214->setObjectName(QString::fromUtf8("label_214"));
+
+        horizontalLayout_75->addWidget(label_214);
+
+        label_215 = new QLabel(verticalLayoutWidget_18);
+        label_215->setObjectName(QString::fromUtf8("label_215"));
+
+        horizontalLayout_75->addWidget(label_215);
+
+        label_216 = new QLabel(verticalLayoutWidget_18);
+        label_216->setObjectName(QString::fromUtf8("label_216"));
+
+        horizontalLayout_75->addWidget(label_216);
+
+        label_217 = new QLabel(verticalLayoutWidget_18);
+        label_217->setObjectName(QString::fromUtf8("label_217"));
+
+        horizontalLayout_75->addWidget(label_217);
+
+        label_218 = new QLabel(verticalLayoutWidget_18);
+        label_218->setObjectName(QString::fromUtf8("label_218"));
+
+        horizontalLayout_75->addWidget(label_218);
+
+        label_219 = new QLabel(verticalLayoutWidget_18);
+        label_219->setObjectName(QString::fromUtf8("label_219"));
+
+        horizontalLayout_75->addWidget(label_219);
+
+        label_220 = new QLabel(verticalLayoutWidget_18);
+        label_220->setObjectName(QString::fromUtf8("label_220"));
+
+        horizontalLayout_75->addWidget(label_220);
+
+        label_221 = new QLabel(verticalLayoutWidget_18);
+        label_221->setObjectName(QString::fromUtf8("label_221"));
+
+        horizontalLayout_75->addWidget(label_221);
+
+
+        verticalLayout_42->addLayout(horizontalLayout_75);
+
+        horizontalLayout_76 = new QHBoxLayout();
+        horizontalLayout_76->setObjectName(QString::fromUtf8("horizontalLayout_76"));
+        just_lable_error_27 = new QLabel(verticalLayoutWidget_18);
+        just_lable_error_27->setObjectName(QString::fromUtf8("just_lable_error_27"));
+
+        horizontalLayout_76->addWidget(just_lable_error_27);
+
+        horizontalSpacer_58 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_76->addItem(horizontalSpacer_58);
+
+        lable_attantion_mops_2_ch_1 = new QLabel(verticalLayoutWidget_18);
+        lable_attantion_mops_2_ch_1->setObjectName(QString::fromUtf8("lable_attantion_mops_2_ch_1"));
+
+        horizontalLayout_76->addWidget(lable_attantion_mops_2_ch_1);
+
+        lable_attantion_mops_2_ch_2 = new QLabel(verticalLayoutWidget_18);
+        lable_attantion_mops_2_ch_2->setObjectName(QString::fromUtf8("lable_attantion_mops_2_ch_2"));
+
+        horizontalLayout_76->addWidget(lable_attantion_mops_2_ch_2);
+
+        lable_attantion_mops_2_ch_3 = new QLabel(verticalLayoutWidget_18);
+        lable_attantion_mops_2_ch_3->setObjectName(QString::fromUtf8("lable_attantion_mops_2_ch_3"));
+
+        horizontalLayout_76->addWidget(lable_attantion_mops_2_ch_3);
+
+        lable_attantion_mops_2_ch_4 = new QLabel(verticalLayoutWidget_18);
+        lable_attantion_mops_2_ch_4->setObjectName(QString::fromUtf8("lable_attantion_mops_2_ch_4"));
+
+        horizontalLayout_76->addWidget(lable_attantion_mops_2_ch_4);
+
+        lable_attantion_mops_2_ch_5 = new QLabel(verticalLayoutWidget_18);
+        lable_attantion_mops_2_ch_5->setObjectName(QString::fromUtf8("lable_attantion_mops_2_ch_5"));
+
+        horizontalLayout_76->addWidget(lable_attantion_mops_2_ch_5);
+
+        lable_attantion_mops_2_ch_6 = new QLabel(verticalLayoutWidget_18);
+        lable_attantion_mops_2_ch_6->setObjectName(QString::fromUtf8("lable_attantion_mops_2_ch_6"));
+
+        horizontalLayout_76->addWidget(lable_attantion_mops_2_ch_6);
+
+        lable_attantion_mops_2_ch_7 = new QLabel(verticalLayoutWidget_18);
+        lable_attantion_mops_2_ch_7->setObjectName(QString::fromUtf8("lable_attantion_mops_2_ch_7"));
+
+        horizontalLayout_76->addWidget(lable_attantion_mops_2_ch_7);
+
+        lable_attantion_mops_2_ch_8 = new QLabel(verticalLayoutWidget_18);
+        lable_attantion_mops_2_ch_8->setObjectName(QString::fromUtf8("lable_attantion_mops_2_ch_8"));
+
+        horizontalLayout_76->addWidget(lable_attantion_mops_2_ch_8);
+
+
+        verticalLayout_42->addLayout(horizontalLayout_76);
+
+        layoutWidget_10 = new QWidget(mops_2);
+        layoutWidget_10->setObjectName(QString::fromUtf8("layoutWidget_10"));
+        layoutWidget_10->setGeometry(QRect(360, 10, 150, 98));
+        verticalLayout_43 = new QVBoxLayout(layoutWidget_10);
+        verticalLayout_43->setObjectName(QString::fromUtf8("verticalLayout_43"));
+        verticalLayout_43->setContentsMargins(0, 0, 0, 0);
+        just_lable_supply_err_5 = new QLabel(layoutWidget_10);
+        just_lable_supply_err_5->setObjectName(QString::fromUtf8("just_lable_supply_err_5"));
+
+        verticalLayout_43->addWidget(just_lable_supply_err_5);
+
+        horizontalLayout_77 = new QHBoxLayout();
+        horizontalLayout_77->setObjectName(QString::fromUtf8("horizontalLayout_77"));
+        verticalLayout_44 = new QVBoxLayout();
+        verticalLayout_44->setObjectName(QString::fromUtf8("verticalLayout_44"));
+        just_lable_18v_5 = new QLabel(layoutWidget_10);
+        just_lable_18v_5->setObjectName(QString::fromUtf8("just_lable_18v_5"));
+
+        verticalLayout_44->addWidget(just_lable_18v_5);
+
+        just_lable_24v_5 = new QLabel(layoutWidget_10);
+        just_lable_24v_5->setObjectName(QString::fromUtf8("just_lable_24v_5"));
+
+        verticalLayout_44->addWidget(just_lable_24v_5);
+
+        just_lable_28v_5 = new QLabel(layoutWidget_10);
+        just_lable_28v_5->setObjectName(QString::fromUtf8("just_lable_28v_5"));
+
+        verticalLayout_44->addWidget(just_lable_28v_5);
+
+
+        horizontalLayout_77->addLayout(verticalLayout_44);
+
+        verticalLayout_45 = new QVBoxLayout();
+        verticalLayout_45->setObjectName(QString::fromUtf8("verticalLayout_45"));
+        lable_18v_ans_mops_2 = new QLabel(layoutWidget_10);
+        lable_18v_ans_mops_2->setObjectName(QString::fromUtf8("lable_18v_ans_mops_2"));
+
+        verticalLayout_45->addWidget(lable_18v_ans_mops_2);
+
+        lable_24v_ans_mops_2 = new QLabel(layoutWidget_10);
+        lable_24v_ans_mops_2->setObjectName(QString::fromUtf8("lable_24v_ans_mops_2"));
+
+        verticalLayout_45->addWidget(lable_24v_ans_mops_2);
+
+        lable_28v_ans_mops_2 = new QLabel(layoutWidget_10);
+        lable_28v_ans_mops_2->setObjectName(QString::fromUtf8("lable_28v_ans_mops_2"));
+
+        verticalLayout_45->addWidget(lable_28v_ans_mops_2);
+
+
+        horizontalLayout_77->addLayout(verticalLayout_45);
+
+
+        verticalLayout_43->addLayout(horizontalLayout_77);
+
+        layoutWidget_11 = new QWidget(mops_2);
+        layoutWidget_11->setObjectName(QString::fromUtf8("layoutWidget_11"));
+        layoutWidget_11->setGeometry(QRect(10, 40, 244, 22));
+        horizontalLayout_78 = new QHBoxLayout(layoutWidget_11);
+        horizontalLayout_78->setObjectName(QString::fromUtf8("horizontalLayout_78"));
+        horizontalLayout_78->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_14 = new QLabel(layoutWidget_11);
+        just_lable_online_status_req_mops_14->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_14"));
+
+        horizontalLayout_78->addWidget(just_lable_online_status_req_mops_14);
+
+        just_lable_oper_status_ans_mops_2 = new QLabel(layoutWidget_11);
+        just_lable_oper_status_ans_mops_2->setObjectName(QString::fromUtf8("just_lable_oper_status_ans_mops_2"));
+        just_lable_oper_status_ans_mops_2->setMinimumSize(QSize(102, 0));
+        just_lable_oper_status_ans_mops_2->setScaledContents(false);
+        just_lable_oper_status_ans_mops_2->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_78->addWidget(just_lable_oper_status_ans_mops_2);
+
         tab_widget_for_mops->addTab(mops_2, QString());
         mops_3 = new QWidget();
         mops_3->setObjectName(QString::fromUtf8("mops_3"));
+        layoutWidget_12 = new QWidget(mops_3);
+        layoutWidget_12->setObjectName(QString::fromUtf8("layoutWidget_12"));
+        layoutWidget_12->setGeometry(QRect(10, 10, 219, 22));
+        horizontalLayout_79 = new QHBoxLayout(layoutWidget_12);
+        horizontalLayout_79->setObjectName(QString::fromUtf8("horizontalLayout_79"));
+        horizontalLayout_79->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_15 = new QLabel(layoutWidget_12);
+        just_lable_online_status_req_mops_15->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_15"));
+
+        horizontalLayout_79->addWidget(just_lable_online_status_req_mops_15);
+
+        just_lable_online_status_ans_mops_3 = new QLabel(layoutWidget_12);
+        just_lable_online_status_ans_mops_3->setObjectName(QString::fromUtf8("just_lable_online_status_ans_mops_3"));
+        just_lable_online_status_ans_mops_3->setMinimumSize(QSize(102, 0));
+        just_lable_online_status_ans_mops_3->setScaledContents(false);
+        just_lable_online_status_ans_mops_3->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_79->addWidget(just_lable_online_status_ans_mops_3);
+
+        just_lable_norm_4 = new QLabel(mops_3);
+        just_lable_norm_4->setObjectName(QString::fromUtf8("just_lable_norm_4"));
+        just_lable_norm_4->setGeometry(QRect(220, 230, 61, 21));
+        verticalLayoutWidget_19 = new QWidget(mops_3);
+        verticalLayoutWidget_19->setObjectName(QString::fromUtf8("verticalLayoutWidget_19"));
+        verticalLayoutWidget_19->setGeometry(QRect(20, 140, 491, 91));
+        verticalLayout_46 = new QVBoxLayout(verticalLayoutWidget_19);
+        verticalLayout_46->setObjectName(QString::fromUtf8("verticalLayout_46"));
+        verticalLayout_46->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_80 = new QHBoxLayout();
+        horizontalLayout_80->setObjectName(QString::fromUtf8("horizontalLayout_80"));
+        just_lable_status_28 = new QLabel(verticalLayoutWidget_19);
+        just_lable_status_28->setObjectName(QString::fromUtf8("just_lable_status_28"));
+
+        horizontalLayout_80->addWidget(just_lable_status_28);
+
+        horizontalSpacer_59 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_80->addItem(horizontalSpacer_59);
+
+        label_222 = new QLabel(verticalLayoutWidget_19);
+        label_222->setObjectName(QString::fromUtf8("label_222"));
+
+        horizontalLayout_80->addWidget(label_222);
+
+        label_223 = new QLabel(verticalLayoutWidget_19);
+        label_223->setObjectName(QString::fromUtf8("label_223"));
+
+        horizontalLayout_80->addWidget(label_223);
+
+        label_224 = new QLabel(verticalLayoutWidget_19);
+        label_224->setObjectName(QString::fromUtf8("label_224"));
+
+        horizontalLayout_80->addWidget(label_224);
+
+        label_225 = new QLabel(verticalLayoutWidget_19);
+        label_225->setObjectName(QString::fromUtf8("label_225"));
+
+        horizontalLayout_80->addWidget(label_225);
+
+        label_226 = new QLabel(verticalLayoutWidget_19);
+        label_226->setObjectName(QString::fromUtf8("label_226"));
+
+        horizontalLayout_80->addWidget(label_226);
+
+        label_227 = new QLabel(verticalLayoutWidget_19);
+        label_227->setObjectName(QString::fromUtf8("label_227"));
+
+        horizontalLayout_80->addWidget(label_227);
+
+        label_228 = new QLabel(verticalLayoutWidget_19);
+        label_228->setObjectName(QString::fromUtf8("label_228"));
+
+        horizontalLayout_80->addWidget(label_228);
+
+        label_229 = new QLabel(verticalLayoutWidget_19);
+        label_229->setObjectName(QString::fromUtf8("label_229"));
+
+        horizontalLayout_80->addWidget(label_229);
+
+
+        verticalLayout_46->addLayout(horizontalLayout_80);
+
+        horizontalLayout_81 = new QHBoxLayout();
+        horizontalLayout_81->setObjectName(QString::fromUtf8("horizontalLayout_81"));
+        just_lable_error_28 = new QLabel(verticalLayoutWidget_19);
+        just_lable_error_28->setObjectName(QString::fromUtf8("just_lable_error_28"));
+
+        horizontalLayout_81->addWidget(just_lable_error_28);
+
+        horizontalSpacer_60 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_81->addItem(horizontalSpacer_60);
+
+        lable_break_mops_3_ch_1 = new QLabel(verticalLayoutWidget_19);
+        lable_break_mops_3_ch_1->setObjectName(QString::fromUtf8("lable_break_mops_3_ch_1"));
+
+        horizontalLayout_81->addWidget(lable_break_mops_3_ch_1);
+
+        lable_break_mops_3_ch_2 = new QLabel(verticalLayoutWidget_19);
+        lable_break_mops_3_ch_2->setObjectName(QString::fromUtf8("lable_break_mops_3_ch_2"));
+
+        horizontalLayout_81->addWidget(lable_break_mops_3_ch_2);
+
+        lable_break_mops_3_ch_3 = new QLabel(verticalLayoutWidget_19);
+        lable_break_mops_3_ch_3->setObjectName(QString::fromUtf8("lable_break_mops_3_ch_3"));
+
+        horizontalLayout_81->addWidget(lable_break_mops_3_ch_3);
+
+        lable_break_mops_3_ch_4 = new QLabel(verticalLayoutWidget_19);
+        lable_break_mops_3_ch_4->setObjectName(QString::fromUtf8("lable_break_mops_3_ch_4"));
+
+        horizontalLayout_81->addWidget(lable_break_mops_3_ch_4);
+
+        lable_break_mops_3_ch_5 = new QLabel(verticalLayoutWidget_19);
+        lable_break_mops_3_ch_5->setObjectName(QString::fromUtf8("lable_break_mops_3_ch_5"));
+
+        horizontalLayout_81->addWidget(lable_break_mops_3_ch_5);
+
+        lable_break_mops_3_ch_6 = new QLabel(verticalLayoutWidget_19);
+        lable_break_mops_3_ch_6->setObjectName(QString::fromUtf8("lable_break_mops_3_ch_6"));
+
+        horizontalLayout_81->addWidget(lable_break_mops_3_ch_6);
+
+        lable_break_mops_3_ch_7 = new QLabel(verticalLayoutWidget_19);
+        lable_break_mops_3_ch_7->setObjectName(QString::fromUtf8("lable_break_mops_3_ch_7"));
+
+        horizontalLayout_81->addWidget(lable_break_mops_3_ch_7);
+
+        lable_break_mops_3_ch_8 = new QLabel(verticalLayoutWidget_19);
+        lable_break_mops_3_ch_8->setObjectName(QString::fromUtf8("lable_break_mops_3_ch_8"));
+
+        horizontalLayout_81->addWidget(lable_break_mops_3_ch_8);
+
+
+        verticalLayout_46->addLayout(horizontalLayout_81);
+
+        verticalLayoutWidget_20 = new QWidget(mops_3);
+        verticalLayoutWidget_20->setObjectName(QString::fromUtf8("verticalLayoutWidget_20"));
+        verticalLayoutWidget_20->setGeometry(QRect(20, 640, 491, 91));
+        verticalLayout_47 = new QVBoxLayout(verticalLayoutWidget_20);
+        verticalLayout_47->setObjectName(QString::fromUtf8("verticalLayout_47"));
+        verticalLayout_47->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_82 = new QHBoxLayout();
+        horizontalLayout_82->setObjectName(QString::fromUtf8("horizontalLayout_82"));
+        just_lable_status_29 = new QLabel(verticalLayoutWidget_20);
+        just_lable_status_29->setObjectName(QString::fromUtf8("just_lable_status_29"));
+
+        horizontalLayout_82->addWidget(just_lable_status_29);
+
+        horizontalSpacer_61 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_82->addItem(horizontalSpacer_61);
+
+        label_230 = new QLabel(verticalLayoutWidget_20);
+        label_230->setObjectName(QString::fromUtf8("label_230"));
+
+        horizontalLayout_82->addWidget(label_230);
+
+        label_231 = new QLabel(verticalLayoutWidget_20);
+        label_231->setObjectName(QString::fromUtf8("label_231"));
+
+        horizontalLayout_82->addWidget(label_231);
+
+        label_232 = new QLabel(verticalLayoutWidget_20);
+        label_232->setObjectName(QString::fromUtf8("label_232"));
+
+        horizontalLayout_82->addWidget(label_232);
+
+        label_233 = new QLabel(verticalLayoutWidget_20);
+        label_233->setObjectName(QString::fromUtf8("label_233"));
+
+        horizontalLayout_82->addWidget(label_233);
+
+        label_234 = new QLabel(verticalLayoutWidget_20);
+        label_234->setObjectName(QString::fromUtf8("label_234"));
+
+        horizontalLayout_82->addWidget(label_234);
+
+        label_235 = new QLabel(verticalLayoutWidget_20);
+        label_235->setObjectName(QString::fromUtf8("label_235"));
+
+        horizontalLayout_82->addWidget(label_235);
+
+        label_236 = new QLabel(verticalLayoutWidget_20);
+        label_236->setObjectName(QString::fromUtf8("label_236"));
+
+        horizontalLayout_82->addWidget(label_236);
+
+        label_237 = new QLabel(verticalLayoutWidget_20);
+        label_237->setObjectName(QString::fromUtf8("label_237"));
+
+        horizontalLayout_82->addWidget(label_237);
+
+
+        verticalLayout_47->addLayout(horizontalLayout_82);
+
+        horizontalLayout_83 = new QHBoxLayout();
+        horizontalLayout_83->setObjectName(QString::fromUtf8("horizontalLayout_83"));
+        just_lable_error_29 = new QLabel(verticalLayoutWidget_20);
+        just_lable_error_29->setObjectName(QString::fromUtf8("just_lable_error_29"));
+
+        horizontalLayout_83->addWidget(just_lable_error_29);
+
+        horizontalSpacer_62 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_83->addItem(horizontalSpacer_62);
+
+        lable_break_mops_3_sc_1 = new QLabel(verticalLayoutWidget_20);
+        lable_break_mops_3_sc_1->setObjectName(QString::fromUtf8("lable_break_mops_3_sc_1"));
+
+        horizontalLayout_83->addWidget(lable_break_mops_3_sc_1);
+
+        lable_break_mops_3_sc_2 = new QLabel(verticalLayoutWidget_20);
+        lable_break_mops_3_sc_2->setObjectName(QString::fromUtf8("lable_break_mops_3_sc_2"));
+
+        horizontalLayout_83->addWidget(lable_break_mops_3_sc_2);
+
+        lable_break_mops_3_sc_3 = new QLabel(verticalLayoutWidget_20);
+        lable_break_mops_3_sc_3->setObjectName(QString::fromUtf8("lable_break_mops_3_sc_3"));
+
+        horizontalLayout_83->addWidget(lable_break_mops_3_sc_3);
+
+        lable_break_mops_3_sc_4 = new QLabel(verticalLayoutWidget_20);
+        lable_break_mops_3_sc_4->setObjectName(QString::fromUtf8("lable_break_mops_3_sc_4"));
+
+        horizontalLayout_83->addWidget(lable_break_mops_3_sc_4);
+
+        lable_break_mops_3_sc_5 = new QLabel(verticalLayoutWidget_20);
+        lable_break_mops_3_sc_5->setObjectName(QString::fromUtf8("lable_break_mops_3_sc_5"));
+
+        horizontalLayout_83->addWidget(lable_break_mops_3_sc_5);
+
+        lable_break_mops_3_sc_6 = new QLabel(verticalLayoutWidget_20);
+        lable_break_mops_3_sc_6->setObjectName(QString::fromUtf8("lable_break_mops_3_sc_6"));
+
+        horizontalLayout_83->addWidget(lable_break_mops_3_sc_6);
+
+        lable_break_mops_3_sc_7 = new QLabel(verticalLayoutWidget_20);
+        lable_break_mops_3_sc_7->setObjectName(QString::fromUtf8("lable_break_mops_3_sc_7"));
+
+        horizontalLayout_83->addWidget(lable_break_mops_3_sc_7);
+
+        lable_break_mops_3_sc_8 = new QLabel(verticalLayoutWidget_20);
+        lable_break_mops_3_sc_8->setObjectName(QString::fromUtf8("lable_break_mops_3_sc_8"));
+
+        horizontalLayout_83->addWidget(lable_break_mops_3_sc_8);
+
+
+        verticalLayout_47->addLayout(horizontalLayout_83);
+
+        just_lable_break_12 = new QLabel(mops_3);
+        just_lable_break_12->setObjectName(QString::fromUtf8("just_lable_break_12"));
+        just_lable_break_12->setGeometry(QRect(220, 610, 151, 21));
+        verticalLayoutWidget_21 = new QWidget(mops_3);
+        verticalLayoutWidget_21->setObjectName(QString::fromUtf8("verticalLayoutWidget_21"));
+        verticalLayoutWidget_21->setGeometry(QRect(20, 260, 491, 91));
+        verticalLayout_48 = new QVBoxLayout(verticalLayoutWidget_21);
+        verticalLayout_48->setObjectName(QString::fromUtf8("verticalLayout_48"));
+        verticalLayout_48->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_84 = new QHBoxLayout();
+        horizontalLayout_84->setObjectName(QString::fromUtf8("horizontalLayout_84"));
+        just_lable_status_30 = new QLabel(verticalLayoutWidget_21);
+        just_lable_status_30->setObjectName(QString::fromUtf8("just_lable_status_30"));
+
+        horizontalLayout_84->addWidget(just_lable_status_30);
+
+        horizontalSpacer_63 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_84->addItem(horizontalSpacer_63);
+
+        label_238 = new QLabel(verticalLayoutWidget_21);
+        label_238->setObjectName(QString::fromUtf8("label_238"));
+
+        horizontalLayout_84->addWidget(label_238);
+
+        label_239 = new QLabel(verticalLayoutWidget_21);
+        label_239->setObjectName(QString::fromUtf8("label_239"));
+
+        horizontalLayout_84->addWidget(label_239);
+
+        label_240 = new QLabel(verticalLayoutWidget_21);
+        label_240->setObjectName(QString::fromUtf8("label_240"));
+
+        horizontalLayout_84->addWidget(label_240);
+
+        label_241 = new QLabel(verticalLayoutWidget_21);
+        label_241->setObjectName(QString::fromUtf8("label_241"));
+
+        horizontalLayout_84->addWidget(label_241);
+
+        label_242 = new QLabel(verticalLayoutWidget_21);
+        label_242->setObjectName(QString::fromUtf8("label_242"));
+
+        horizontalLayout_84->addWidget(label_242);
+
+        label_243 = new QLabel(verticalLayoutWidget_21);
+        label_243->setObjectName(QString::fromUtf8("label_243"));
+
+        horizontalLayout_84->addWidget(label_243);
+
+        label_244 = new QLabel(verticalLayoutWidget_21);
+        label_244->setObjectName(QString::fromUtf8("label_244"));
+
+        horizontalLayout_84->addWidget(label_244);
+
+        label_245 = new QLabel(verticalLayoutWidget_21);
+        label_245->setObjectName(QString::fromUtf8("label_245"));
+
+        horizontalLayout_84->addWidget(label_245);
+
+
+        verticalLayout_48->addLayout(horizontalLayout_84);
+
+        horizontalLayout_85 = new QHBoxLayout();
+        horizontalLayout_85->setObjectName(QString::fromUtf8("horizontalLayout_85"));
+        just_lable_error_30 = new QLabel(verticalLayoutWidget_21);
+        just_lable_error_30->setObjectName(QString::fromUtf8("just_lable_error_30"));
+
+        horizontalLayout_85->addWidget(just_lable_error_30);
+
+        horizontalSpacer_64 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_85->addItem(horizontalSpacer_64);
+
+        lable_norm_mops_3_ch_1 = new QLabel(verticalLayoutWidget_21);
+        lable_norm_mops_3_ch_1->setObjectName(QString::fromUtf8("lable_norm_mops_3_ch_1"));
+
+        horizontalLayout_85->addWidget(lable_norm_mops_3_ch_1);
+
+        lable_norm_mops_3_ch_2 = new QLabel(verticalLayoutWidget_21);
+        lable_norm_mops_3_ch_2->setObjectName(QString::fromUtf8("lable_norm_mops_3_ch_2"));
+
+        horizontalLayout_85->addWidget(lable_norm_mops_3_ch_2);
+
+        lable_norm_mops_3_ch_3 = new QLabel(verticalLayoutWidget_21);
+        lable_norm_mops_3_ch_3->setObjectName(QString::fromUtf8("lable_norm_mops_3_ch_3"));
+
+        horizontalLayout_85->addWidget(lable_norm_mops_3_ch_3);
+
+        lable_norm_mops_3_ch_4 = new QLabel(verticalLayoutWidget_21);
+        lable_norm_mops_3_ch_4->setObjectName(QString::fromUtf8("lable_norm_mops_3_ch_4"));
+
+        horizontalLayout_85->addWidget(lable_norm_mops_3_ch_4);
+
+        lable_norm_mops_3_ch_5 = new QLabel(verticalLayoutWidget_21);
+        lable_norm_mops_3_ch_5->setObjectName(QString::fromUtf8("lable_norm_mops_3_ch_5"));
+
+        horizontalLayout_85->addWidget(lable_norm_mops_3_ch_5);
+
+        lable_norm_mops_3_ch_6 = new QLabel(verticalLayoutWidget_21);
+        lable_norm_mops_3_ch_6->setObjectName(QString::fromUtf8("lable_norm_mops_3_ch_6"));
+
+        horizontalLayout_85->addWidget(lable_norm_mops_3_ch_6);
+
+        lable_norm_mops_3_ch_7 = new QLabel(verticalLayoutWidget_21);
+        lable_norm_mops_3_ch_7->setObjectName(QString::fromUtf8("lable_norm_mops_3_ch_7"));
+
+        horizontalLayout_85->addWidget(lable_norm_mops_3_ch_7);
+
+        lable_norm_mops_3_ch_8 = new QLabel(verticalLayoutWidget_21);
+        lable_norm_mops_3_ch_8->setObjectName(QString::fromUtf8("lable_norm_mops_3_ch_8"));
+
+        horizontalLayout_85->addWidget(lable_norm_mops_3_ch_8);
+
+
+        verticalLayout_48->addLayout(horizontalLayout_85);
+
+        just_lable_break_13 = new QLabel(mops_3);
+        just_lable_break_13->setObjectName(QString::fromUtf8("just_lable_break_13"));
+        just_lable_break_13->setGeometry(QRect(220, 110, 61, 21));
+        just_lable_status_ch_6 = new QLabel(mops_3);
+        just_lable_status_ch_6->setObjectName(QString::fromUtf8("just_lable_status_ch_6"));
+        just_lable_status_ch_6->setGeometry(QRect(180, 80, 151, 31));
+        verticalLayoutWidget_22 = new QWidget(mops_3);
+        verticalLayoutWidget_22->setObjectName(QString::fromUtf8("verticalLayoutWidget_22"));
+        verticalLayoutWidget_22->setGeometry(QRect(20, 510, 491, 91));
+        verticalLayout_49 = new QVBoxLayout(verticalLayoutWidget_22);
+        verticalLayout_49->setObjectName(QString::fromUtf8("verticalLayout_49"));
+        verticalLayout_49->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_86 = new QHBoxLayout();
+        horizontalLayout_86->setObjectName(QString::fromUtf8("horizontalLayout_86"));
+        just_lable_status_31 = new QLabel(verticalLayoutWidget_22);
+        just_lable_status_31->setObjectName(QString::fromUtf8("just_lable_status_31"));
+
+        horizontalLayout_86->addWidget(just_lable_status_31);
+
+        horizontalSpacer_65 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_86->addItem(horizontalSpacer_65);
+
+        label_246 = new QLabel(verticalLayoutWidget_22);
+        label_246->setObjectName(QString::fromUtf8("label_246"));
+
+        horizontalLayout_86->addWidget(label_246);
+
+        label_247 = new QLabel(verticalLayoutWidget_22);
+        label_247->setObjectName(QString::fromUtf8("label_247"));
+
+        horizontalLayout_86->addWidget(label_247);
+
+        label_248 = new QLabel(verticalLayoutWidget_22);
+        label_248->setObjectName(QString::fromUtf8("label_248"));
+
+        horizontalLayout_86->addWidget(label_248);
+
+        label_249 = new QLabel(verticalLayoutWidget_22);
+        label_249->setObjectName(QString::fromUtf8("label_249"));
+
+        horizontalLayout_86->addWidget(label_249);
+
+        label_250 = new QLabel(verticalLayoutWidget_22);
+        label_250->setObjectName(QString::fromUtf8("label_250"));
+
+        horizontalLayout_86->addWidget(label_250);
+
+        label_251 = new QLabel(verticalLayoutWidget_22);
+        label_251->setObjectName(QString::fromUtf8("label_251"));
+
+        horizontalLayout_86->addWidget(label_251);
+
+        label_252 = new QLabel(verticalLayoutWidget_22);
+        label_252->setObjectName(QString::fromUtf8("label_252"));
+
+        horizontalLayout_86->addWidget(label_252);
+
+        label_253 = new QLabel(verticalLayoutWidget_22);
+        label_253->setObjectName(QString::fromUtf8("label_253"));
+
+        horizontalLayout_86->addWidget(label_253);
+
+
+        verticalLayout_49->addLayout(horizontalLayout_86);
+
+        horizontalLayout_87 = new QHBoxLayout();
+        horizontalLayout_87->setObjectName(QString::fromUtf8("horizontalLayout_87"));
+        just_lable_error_31 = new QLabel(verticalLayoutWidget_22);
+        just_lable_error_31->setObjectName(QString::fromUtf8("just_lable_error_31"));
+
+        horizontalLayout_87->addWidget(just_lable_error_31);
+
+        horizontalSpacer_66 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_87->addItem(horizontalSpacer_66);
+
+        lable_fire_mops_3_ch_1 = new QLabel(verticalLayoutWidget_22);
+        lable_fire_mops_3_ch_1->setObjectName(QString::fromUtf8("lable_fire_mops_3_ch_1"));
+
+        horizontalLayout_87->addWidget(lable_fire_mops_3_ch_1);
+
+        lable_fire_mops_3_ch_2 = new QLabel(verticalLayoutWidget_22);
+        lable_fire_mops_3_ch_2->setObjectName(QString::fromUtf8("lable_fire_mops_3_ch_2"));
+
+        horizontalLayout_87->addWidget(lable_fire_mops_3_ch_2);
+
+        lable_fire_mops_3_ch_3 = new QLabel(verticalLayoutWidget_22);
+        lable_fire_mops_3_ch_3->setObjectName(QString::fromUtf8("lable_fire_mops_3_ch_3"));
+
+        horizontalLayout_87->addWidget(lable_fire_mops_3_ch_3);
+
+        lable_fire_mops_3_ch_4 = new QLabel(verticalLayoutWidget_22);
+        lable_fire_mops_3_ch_4->setObjectName(QString::fromUtf8("lable_fire_mops_3_ch_4"));
+
+        horizontalLayout_87->addWidget(lable_fire_mops_3_ch_4);
+
+        lable_fire_mops_3_ch_5 = new QLabel(verticalLayoutWidget_22);
+        lable_fire_mops_3_ch_5->setObjectName(QString::fromUtf8("lable_fire_mops_3_ch_5"));
+
+        horizontalLayout_87->addWidget(lable_fire_mops_3_ch_5);
+
+        lable_fire_mops_3_ch_6 = new QLabel(verticalLayoutWidget_22);
+        lable_fire_mops_3_ch_6->setObjectName(QString::fromUtf8("lable_fire_mops_3_ch_6"));
+
+        horizontalLayout_87->addWidget(lable_fire_mops_3_ch_6);
+
+        lable_fire_mops_3_ch_7 = new QLabel(verticalLayoutWidget_22);
+        lable_fire_mops_3_ch_7->setObjectName(QString::fromUtf8("lable_fire_mops_3_ch_7"));
+
+        horizontalLayout_87->addWidget(lable_fire_mops_3_ch_7);
+
+        lable_fire_mops_3_ch_8 = new QLabel(verticalLayoutWidget_22);
+        lable_fire_mops_3_ch_8->setObjectName(QString::fromUtf8("lable_fire_mops_3_ch_8"));
+
+        horizontalLayout_87->addWidget(lable_fire_mops_3_ch_8);
+
+
+        verticalLayout_49->addLayout(horizontalLayout_87);
+
+        just_lable_break_14 = new QLabel(mops_3);
+        just_lable_break_14->setObjectName(QString::fromUtf8("just_lable_break_14"));
+        just_lable_break_14->setGeometry(QRect(220, 480, 61, 21));
+        just_lable_attantion_7 = new QLabel(mops_3);
+        just_lable_attantion_7->setObjectName(QString::fromUtf8("just_lable_attantion_7"));
+        just_lable_attantion_7->setGeometry(QRect(220, 360, 81, 21));
+        verticalLayoutWidget_23 = new QWidget(mops_3);
+        verticalLayoutWidget_23->setObjectName(QString::fromUtf8("verticalLayoutWidget_23"));
+        verticalLayoutWidget_23->setGeometry(QRect(20, 390, 491, 91));
+        verticalLayout_50 = new QVBoxLayout(verticalLayoutWidget_23);
+        verticalLayout_50->setObjectName(QString::fromUtf8("verticalLayout_50"));
+        verticalLayout_50->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_88 = new QHBoxLayout();
+        horizontalLayout_88->setObjectName(QString::fromUtf8("horizontalLayout_88"));
+        just_lable_status_32 = new QLabel(verticalLayoutWidget_23);
+        just_lable_status_32->setObjectName(QString::fromUtf8("just_lable_status_32"));
+
+        horizontalLayout_88->addWidget(just_lable_status_32);
+
+        horizontalSpacer_67 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_88->addItem(horizontalSpacer_67);
+
+        label_254 = new QLabel(verticalLayoutWidget_23);
+        label_254->setObjectName(QString::fromUtf8("label_254"));
+
+        horizontalLayout_88->addWidget(label_254);
+
+        label_255 = new QLabel(verticalLayoutWidget_23);
+        label_255->setObjectName(QString::fromUtf8("label_255"));
+
+        horizontalLayout_88->addWidget(label_255);
+
+        label_256 = new QLabel(verticalLayoutWidget_23);
+        label_256->setObjectName(QString::fromUtf8("label_256"));
+
+        horizontalLayout_88->addWidget(label_256);
+
+        label_257 = new QLabel(verticalLayoutWidget_23);
+        label_257->setObjectName(QString::fromUtf8("label_257"));
+
+        horizontalLayout_88->addWidget(label_257);
+
+        label_258 = new QLabel(verticalLayoutWidget_23);
+        label_258->setObjectName(QString::fromUtf8("label_258"));
+
+        horizontalLayout_88->addWidget(label_258);
+
+        label_259 = new QLabel(verticalLayoutWidget_23);
+        label_259->setObjectName(QString::fromUtf8("label_259"));
+
+        horizontalLayout_88->addWidget(label_259);
+
+        label_260 = new QLabel(verticalLayoutWidget_23);
+        label_260->setObjectName(QString::fromUtf8("label_260"));
+
+        horizontalLayout_88->addWidget(label_260);
+
+        label_261 = new QLabel(verticalLayoutWidget_23);
+        label_261->setObjectName(QString::fromUtf8("label_261"));
+
+        horizontalLayout_88->addWidget(label_261);
+
+
+        verticalLayout_50->addLayout(horizontalLayout_88);
+
+        horizontalLayout_89 = new QHBoxLayout();
+        horizontalLayout_89->setObjectName(QString::fromUtf8("horizontalLayout_89"));
+        just_lable_error_32 = new QLabel(verticalLayoutWidget_23);
+        just_lable_error_32->setObjectName(QString::fromUtf8("just_lable_error_32"));
+
+        horizontalLayout_89->addWidget(just_lable_error_32);
+
+        horizontalSpacer_68 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_89->addItem(horizontalSpacer_68);
+
+        lable_attantion_mops_3_ch_1 = new QLabel(verticalLayoutWidget_23);
+        lable_attantion_mops_3_ch_1->setObjectName(QString::fromUtf8("lable_attantion_mops_3_ch_1"));
+
+        horizontalLayout_89->addWidget(lable_attantion_mops_3_ch_1);
+
+        lable_attantion_mops_3_ch_2 = new QLabel(verticalLayoutWidget_23);
+        lable_attantion_mops_3_ch_2->setObjectName(QString::fromUtf8("lable_attantion_mops_3_ch_2"));
+
+        horizontalLayout_89->addWidget(lable_attantion_mops_3_ch_2);
+
+        lable_attantion_mops_3_ch_3 = new QLabel(verticalLayoutWidget_23);
+        lable_attantion_mops_3_ch_3->setObjectName(QString::fromUtf8("lable_attantion_mops_3_ch_3"));
+
+        horizontalLayout_89->addWidget(lable_attantion_mops_3_ch_3);
+
+        lable_attantion_mops_3_ch_4 = new QLabel(verticalLayoutWidget_23);
+        lable_attantion_mops_3_ch_4->setObjectName(QString::fromUtf8("lable_attantion_mops_3_ch_4"));
+
+        horizontalLayout_89->addWidget(lable_attantion_mops_3_ch_4);
+
+        lable_attantion_mops_3_ch_5 = new QLabel(verticalLayoutWidget_23);
+        lable_attantion_mops_3_ch_5->setObjectName(QString::fromUtf8("lable_attantion_mops_3_ch_5"));
+
+        horizontalLayout_89->addWidget(lable_attantion_mops_3_ch_5);
+
+        lable_attantion_mops_3_ch_6 = new QLabel(verticalLayoutWidget_23);
+        lable_attantion_mops_3_ch_6->setObjectName(QString::fromUtf8("lable_attantion_mops_3_ch_6"));
+
+        horizontalLayout_89->addWidget(lable_attantion_mops_3_ch_6);
+
+        lable_attantion_mops_3_ch_7 = new QLabel(verticalLayoutWidget_23);
+        lable_attantion_mops_3_ch_7->setObjectName(QString::fromUtf8("lable_attantion_mops_3_ch_7"));
+
+        horizontalLayout_89->addWidget(lable_attantion_mops_3_ch_7);
+
+        lable_attantion_mops_3_ch_8 = new QLabel(verticalLayoutWidget_23);
+        lable_attantion_mops_3_ch_8->setObjectName(QString::fromUtf8("lable_attantion_mops_3_ch_8"));
+
+        horizontalLayout_89->addWidget(lable_attantion_mops_3_ch_8);
+
+
+        verticalLayout_50->addLayout(horizontalLayout_89);
+
+        layoutWidget_13 = new QWidget(mops_3);
+        layoutWidget_13->setObjectName(QString::fromUtf8("layoutWidget_13"));
+        layoutWidget_13->setGeometry(QRect(360, 10, 150, 98));
+        verticalLayout_51 = new QVBoxLayout(layoutWidget_13);
+        verticalLayout_51->setObjectName(QString::fromUtf8("verticalLayout_51"));
+        verticalLayout_51->setContentsMargins(0, 0, 0, 0);
+        just_lable_supply_err_6 = new QLabel(layoutWidget_13);
+        just_lable_supply_err_6->setObjectName(QString::fromUtf8("just_lable_supply_err_6"));
+
+        verticalLayout_51->addWidget(just_lable_supply_err_6);
+
+        horizontalLayout_90 = new QHBoxLayout();
+        horizontalLayout_90->setObjectName(QString::fromUtf8("horizontalLayout_90"));
+        verticalLayout_52 = new QVBoxLayout();
+        verticalLayout_52->setObjectName(QString::fromUtf8("verticalLayout_52"));
+        just_lable_18v_6 = new QLabel(layoutWidget_13);
+        just_lable_18v_6->setObjectName(QString::fromUtf8("just_lable_18v_6"));
+
+        verticalLayout_52->addWidget(just_lable_18v_6);
+
+        just_lable_24v_6 = new QLabel(layoutWidget_13);
+        just_lable_24v_6->setObjectName(QString::fromUtf8("just_lable_24v_6"));
+
+        verticalLayout_52->addWidget(just_lable_24v_6);
+
+        just_lable_28v_6 = new QLabel(layoutWidget_13);
+        just_lable_28v_6->setObjectName(QString::fromUtf8("just_lable_28v_6"));
+
+        verticalLayout_52->addWidget(just_lable_28v_6);
+
+
+        horizontalLayout_90->addLayout(verticalLayout_52);
+
+        verticalLayout_53 = new QVBoxLayout();
+        verticalLayout_53->setObjectName(QString::fromUtf8("verticalLayout_53"));
+        lable_18v_ans_mops_3 = new QLabel(layoutWidget_13);
+        lable_18v_ans_mops_3->setObjectName(QString::fromUtf8("lable_18v_ans_mops_3"));
+
+        verticalLayout_53->addWidget(lable_18v_ans_mops_3);
+
+        lable_24v_ans_mops_3 = new QLabel(layoutWidget_13);
+        lable_24v_ans_mops_3->setObjectName(QString::fromUtf8("lable_24v_ans_mops_3"));
+
+        verticalLayout_53->addWidget(lable_24v_ans_mops_3);
+
+        lable_28v_ans_mops_3 = new QLabel(layoutWidget_13);
+        lable_28v_ans_mops_3->setObjectName(QString::fromUtf8("lable_28v_ans_mops_3"));
+
+        verticalLayout_53->addWidget(lable_28v_ans_mops_3);
+
+
+        horizontalLayout_90->addLayout(verticalLayout_53);
+
+
+        verticalLayout_51->addLayout(horizontalLayout_90);
+
+        layoutWidget_14 = new QWidget(mops_3);
+        layoutWidget_14->setObjectName(QString::fromUtf8("layoutWidget_14"));
+        layoutWidget_14->setGeometry(QRect(10, 40, 244, 22));
+        horizontalLayout_91 = new QHBoxLayout(layoutWidget_14);
+        horizontalLayout_91->setObjectName(QString::fromUtf8("horizontalLayout_91"));
+        horizontalLayout_91->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_16 = new QLabel(layoutWidget_14);
+        just_lable_online_status_req_mops_16->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_16"));
+
+        horizontalLayout_91->addWidget(just_lable_online_status_req_mops_16);
+
+        just_lable_oper_status_ans_mops_3 = new QLabel(layoutWidget_14);
+        just_lable_oper_status_ans_mops_3->setObjectName(QString::fromUtf8("just_lable_oper_status_ans_mops_3"));
+        just_lable_oper_status_ans_mops_3->setMinimumSize(QSize(102, 0));
+        just_lable_oper_status_ans_mops_3->setScaledContents(false);
+        just_lable_oper_status_ans_mops_3->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_91->addWidget(just_lable_oper_status_ans_mops_3);
+
         tab_widget_for_mops->addTab(mops_3, QString());
         mops_4 = new QWidget();
         mops_4->setObjectName(QString::fromUtf8("mops_4"));
+        layoutWidget_15 = new QWidget(mops_4);
+        layoutWidget_15->setObjectName(QString::fromUtf8("layoutWidget_15"));
+        layoutWidget_15->setGeometry(QRect(10, 10, 219, 22));
+        horizontalLayout_92 = new QHBoxLayout(layoutWidget_15);
+        horizontalLayout_92->setObjectName(QString::fromUtf8("horizontalLayout_92"));
+        horizontalLayout_92->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_17 = new QLabel(layoutWidget_15);
+        just_lable_online_status_req_mops_17->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_17"));
+
+        horizontalLayout_92->addWidget(just_lable_online_status_req_mops_17);
+
+        just_lable_online_status_ans_mops_4 = new QLabel(layoutWidget_15);
+        just_lable_online_status_ans_mops_4->setObjectName(QString::fromUtf8("just_lable_online_status_ans_mops_4"));
+        just_lable_online_status_ans_mops_4->setMinimumSize(QSize(102, 0));
+        just_lable_online_status_ans_mops_4->setScaledContents(false);
+        just_lable_online_status_ans_mops_4->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_92->addWidget(just_lable_online_status_ans_mops_4);
+
+        just_lable_norm_5 = new QLabel(mops_4);
+        just_lable_norm_5->setObjectName(QString::fromUtf8("just_lable_norm_5"));
+        just_lable_norm_5->setGeometry(QRect(220, 230, 61, 21));
+        verticalLayoutWidget_24 = new QWidget(mops_4);
+        verticalLayoutWidget_24->setObjectName(QString::fromUtf8("verticalLayoutWidget_24"));
+        verticalLayoutWidget_24->setGeometry(QRect(20, 140, 491, 91));
+        verticalLayout_54 = new QVBoxLayout(verticalLayoutWidget_24);
+        verticalLayout_54->setObjectName(QString::fromUtf8("verticalLayout_54"));
+        verticalLayout_54->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_93 = new QHBoxLayout();
+        horizontalLayout_93->setObjectName(QString::fromUtf8("horizontalLayout_93"));
+        just_lable_status_33 = new QLabel(verticalLayoutWidget_24);
+        just_lable_status_33->setObjectName(QString::fromUtf8("just_lable_status_33"));
+
+        horizontalLayout_93->addWidget(just_lable_status_33);
+
+        horizontalSpacer_69 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_93->addItem(horizontalSpacer_69);
+
+        label_262 = new QLabel(verticalLayoutWidget_24);
+        label_262->setObjectName(QString::fromUtf8("label_262"));
+
+        horizontalLayout_93->addWidget(label_262);
+
+        label_263 = new QLabel(verticalLayoutWidget_24);
+        label_263->setObjectName(QString::fromUtf8("label_263"));
+
+        horizontalLayout_93->addWidget(label_263);
+
+        label_264 = new QLabel(verticalLayoutWidget_24);
+        label_264->setObjectName(QString::fromUtf8("label_264"));
+
+        horizontalLayout_93->addWidget(label_264);
+
+        label_265 = new QLabel(verticalLayoutWidget_24);
+        label_265->setObjectName(QString::fromUtf8("label_265"));
+
+        horizontalLayout_93->addWidget(label_265);
+
+        label_266 = new QLabel(verticalLayoutWidget_24);
+        label_266->setObjectName(QString::fromUtf8("label_266"));
+
+        horizontalLayout_93->addWidget(label_266);
+
+        label_267 = new QLabel(verticalLayoutWidget_24);
+        label_267->setObjectName(QString::fromUtf8("label_267"));
+
+        horizontalLayout_93->addWidget(label_267);
+
+        label_268 = new QLabel(verticalLayoutWidget_24);
+        label_268->setObjectName(QString::fromUtf8("label_268"));
+
+        horizontalLayout_93->addWidget(label_268);
+
+        label_269 = new QLabel(verticalLayoutWidget_24);
+        label_269->setObjectName(QString::fromUtf8("label_269"));
+
+        horizontalLayout_93->addWidget(label_269);
+
+
+        verticalLayout_54->addLayout(horizontalLayout_93);
+
+        horizontalLayout_94 = new QHBoxLayout();
+        horizontalLayout_94->setObjectName(QString::fromUtf8("horizontalLayout_94"));
+        just_lable_error_33 = new QLabel(verticalLayoutWidget_24);
+        just_lable_error_33->setObjectName(QString::fromUtf8("just_lable_error_33"));
+
+        horizontalLayout_94->addWidget(just_lable_error_33);
+
+        horizontalSpacer_70 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_94->addItem(horizontalSpacer_70);
+
+        lable_break_mops_4_ch_1 = new QLabel(verticalLayoutWidget_24);
+        lable_break_mops_4_ch_1->setObjectName(QString::fromUtf8("lable_break_mops_4_ch_1"));
+
+        horizontalLayout_94->addWidget(lable_break_mops_4_ch_1);
+
+        lable_break_mops_4_ch_2 = new QLabel(verticalLayoutWidget_24);
+        lable_break_mops_4_ch_2->setObjectName(QString::fromUtf8("lable_break_mops_4_ch_2"));
+
+        horizontalLayout_94->addWidget(lable_break_mops_4_ch_2);
+
+        lable_break_mops_4_ch_3 = new QLabel(verticalLayoutWidget_24);
+        lable_break_mops_4_ch_3->setObjectName(QString::fromUtf8("lable_break_mops_4_ch_3"));
+
+        horizontalLayout_94->addWidget(lable_break_mops_4_ch_3);
+
+        lable_break_mops_4_ch_4 = new QLabel(verticalLayoutWidget_24);
+        lable_break_mops_4_ch_4->setObjectName(QString::fromUtf8("lable_break_mops_4_ch_4"));
+
+        horizontalLayout_94->addWidget(lable_break_mops_4_ch_4);
+
+        lable_break_mops_4_ch_5 = new QLabel(verticalLayoutWidget_24);
+        lable_break_mops_4_ch_5->setObjectName(QString::fromUtf8("lable_break_mops_4_ch_5"));
+
+        horizontalLayout_94->addWidget(lable_break_mops_4_ch_5);
+
+        lable_break_mops_4_ch_6 = new QLabel(verticalLayoutWidget_24);
+        lable_break_mops_4_ch_6->setObjectName(QString::fromUtf8("lable_break_mops_4_ch_6"));
+
+        horizontalLayout_94->addWidget(lable_break_mops_4_ch_6);
+
+        lable_break_mops_4_ch_7 = new QLabel(verticalLayoutWidget_24);
+        lable_break_mops_4_ch_7->setObjectName(QString::fromUtf8("lable_break_mops_4_ch_7"));
+
+        horizontalLayout_94->addWidget(lable_break_mops_4_ch_7);
+
+        lable_break_mops_4_ch_8 = new QLabel(verticalLayoutWidget_24);
+        lable_break_mops_4_ch_8->setObjectName(QString::fromUtf8("lable_break_mops_4_ch_8"));
+
+        horizontalLayout_94->addWidget(lable_break_mops_4_ch_8);
+
+
+        verticalLayout_54->addLayout(horizontalLayout_94);
+
+        verticalLayoutWidget_25 = new QWidget(mops_4);
+        verticalLayoutWidget_25->setObjectName(QString::fromUtf8("verticalLayoutWidget_25"));
+        verticalLayoutWidget_25->setGeometry(QRect(20, 640, 491, 91));
+        verticalLayout_55 = new QVBoxLayout(verticalLayoutWidget_25);
+        verticalLayout_55->setObjectName(QString::fromUtf8("verticalLayout_55"));
+        verticalLayout_55->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_95 = new QHBoxLayout();
+        horizontalLayout_95->setObjectName(QString::fromUtf8("horizontalLayout_95"));
+        just_lable_status_34 = new QLabel(verticalLayoutWidget_25);
+        just_lable_status_34->setObjectName(QString::fromUtf8("just_lable_status_34"));
+
+        horizontalLayout_95->addWidget(just_lable_status_34);
+
+        horizontalSpacer_71 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_95->addItem(horizontalSpacer_71);
+
+        label_270 = new QLabel(verticalLayoutWidget_25);
+        label_270->setObjectName(QString::fromUtf8("label_270"));
+
+        horizontalLayout_95->addWidget(label_270);
+
+        label_271 = new QLabel(verticalLayoutWidget_25);
+        label_271->setObjectName(QString::fromUtf8("label_271"));
+
+        horizontalLayout_95->addWidget(label_271);
+
+        label_272 = new QLabel(verticalLayoutWidget_25);
+        label_272->setObjectName(QString::fromUtf8("label_272"));
+
+        horizontalLayout_95->addWidget(label_272);
+
+        label_273 = new QLabel(verticalLayoutWidget_25);
+        label_273->setObjectName(QString::fromUtf8("label_273"));
+
+        horizontalLayout_95->addWidget(label_273);
+
+        label_274 = new QLabel(verticalLayoutWidget_25);
+        label_274->setObjectName(QString::fromUtf8("label_274"));
+
+        horizontalLayout_95->addWidget(label_274);
+
+        label_275 = new QLabel(verticalLayoutWidget_25);
+        label_275->setObjectName(QString::fromUtf8("label_275"));
+
+        horizontalLayout_95->addWidget(label_275);
+
+        label_276 = new QLabel(verticalLayoutWidget_25);
+        label_276->setObjectName(QString::fromUtf8("label_276"));
+
+        horizontalLayout_95->addWidget(label_276);
+
+        label_277 = new QLabel(verticalLayoutWidget_25);
+        label_277->setObjectName(QString::fromUtf8("label_277"));
+
+        horizontalLayout_95->addWidget(label_277);
+
+
+        verticalLayout_55->addLayout(horizontalLayout_95);
+
+        horizontalLayout_96 = new QHBoxLayout();
+        horizontalLayout_96->setObjectName(QString::fromUtf8("horizontalLayout_96"));
+        just_lable_error_34 = new QLabel(verticalLayoutWidget_25);
+        just_lable_error_34->setObjectName(QString::fromUtf8("just_lable_error_34"));
+
+        horizontalLayout_96->addWidget(just_lable_error_34);
+
+        horizontalSpacer_72 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_96->addItem(horizontalSpacer_72);
+
+        lable_break_mops_4_sc_1 = new QLabel(verticalLayoutWidget_25);
+        lable_break_mops_4_sc_1->setObjectName(QString::fromUtf8("lable_break_mops_4_sc_1"));
+
+        horizontalLayout_96->addWidget(lable_break_mops_4_sc_1);
+
+        lable_break_mops_4_sc_2 = new QLabel(verticalLayoutWidget_25);
+        lable_break_mops_4_sc_2->setObjectName(QString::fromUtf8("lable_break_mops_4_sc_2"));
+
+        horizontalLayout_96->addWidget(lable_break_mops_4_sc_2);
+
+        lable_break_mops_4_sc_3 = new QLabel(verticalLayoutWidget_25);
+        lable_break_mops_4_sc_3->setObjectName(QString::fromUtf8("lable_break_mops_4_sc_3"));
+
+        horizontalLayout_96->addWidget(lable_break_mops_4_sc_3);
+
+        lable_break_mops_4_sc_4 = new QLabel(verticalLayoutWidget_25);
+        lable_break_mops_4_sc_4->setObjectName(QString::fromUtf8("lable_break_mops_4_sc_4"));
+
+        horizontalLayout_96->addWidget(lable_break_mops_4_sc_4);
+
+        lable_break_mops_4_sc_5 = new QLabel(verticalLayoutWidget_25);
+        lable_break_mops_4_sc_5->setObjectName(QString::fromUtf8("lable_break_mops_4_sc_5"));
+
+        horizontalLayout_96->addWidget(lable_break_mops_4_sc_5);
+
+        lable_break_mops_4_sc_6 = new QLabel(verticalLayoutWidget_25);
+        lable_break_mops_4_sc_6->setObjectName(QString::fromUtf8("lable_break_mops_4_sc_6"));
+
+        horizontalLayout_96->addWidget(lable_break_mops_4_sc_6);
+
+        lable_break_mops_4_sc_7 = new QLabel(verticalLayoutWidget_25);
+        lable_break_mops_4_sc_7->setObjectName(QString::fromUtf8("lable_break_mops_4_sc_7"));
+
+        horizontalLayout_96->addWidget(lable_break_mops_4_sc_7);
+
+        lable_break_mops_4_sc_8 = new QLabel(verticalLayoutWidget_25);
+        lable_break_mops_4_sc_8->setObjectName(QString::fromUtf8("lable_break_mops_4_sc_8"));
+
+        horizontalLayout_96->addWidget(lable_break_mops_4_sc_8);
+
+
+        verticalLayout_55->addLayout(horizontalLayout_96);
+
+        just_lable_break_15 = new QLabel(mops_4);
+        just_lable_break_15->setObjectName(QString::fromUtf8("just_lable_break_15"));
+        just_lable_break_15->setGeometry(QRect(220, 610, 151, 21));
+        verticalLayoutWidget_26 = new QWidget(mops_4);
+        verticalLayoutWidget_26->setObjectName(QString::fromUtf8("verticalLayoutWidget_26"));
+        verticalLayoutWidget_26->setGeometry(QRect(20, 260, 491, 91));
+        verticalLayout_56 = new QVBoxLayout(verticalLayoutWidget_26);
+        verticalLayout_56->setObjectName(QString::fromUtf8("verticalLayout_56"));
+        verticalLayout_56->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_97 = new QHBoxLayout();
+        horizontalLayout_97->setObjectName(QString::fromUtf8("horizontalLayout_97"));
+        just_lable_status_35 = new QLabel(verticalLayoutWidget_26);
+        just_lable_status_35->setObjectName(QString::fromUtf8("just_lable_status_35"));
+
+        horizontalLayout_97->addWidget(just_lable_status_35);
+
+        horizontalSpacer_73 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_97->addItem(horizontalSpacer_73);
+
+        label_278 = new QLabel(verticalLayoutWidget_26);
+        label_278->setObjectName(QString::fromUtf8("label_278"));
+
+        horizontalLayout_97->addWidget(label_278);
+
+        label_279 = new QLabel(verticalLayoutWidget_26);
+        label_279->setObjectName(QString::fromUtf8("label_279"));
+
+        horizontalLayout_97->addWidget(label_279);
+
+        label_280 = new QLabel(verticalLayoutWidget_26);
+        label_280->setObjectName(QString::fromUtf8("label_280"));
+
+        horizontalLayout_97->addWidget(label_280);
+
+        label_281 = new QLabel(verticalLayoutWidget_26);
+        label_281->setObjectName(QString::fromUtf8("label_281"));
+
+        horizontalLayout_97->addWidget(label_281);
+
+        label_282 = new QLabel(verticalLayoutWidget_26);
+        label_282->setObjectName(QString::fromUtf8("label_282"));
+
+        horizontalLayout_97->addWidget(label_282);
+
+        label_283 = new QLabel(verticalLayoutWidget_26);
+        label_283->setObjectName(QString::fromUtf8("label_283"));
+
+        horizontalLayout_97->addWidget(label_283);
+
+        label_284 = new QLabel(verticalLayoutWidget_26);
+        label_284->setObjectName(QString::fromUtf8("label_284"));
+
+        horizontalLayout_97->addWidget(label_284);
+
+        label_285 = new QLabel(verticalLayoutWidget_26);
+        label_285->setObjectName(QString::fromUtf8("label_285"));
+
+        horizontalLayout_97->addWidget(label_285);
+
+
+        verticalLayout_56->addLayout(horizontalLayout_97);
+
+        horizontalLayout_98 = new QHBoxLayout();
+        horizontalLayout_98->setObjectName(QString::fromUtf8("horizontalLayout_98"));
+        just_lable_error_35 = new QLabel(verticalLayoutWidget_26);
+        just_lable_error_35->setObjectName(QString::fromUtf8("just_lable_error_35"));
+
+        horizontalLayout_98->addWidget(just_lable_error_35);
+
+        horizontalSpacer_74 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_98->addItem(horizontalSpacer_74);
+
+        lable_norm_mops_4_ch_1 = new QLabel(verticalLayoutWidget_26);
+        lable_norm_mops_4_ch_1->setObjectName(QString::fromUtf8("lable_norm_mops_4_ch_1"));
+
+        horizontalLayout_98->addWidget(lable_norm_mops_4_ch_1);
+
+        lable_norm_mops_4_ch_2 = new QLabel(verticalLayoutWidget_26);
+        lable_norm_mops_4_ch_2->setObjectName(QString::fromUtf8("lable_norm_mops_4_ch_2"));
+
+        horizontalLayout_98->addWidget(lable_norm_mops_4_ch_2);
+
+        lable_norm_mops_4_ch_3 = new QLabel(verticalLayoutWidget_26);
+        lable_norm_mops_4_ch_3->setObjectName(QString::fromUtf8("lable_norm_mops_4_ch_3"));
+
+        horizontalLayout_98->addWidget(lable_norm_mops_4_ch_3);
+
+        lable_norm_mops_4_ch_4 = new QLabel(verticalLayoutWidget_26);
+        lable_norm_mops_4_ch_4->setObjectName(QString::fromUtf8("lable_norm_mops_4_ch_4"));
+
+        horizontalLayout_98->addWidget(lable_norm_mops_4_ch_4);
+
+        lable_norm_mops_4_ch_5 = new QLabel(verticalLayoutWidget_26);
+        lable_norm_mops_4_ch_5->setObjectName(QString::fromUtf8("lable_norm_mops_4_ch_5"));
+
+        horizontalLayout_98->addWidget(lable_norm_mops_4_ch_5);
+
+        lable_norm_mops_4_ch_6 = new QLabel(verticalLayoutWidget_26);
+        lable_norm_mops_4_ch_6->setObjectName(QString::fromUtf8("lable_norm_mops_4_ch_6"));
+
+        horizontalLayout_98->addWidget(lable_norm_mops_4_ch_6);
+
+        lable_norm_mops_4_ch_7 = new QLabel(verticalLayoutWidget_26);
+        lable_norm_mops_4_ch_7->setObjectName(QString::fromUtf8("lable_norm_mops_4_ch_7"));
+
+        horizontalLayout_98->addWidget(lable_norm_mops_4_ch_7);
+
+        lable_norm_mops_4_ch_8 = new QLabel(verticalLayoutWidget_26);
+        lable_norm_mops_4_ch_8->setObjectName(QString::fromUtf8("lable_norm_mops_4_ch_8"));
+
+        horizontalLayout_98->addWidget(lable_norm_mops_4_ch_8);
+
+
+        verticalLayout_56->addLayout(horizontalLayout_98);
+
+        just_lable_break_16 = new QLabel(mops_4);
+        just_lable_break_16->setObjectName(QString::fromUtf8("just_lable_break_16"));
+        just_lable_break_16->setGeometry(QRect(220, 110, 61, 21));
+        just_lable_status_ch_7 = new QLabel(mops_4);
+        just_lable_status_ch_7->setObjectName(QString::fromUtf8("just_lable_status_ch_7"));
+        just_lable_status_ch_7->setGeometry(QRect(180, 80, 151, 31));
+        verticalLayoutWidget_27 = new QWidget(mops_4);
+        verticalLayoutWidget_27->setObjectName(QString::fromUtf8("verticalLayoutWidget_27"));
+        verticalLayoutWidget_27->setGeometry(QRect(20, 510, 491, 91));
+        verticalLayout_57 = new QVBoxLayout(verticalLayoutWidget_27);
+        verticalLayout_57->setObjectName(QString::fromUtf8("verticalLayout_57"));
+        verticalLayout_57->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_99 = new QHBoxLayout();
+        horizontalLayout_99->setObjectName(QString::fromUtf8("horizontalLayout_99"));
+        just_lable_status_36 = new QLabel(verticalLayoutWidget_27);
+        just_lable_status_36->setObjectName(QString::fromUtf8("just_lable_status_36"));
+
+        horizontalLayout_99->addWidget(just_lable_status_36);
+
+        horizontalSpacer_75 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_99->addItem(horizontalSpacer_75);
+
+        label_286 = new QLabel(verticalLayoutWidget_27);
+        label_286->setObjectName(QString::fromUtf8("label_286"));
+
+        horizontalLayout_99->addWidget(label_286);
+
+        label_287 = new QLabel(verticalLayoutWidget_27);
+        label_287->setObjectName(QString::fromUtf8("label_287"));
+
+        horizontalLayout_99->addWidget(label_287);
+
+        label_288 = new QLabel(verticalLayoutWidget_27);
+        label_288->setObjectName(QString::fromUtf8("label_288"));
+
+        horizontalLayout_99->addWidget(label_288);
+
+        label_289 = new QLabel(verticalLayoutWidget_27);
+        label_289->setObjectName(QString::fromUtf8("label_289"));
+
+        horizontalLayout_99->addWidget(label_289);
+
+        label_290 = new QLabel(verticalLayoutWidget_27);
+        label_290->setObjectName(QString::fromUtf8("label_290"));
+
+        horizontalLayout_99->addWidget(label_290);
+
+        label_291 = new QLabel(verticalLayoutWidget_27);
+        label_291->setObjectName(QString::fromUtf8("label_291"));
+
+        horizontalLayout_99->addWidget(label_291);
+
+        label_292 = new QLabel(verticalLayoutWidget_27);
+        label_292->setObjectName(QString::fromUtf8("label_292"));
+
+        horizontalLayout_99->addWidget(label_292);
+
+        label_293 = new QLabel(verticalLayoutWidget_27);
+        label_293->setObjectName(QString::fromUtf8("label_293"));
+
+        horizontalLayout_99->addWidget(label_293);
+
+
+        verticalLayout_57->addLayout(horizontalLayout_99);
+
+        horizontalLayout_100 = new QHBoxLayout();
+        horizontalLayout_100->setObjectName(QString::fromUtf8("horizontalLayout_100"));
+        just_lable_error_36 = new QLabel(verticalLayoutWidget_27);
+        just_lable_error_36->setObjectName(QString::fromUtf8("just_lable_error_36"));
+
+        horizontalLayout_100->addWidget(just_lable_error_36);
+
+        horizontalSpacer_76 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_100->addItem(horizontalSpacer_76);
+
+        lable_fire_mops_4_ch_1 = new QLabel(verticalLayoutWidget_27);
+        lable_fire_mops_4_ch_1->setObjectName(QString::fromUtf8("lable_fire_mops_4_ch_1"));
+
+        horizontalLayout_100->addWidget(lable_fire_mops_4_ch_1);
+
+        lable_fire_mops_4_ch_2 = new QLabel(verticalLayoutWidget_27);
+        lable_fire_mops_4_ch_2->setObjectName(QString::fromUtf8("lable_fire_mops_4_ch_2"));
+
+        horizontalLayout_100->addWidget(lable_fire_mops_4_ch_2);
+
+        lable_fire_mops_4_ch_3 = new QLabel(verticalLayoutWidget_27);
+        lable_fire_mops_4_ch_3->setObjectName(QString::fromUtf8("lable_fire_mops_4_ch_3"));
+
+        horizontalLayout_100->addWidget(lable_fire_mops_4_ch_3);
+
+        lable_fire_mops_4_ch_4 = new QLabel(verticalLayoutWidget_27);
+        lable_fire_mops_4_ch_4->setObjectName(QString::fromUtf8("lable_fire_mops_4_ch_4"));
+
+        horizontalLayout_100->addWidget(lable_fire_mops_4_ch_4);
+
+        lable_fire_mops_4_ch_5 = new QLabel(verticalLayoutWidget_27);
+        lable_fire_mops_4_ch_5->setObjectName(QString::fromUtf8("lable_fire_mops_4_ch_5"));
+
+        horizontalLayout_100->addWidget(lable_fire_mops_4_ch_5);
+
+        lable_fire_mops_4_ch_6 = new QLabel(verticalLayoutWidget_27);
+        lable_fire_mops_4_ch_6->setObjectName(QString::fromUtf8("lable_fire_mops_4_ch_6"));
+
+        horizontalLayout_100->addWidget(lable_fire_mops_4_ch_6);
+
+        lable_fire_mops_4_ch_7 = new QLabel(verticalLayoutWidget_27);
+        lable_fire_mops_4_ch_7->setObjectName(QString::fromUtf8("lable_fire_mops_4_ch_7"));
+
+        horizontalLayout_100->addWidget(lable_fire_mops_4_ch_7);
+
+        lable_fire_mops_4_ch_8 = new QLabel(verticalLayoutWidget_27);
+        lable_fire_mops_4_ch_8->setObjectName(QString::fromUtf8("lable_fire_mops_4_ch_8"));
+
+        horizontalLayout_100->addWidget(lable_fire_mops_4_ch_8);
+
+
+        verticalLayout_57->addLayout(horizontalLayout_100);
+
+        just_lable_break_17 = new QLabel(mops_4);
+        just_lable_break_17->setObjectName(QString::fromUtf8("just_lable_break_17"));
+        just_lable_break_17->setGeometry(QRect(220, 480, 61, 21));
+        just_lable_attantion_8 = new QLabel(mops_4);
+        just_lable_attantion_8->setObjectName(QString::fromUtf8("just_lable_attantion_8"));
+        just_lable_attantion_8->setGeometry(QRect(220, 360, 81, 21));
+        verticalLayoutWidget_28 = new QWidget(mops_4);
+        verticalLayoutWidget_28->setObjectName(QString::fromUtf8("verticalLayoutWidget_28"));
+        verticalLayoutWidget_28->setGeometry(QRect(20, 390, 491, 91));
+        verticalLayout_58 = new QVBoxLayout(verticalLayoutWidget_28);
+        verticalLayout_58->setObjectName(QString::fromUtf8("verticalLayout_58"));
+        verticalLayout_58->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_101 = new QHBoxLayout();
+        horizontalLayout_101->setObjectName(QString::fromUtf8("horizontalLayout_101"));
+        just_lable_status_37 = new QLabel(verticalLayoutWidget_28);
+        just_lable_status_37->setObjectName(QString::fromUtf8("just_lable_status_37"));
+
+        horizontalLayout_101->addWidget(just_lable_status_37);
+
+        horizontalSpacer_77 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_101->addItem(horizontalSpacer_77);
+
+        label_294 = new QLabel(verticalLayoutWidget_28);
+        label_294->setObjectName(QString::fromUtf8("label_294"));
+
+        horizontalLayout_101->addWidget(label_294);
+
+        label_295 = new QLabel(verticalLayoutWidget_28);
+        label_295->setObjectName(QString::fromUtf8("label_295"));
+
+        horizontalLayout_101->addWidget(label_295);
+
+        label_296 = new QLabel(verticalLayoutWidget_28);
+        label_296->setObjectName(QString::fromUtf8("label_296"));
+
+        horizontalLayout_101->addWidget(label_296);
+
+        label_297 = new QLabel(verticalLayoutWidget_28);
+        label_297->setObjectName(QString::fromUtf8("label_297"));
+
+        horizontalLayout_101->addWidget(label_297);
+
+        label_298 = new QLabel(verticalLayoutWidget_28);
+        label_298->setObjectName(QString::fromUtf8("label_298"));
+
+        horizontalLayout_101->addWidget(label_298);
+
+        label_299 = new QLabel(verticalLayoutWidget_28);
+        label_299->setObjectName(QString::fromUtf8("label_299"));
+
+        horizontalLayout_101->addWidget(label_299);
+
+        label_300 = new QLabel(verticalLayoutWidget_28);
+        label_300->setObjectName(QString::fromUtf8("label_300"));
+
+        horizontalLayout_101->addWidget(label_300);
+
+        label_301 = new QLabel(verticalLayoutWidget_28);
+        label_301->setObjectName(QString::fromUtf8("label_301"));
+
+        horizontalLayout_101->addWidget(label_301);
+
+
+        verticalLayout_58->addLayout(horizontalLayout_101);
+
+        horizontalLayout_102 = new QHBoxLayout();
+        horizontalLayout_102->setObjectName(QString::fromUtf8("horizontalLayout_102"));
+        just_lable_error_37 = new QLabel(verticalLayoutWidget_28);
+        just_lable_error_37->setObjectName(QString::fromUtf8("just_lable_error_37"));
+
+        horizontalLayout_102->addWidget(just_lable_error_37);
+
+        horizontalSpacer_78 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_102->addItem(horizontalSpacer_78);
+
+        lable_attantion_mops_4_ch_1 = new QLabel(verticalLayoutWidget_28);
+        lable_attantion_mops_4_ch_1->setObjectName(QString::fromUtf8("lable_attantion_mops_4_ch_1"));
+
+        horizontalLayout_102->addWidget(lable_attantion_mops_4_ch_1);
+
+        lable_attantion_mops_4_ch_2 = new QLabel(verticalLayoutWidget_28);
+        lable_attantion_mops_4_ch_2->setObjectName(QString::fromUtf8("lable_attantion_mops_4_ch_2"));
+
+        horizontalLayout_102->addWidget(lable_attantion_mops_4_ch_2);
+
+        lable_attantion_mops_4_ch_3 = new QLabel(verticalLayoutWidget_28);
+        lable_attantion_mops_4_ch_3->setObjectName(QString::fromUtf8("lable_attantion_mops_4_ch_3"));
+
+        horizontalLayout_102->addWidget(lable_attantion_mops_4_ch_3);
+
+        lable_attantion_mops_4_ch_4 = new QLabel(verticalLayoutWidget_28);
+        lable_attantion_mops_4_ch_4->setObjectName(QString::fromUtf8("lable_attantion_mops_4_ch_4"));
+
+        horizontalLayout_102->addWidget(lable_attantion_mops_4_ch_4);
+
+        lable_attantion_mops_4_ch_5 = new QLabel(verticalLayoutWidget_28);
+        lable_attantion_mops_4_ch_5->setObjectName(QString::fromUtf8("lable_attantion_mops_4_ch_5"));
+
+        horizontalLayout_102->addWidget(lable_attantion_mops_4_ch_5);
+
+        lable_attantion_mops_4_ch_6 = new QLabel(verticalLayoutWidget_28);
+        lable_attantion_mops_4_ch_6->setObjectName(QString::fromUtf8("lable_attantion_mops_4_ch_6"));
+
+        horizontalLayout_102->addWidget(lable_attantion_mops_4_ch_6);
+
+        lable_attantion_mops_4_ch_7 = new QLabel(verticalLayoutWidget_28);
+        lable_attantion_mops_4_ch_7->setObjectName(QString::fromUtf8("lable_attantion_mops_4_ch_7"));
+
+        horizontalLayout_102->addWidget(lable_attantion_mops_4_ch_7);
+
+        lable_attantion_mops_4_ch_8 = new QLabel(verticalLayoutWidget_28);
+        lable_attantion_mops_4_ch_8->setObjectName(QString::fromUtf8("lable_attantion_mops_4_ch_8"));
+
+        horizontalLayout_102->addWidget(lable_attantion_mops_4_ch_8);
+
+
+        verticalLayout_58->addLayout(horizontalLayout_102);
+
+        layoutWidget_16 = new QWidget(mops_4);
+        layoutWidget_16->setObjectName(QString::fromUtf8("layoutWidget_16"));
+        layoutWidget_16->setGeometry(QRect(360, 10, 150, 98));
+        verticalLayout_59 = new QVBoxLayout(layoutWidget_16);
+        verticalLayout_59->setObjectName(QString::fromUtf8("verticalLayout_59"));
+        verticalLayout_59->setContentsMargins(0, 0, 0, 0);
+        just_lable_supply_err_7 = new QLabel(layoutWidget_16);
+        just_lable_supply_err_7->setObjectName(QString::fromUtf8("just_lable_supply_err_7"));
+
+        verticalLayout_59->addWidget(just_lable_supply_err_7);
+
+        horizontalLayout_103 = new QHBoxLayout();
+        horizontalLayout_103->setObjectName(QString::fromUtf8("horizontalLayout_103"));
+        verticalLayout_60 = new QVBoxLayout();
+        verticalLayout_60->setObjectName(QString::fromUtf8("verticalLayout_60"));
+        just_lable_18v_7 = new QLabel(layoutWidget_16);
+        just_lable_18v_7->setObjectName(QString::fromUtf8("just_lable_18v_7"));
+
+        verticalLayout_60->addWidget(just_lable_18v_7);
+
+        just_lable_24v_7 = new QLabel(layoutWidget_16);
+        just_lable_24v_7->setObjectName(QString::fromUtf8("just_lable_24v_7"));
+
+        verticalLayout_60->addWidget(just_lable_24v_7);
+
+        just_lable_28v_7 = new QLabel(layoutWidget_16);
+        just_lable_28v_7->setObjectName(QString::fromUtf8("just_lable_28v_7"));
+
+        verticalLayout_60->addWidget(just_lable_28v_7);
+
+
+        horizontalLayout_103->addLayout(verticalLayout_60);
+
+        verticalLayout_61 = new QVBoxLayout();
+        verticalLayout_61->setObjectName(QString::fromUtf8("verticalLayout_61"));
+        lable_18v_ans_mops_4 = new QLabel(layoutWidget_16);
+        lable_18v_ans_mops_4->setObjectName(QString::fromUtf8("lable_18v_ans_mops_4"));
+
+        verticalLayout_61->addWidget(lable_18v_ans_mops_4);
+
+        lable_24v_ans_mops_4 = new QLabel(layoutWidget_16);
+        lable_24v_ans_mops_4->setObjectName(QString::fromUtf8("lable_24v_ans_mops_4"));
+
+        verticalLayout_61->addWidget(lable_24v_ans_mops_4);
+
+        lable_28v_ans_mops_4 = new QLabel(layoutWidget_16);
+        lable_28v_ans_mops_4->setObjectName(QString::fromUtf8("lable_28v_ans_mops_4"));
+
+        verticalLayout_61->addWidget(lable_28v_ans_mops_4);
+
+
+        horizontalLayout_103->addLayout(verticalLayout_61);
+
+
+        verticalLayout_59->addLayout(horizontalLayout_103);
+
+        layoutWidget_17 = new QWidget(mops_4);
+        layoutWidget_17->setObjectName(QString::fromUtf8("layoutWidget_17"));
+        layoutWidget_17->setGeometry(QRect(10, 40, 244, 22));
+        horizontalLayout_104 = new QHBoxLayout(layoutWidget_17);
+        horizontalLayout_104->setObjectName(QString::fromUtf8("horizontalLayout_104"));
+        horizontalLayout_104->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_18 = new QLabel(layoutWidget_17);
+        just_lable_online_status_req_mops_18->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_18"));
+
+        horizontalLayout_104->addWidget(just_lable_online_status_req_mops_18);
+
+        just_lable_oper_status_ans_mops_4 = new QLabel(layoutWidget_17);
+        just_lable_oper_status_ans_mops_4->setObjectName(QString::fromUtf8("just_lable_oper_status_ans_mops_4"));
+        just_lable_oper_status_ans_mops_4->setMinimumSize(QSize(102, 0));
+        just_lable_oper_status_ans_mops_4->setScaledContents(false);
+        just_lable_oper_status_ans_mops_4->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_104->addWidget(just_lable_oper_status_ans_mops_4);
+
         tab_widget_for_mops->addTab(mops_4, QString());
         mops_5 = new QWidget();
         mops_5->setObjectName(QString::fromUtf8("mops_5"));
+        layoutWidget_18 = new QWidget(mops_5);
+        layoutWidget_18->setObjectName(QString::fromUtf8("layoutWidget_18"));
+        layoutWidget_18->setGeometry(QRect(10, 10, 219, 22));
+        horizontalLayout_105 = new QHBoxLayout(layoutWidget_18);
+        horizontalLayout_105->setObjectName(QString::fromUtf8("horizontalLayout_105"));
+        horizontalLayout_105->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_19 = new QLabel(layoutWidget_18);
+        just_lable_online_status_req_mops_19->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_19"));
+
+        horizontalLayout_105->addWidget(just_lable_online_status_req_mops_19);
+
+        just_lable_online_status_ans_mops_5 = new QLabel(layoutWidget_18);
+        just_lable_online_status_ans_mops_5->setObjectName(QString::fromUtf8("just_lable_online_status_ans_mops_5"));
+        just_lable_online_status_ans_mops_5->setMinimumSize(QSize(102, 0));
+        just_lable_online_status_ans_mops_5->setScaledContents(false);
+        just_lable_online_status_ans_mops_5->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_105->addWidget(just_lable_online_status_ans_mops_5);
+
+        just_lable_norm_6 = new QLabel(mops_5);
+        just_lable_norm_6->setObjectName(QString::fromUtf8("just_lable_norm_6"));
+        just_lable_norm_6->setGeometry(QRect(220, 230, 61, 21));
+        verticalLayoutWidget_29 = new QWidget(mops_5);
+        verticalLayoutWidget_29->setObjectName(QString::fromUtf8("verticalLayoutWidget_29"));
+        verticalLayoutWidget_29->setGeometry(QRect(20, 140, 491, 91));
+        verticalLayout_62 = new QVBoxLayout(verticalLayoutWidget_29);
+        verticalLayout_62->setObjectName(QString::fromUtf8("verticalLayout_62"));
+        verticalLayout_62->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_106 = new QHBoxLayout();
+        horizontalLayout_106->setObjectName(QString::fromUtf8("horizontalLayout_106"));
+        just_lable_status_38 = new QLabel(verticalLayoutWidget_29);
+        just_lable_status_38->setObjectName(QString::fromUtf8("just_lable_status_38"));
+
+        horizontalLayout_106->addWidget(just_lable_status_38);
+
+        horizontalSpacer_79 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_106->addItem(horizontalSpacer_79);
+
+        label_302 = new QLabel(verticalLayoutWidget_29);
+        label_302->setObjectName(QString::fromUtf8("label_302"));
+
+        horizontalLayout_106->addWidget(label_302);
+
+        label_303 = new QLabel(verticalLayoutWidget_29);
+        label_303->setObjectName(QString::fromUtf8("label_303"));
+
+        horizontalLayout_106->addWidget(label_303);
+
+        label_304 = new QLabel(verticalLayoutWidget_29);
+        label_304->setObjectName(QString::fromUtf8("label_304"));
+
+        horizontalLayout_106->addWidget(label_304);
+
+        label_305 = new QLabel(verticalLayoutWidget_29);
+        label_305->setObjectName(QString::fromUtf8("label_305"));
+
+        horizontalLayout_106->addWidget(label_305);
+
+        label_306 = new QLabel(verticalLayoutWidget_29);
+        label_306->setObjectName(QString::fromUtf8("label_306"));
+
+        horizontalLayout_106->addWidget(label_306);
+
+        label_307 = new QLabel(verticalLayoutWidget_29);
+        label_307->setObjectName(QString::fromUtf8("label_307"));
+
+        horizontalLayout_106->addWidget(label_307);
+
+        label_308 = new QLabel(verticalLayoutWidget_29);
+        label_308->setObjectName(QString::fromUtf8("label_308"));
+
+        horizontalLayout_106->addWidget(label_308);
+
+        label_309 = new QLabel(verticalLayoutWidget_29);
+        label_309->setObjectName(QString::fromUtf8("label_309"));
+
+        horizontalLayout_106->addWidget(label_309);
+
+
+        verticalLayout_62->addLayout(horizontalLayout_106);
+
+        horizontalLayout_107 = new QHBoxLayout();
+        horizontalLayout_107->setObjectName(QString::fromUtf8("horizontalLayout_107"));
+        just_lable_error_38 = new QLabel(verticalLayoutWidget_29);
+        just_lable_error_38->setObjectName(QString::fromUtf8("just_lable_error_38"));
+
+        horizontalLayout_107->addWidget(just_lable_error_38);
+
+        horizontalSpacer_80 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_107->addItem(horizontalSpacer_80);
+
+        lable_break_mops_5_ch_1 = new QLabel(verticalLayoutWidget_29);
+        lable_break_mops_5_ch_1->setObjectName(QString::fromUtf8("lable_break_mops_5_ch_1"));
+
+        horizontalLayout_107->addWidget(lable_break_mops_5_ch_1);
+
+        lable_break_mops_5_ch_2 = new QLabel(verticalLayoutWidget_29);
+        lable_break_mops_5_ch_2->setObjectName(QString::fromUtf8("lable_break_mops_5_ch_2"));
+
+        horizontalLayout_107->addWidget(lable_break_mops_5_ch_2);
+
+        lable_break_mops_5_ch_3 = new QLabel(verticalLayoutWidget_29);
+        lable_break_mops_5_ch_3->setObjectName(QString::fromUtf8("lable_break_mops_5_ch_3"));
+
+        horizontalLayout_107->addWidget(lable_break_mops_5_ch_3);
+
+        lable_break_mops_5_ch_4 = new QLabel(verticalLayoutWidget_29);
+        lable_break_mops_5_ch_4->setObjectName(QString::fromUtf8("lable_break_mops_5_ch_4"));
+
+        horizontalLayout_107->addWidget(lable_break_mops_5_ch_4);
+
+        lable_break_mops_5_ch_5 = new QLabel(verticalLayoutWidget_29);
+        lable_break_mops_5_ch_5->setObjectName(QString::fromUtf8("lable_break_mops_5_ch_5"));
+
+        horizontalLayout_107->addWidget(lable_break_mops_5_ch_5);
+
+        lable_break_mops_5_ch_6 = new QLabel(verticalLayoutWidget_29);
+        lable_break_mops_5_ch_6->setObjectName(QString::fromUtf8("lable_break_mops_5_ch_6"));
+
+        horizontalLayout_107->addWidget(lable_break_mops_5_ch_6);
+
+        lable_break_mops_5_ch_7 = new QLabel(verticalLayoutWidget_29);
+        lable_break_mops_5_ch_7->setObjectName(QString::fromUtf8("lable_break_mops_5_ch_7"));
+
+        horizontalLayout_107->addWidget(lable_break_mops_5_ch_7);
+
+        lable_break_mops_5_ch_8 = new QLabel(verticalLayoutWidget_29);
+        lable_break_mops_5_ch_8->setObjectName(QString::fromUtf8("lable_break_mops_5_ch_8"));
+
+        horizontalLayout_107->addWidget(lable_break_mops_5_ch_8);
+
+
+        verticalLayout_62->addLayout(horizontalLayout_107);
+
+        verticalLayoutWidget_30 = new QWidget(mops_5);
+        verticalLayoutWidget_30->setObjectName(QString::fromUtf8("verticalLayoutWidget_30"));
+        verticalLayoutWidget_30->setGeometry(QRect(20, 640, 491, 91));
+        verticalLayout_63 = new QVBoxLayout(verticalLayoutWidget_30);
+        verticalLayout_63->setObjectName(QString::fromUtf8("verticalLayout_63"));
+        verticalLayout_63->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_108 = new QHBoxLayout();
+        horizontalLayout_108->setObjectName(QString::fromUtf8("horizontalLayout_108"));
+        just_lable_status_39 = new QLabel(verticalLayoutWidget_30);
+        just_lable_status_39->setObjectName(QString::fromUtf8("just_lable_status_39"));
+
+        horizontalLayout_108->addWidget(just_lable_status_39);
+
+        horizontalSpacer_81 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_108->addItem(horizontalSpacer_81);
+
+        label_310 = new QLabel(verticalLayoutWidget_30);
+        label_310->setObjectName(QString::fromUtf8("label_310"));
+
+        horizontalLayout_108->addWidget(label_310);
+
+        label_311 = new QLabel(verticalLayoutWidget_30);
+        label_311->setObjectName(QString::fromUtf8("label_311"));
+
+        horizontalLayout_108->addWidget(label_311);
+
+        label_312 = new QLabel(verticalLayoutWidget_30);
+        label_312->setObjectName(QString::fromUtf8("label_312"));
+
+        horizontalLayout_108->addWidget(label_312);
+
+        label_313 = new QLabel(verticalLayoutWidget_30);
+        label_313->setObjectName(QString::fromUtf8("label_313"));
+
+        horizontalLayout_108->addWidget(label_313);
+
+        label_314 = new QLabel(verticalLayoutWidget_30);
+        label_314->setObjectName(QString::fromUtf8("label_314"));
+
+        horizontalLayout_108->addWidget(label_314);
+
+        label_315 = new QLabel(verticalLayoutWidget_30);
+        label_315->setObjectName(QString::fromUtf8("label_315"));
+
+        horizontalLayout_108->addWidget(label_315);
+
+        label_316 = new QLabel(verticalLayoutWidget_30);
+        label_316->setObjectName(QString::fromUtf8("label_316"));
+
+        horizontalLayout_108->addWidget(label_316);
+
+        label_317 = new QLabel(verticalLayoutWidget_30);
+        label_317->setObjectName(QString::fromUtf8("label_317"));
+
+        horizontalLayout_108->addWidget(label_317);
+
+
+        verticalLayout_63->addLayout(horizontalLayout_108);
+
+        horizontalLayout_109 = new QHBoxLayout();
+        horizontalLayout_109->setObjectName(QString::fromUtf8("horizontalLayout_109"));
+        just_lable_error_39 = new QLabel(verticalLayoutWidget_30);
+        just_lable_error_39->setObjectName(QString::fromUtf8("just_lable_error_39"));
+
+        horizontalLayout_109->addWidget(just_lable_error_39);
+
+        horizontalSpacer_82 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_109->addItem(horizontalSpacer_82);
+
+        lable_break_mops_5_sc_1 = new QLabel(verticalLayoutWidget_30);
+        lable_break_mops_5_sc_1->setObjectName(QString::fromUtf8("lable_break_mops_5_sc_1"));
+
+        horizontalLayout_109->addWidget(lable_break_mops_5_sc_1);
+
+        lable_break_mops_5_sc_2 = new QLabel(verticalLayoutWidget_30);
+        lable_break_mops_5_sc_2->setObjectName(QString::fromUtf8("lable_break_mops_5_sc_2"));
+
+        horizontalLayout_109->addWidget(lable_break_mops_5_sc_2);
+
+        lable_break_mops_5_sc_3 = new QLabel(verticalLayoutWidget_30);
+        lable_break_mops_5_sc_3->setObjectName(QString::fromUtf8("lable_break_mops_5_sc_3"));
+
+        horizontalLayout_109->addWidget(lable_break_mops_5_sc_3);
+
+        lable_break_mops_5_sc_4 = new QLabel(verticalLayoutWidget_30);
+        lable_break_mops_5_sc_4->setObjectName(QString::fromUtf8("lable_break_mops_5_sc_4"));
+
+        horizontalLayout_109->addWidget(lable_break_mops_5_sc_4);
+
+        lable_break_mops_5_sc_5 = new QLabel(verticalLayoutWidget_30);
+        lable_break_mops_5_sc_5->setObjectName(QString::fromUtf8("lable_break_mops_5_sc_5"));
+
+        horizontalLayout_109->addWidget(lable_break_mops_5_sc_5);
+
+        lable_break_mops_5_sc_6 = new QLabel(verticalLayoutWidget_30);
+        lable_break_mops_5_sc_6->setObjectName(QString::fromUtf8("lable_break_mops_5_sc_6"));
+
+        horizontalLayout_109->addWidget(lable_break_mops_5_sc_6);
+
+        lable_break_mops_5_sc_7 = new QLabel(verticalLayoutWidget_30);
+        lable_break_mops_5_sc_7->setObjectName(QString::fromUtf8("lable_break_mops_5_sc_7"));
+
+        horizontalLayout_109->addWidget(lable_break_mops_5_sc_7);
+
+        lable_break_mops_5_sc_8 = new QLabel(verticalLayoutWidget_30);
+        lable_break_mops_5_sc_8->setObjectName(QString::fromUtf8("lable_break_mops_5_sc_8"));
+
+        horizontalLayout_109->addWidget(lable_break_mops_5_sc_8);
+
+
+        verticalLayout_63->addLayout(horizontalLayout_109);
+
+        just_lable_break_18 = new QLabel(mops_5);
+        just_lable_break_18->setObjectName(QString::fromUtf8("just_lable_break_18"));
+        just_lable_break_18->setGeometry(QRect(220, 610, 151, 21));
+        verticalLayoutWidget_31 = new QWidget(mops_5);
+        verticalLayoutWidget_31->setObjectName(QString::fromUtf8("verticalLayoutWidget_31"));
+        verticalLayoutWidget_31->setGeometry(QRect(20, 260, 491, 91));
+        verticalLayout_64 = new QVBoxLayout(verticalLayoutWidget_31);
+        verticalLayout_64->setObjectName(QString::fromUtf8("verticalLayout_64"));
+        verticalLayout_64->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_110 = new QHBoxLayout();
+        horizontalLayout_110->setObjectName(QString::fromUtf8("horizontalLayout_110"));
+        just_lable_status_40 = new QLabel(verticalLayoutWidget_31);
+        just_lable_status_40->setObjectName(QString::fromUtf8("just_lable_status_40"));
+
+        horizontalLayout_110->addWidget(just_lable_status_40);
+
+        horizontalSpacer_83 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_110->addItem(horizontalSpacer_83);
+
+        label_318 = new QLabel(verticalLayoutWidget_31);
+        label_318->setObjectName(QString::fromUtf8("label_318"));
+
+        horizontalLayout_110->addWidget(label_318);
+
+        label_319 = new QLabel(verticalLayoutWidget_31);
+        label_319->setObjectName(QString::fromUtf8("label_319"));
+
+        horizontalLayout_110->addWidget(label_319);
+
+        label_320 = new QLabel(verticalLayoutWidget_31);
+        label_320->setObjectName(QString::fromUtf8("label_320"));
+
+        horizontalLayout_110->addWidget(label_320);
+
+        label_321 = new QLabel(verticalLayoutWidget_31);
+        label_321->setObjectName(QString::fromUtf8("label_321"));
+
+        horizontalLayout_110->addWidget(label_321);
+
+        label_322 = new QLabel(verticalLayoutWidget_31);
+        label_322->setObjectName(QString::fromUtf8("label_322"));
+
+        horizontalLayout_110->addWidget(label_322);
+
+        label_323 = new QLabel(verticalLayoutWidget_31);
+        label_323->setObjectName(QString::fromUtf8("label_323"));
+
+        horizontalLayout_110->addWidget(label_323);
+
+        label_324 = new QLabel(verticalLayoutWidget_31);
+        label_324->setObjectName(QString::fromUtf8("label_324"));
+
+        horizontalLayout_110->addWidget(label_324);
+
+        label_325 = new QLabel(verticalLayoutWidget_31);
+        label_325->setObjectName(QString::fromUtf8("label_325"));
+
+        horizontalLayout_110->addWidget(label_325);
+
+
+        verticalLayout_64->addLayout(horizontalLayout_110);
+
+        horizontalLayout_111 = new QHBoxLayout();
+        horizontalLayout_111->setObjectName(QString::fromUtf8("horizontalLayout_111"));
+        just_lable_error_40 = new QLabel(verticalLayoutWidget_31);
+        just_lable_error_40->setObjectName(QString::fromUtf8("just_lable_error_40"));
+
+        horizontalLayout_111->addWidget(just_lable_error_40);
+
+        horizontalSpacer_84 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_111->addItem(horizontalSpacer_84);
+
+        lable_norm_mops_5_ch_1 = new QLabel(verticalLayoutWidget_31);
+        lable_norm_mops_5_ch_1->setObjectName(QString::fromUtf8("lable_norm_mops_5_ch_1"));
+
+        horizontalLayout_111->addWidget(lable_norm_mops_5_ch_1);
+
+        lable_norm_mops_5_ch_2 = new QLabel(verticalLayoutWidget_31);
+        lable_norm_mops_5_ch_2->setObjectName(QString::fromUtf8("lable_norm_mops_5_ch_2"));
+
+        horizontalLayout_111->addWidget(lable_norm_mops_5_ch_2);
+
+        lable_norm_mops_5_ch_3 = new QLabel(verticalLayoutWidget_31);
+        lable_norm_mops_5_ch_3->setObjectName(QString::fromUtf8("lable_norm_mops_5_ch_3"));
+
+        horizontalLayout_111->addWidget(lable_norm_mops_5_ch_3);
+
+        lable_norm_mops_5_ch_4 = new QLabel(verticalLayoutWidget_31);
+        lable_norm_mops_5_ch_4->setObjectName(QString::fromUtf8("lable_norm_mops_5_ch_4"));
+
+        horizontalLayout_111->addWidget(lable_norm_mops_5_ch_4);
+
+        lable_norm_mops_5_ch_5 = new QLabel(verticalLayoutWidget_31);
+        lable_norm_mops_5_ch_5->setObjectName(QString::fromUtf8("lable_norm_mops_5_ch_5"));
+
+        horizontalLayout_111->addWidget(lable_norm_mops_5_ch_5);
+
+        lable_norm_mops_5_ch_6 = new QLabel(verticalLayoutWidget_31);
+        lable_norm_mops_5_ch_6->setObjectName(QString::fromUtf8("lable_norm_mops_5_ch_6"));
+
+        horizontalLayout_111->addWidget(lable_norm_mops_5_ch_6);
+
+        lable_norm_mops_5_ch_7 = new QLabel(verticalLayoutWidget_31);
+        lable_norm_mops_5_ch_7->setObjectName(QString::fromUtf8("lable_norm_mops_5_ch_7"));
+
+        horizontalLayout_111->addWidget(lable_norm_mops_5_ch_7);
+
+        lable_norm_mops_5_ch_8 = new QLabel(verticalLayoutWidget_31);
+        lable_norm_mops_5_ch_8->setObjectName(QString::fromUtf8("lable_norm_mops_5_ch_8"));
+
+        horizontalLayout_111->addWidget(lable_norm_mops_5_ch_8);
+
+
+        verticalLayout_64->addLayout(horizontalLayout_111);
+
+        just_lable_break_19 = new QLabel(mops_5);
+        just_lable_break_19->setObjectName(QString::fromUtf8("just_lable_break_19"));
+        just_lable_break_19->setGeometry(QRect(220, 110, 61, 21));
+        just_lable_status_ch_8 = new QLabel(mops_5);
+        just_lable_status_ch_8->setObjectName(QString::fromUtf8("just_lable_status_ch_8"));
+        just_lable_status_ch_8->setGeometry(QRect(180, 80, 151, 31));
+        verticalLayoutWidget_32 = new QWidget(mops_5);
+        verticalLayoutWidget_32->setObjectName(QString::fromUtf8("verticalLayoutWidget_32"));
+        verticalLayoutWidget_32->setGeometry(QRect(20, 510, 491, 91));
+        verticalLayout_65 = new QVBoxLayout(verticalLayoutWidget_32);
+        verticalLayout_65->setObjectName(QString::fromUtf8("verticalLayout_65"));
+        verticalLayout_65->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_112 = new QHBoxLayout();
+        horizontalLayout_112->setObjectName(QString::fromUtf8("horizontalLayout_112"));
+        just_lable_status_41 = new QLabel(verticalLayoutWidget_32);
+        just_lable_status_41->setObjectName(QString::fromUtf8("just_lable_status_41"));
+
+        horizontalLayout_112->addWidget(just_lable_status_41);
+
+        horizontalSpacer_85 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_112->addItem(horizontalSpacer_85);
+
+        label_326 = new QLabel(verticalLayoutWidget_32);
+        label_326->setObjectName(QString::fromUtf8("label_326"));
+
+        horizontalLayout_112->addWidget(label_326);
+
+        label_327 = new QLabel(verticalLayoutWidget_32);
+        label_327->setObjectName(QString::fromUtf8("label_327"));
+
+        horizontalLayout_112->addWidget(label_327);
+
+        label_328 = new QLabel(verticalLayoutWidget_32);
+        label_328->setObjectName(QString::fromUtf8("label_328"));
+
+        horizontalLayout_112->addWidget(label_328);
+
+        label_329 = new QLabel(verticalLayoutWidget_32);
+        label_329->setObjectName(QString::fromUtf8("label_329"));
+
+        horizontalLayout_112->addWidget(label_329);
+
+        label_330 = new QLabel(verticalLayoutWidget_32);
+        label_330->setObjectName(QString::fromUtf8("label_330"));
+
+        horizontalLayout_112->addWidget(label_330);
+
+        label_331 = new QLabel(verticalLayoutWidget_32);
+        label_331->setObjectName(QString::fromUtf8("label_331"));
+
+        horizontalLayout_112->addWidget(label_331);
+
+        label_332 = new QLabel(verticalLayoutWidget_32);
+        label_332->setObjectName(QString::fromUtf8("label_332"));
+
+        horizontalLayout_112->addWidget(label_332);
+
+        label_333 = new QLabel(verticalLayoutWidget_32);
+        label_333->setObjectName(QString::fromUtf8("label_333"));
+
+        horizontalLayout_112->addWidget(label_333);
+
+
+        verticalLayout_65->addLayout(horizontalLayout_112);
+
+        horizontalLayout_113 = new QHBoxLayout();
+        horizontalLayout_113->setObjectName(QString::fromUtf8("horizontalLayout_113"));
+        just_lable_error_41 = new QLabel(verticalLayoutWidget_32);
+        just_lable_error_41->setObjectName(QString::fromUtf8("just_lable_error_41"));
+
+        horizontalLayout_113->addWidget(just_lable_error_41);
+
+        horizontalSpacer_86 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_113->addItem(horizontalSpacer_86);
+
+        lable_fire_mops_5_ch_1 = new QLabel(verticalLayoutWidget_32);
+        lable_fire_mops_5_ch_1->setObjectName(QString::fromUtf8("lable_fire_mops_5_ch_1"));
+
+        horizontalLayout_113->addWidget(lable_fire_mops_5_ch_1);
+
+        lable_fire_mops_5_ch_2 = new QLabel(verticalLayoutWidget_32);
+        lable_fire_mops_5_ch_2->setObjectName(QString::fromUtf8("lable_fire_mops_5_ch_2"));
+
+        horizontalLayout_113->addWidget(lable_fire_mops_5_ch_2);
+
+        lable_fire_mops_5_ch_3 = new QLabel(verticalLayoutWidget_32);
+        lable_fire_mops_5_ch_3->setObjectName(QString::fromUtf8("lable_fire_mops_5_ch_3"));
+
+        horizontalLayout_113->addWidget(lable_fire_mops_5_ch_3);
+
+        lable_fire_mops_5_ch_4 = new QLabel(verticalLayoutWidget_32);
+        lable_fire_mops_5_ch_4->setObjectName(QString::fromUtf8("lable_fire_mops_5_ch_4"));
+
+        horizontalLayout_113->addWidget(lable_fire_mops_5_ch_4);
+
+        lable_fire_mops_5_ch_5 = new QLabel(verticalLayoutWidget_32);
+        lable_fire_mops_5_ch_5->setObjectName(QString::fromUtf8("lable_fire_mops_5_ch_5"));
+
+        horizontalLayout_113->addWidget(lable_fire_mops_5_ch_5);
+
+        lable_fire_mops_5_ch_6 = new QLabel(verticalLayoutWidget_32);
+        lable_fire_mops_5_ch_6->setObjectName(QString::fromUtf8("lable_fire_mops_5_ch_6"));
+
+        horizontalLayout_113->addWidget(lable_fire_mops_5_ch_6);
+
+        lable_fire_mops_5_ch_7 = new QLabel(verticalLayoutWidget_32);
+        lable_fire_mops_5_ch_7->setObjectName(QString::fromUtf8("lable_fire_mops_5_ch_7"));
+
+        horizontalLayout_113->addWidget(lable_fire_mops_5_ch_7);
+
+        lable_fire_mops_5_ch_8 = new QLabel(verticalLayoutWidget_32);
+        lable_fire_mops_5_ch_8->setObjectName(QString::fromUtf8("lable_fire_mops_5_ch_8"));
+
+        horizontalLayout_113->addWidget(lable_fire_mops_5_ch_8);
+
+
+        verticalLayout_65->addLayout(horizontalLayout_113);
+
+        just_lable_break_20 = new QLabel(mops_5);
+        just_lable_break_20->setObjectName(QString::fromUtf8("just_lable_break_20"));
+        just_lable_break_20->setGeometry(QRect(220, 480, 61, 21));
+        just_lable_attantion_9 = new QLabel(mops_5);
+        just_lable_attantion_9->setObjectName(QString::fromUtf8("just_lable_attantion_9"));
+        just_lable_attantion_9->setGeometry(QRect(220, 360, 81, 21));
+        verticalLayoutWidget_33 = new QWidget(mops_5);
+        verticalLayoutWidget_33->setObjectName(QString::fromUtf8("verticalLayoutWidget_33"));
+        verticalLayoutWidget_33->setGeometry(QRect(20, 390, 491, 91));
+        verticalLayout_66 = new QVBoxLayout(verticalLayoutWidget_33);
+        verticalLayout_66->setObjectName(QString::fromUtf8("verticalLayout_66"));
+        verticalLayout_66->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_114 = new QHBoxLayout();
+        horizontalLayout_114->setObjectName(QString::fromUtf8("horizontalLayout_114"));
+        just_lable_status_42 = new QLabel(verticalLayoutWidget_33);
+        just_lable_status_42->setObjectName(QString::fromUtf8("just_lable_status_42"));
+
+        horizontalLayout_114->addWidget(just_lable_status_42);
+
+        horizontalSpacer_87 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_114->addItem(horizontalSpacer_87);
+
+        label_334 = new QLabel(verticalLayoutWidget_33);
+        label_334->setObjectName(QString::fromUtf8("label_334"));
+
+        horizontalLayout_114->addWidget(label_334);
+
+        label_335 = new QLabel(verticalLayoutWidget_33);
+        label_335->setObjectName(QString::fromUtf8("label_335"));
+
+        horizontalLayout_114->addWidget(label_335);
+
+        label_336 = new QLabel(verticalLayoutWidget_33);
+        label_336->setObjectName(QString::fromUtf8("label_336"));
+
+        horizontalLayout_114->addWidget(label_336);
+
+        label_337 = new QLabel(verticalLayoutWidget_33);
+        label_337->setObjectName(QString::fromUtf8("label_337"));
+
+        horizontalLayout_114->addWidget(label_337);
+
+        label_338 = new QLabel(verticalLayoutWidget_33);
+        label_338->setObjectName(QString::fromUtf8("label_338"));
+
+        horizontalLayout_114->addWidget(label_338);
+
+        label_339 = new QLabel(verticalLayoutWidget_33);
+        label_339->setObjectName(QString::fromUtf8("label_339"));
+
+        horizontalLayout_114->addWidget(label_339);
+
+        label_340 = new QLabel(verticalLayoutWidget_33);
+        label_340->setObjectName(QString::fromUtf8("label_340"));
+
+        horizontalLayout_114->addWidget(label_340);
+
+        label_341 = new QLabel(verticalLayoutWidget_33);
+        label_341->setObjectName(QString::fromUtf8("label_341"));
+
+        horizontalLayout_114->addWidget(label_341);
+
+
+        verticalLayout_66->addLayout(horizontalLayout_114);
+
+        horizontalLayout_115 = new QHBoxLayout();
+        horizontalLayout_115->setObjectName(QString::fromUtf8("horizontalLayout_115"));
+        just_lable_error_42 = new QLabel(verticalLayoutWidget_33);
+        just_lable_error_42->setObjectName(QString::fromUtf8("just_lable_error_42"));
+
+        horizontalLayout_115->addWidget(just_lable_error_42);
+
+        horizontalSpacer_88 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_115->addItem(horizontalSpacer_88);
+
+        lable_attantion_mops_5_ch_1 = new QLabel(verticalLayoutWidget_33);
+        lable_attantion_mops_5_ch_1->setObjectName(QString::fromUtf8("lable_attantion_mops_5_ch_1"));
+
+        horizontalLayout_115->addWidget(lable_attantion_mops_5_ch_1);
+
+        lable_attantion_mops_5_ch_2 = new QLabel(verticalLayoutWidget_33);
+        lable_attantion_mops_5_ch_2->setObjectName(QString::fromUtf8("lable_attantion_mops_5_ch_2"));
+
+        horizontalLayout_115->addWidget(lable_attantion_mops_5_ch_2);
+
+        lable_attantion_mops_5_ch_3 = new QLabel(verticalLayoutWidget_33);
+        lable_attantion_mops_5_ch_3->setObjectName(QString::fromUtf8("lable_attantion_mops_5_ch_3"));
+
+        horizontalLayout_115->addWidget(lable_attantion_mops_5_ch_3);
+
+        lable_attantion_mops_5_ch_4 = new QLabel(verticalLayoutWidget_33);
+        lable_attantion_mops_5_ch_4->setObjectName(QString::fromUtf8("lable_attantion_mops_5_ch_4"));
+
+        horizontalLayout_115->addWidget(lable_attantion_mops_5_ch_4);
+
+        lable_attantion_mops_5_ch_5 = new QLabel(verticalLayoutWidget_33);
+        lable_attantion_mops_5_ch_5->setObjectName(QString::fromUtf8("lable_attantion_mops_5_ch_5"));
+
+        horizontalLayout_115->addWidget(lable_attantion_mops_5_ch_5);
+
+        lable_attantion_mops_5_ch_6 = new QLabel(verticalLayoutWidget_33);
+        lable_attantion_mops_5_ch_6->setObjectName(QString::fromUtf8("lable_attantion_mops_5_ch_6"));
+
+        horizontalLayout_115->addWidget(lable_attantion_mops_5_ch_6);
+
+        lable_attantion_mops_5_ch_7 = new QLabel(verticalLayoutWidget_33);
+        lable_attantion_mops_5_ch_7->setObjectName(QString::fromUtf8("lable_attantion_mops_5_ch_7"));
+
+        horizontalLayout_115->addWidget(lable_attantion_mops_5_ch_7);
+
+        lable_attantion_mops_5_ch_8 = new QLabel(verticalLayoutWidget_33);
+        lable_attantion_mops_5_ch_8->setObjectName(QString::fromUtf8("lable_attantion_mops_5_ch_8"));
+
+        horizontalLayout_115->addWidget(lable_attantion_mops_5_ch_8);
+
+
+        verticalLayout_66->addLayout(horizontalLayout_115);
+
+        layoutWidget_19 = new QWidget(mops_5);
+        layoutWidget_19->setObjectName(QString::fromUtf8("layoutWidget_19"));
+        layoutWidget_19->setGeometry(QRect(360, 10, 150, 98));
+        verticalLayout_67 = new QVBoxLayout(layoutWidget_19);
+        verticalLayout_67->setObjectName(QString::fromUtf8("verticalLayout_67"));
+        verticalLayout_67->setContentsMargins(0, 0, 0, 0);
+        just_lable_supply_err_8 = new QLabel(layoutWidget_19);
+        just_lable_supply_err_8->setObjectName(QString::fromUtf8("just_lable_supply_err_8"));
+
+        verticalLayout_67->addWidget(just_lable_supply_err_8);
+
+        horizontalLayout_116 = new QHBoxLayout();
+        horizontalLayout_116->setObjectName(QString::fromUtf8("horizontalLayout_116"));
+        verticalLayout_68 = new QVBoxLayout();
+        verticalLayout_68->setObjectName(QString::fromUtf8("verticalLayout_68"));
+        just_lable_18v_8 = new QLabel(layoutWidget_19);
+        just_lable_18v_8->setObjectName(QString::fromUtf8("just_lable_18v_8"));
+
+        verticalLayout_68->addWidget(just_lable_18v_8);
+
+        just_lable_24v_8 = new QLabel(layoutWidget_19);
+        just_lable_24v_8->setObjectName(QString::fromUtf8("just_lable_24v_8"));
+
+        verticalLayout_68->addWidget(just_lable_24v_8);
+
+        just_lable_28v_8 = new QLabel(layoutWidget_19);
+        just_lable_28v_8->setObjectName(QString::fromUtf8("just_lable_28v_8"));
+
+        verticalLayout_68->addWidget(just_lable_28v_8);
+
+
+        horizontalLayout_116->addLayout(verticalLayout_68);
+
+        verticalLayout_69 = new QVBoxLayout();
+        verticalLayout_69->setObjectName(QString::fromUtf8("verticalLayout_69"));
+        lable_18v_ans_mops_5 = new QLabel(layoutWidget_19);
+        lable_18v_ans_mops_5->setObjectName(QString::fromUtf8("lable_18v_ans_mops_5"));
+
+        verticalLayout_69->addWidget(lable_18v_ans_mops_5);
+
+        lable_24v_ans_mops_5 = new QLabel(layoutWidget_19);
+        lable_24v_ans_mops_5->setObjectName(QString::fromUtf8("lable_24v_ans_mops_5"));
+
+        verticalLayout_69->addWidget(lable_24v_ans_mops_5);
+
+        lable_28v_ans_mops_5 = new QLabel(layoutWidget_19);
+        lable_28v_ans_mops_5->setObjectName(QString::fromUtf8("lable_28v_ans_mops_5"));
+
+        verticalLayout_69->addWidget(lable_28v_ans_mops_5);
+
+
+        horizontalLayout_116->addLayout(verticalLayout_69);
+
+
+        verticalLayout_67->addLayout(horizontalLayout_116);
+
+        layoutWidget_20 = new QWidget(mops_5);
+        layoutWidget_20->setObjectName(QString::fromUtf8("layoutWidget_20"));
+        layoutWidget_20->setGeometry(QRect(10, 40, 244, 22));
+        horizontalLayout_117 = new QHBoxLayout(layoutWidget_20);
+        horizontalLayout_117->setObjectName(QString::fromUtf8("horizontalLayout_117"));
+        horizontalLayout_117->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_20 = new QLabel(layoutWidget_20);
+        just_lable_online_status_req_mops_20->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_20"));
+
+        horizontalLayout_117->addWidget(just_lable_online_status_req_mops_20);
+
+        just_lable_oper_status_ans_mops_5 = new QLabel(layoutWidget_20);
+        just_lable_oper_status_ans_mops_5->setObjectName(QString::fromUtf8("just_lable_oper_status_ans_mops_5"));
+        just_lable_oper_status_ans_mops_5->setMinimumSize(QSize(102, 0));
+        just_lable_oper_status_ans_mops_5->setScaledContents(false);
+        just_lable_oper_status_ans_mops_5->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_117->addWidget(just_lable_oper_status_ans_mops_5);
+
         tab_widget_for_mops->addTab(mops_5, QString());
         mops_6 = new QWidget();
         mops_6->setObjectName(QString::fromUtf8("mops_6"));
+        layoutWidget_21 = new QWidget(mops_6);
+        layoutWidget_21->setObjectName(QString::fromUtf8("layoutWidget_21"));
+        layoutWidget_21->setGeometry(QRect(10, 10, 219, 22));
+        horizontalLayout_118 = new QHBoxLayout(layoutWidget_21);
+        horizontalLayout_118->setObjectName(QString::fromUtf8("horizontalLayout_118"));
+        horizontalLayout_118->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_21 = new QLabel(layoutWidget_21);
+        just_lable_online_status_req_mops_21->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_21"));
+
+        horizontalLayout_118->addWidget(just_lable_online_status_req_mops_21);
+
+        just_lable_online_status_ans_mops_6 = new QLabel(layoutWidget_21);
+        just_lable_online_status_ans_mops_6->setObjectName(QString::fromUtf8("just_lable_online_status_ans_mops_6"));
+        just_lable_online_status_ans_mops_6->setMinimumSize(QSize(102, 0));
+        just_lable_online_status_ans_mops_6->setScaledContents(false);
+        just_lable_online_status_ans_mops_6->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_118->addWidget(just_lable_online_status_ans_mops_6);
+
+        just_lable_norm_7 = new QLabel(mops_6);
+        just_lable_norm_7->setObjectName(QString::fromUtf8("just_lable_norm_7"));
+        just_lable_norm_7->setGeometry(QRect(220, 230, 61, 21));
+        verticalLayoutWidget_34 = new QWidget(mops_6);
+        verticalLayoutWidget_34->setObjectName(QString::fromUtf8("verticalLayoutWidget_34"));
+        verticalLayoutWidget_34->setGeometry(QRect(20, 140, 491, 91));
+        verticalLayout_70 = new QVBoxLayout(verticalLayoutWidget_34);
+        verticalLayout_70->setObjectName(QString::fromUtf8("verticalLayout_70"));
+        verticalLayout_70->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_119 = new QHBoxLayout();
+        horizontalLayout_119->setObjectName(QString::fromUtf8("horizontalLayout_119"));
+        just_lable_status_43 = new QLabel(verticalLayoutWidget_34);
+        just_lable_status_43->setObjectName(QString::fromUtf8("just_lable_status_43"));
+
+        horizontalLayout_119->addWidget(just_lable_status_43);
+
+        horizontalSpacer_89 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_119->addItem(horizontalSpacer_89);
+
+        label_342 = new QLabel(verticalLayoutWidget_34);
+        label_342->setObjectName(QString::fromUtf8("label_342"));
+
+        horizontalLayout_119->addWidget(label_342);
+
+        label_343 = new QLabel(verticalLayoutWidget_34);
+        label_343->setObjectName(QString::fromUtf8("label_343"));
+
+        horizontalLayout_119->addWidget(label_343);
+
+        label_344 = new QLabel(verticalLayoutWidget_34);
+        label_344->setObjectName(QString::fromUtf8("label_344"));
+
+        horizontalLayout_119->addWidget(label_344);
+
+        label_345 = new QLabel(verticalLayoutWidget_34);
+        label_345->setObjectName(QString::fromUtf8("label_345"));
+
+        horizontalLayout_119->addWidget(label_345);
+
+        label_346 = new QLabel(verticalLayoutWidget_34);
+        label_346->setObjectName(QString::fromUtf8("label_346"));
+
+        horizontalLayout_119->addWidget(label_346);
+
+        label_347 = new QLabel(verticalLayoutWidget_34);
+        label_347->setObjectName(QString::fromUtf8("label_347"));
+
+        horizontalLayout_119->addWidget(label_347);
+
+        label_348 = new QLabel(verticalLayoutWidget_34);
+        label_348->setObjectName(QString::fromUtf8("label_348"));
+
+        horizontalLayout_119->addWidget(label_348);
+
+        label_349 = new QLabel(verticalLayoutWidget_34);
+        label_349->setObjectName(QString::fromUtf8("label_349"));
+
+        horizontalLayout_119->addWidget(label_349);
+
+
+        verticalLayout_70->addLayout(horizontalLayout_119);
+
+        horizontalLayout_120 = new QHBoxLayout();
+        horizontalLayout_120->setObjectName(QString::fromUtf8("horizontalLayout_120"));
+        just_lable_error_43 = new QLabel(verticalLayoutWidget_34);
+        just_lable_error_43->setObjectName(QString::fromUtf8("just_lable_error_43"));
+
+        horizontalLayout_120->addWidget(just_lable_error_43);
+
+        horizontalSpacer_90 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_120->addItem(horizontalSpacer_90);
+
+        lable_break_mops_6_ch_1 = new QLabel(verticalLayoutWidget_34);
+        lable_break_mops_6_ch_1->setObjectName(QString::fromUtf8("lable_break_mops_6_ch_1"));
+
+        horizontalLayout_120->addWidget(lable_break_mops_6_ch_1);
+
+        lable_break_mops_6_ch_2 = new QLabel(verticalLayoutWidget_34);
+        lable_break_mops_6_ch_2->setObjectName(QString::fromUtf8("lable_break_mops_6_ch_2"));
+
+        horizontalLayout_120->addWidget(lable_break_mops_6_ch_2);
+
+        lable_break_mops_6_ch_3 = new QLabel(verticalLayoutWidget_34);
+        lable_break_mops_6_ch_3->setObjectName(QString::fromUtf8("lable_break_mops_6_ch_3"));
+
+        horizontalLayout_120->addWidget(lable_break_mops_6_ch_3);
+
+        lable_break_mops_6_ch_4 = new QLabel(verticalLayoutWidget_34);
+        lable_break_mops_6_ch_4->setObjectName(QString::fromUtf8("lable_break_mops_6_ch_4"));
+
+        horizontalLayout_120->addWidget(lable_break_mops_6_ch_4);
+
+        lable_break_mops_6_ch_5 = new QLabel(verticalLayoutWidget_34);
+        lable_break_mops_6_ch_5->setObjectName(QString::fromUtf8("lable_break_mops_6_ch_5"));
+
+        horizontalLayout_120->addWidget(lable_break_mops_6_ch_5);
+
+        lable_break_mops_6_ch_6 = new QLabel(verticalLayoutWidget_34);
+        lable_break_mops_6_ch_6->setObjectName(QString::fromUtf8("lable_break_mops_6_ch_6"));
+
+        horizontalLayout_120->addWidget(lable_break_mops_6_ch_6);
+
+        lable_break_mops_6_ch_7 = new QLabel(verticalLayoutWidget_34);
+        lable_break_mops_6_ch_7->setObjectName(QString::fromUtf8("lable_break_mops_6_ch_7"));
+
+        horizontalLayout_120->addWidget(lable_break_mops_6_ch_7);
+
+        lable_break_mops_6_ch_8 = new QLabel(verticalLayoutWidget_34);
+        lable_break_mops_6_ch_8->setObjectName(QString::fromUtf8("lable_break_mops_6_ch_8"));
+
+        horizontalLayout_120->addWidget(lable_break_mops_6_ch_8);
+
+
+        verticalLayout_70->addLayout(horizontalLayout_120);
+
+        verticalLayoutWidget_35 = new QWidget(mops_6);
+        verticalLayoutWidget_35->setObjectName(QString::fromUtf8("verticalLayoutWidget_35"));
+        verticalLayoutWidget_35->setGeometry(QRect(20, 640, 491, 91));
+        verticalLayout_71 = new QVBoxLayout(verticalLayoutWidget_35);
+        verticalLayout_71->setObjectName(QString::fromUtf8("verticalLayout_71"));
+        verticalLayout_71->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_121 = new QHBoxLayout();
+        horizontalLayout_121->setObjectName(QString::fromUtf8("horizontalLayout_121"));
+        just_lable_status_44 = new QLabel(verticalLayoutWidget_35);
+        just_lable_status_44->setObjectName(QString::fromUtf8("just_lable_status_44"));
+
+        horizontalLayout_121->addWidget(just_lable_status_44);
+
+        horizontalSpacer_91 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_121->addItem(horizontalSpacer_91);
+
+        label_350 = new QLabel(verticalLayoutWidget_35);
+        label_350->setObjectName(QString::fromUtf8("label_350"));
+
+        horizontalLayout_121->addWidget(label_350);
+
+        label_351 = new QLabel(verticalLayoutWidget_35);
+        label_351->setObjectName(QString::fromUtf8("label_351"));
+
+        horizontalLayout_121->addWidget(label_351);
+
+        label_352 = new QLabel(verticalLayoutWidget_35);
+        label_352->setObjectName(QString::fromUtf8("label_352"));
+
+        horizontalLayout_121->addWidget(label_352);
+
+        label_353 = new QLabel(verticalLayoutWidget_35);
+        label_353->setObjectName(QString::fromUtf8("label_353"));
+
+        horizontalLayout_121->addWidget(label_353);
+
+        label_354 = new QLabel(verticalLayoutWidget_35);
+        label_354->setObjectName(QString::fromUtf8("label_354"));
+
+        horizontalLayout_121->addWidget(label_354);
+
+        label_355 = new QLabel(verticalLayoutWidget_35);
+        label_355->setObjectName(QString::fromUtf8("label_355"));
+
+        horizontalLayout_121->addWidget(label_355);
+
+        label_356 = new QLabel(verticalLayoutWidget_35);
+        label_356->setObjectName(QString::fromUtf8("label_356"));
+
+        horizontalLayout_121->addWidget(label_356);
+
+        label_357 = new QLabel(verticalLayoutWidget_35);
+        label_357->setObjectName(QString::fromUtf8("label_357"));
+
+        horizontalLayout_121->addWidget(label_357);
+
+
+        verticalLayout_71->addLayout(horizontalLayout_121);
+
+        horizontalLayout_122 = new QHBoxLayout();
+        horizontalLayout_122->setObjectName(QString::fromUtf8("horizontalLayout_122"));
+        just_lable_error_44 = new QLabel(verticalLayoutWidget_35);
+        just_lable_error_44->setObjectName(QString::fromUtf8("just_lable_error_44"));
+
+        horizontalLayout_122->addWidget(just_lable_error_44);
+
+        horizontalSpacer_92 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_122->addItem(horizontalSpacer_92);
+
+        lable_break_mops_6_sc_1 = new QLabel(verticalLayoutWidget_35);
+        lable_break_mops_6_sc_1->setObjectName(QString::fromUtf8("lable_break_mops_6_sc_1"));
+
+        horizontalLayout_122->addWidget(lable_break_mops_6_sc_1);
+
+        lable_break_mops_6_sc_2 = new QLabel(verticalLayoutWidget_35);
+        lable_break_mops_6_sc_2->setObjectName(QString::fromUtf8("lable_break_mops_6_sc_2"));
+
+        horizontalLayout_122->addWidget(lable_break_mops_6_sc_2);
+
+        lable_break_mops_6_sc_3 = new QLabel(verticalLayoutWidget_35);
+        lable_break_mops_6_sc_3->setObjectName(QString::fromUtf8("lable_break_mops_6_sc_3"));
+
+        horizontalLayout_122->addWidget(lable_break_mops_6_sc_3);
+
+        lable_break_mops_6_sc_4 = new QLabel(verticalLayoutWidget_35);
+        lable_break_mops_6_sc_4->setObjectName(QString::fromUtf8("lable_break_mops_6_sc_4"));
+
+        horizontalLayout_122->addWidget(lable_break_mops_6_sc_4);
+
+        lable_break_mops_6_sc_5 = new QLabel(verticalLayoutWidget_35);
+        lable_break_mops_6_sc_5->setObjectName(QString::fromUtf8("lable_break_mops_6_sc_5"));
+
+        horizontalLayout_122->addWidget(lable_break_mops_6_sc_5);
+
+        lable_break_mops_6_sc_6 = new QLabel(verticalLayoutWidget_35);
+        lable_break_mops_6_sc_6->setObjectName(QString::fromUtf8("lable_break_mops_6_sc_6"));
+
+        horizontalLayout_122->addWidget(lable_break_mops_6_sc_6);
+
+        lable_break_mops_6_sc_7 = new QLabel(verticalLayoutWidget_35);
+        lable_break_mops_6_sc_7->setObjectName(QString::fromUtf8("lable_break_mops_6_sc_7"));
+
+        horizontalLayout_122->addWidget(lable_break_mops_6_sc_7);
+
+        lable_break_mops_6_sc_8 = new QLabel(verticalLayoutWidget_35);
+        lable_break_mops_6_sc_8->setObjectName(QString::fromUtf8("lable_break_mops_6_sc_8"));
+
+        horizontalLayout_122->addWidget(lable_break_mops_6_sc_8);
+
+
+        verticalLayout_71->addLayout(horizontalLayout_122);
+
+        just_lable_break_21 = new QLabel(mops_6);
+        just_lable_break_21->setObjectName(QString::fromUtf8("just_lable_break_21"));
+        just_lable_break_21->setGeometry(QRect(220, 610, 151, 21));
+        verticalLayoutWidget_36 = new QWidget(mops_6);
+        verticalLayoutWidget_36->setObjectName(QString::fromUtf8("verticalLayoutWidget_36"));
+        verticalLayoutWidget_36->setGeometry(QRect(20, 260, 491, 91));
+        verticalLayout_72 = new QVBoxLayout(verticalLayoutWidget_36);
+        verticalLayout_72->setObjectName(QString::fromUtf8("verticalLayout_72"));
+        verticalLayout_72->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_123 = new QHBoxLayout();
+        horizontalLayout_123->setObjectName(QString::fromUtf8("horizontalLayout_123"));
+        just_lable_status_45 = new QLabel(verticalLayoutWidget_36);
+        just_lable_status_45->setObjectName(QString::fromUtf8("just_lable_status_45"));
+
+        horizontalLayout_123->addWidget(just_lable_status_45);
+
+        horizontalSpacer_93 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_123->addItem(horizontalSpacer_93);
+
+        label_358 = new QLabel(verticalLayoutWidget_36);
+        label_358->setObjectName(QString::fromUtf8("label_358"));
+
+        horizontalLayout_123->addWidget(label_358);
+
+        label_359 = new QLabel(verticalLayoutWidget_36);
+        label_359->setObjectName(QString::fromUtf8("label_359"));
+
+        horizontalLayout_123->addWidget(label_359);
+
+        label_360 = new QLabel(verticalLayoutWidget_36);
+        label_360->setObjectName(QString::fromUtf8("label_360"));
+
+        horizontalLayout_123->addWidget(label_360);
+
+        label_361 = new QLabel(verticalLayoutWidget_36);
+        label_361->setObjectName(QString::fromUtf8("label_361"));
+
+        horizontalLayout_123->addWidget(label_361);
+
+        label_362 = new QLabel(verticalLayoutWidget_36);
+        label_362->setObjectName(QString::fromUtf8("label_362"));
+
+        horizontalLayout_123->addWidget(label_362);
+
+        label_363 = new QLabel(verticalLayoutWidget_36);
+        label_363->setObjectName(QString::fromUtf8("label_363"));
+
+        horizontalLayout_123->addWidget(label_363);
+
+        label_364 = new QLabel(verticalLayoutWidget_36);
+        label_364->setObjectName(QString::fromUtf8("label_364"));
+
+        horizontalLayout_123->addWidget(label_364);
+
+        label_365 = new QLabel(verticalLayoutWidget_36);
+        label_365->setObjectName(QString::fromUtf8("label_365"));
+
+        horizontalLayout_123->addWidget(label_365);
+
+
+        verticalLayout_72->addLayout(horizontalLayout_123);
+
+        horizontalLayout_124 = new QHBoxLayout();
+        horizontalLayout_124->setObjectName(QString::fromUtf8("horizontalLayout_124"));
+        just_lable_error_45 = new QLabel(verticalLayoutWidget_36);
+        just_lable_error_45->setObjectName(QString::fromUtf8("just_lable_error_45"));
+
+        horizontalLayout_124->addWidget(just_lable_error_45);
+
+        horizontalSpacer_94 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_124->addItem(horizontalSpacer_94);
+
+        lable_norm_mops_6_ch_1 = new QLabel(verticalLayoutWidget_36);
+        lable_norm_mops_6_ch_1->setObjectName(QString::fromUtf8("lable_norm_mops_6_ch_1"));
+
+        horizontalLayout_124->addWidget(lable_norm_mops_6_ch_1);
+
+        lable_norm_mops_6_ch_2 = new QLabel(verticalLayoutWidget_36);
+        lable_norm_mops_6_ch_2->setObjectName(QString::fromUtf8("lable_norm_mops_6_ch_2"));
+
+        horizontalLayout_124->addWidget(lable_norm_mops_6_ch_2);
+
+        lable_norm_mops_6_ch_3 = new QLabel(verticalLayoutWidget_36);
+        lable_norm_mops_6_ch_3->setObjectName(QString::fromUtf8("lable_norm_mops_6_ch_3"));
+
+        horizontalLayout_124->addWidget(lable_norm_mops_6_ch_3);
+
+        lable_norm_mops_6_ch_4 = new QLabel(verticalLayoutWidget_36);
+        lable_norm_mops_6_ch_4->setObjectName(QString::fromUtf8("lable_norm_mops_6_ch_4"));
+
+        horizontalLayout_124->addWidget(lable_norm_mops_6_ch_4);
+
+        lable_norm_mops_6_ch_5 = new QLabel(verticalLayoutWidget_36);
+        lable_norm_mops_6_ch_5->setObjectName(QString::fromUtf8("lable_norm_mops_6_ch_5"));
+
+        horizontalLayout_124->addWidget(lable_norm_mops_6_ch_5);
+
+        lable_norm_mops_6_ch_6 = new QLabel(verticalLayoutWidget_36);
+        lable_norm_mops_6_ch_6->setObjectName(QString::fromUtf8("lable_norm_mops_6_ch_6"));
+
+        horizontalLayout_124->addWidget(lable_norm_mops_6_ch_6);
+
+        lable_norm_mops_6_ch_7 = new QLabel(verticalLayoutWidget_36);
+        lable_norm_mops_6_ch_7->setObjectName(QString::fromUtf8("lable_norm_mops_6_ch_7"));
+
+        horizontalLayout_124->addWidget(lable_norm_mops_6_ch_7);
+
+        lable_norm_mops_6_ch_8 = new QLabel(verticalLayoutWidget_36);
+        lable_norm_mops_6_ch_8->setObjectName(QString::fromUtf8("lable_norm_mops_6_ch_8"));
+
+        horizontalLayout_124->addWidget(lable_norm_mops_6_ch_8);
+
+
+        verticalLayout_72->addLayout(horizontalLayout_124);
+
+        just_lable_break_22 = new QLabel(mops_6);
+        just_lable_break_22->setObjectName(QString::fromUtf8("just_lable_break_22"));
+        just_lable_break_22->setGeometry(QRect(220, 110, 61, 21));
+        just_lable_status_ch_9 = new QLabel(mops_6);
+        just_lable_status_ch_9->setObjectName(QString::fromUtf8("just_lable_status_ch_9"));
+        just_lable_status_ch_9->setGeometry(QRect(180, 80, 151, 31));
+        verticalLayoutWidget_37 = new QWidget(mops_6);
+        verticalLayoutWidget_37->setObjectName(QString::fromUtf8("verticalLayoutWidget_37"));
+        verticalLayoutWidget_37->setGeometry(QRect(20, 510, 491, 91));
+        verticalLayout_73 = new QVBoxLayout(verticalLayoutWidget_37);
+        verticalLayout_73->setObjectName(QString::fromUtf8("verticalLayout_73"));
+        verticalLayout_73->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_125 = new QHBoxLayout();
+        horizontalLayout_125->setObjectName(QString::fromUtf8("horizontalLayout_125"));
+        just_lable_status_46 = new QLabel(verticalLayoutWidget_37);
+        just_lable_status_46->setObjectName(QString::fromUtf8("just_lable_status_46"));
+
+        horizontalLayout_125->addWidget(just_lable_status_46);
+
+        horizontalSpacer_95 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_125->addItem(horizontalSpacer_95);
+
+        label_366 = new QLabel(verticalLayoutWidget_37);
+        label_366->setObjectName(QString::fromUtf8("label_366"));
+
+        horizontalLayout_125->addWidget(label_366);
+
+        label_367 = new QLabel(verticalLayoutWidget_37);
+        label_367->setObjectName(QString::fromUtf8("label_367"));
+
+        horizontalLayout_125->addWidget(label_367);
+
+        label_368 = new QLabel(verticalLayoutWidget_37);
+        label_368->setObjectName(QString::fromUtf8("label_368"));
+
+        horizontalLayout_125->addWidget(label_368);
+
+        label_369 = new QLabel(verticalLayoutWidget_37);
+        label_369->setObjectName(QString::fromUtf8("label_369"));
+
+        horizontalLayout_125->addWidget(label_369);
+
+        label_370 = new QLabel(verticalLayoutWidget_37);
+        label_370->setObjectName(QString::fromUtf8("label_370"));
+
+        horizontalLayout_125->addWidget(label_370);
+
+        label_371 = new QLabel(verticalLayoutWidget_37);
+        label_371->setObjectName(QString::fromUtf8("label_371"));
+
+        horizontalLayout_125->addWidget(label_371);
+
+        label_372 = new QLabel(verticalLayoutWidget_37);
+        label_372->setObjectName(QString::fromUtf8("label_372"));
+
+        horizontalLayout_125->addWidget(label_372);
+
+        label_373 = new QLabel(verticalLayoutWidget_37);
+        label_373->setObjectName(QString::fromUtf8("label_373"));
+
+        horizontalLayout_125->addWidget(label_373);
+
+
+        verticalLayout_73->addLayout(horizontalLayout_125);
+
+        horizontalLayout_126 = new QHBoxLayout();
+        horizontalLayout_126->setObjectName(QString::fromUtf8("horizontalLayout_126"));
+        just_lable_error_46 = new QLabel(verticalLayoutWidget_37);
+        just_lable_error_46->setObjectName(QString::fromUtf8("just_lable_error_46"));
+
+        horizontalLayout_126->addWidget(just_lable_error_46);
+
+        horizontalSpacer_96 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_126->addItem(horizontalSpacer_96);
+
+        lable_fire_mops_6_ch_1 = new QLabel(verticalLayoutWidget_37);
+        lable_fire_mops_6_ch_1->setObjectName(QString::fromUtf8("lable_fire_mops_6_ch_1"));
+
+        horizontalLayout_126->addWidget(lable_fire_mops_6_ch_1);
+
+        lable_fire_mops_6_ch_2 = new QLabel(verticalLayoutWidget_37);
+        lable_fire_mops_6_ch_2->setObjectName(QString::fromUtf8("lable_fire_mops_6_ch_2"));
+
+        horizontalLayout_126->addWidget(lable_fire_mops_6_ch_2);
+
+        lable_fire_mops_6_ch_3 = new QLabel(verticalLayoutWidget_37);
+        lable_fire_mops_6_ch_3->setObjectName(QString::fromUtf8("lable_fire_mops_6_ch_3"));
+
+        horizontalLayout_126->addWidget(lable_fire_mops_6_ch_3);
+
+        lable_fire_mops_6_ch_4 = new QLabel(verticalLayoutWidget_37);
+        lable_fire_mops_6_ch_4->setObjectName(QString::fromUtf8("lable_fire_mops_6_ch_4"));
+
+        horizontalLayout_126->addWidget(lable_fire_mops_6_ch_4);
+
+        lable_fire_mops_6_ch_5 = new QLabel(verticalLayoutWidget_37);
+        lable_fire_mops_6_ch_5->setObjectName(QString::fromUtf8("lable_fire_mops_6_ch_5"));
+
+        horizontalLayout_126->addWidget(lable_fire_mops_6_ch_5);
+
+        lable_fire_mops_6_ch_6 = new QLabel(verticalLayoutWidget_37);
+        lable_fire_mops_6_ch_6->setObjectName(QString::fromUtf8("lable_fire_mops_6_ch_6"));
+
+        horizontalLayout_126->addWidget(lable_fire_mops_6_ch_6);
+
+        lable_fire_mops_6_ch_7 = new QLabel(verticalLayoutWidget_37);
+        lable_fire_mops_6_ch_7->setObjectName(QString::fromUtf8("lable_fire_mops_6_ch_7"));
+
+        horizontalLayout_126->addWidget(lable_fire_mops_6_ch_7);
+
+        lable_fire_mops_6_ch_8 = new QLabel(verticalLayoutWidget_37);
+        lable_fire_mops_6_ch_8->setObjectName(QString::fromUtf8("lable_fire_mops_6_ch_8"));
+
+        horizontalLayout_126->addWidget(lable_fire_mops_6_ch_8);
+
+
+        verticalLayout_73->addLayout(horizontalLayout_126);
+
+        just_lable_break_23 = new QLabel(mops_6);
+        just_lable_break_23->setObjectName(QString::fromUtf8("just_lable_break_23"));
+        just_lable_break_23->setGeometry(QRect(220, 480, 61, 21));
+        just_lable_attantion_10 = new QLabel(mops_6);
+        just_lable_attantion_10->setObjectName(QString::fromUtf8("just_lable_attantion_10"));
+        just_lable_attantion_10->setGeometry(QRect(220, 360, 81, 21));
+        verticalLayoutWidget_38 = new QWidget(mops_6);
+        verticalLayoutWidget_38->setObjectName(QString::fromUtf8("verticalLayoutWidget_38"));
+        verticalLayoutWidget_38->setGeometry(QRect(20, 390, 491, 91));
+        verticalLayout_74 = new QVBoxLayout(verticalLayoutWidget_38);
+        verticalLayout_74->setObjectName(QString::fromUtf8("verticalLayout_74"));
+        verticalLayout_74->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_127 = new QHBoxLayout();
+        horizontalLayout_127->setObjectName(QString::fromUtf8("horizontalLayout_127"));
+        just_lable_status_47 = new QLabel(verticalLayoutWidget_38);
+        just_lable_status_47->setObjectName(QString::fromUtf8("just_lable_status_47"));
+
+        horizontalLayout_127->addWidget(just_lable_status_47);
+
+        horizontalSpacer_97 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_127->addItem(horizontalSpacer_97);
+
+        label_374 = new QLabel(verticalLayoutWidget_38);
+        label_374->setObjectName(QString::fromUtf8("label_374"));
+
+        horizontalLayout_127->addWidget(label_374);
+
+        label_375 = new QLabel(verticalLayoutWidget_38);
+        label_375->setObjectName(QString::fromUtf8("label_375"));
+
+        horizontalLayout_127->addWidget(label_375);
+
+        label_376 = new QLabel(verticalLayoutWidget_38);
+        label_376->setObjectName(QString::fromUtf8("label_376"));
+
+        horizontalLayout_127->addWidget(label_376);
+
+        label_377 = new QLabel(verticalLayoutWidget_38);
+        label_377->setObjectName(QString::fromUtf8("label_377"));
+
+        horizontalLayout_127->addWidget(label_377);
+
+        label_378 = new QLabel(verticalLayoutWidget_38);
+        label_378->setObjectName(QString::fromUtf8("label_378"));
+
+        horizontalLayout_127->addWidget(label_378);
+
+        label_379 = new QLabel(verticalLayoutWidget_38);
+        label_379->setObjectName(QString::fromUtf8("label_379"));
+
+        horizontalLayout_127->addWidget(label_379);
+
+        label_380 = new QLabel(verticalLayoutWidget_38);
+        label_380->setObjectName(QString::fromUtf8("label_380"));
+
+        horizontalLayout_127->addWidget(label_380);
+
+        label_381 = new QLabel(verticalLayoutWidget_38);
+        label_381->setObjectName(QString::fromUtf8("label_381"));
+
+        horizontalLayout_127->addWidget(label_381);
+
+
+        verticalLayout_74->addLayout(horizontalLayout_127);
+
+        horizontalLayout_128 = new QHBoxLayout();
+        horizontalLayout_128->setObjectName(QString::fromUtf8("horizontalLayout_128"));
+        just_lable_error_47 = new QLabel(verticalLayoutWidget_38);
+        just_lable_error_47->setObjectName(QString::fromUtf8("just_lable_error_47"));
+
+        horizontalLayout_128->addWidget(just_lable_error_47);
+
+        horizontalSpacer_98 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_128->addItem(horizontalSpacer_98);
+
+        lable_attantion_mops_6_ch_1 = new QLabel(verticalLayoutWidget_38);
+        lable_attantion_mops_6_ch_1->setObjectName(QString::fromUtf8("lable_attantion_mops_6_ch_1"));
+
+        horizontalLayout_128->addWidget(lable_attantion_mops_6_ch_1);
+
+        lable_attantion_mops_6_ch_2 = new QLabel(verticalLayoutWidget_38);
+        lable_attantion_mops_6_ch_2->setObjectName(QString::fromUtf8("lable_attantion_mops_6_ch_2"));
+
+        horizontalLayout_128->addWidget(lable_attantion_mops_6_ch_2);
+
+        lable_attantion_mops_6_ch_3 = new QLabel(verticalLayoutWidget_38);
+        lable_attantion_mops_6_ch_3->setObjectName(QString::fromUtf8("lable_attantion_mops_6_ch_3"));
+
+        horizontalLayout_128->addWidget(lable_attantion_mops_6_ch_3);
+
+        lable_attantion_mops_6_ch_4 = new QLabel(verticalLayoutWidget_38);
+        lable_attantion_mops_6_ch_4->setObjectName(QString::fromUtf8("lable_attantion_mops_6_ch_4"));
+
+        horizontalLayout_128->addWidget(lable_attantion_mops_6_ch_4);
+
+        lable_attantion_mops_6_ch_5 = new QLabel(verticalLayoutWidget_38);
+        lable_attantion_mops_6_ch_5->setObjectName(QString::fromUtf8("lable_attantion_mops_6_ch_5"));
+
+        horizontalLayout_128->addWidget(lable_attantion_mops_6_ch_5);
+
+        lable_attantion_mops_6_ch_6 = new QLabel(verticalLayoutWidget_38);
+        lable_attantion_mops_6_ch_6->setObjectName(QString::fromUtf8("lable_attantion_mops_6_ch_6"));
+
+        horizontalLayout_128->addWidget(lable_attantion_mops_6_ch_6);
+
+        lable_attantion_mops_6_ch_7 = new QLabel(verticalLayoutWidget_38);
+        lable_attantion_mops_6_ch_7->setObjectName(QString::fromUtf8("lable_attantion_mops_6_ch_7"));
+
+        horizontalLayout_128->addWidget(lable_attantion_mops_6_ch_7);
+
+        lable_attantion_mops_6_ch_8 = new QLabel(verticalLayoutWidget_38);
+        lable_attantion_mops_6_ch_8->setObjectName(QString::fromUtf8("lable_attantion_mops_6_ch_8"));
+
+        horizontalLayout_128->addWidget(lable_attantion_mops_6_ch_8);
+
+
+        verticalLayout_74->addLayout(horizontalLayout_128);
+
+        layoutWidget_22 = new QWidget(mops_6);
+        layoutWidget_22->setObjectName(QString::fromUtf8("layoutWidget_22"));
+        layoutWidget_22->setGeometry(QRect(360, 10, 150, 98));
+        verticalLayout_75 = new QVBoxLayout(layoutWidget_22);
+        verticalLayout_75->setObjectName(QString::fromUtf8("verticalLayout_75"));
+        verticalLayout_75->setContentsMargins(0, 0, 0, 0);
+        just_lable_supply_err_9 = new QLabel(layoutWidget_22);
+        just_lable_supply_err_9->setObjectName(QString::fromUtf8("just_lable_supply_err_9"));
+
+        verticalLayout_75->addWidget(just_lable_supply_err_9);
+
+        horizontalLayout_129 = new QHBoxLayout();
+        horizontalLayout_129->setObjectName(QString::fromUtf8("horizontalLayout_129"));
+        verticalLayout_76 = new QVBoxLayout();
+        verticalLayout_76->setObjectName(QString::fromUtf8("verticalLayout_76"));
+        just_lable_18v_9 = new QLabel(layoutWidget_22);
+        just_lable_18v_9->setObjectName(QString::fromUtf8("just_lable_18v_9"));
+
+        verticalLayout_76->addWidget(just_lable_18v_9);
+
+        just_lable_24v_9 = new QLabel(layoutWidget_22);
+        just_lable_24v_9->setObjectName(QString::fromUtf8("just_lable_24v_9"));
+
+        verticalLayout_76->addWidget(just_lable_24v_9);
+
+        just_lable_28v_9 = new QLabel(layoutWidget_22);
+        just_lable_28v_9->setObjectName(QString::fromUtf8("just_lable_28v_9"));
+
+        verticalLayout_76->addWidget(just_lable_28v_9);
+
+
+        horizontalLayout_129->addLayout(verticalLayout_76);
+
+        verticalLayout_77 = new QVBoxLayout();
+        verticalLayout_77->setObjectName(QString::fromUtf8("verticalLayout_77"));
+        lable_18v_ans_mops_6 = new QLabel(layoutWidget_22);
+        lable_18v_ans_mops_6->setObjectName(QString::fromUtf8("lable_18v_ans_mops_6"));
+
+        verticalLayout_77->addWidget(lable_18v_ans_mops_6);
+
+        lable_24v_ans_mops_6 = new QLabel(layoutWidget_22);
+        lable_24v_ans_mops_6->setObjectName(QString::fromUtf8("lable_24v_ans_mops_6"));
+
+        verticalLayout_77->addWidget(lable_24v_ans_mops_6);
+
+        lable_28v_ans_mops_6 = new QLabel(layoutWidget_22);
+        lable_28v_ans_mops_6->setObjectName(QString::fromUtf8("lable_28v_ans_mops_6"));
+
+        verticalLayout_77->addWidget(lable_28v_ans_mops_6);
+
+
+        horizontalLayout_129->addLayout(verticalLayout_77);
+
+
+        verticalLayout_75->addLayout(horizontalLayout_129);
+
+        layoutWidget_23 = new QWidget(mops_6);
+        layoutWidget_23->setObjectName(QString::fromUtf8("layoutWidget_23"));
+        layoutWidget_23->setGeometry(QRect(10, 40, 244, 22));
+        horizontalLayout_130 = new QHBoxLayout(layoutWidget_23);
+        horizontalLayout_130->setObjectName(QString::fromUtf8("horizontalLayout_130"));
+        horizontalLayout_130->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_22 = new QLabel(layoutWidget_23);
+        just_lable_online_status_req_mops_22->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_22"));
+
+        horizontalLayout_130->addWidget(just_lable_online_status_req_mops_22);
+
+        just_lable_oper_status_ans_mops_6 = new QLabel(layoutWidget_23);
+        just_lable_oper_status_ans_mops_6->setObjectName(QString::fromUtf8("just_lable_oper_status_ans_mops_6"));
+        just_lable_oper_status_ans_mops_6->setMinimumSize(QSize(102, 0));
+        just_lable_oper_status_ans_mops_6->setScaledContents(false);
+        just_lable_oper_status_ans_mops_6->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_130->addWidget(just_lable_oper_status_ans_mops_6);
+
         tab_widget_for_mops->addTab(mops_6, QString());
         mops_7 = new QWidget();
         mops_7->setObjectName(QString::fromUtf8("mops_7"));
+        layoutWidget_24 = new QWidget(mops_7);
+        layoutWidget_24->setObjectName(QString::fromUtf8("layoutWidget_24"));
+        layoutWidget_24->setGeometry(QRect(10, 10, 219, 22));
+        horizontalLayout_131 = new QHBoxLayout(layoutWidget_24);
+        horizontalLayout_131->setObjectName(QString::fromUtf8("horizontalLayout_131"));
+        horizontalLayout_131->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_23 = new QLabel(layoutWidget_24);
+        just_lable_online_status_req_mops_23->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_23"));
+
+        horizontalLayout_131->addWidget(just_lable_online_status_req_mops_23);
+
+        just_lable_online_status_ans_mops_7 = new QLabel(layoutWidget_24);
+        just_lable_online_status_ans_mops_7->setObjectName(QString::fromUtf8("just_lable_online_status_ans_mops_7"));
+        just_lable_online_status_ans_mops_7->setMinimumSize(QSize(102, 0));
+        just_lable_online_status_ans_mops_7->setScaledContents(false);
+        just_lable_online_status_ans_mops_7->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_131->addWidget(just_lable_online_status_ans_mops_7);
+
+        just_lable_norm_8 = new QLabel(mops_7);
+        just_lable_norm_8->setObjectName(QString::fromUtf8("just_lable_norm_8"));
+        just_lable_norm_8->setGeometry(QRect(220, 230, 61, 21));
+        verticalLayoutWidget_39 = new QWidget(mops_7);
+        verticalLayoutWidget_39->setObjectName(QString::fromUtf8("verticalLayoutWidget_39"));
+        verticalLayoutWidget_39->setGeometry(QRect(20, 140, 491, 91));
+        verticalLayout_78 = new QVBoxLayout(verticalLayoutWidget_39);
+        verticalLayout_78->setObjectName(QString::fromUtf8("verticalLayout_78"));
+        verticalLayout_78->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_132 = new QHBoxLayout();
+        horizontalLayout_132->setObjectName(QString::fromUtf8("horizontalLayout_132"));
+        just_lable_status_48 = new QLabel(verticalLayoutWidget_39);
+        just_lable_status_48->setObjectName(QString::fromUtf8("just_lable_status_48"));
+
+        horizontalLayout_132->addWidget(just_lable_status_48);
+
+        horizontalSpacer_99 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_132->addItem(horizontalSpacer_99);
+
+        label_382 = new QLabel(verticalLayoutWidget_39);
+        label_382->setObjectName(QString::fromUtf8("label_382"));
+
+        horizontalLayout_132->addWidget(label_382);
+
+        label_383 = new QLabel(verticalLayoutWidget_39);
+        label_383->setObjectName(QString::fromUtf8("label_383"));
+
+        horizontalLayout_132->addWidget(label_383);
+
+        label_384 = new QLabel(verticalLayoutWidget_39);
+        label_384->setObjectName(QString::fromUtf8("label_384"));
+
+        horizontalLayout_132->addWidget(label_384);
+
+        label_385 = new QLabel(verticalLayoutWidget_39);
+        label_385->setObjectName(QString::fromUtf8("label_385"));
+
+        horizontalLayout_132->addWidget(label_385);
+
+        label_386 = new QLabel(verticalLayoutWidget_39);
+        label_386->setObjectName(QString::fromUtf8("label_386"));
+
+        horizontalLayout_132->addWidget(label_386);
+
+        label_387 = new QLabel(verticalLayoutWidget_39);
+        label_387->setObjectName(QString::fromUtf8("label_387"));
+
+        horizontalLayout_132->addWidget(label_387);
+
+        label_388 = new QLabel(verticalLayoutWidget_39);
+        label_388->setObjectName(QString::fromUtf8("label_388"));
+
+        horizontalLayout_132->addWidget(label_388);
+
+        label_389 = new QLabel(verticalLayoutWidget_39);
+        label_389->setObjectName(QString::fromUtf8("label_389"));
+
+        horizontalLayout_132->addWidget(label_389);
+
+
+        verticalLayout_78->addLayout(horizontalLayout_132);
+
+        horizontalLayout_133 = new QHBoxLayout();
+        horizontalLayout_133->setObjectName(QString::fromUtf8("horizontalLayout_133"));
+        just_lable_error_48 = new QLabel(verticalLayoutWidget_39);
+        just_lable_error_48->setObjectName(QString::fromUtf8("just_lable_error_48"));
+
+        horizontalLayout_133->addWidget(just_lable_error_48);
+
+        horizontalSpacer_100 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_133->addItem(horizontalSpacer_100);
+
+        lable_break_mops_7_ch_1 = new QLabel(verticalLayoutWidget_39);
+        lable_break_mops_7_ch_1->setObjectName(QString::fromUtf8("lable_break_mops_7_ch_1"));
+
+        horizontalLayout_133->addWidget(lable_break_mops_7_ch_1);
+
+        lable_break_mops_7_ch_2 = new QLabel(verticalLayoutWidget_39);
+        lable_break_mops_7_ch_2->setObjectName(QString::fromUtf8("lable_break_mops_7_ch_2"));
+
+        horizontalLayout_133->addWidget(lable_break_mops_7_ch_2);
+
+        lable_break_mops_7_ch_3 = new QLabel(verticalLayoutWidget_39);
+        lable_break_mops_7_ch_3->setObjectName(QString::fromUtf8("lable_break_mops_7_ch_3"));
+
+        horizontalLayout_133->addWidget(lable_break_mops_7_ch_3);
+
+        lable_break_mops_7_ch_4 = new QLabel(verticalLayoutWidget_39);
+        lable_break_mops_7_ch_4->setObjectName(QString::fromUtf8("lable_break_mops_7_ch_4"));
+
+        horizontalLayout_133->addWidget(lable_break_mops_7_ch_4);
+
+        lable_break_mops_7_ch_5 = new QLabel(verticalLayoutWidget_39);
+        lable_break_mops_7_ch_5->setObjectName(QString::fromUtf8("lable_break_mops_7_ch_5"));
+
+        horizontalLayout_133->addWidget(lable_break_mops_7_ch_5);
+
+        lable_break_mops_7_ch_6 = new QLabel(verticalLayoutWidget_39);
+        lable_break_mops_7_ch_6->setObjectName(QString::fromUtf8("lable_break_mops_7_ch_6"));
+
+        horizontalLayout_133->addWidget(lable_break_mops_7_ch_6);
+
+        lable_break_mops_7_ch_7 = new QLabel(verticalLayoutWidget_39);
+        lable_break_mops_7_ch_7->setObjectName(QString::fromUtf8("lable_break_mops_7_ch_7"));
+
+        horizontalLayout_133->addWidget(lable_break_mops_7_ch_7);
+
+        lable_break_mops_7_ch_8 = new QLabel(verticalLayoutWidget_39);
+        lable_break_mops_7_ch_8->setObjectName(QString::fromUtf8("lable_break_mops_7_ch_8"));
+
+        horizontalLayout_133->addWidget(lable_break_mops_7_ch_8);
+
+
+        verticalLayout_78->addLayout(horizontalLayout_133);
+
+        verticalLayoutWidget_40 = new QWidget(mops_7);
+        verticalLayoutWidget_40->setObjectName(QString::fromUtf8("verticalLayoutWidget_40"));
+        verticalLayoutWidget_40->setGeometry(QRect(20, 640, 491, 91));
+        verticalLayout_79 = new QVBoxLayout(verticalLayoutWidget_40);
+        verticalLayout_79->setObjectName(QString::fromUtf8("verticalLayout_79"));
+        verticalLayout_79->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_134 = new QHBoxLayout();
+        horizontalLayout_134->setObjectName(QString::fromUtf8("horizontalLayout_134"));
+        just_lable_status_49 = new QLabel(verticalLayoutWidget_40);
+        just_lable_status_49->setObjectName(QString::fromUtf8("just_lable_status_49"));
+
+        horizontalLayout_134->addWidget(just_lable_status_49);
+
+        horizontalSpacer_101 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_134->addItem(horizontalSpacer_101);
+
+        label_390 = new QLabel(verticalLayoutWidget_40);
+        label_390->setObjectName(QString::fromUtf8("label_390"));
+
+        horizontalLayout_134->addWidget(label_390);
+
+        label_391 = new QLabel(verticalLayoutWidget_40);
+        label_391->setObjectName(QString::fromUtf8("label_391"));
+
+        horizontalLayout_134->addWidget(label_391);
+
+        label_392 = new QLabel(verticalLayoutWidget_40);
+        label_392->setObjectName(QString::fromUtf8("label_392"));
+
+        horizontalLayout_134->addWidget(label_392);
+
+        label_393 = new QLabel(verticalLayoutWidget_40);
+        label_393->setObjectName(QString::fromUtf8("label_393"));
+
+        horizontalLayout_134->addWidget(label_393);
+
+        label_394 = new QLabel(verticalLayoutWidget_40);
+        label_394->setObjectName(QString::fromUtf8("label_394"));
+
+        horizontalLayout_134->addWidget(label_394);
+
+        label_395 = new QLabel(verticalLayoutWidget_40);
+        label_395->setObjectName(QString::fromUtf8("label_395"));
+
+        horizontalLayout_134->addWidget(label_395);
+
+        label_396 = new QLabel(verticalLayoutWidget_40);
+        label_396->setObjectName(QString::fromUtf8("label_396"));
+
+        horizontalLayout_134->addWidget(label_396);
+
+        label_397 = new QLabel(verticalLayoutWidget_40);
+        label_397->setObjectName(QString::fromUtf8("label_397"));
+
+        horizontalLayout_134->addWidget(label_397);
+
+
+        verticalLayout_79->addLayout(horizontalLayout_134);
+
+        horizontalLayout_135 = new QHBoxLayout();
+        horizontalLayout_135->setObjectName(QString::fromUtf8("horizontalLayout_135"));
+        just_lable_error_49 = new QLabel(verticalLayoutWidget_40);
+        just_lable_error_49->setObjectName(QString::fromUtf8("just_lable_error_49"));
+
+        horizontalLayout_135->addWidget(just_lable_error_49);
+
+        horizontalSpacer_102 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_135->addItem(horizontalSpacer_102);
+
+        lable_break_mops_7_sc_1 = new QLabel(verticalLayoutWidget_40);
+        lable_break_mops_7_sc_1->setObjectName(QString::fromUtf8("lable_break_mops_7_sc_1"));
+
+        horizontalLayout_135->addWidget(lable_break_mops_7_sc_1);
+
+        lable_break_mops_7_sc_2 = new QLabel(verticalLayoutWidget_40);
+        lable_break_mops_7_sc_2->setObjectName(QString::fromUtf8("lable_break_mops_7_sc_2"));
+
+        horizontalLayout_135->addWidget(lable_break_mops_7_sc_2);
+
+        lable_break_mops_7_sc_3 = new QLabel(verticalLayoutWidget_40);
+        lable_break_mops_7_sc_3->setObjectName(QString::fromUtf8("lable_break_mops_7_sc_3"));
+
+        horizontalLayout_135->addWidget(lable_break_mops_7_sc_3);
+
+        lable_break_mops_7_sc_4 = new QLabel(verticalLayoutWidget_40);
+        lable_break_mops_7_sc_4->setObjectName(QString::fromUtf8("lable_break_mops_7_sc_4"));
+
+        horizontalLayout_135->addWidget(lable_break_mops_7_sc_4);
+
+        lable_break_mops_7_sc_5 = new QLabel(verticalLayoutWidget_40);
+        lable_break_mops_7_sc_5->setObjectName(QString::fromUtf8("lable_break_mops_7_sc_5"));
+
+        horizontalLayout_135->addWidget(lable_break_mops_7_sc_5);
+
+        lable_break_mops_7_sc_6 = new QLabel(verticalLayoutWidget_40);
+        lable_break_mops_7_sc_6->setObjectName(QString::fromUtf8("lable_break_mops_7_sc_6"));
+
+        horizontalLayout_135->addWidget(lable_break_mops_7_sc_6);
+
+        lable_break_mops_7_sc_7 = new QLabel(verticalLayoutWidget_40);
+        lable_break_mops_7_sc_7->setObjectName(QString::fromUtf8("lable_break_mops_7_sc_7"));
+
+        horizontalLayout_135->addWidget(lable_break_mops_7_sc_7);
+
+        lable_break_mops_7_sc_8 = new QLabel(verticalLayoutWidget_40);
+        lable_break_mops_7_sc_8->setObjectName(QString::fromUtf8("lable_break_mops_7_sc_8"));
+
+        horizontalLayout_135->addWidget(lable_break_mops_7_sc_8);
+
+
+        verticalLayout_79->addLayout(horizontalLayout_135);
+
+        just_lable_break_24 = new QLabel(mops_7);
+        just_lable_break_24->setObjectName(QString::fromUtf8("just_lable_break_24"));
+        just_lable_break_24->setGeometry(QRect(220, 610, 151, 21));
+        verticalLayoutWidget_41 = new QWidget(mops_7);
+        verticalLayoutWidget_41->setObjectName(QString::fromUtf8("verticalLayoutWidget_41"));
+        verticalLayoutWidget_41->setGeometry(QRect(20, 260, 491, 91));
+        verticalLayout_80 = new QVBoxLayout(verticalLayoutWidget_41);
+        verticalLayout_80->setObjectName(QString::fromUtf8("verticalLayout_80"));
+        verticalLayout_80->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_136 = new QHBoxLayout();
+        horizontalLayout_136->setObjectName(QString::fromUtf8("horizontalLayout_136"));
+        just_lable_status_50 = new QLabel(verticalLayoutWidget_41);
+        just_lable_status_50->setObjectName(QString::fromUtf8("just_lable_status_50"));
+
+        horizontalLayout_136->addWidget(just_lable_status_50);
+
+        horizontalSpacer_103 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_136->addItem(horizontalSpacer_103);
+
+        label_398 = new QLabel(verticalLayoutWidget_41);
+        label_398->setObjectName(QString::fromUtf8("label_398"));
+
+        horizontalLayout_136->addWidget(label_398);
+
+        label_399 = new QLabel(verticalLayoutWidget_41);
+        label_399->setObjectName(QString::fromUtf8("label_399"));
+
+        horizontalLayout_136->addWidget(label_399);
+
+        label_400 = new QLabel(verticalLayoutWidget_41);
+        label_400->setObjectName(QString::fromUtf8("label_400"));
+
+        horizontalLayout_136->addWidget(label_400);
+
+        label_401 = new QLabel(verticalLayoutWidget_41);
+        label_401->setObjectName(QString::fromUtf8("label_401"));
+
+        horizontalLayout_136->addWidget(label_401);
+
+        label_402 = new QLabel(verticalLayoutWidget_41);
+        label_402->setObjectName(QString::fromUtf8("label_402"));
+
+        horizontalLayout_136->addWidget(label_402);
+
+        label_403 = new QLabel(verticalLayoutWidget_41);
+        label_403->setObjectName(QString::fromUtf8("label_403"));
+
+        horizontalLayout_136->addWidget(label_403);
+
+        label_404 = new QLabel(verticalLayoutWidget_41);
+        label_404->setObjectName(QString::fromUtf8("label_404"));
+
+        horizontalLayout_136->addWidget(label_404);
+
+        label_405 = new QLabel(verticalLayoutWidget_41);
+        label_405->setObjectName(QString::fromUtf8("label_405"));
+
+        horizontalLayout_136->addWidget(label_405);
+
+
+        verticalLayout_80->addLayout(horizontalLayout_136);
+
+        horizontalLayout_137 = new QHBoxLayout();
+        horizontalLayout_137->setObjectName(QString::fromUtf8("horizontalLayout_137"));
+        just_lable_error_50 = new QLabel(verticalLayoutWidget_41);
+        just_lable_error_50->setObjectName(QString::fromUtf8("just_lable_error_50"));
+
+        horizontalLayout_137->addWidget(just_lable_error_50);
+
+        horizontalSpacer_104 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_137->addItem(horizontalSpacer_104);
+
+        lable_norm_mops_7_ch_1 = new QLabel(verticalLayoutWidget_41);
+        lable_norm_mops_7_ch_1->setObjectName(QString::fromUtf8("lable_norm_mops_7_ch_1"));
+
+        horizontalLayout_137->addWidget(lable_norm_mops_7_ch_1);
+
+        lable_norm_mops_7_ch_2 = new QLabel(verticalLayoutWidget_41);
+        lable_norm_mops_7_ch_2->setObjectName(QString::fromUtf8("lable_norm_mops_7_ch_2"));
+
+        horizontalLayout_137->addWidget(lable_norm_mops_7_ch_2);
+
+        lable_norm_mops_7_ch_3 = new QLabel(verticalLayoutWidget_41);
+        lable_norm_mops_7_ch_3->setObjectName(QString::fromUtf8("lable_norm_mops_7_ch_3"));
+
+        horizontalLayout_137->addWidget(lable_norm_mops_7_ch_3);
+
+        lable_norm_mops_7_ch_4 = new QLabel(verticalLayoutWidget_41);
+        lable_norm_mops_7_ch_4->setObjectName(QString::fromUtf8("lable_norm_mops_7_ch_4"));
+
+        horizontalLayout_137->addWidget(lable_norm_mops_7_ch_4);
+
+        lable_norm_mops_7_ch_5 = new QLabel(verticalLayoutWidget_41);
+        lable_norm_mops_7_ch_5->setObjectName(QString::fromUtf8("lable_norm_mops_7_ch_5"));
+
+        horizontalLayout_137->addWidget(lable_norm_mops_7_ch_5);
+
+        lable_norm_mops_7_ch_6 = new QLabel(verticalLayoutWidget_41);
+        lable_norm_mops_7_ch_6->setObjectName(QString::fromUtf8("lable_norm_mops_7_ch_6"));
+
+        horizontalLayout_137->addWidget(lable_norm_mops_7_ch_6);
+
+        lable_norm_mops_7_ch_7 = new QLabel(verticalLayoutWidget_41);
+        lable_norm_mops_7_ch_7->setObjectName(QString::fromUtf8("lable_norm_mops_7_ch_7"));
+
+        horizontalLayout_137->addWidget(lable_norm_mops_7_ch_7);
+
+        lable_norm_mops_7_ch_8 = new QLabel(verticalLayoutWidget_41);
+        lable_norm_mops_7_ch_8->setObjectName(QString::fromUtf8("lable_norm_mops_7_ch_8"));
+
+        horizontalLayout_137->addWidget(lable_norm_mops_7_ch_8);
+
+
+        verticalLayout_80->addLayout(horizontalLayout_137);
+
+        just_lable_break_25 = new QLabel(mops_7);
+        just_lable_break_25->setObjectName(QString::fromUtf8("just_lable_break_25"));
+        just_lable_break_25->setGeometry(QRect(220, 110, 61, 21));
+        just_lable_status_ch_10 = new QLabel(mops_7);
+        just_lable_status_ch_10->setObjectName(QString::fromUtf8("just_lable_status_ch_10"));
+        just_lable_status_ch_10->setGeometry(QRect(180, 80, 151, 31));
+        verticalLayoutWidget_42 = new QWidget(mops_7);
+        verticalLayoutWidget_42->setObjectName(QString::fromUtf8("verticalLayoutWidget_42"));
+        verticalLayoutWidget_42->setGeometry(QRect(20, 510, 491, 91));
+        verticalLayout_81 = new QVBoxLayout(verticalLayoutWidget_42);
+        verticalLayout_81->setObjectName(QString::fromUtf8("verticalLayout_81"));
+        verticalLayout_81->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_138 = new QHBoxLayout();
+        horizontalLayout_138->setObjectName(QString::fromUtf8("horizontalLayout_138"));
+        just_lable_status_51 = new QLabel(verticalLayoutWidget_42);
+        just_lable_status_51->setObjectName(QString::fromUtf8("just_lable_status_51"));
+
+        horizontalLayout_138->addWidget(just_lable_status_51);
+
+        horizontalSpacer_105 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_138->addItem(horizontalSpacer_105);
+
+        label_406 = new QLabel(verticalLayoutWidget_42);
+        label_406->setObjectName(QString::fromUtf8("label_406"));
+
+        horizontalLayout_138->addWidget(label_406);
+
+        label_407 = new QLabel(verticalLayoutWidget_42);
+        label_407->setObjectName(QString::fromUtf8("label_407"));
+
+        horizontalLayout_138->addWidget(label_407);
+
+        label_408 = new QLabel(verticalLayoutWidget_42);
+        label_408->setObjectName(QString::fromUtf8("label_408"));
+
+        horizontalLayout_138->addWidget(label_408);
+
+        label_409 = new QLabel(verticalLayoutWidget_42);
+        label_409->setObjectName(QString::fromUtf8("label_409"));
+
+        horizontalLayout_138->addWidget(label_409);
+
+        label_410 = new QLabel(verticalLayoutWidget_42);
+        label_410->setObjectName(QString::fromUtf8("label_410"));
+
+        horizontalLayout_138->addWidget(label_410);
+
+        label_411 = new QLabel(verticalLayoutWidget_42);
+        label_411->setObjectName(QString::fromUtf8("label_411"));
+
+        horizontalLayout_138->addWidget(label_411);
+
+        label_412 = new QLabel(verticalLayoutWidget_42);
+        label_412->setObjectName(QString::fromUtf8("label_412"));
+
+        horizontalLayout_138->addWidget(label_412);
+
+        label_413 = new QLabel(verticalLayoutWidget_42);
+        label_413->setObjectName(QString::fromUtf8("label_413"));
+
+        horizontalLayout_138->addWidget(label_413);
+
+
+        verticalLayout_81->addLayout(horizontalLayout_138);
+
+        horizontalLayout_139 = new QHBoxLayout();
+        horizontalLayout_139->setObjectName(QString::fromUtf8("horizontalLayout_139"));
+        just_lable_error_51 = new QLabel(verticalLayoutWidget_42);
+        just_lable_error_51->setObjectName(QString::fromUtf8("just_lable_error_51"));
+
+        horizontalLayout_139->addWidget(just_lable_error_51);
+
+        horizontalSpacer_106 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_139->addItem(horizontalSpacer_106);
+
+        lable_fire_mops_7_ch_1 = new QLabel(verticalLayoutWidget_42);
+        lable_fire_mops_7_ch_1->setObjectName(QString::fromUtf8("lable_fire_mops_7_ch_1"));
+
+        horizontalLayout_139->addWidget(lable_fire_mops_7_ch_1);
+
+        lable_fire_mops_7_ch_2 = new QLabel(verticalLayoutWidget_42);
+        lable_fire_mops_7_ch_2->setObjectName(QString::fromUtf8("lable_fire_mops_7_ch_2"));
+
+        horizontalLayout_139->addWidget(lable_fire_mops_7_ch_2);
+
+        lable_fire_mops_7_ch_3 = new QLabel(verticalLayoutWidget_42);
+        lable_fire_mops_7_ch_3->setObjectName(QString::fromUtf8("lable_fire_mops_7_ch_3"));
+
+        horizontalLayout_139->addWidget(lable_fire_mops_7_ch_3);
+
+        lable_fire_mops_7_ch_4 = new QLabel(verticalLayoutWidget_42);
+        lable_fire_mops_7_ch_4->setObjectName(QString::fromUtf8("lable_fire_mops_7_ch_4"));
+
+        horizontalLayout_139->addWidget(lable_fire_mops_7_ch_4);
+
+        lable_fire_mops_7_ch_5 = new QLabel(verticalLayoutWidget_42);
+        lable_fire_mops_7_ch_5->setObjectName(QString::fromUtf8("lable_fire_mops_7_ch_5"));
+
+        horizontalLayout_139->addWidget(lable_fire_mops_7_ch_5);
+
+        lable_fire_mops_7_ch_6 = new QLabel(verticalLayoutWidget_42);
+        lable_fire_mops_7_ch_6->setObjectName(QString::fromUtf8("lable_fire_mops_7_ch_6"));
+
+        horizontalLayout_139->addWidget(lable_fire_mops_7_ch_6);
+
+        lable_fire_mops_7_ch_7 = new QLabel(verticalLayoutWidget_42);
+        lable_fire_mops_7_ch_7->setObjectName(QString::fromUtf8("lable_fire_mops_7_ch_7"));
+
+        horizontalLayout_139->addWidget(lable_fire_mops_7_ch_7);
+
+        lable_fire_mops_7_ch_8 = new QLabel(verticalLayoutWidget_42);
+        lable_fire_mops_7_ch_8->setObjectName(QString::fromUtf8("lable_fire_mops_7_ch_8"));
+
+        horizontalLayout_139->addWidget(lable_fire_mops_7_ch_8);
+
+
+        verticalLayout_81->addLayout(horizontalLayout_139);
+
+        just_lable_break_26 = new QLabel(mops_7);
+        just_lable_break_26->setObjectName(QString::fromUtf8("just_lable_break_26"));
+        just_lable_break_26->setGeometry(QRect(220, 480, 61, 21));
+        just_lable_attantion_11 = new QLabel(mops_7);
+        just_lable_attantion_11->setObjectName(QString::fromUtf8("just_lable_attantion_11"));
+        just_lable_attantion_11->setGeometry(QRect(220, 360, 81, 21));
+        verticalLayoutWidget_43 = new QWidget(mops_7);
+        verticalLayoutWidget_43->setObjectName(QString::fromUtf8("verticalLayoutWidget_43"));
+        verticalLayoutWidget_43->setGeometry(QRect(20, 390, 491, 91));
+        verticalLayout_82 = new QVBoxLayout(verticalLayoutWidget_43);
+        verticalLayout_82->setObjectName(QString::fromUtf8("verticalLayout_82"));
+        verticalLayout_82->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_140 = new QHBoxLayout();
+        horizontalLayout_140->setObjectName(QString::fromUtf8("horizontalLayout_140"));
+        just_lable_status_52 = new QLabel(verticalLayoutWidget_43);
+        just_lable_status_52->setObjectName(QString::fromUtf8("just_lable_status_52"));
+
+        horizontalLayout_140->addWidget(just_lable_status_52);
+
+        horizontalSpacer_107 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_140->addItem(horizontalSpacer_107);
+
+        label_414 = new QLabel(verticalLayoutWidget_43);
+        label_414->setObjectName(QString::fromUtf8("label_414"));
+
+        horizontalLayout_140->addWidget(label_414);
+
+        label_415 = new QLabel(verticalLayoutWidget_43);
+        label_415->setObjectName(QString::fromUtf8("label_415"));
+
+        horizontalLayout_140->addWidget(label_415);
+
+        label_416 = new QLabel(verticalLayoutWidget_43);
+        label_416->setObjectName(QString::fromUtf8("label_416"));
+
+        horizontalLayout_140->addWidget(label_416);
+
+        label_417 = new QLabel(verticalLayoutWidget_43);
+        label_417->setObjectName(QString::fromUtf8("label_417"));
+
+        horizontalLayout_140->addWidget(label_417);
+
+        label_418 = new QLabel(verticalLayoutWidget_43);
+        label_418->setObjectName(QString::fromUtf8("label_418"));
+
+        horizontalLayout_140->addWidget(label_418);
+
+        label_419 = new QLabel(verticalLayoutWidget_43);
+        label_419->setObjectName(QString::fromUtf8("label_419"));
+
+        horizontalLayout_140->addWidget(label_419);
+
+        label_420 = new QLabel(verticalLayoutWidget_43);
+        label_420->setObjectName(QString::fromUtf8("label_420"));
+
+        horizontalLayout_140->addWidget(label_420);
+
+        label_421 = new QLabel(verticalLayoutWidget_43);
+        label_421->setObjectName(QString::fromUtf8("label_421"));
+
+        horizontalLayout_140->addWidget(label_421);
+
+
+        verticalLayout_82->addLayout(horizontalLayout_140);
+
+        horizontalLayout_141 = new QHBoxLayout();
+        horizontalLayout_141->setObjectName(QString::fromUtf8("horizontalLayout_141"));
+        just_lable_error_52 = new QLabel(verticalLayoutWidget_43);
+        just_lable_error_52->setObjectName(QString::fromUtf8("just_lable_error_52"));
+
+        horizontalLayout_141->addWidget(just_lable_error_52);
+
+        horizontalSpacer_108 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_141->addItem(horizontalSpacer_108);
+
+        lable_attantion_mops_7_ch_1 = new QLabel(verticalLayoutWidget_43);
+        lable_attantion_mops_7_ch_1->setObjectName(QString::fromUtf8("lable_attantion_mops_7_ch_1"));
+
+        horizontalLayout_141->addWidget(lable_attantion_mops_7_ch_1);
+
+        lable_attantion_mops_7_ch_2 = new QLabel(verticalLayoutWidget_43);
+        lable_attantion_mops_7_ch_2->setObjectName(QString::fromUtf8("lable_attantion_mops_7_ch_2"));
+
+        horizontalLayout_141->addWidget(lable_attantion_mops_7_ch_2);
+
+        lable_attantion_mops_7_ch_3 = new QLabel(verticalLayoutWidget_43);
+        lable_attantion_mops_7_ch_3->setObjectName(QString::fromUtf8("lable_attantion_mops_7_ch_3"));
+
+        horizontalLayout_141->addWidget(lable_attantion_mops_7_ch_3);
+
+        lable_attantion_mops_7_ch_4 = new QLabel(verticalLayoutWidget_43);
+        lable_attantion_mops_7_ch_4->setObjectName(QString::fromUtf8("lable_attantion_mops_7_ch_4"));
+
+        horizontalLayout_141->addWidget(lable_attantion_mops_7_ch_4);
+
+        lable_attantion_mops_7_ch_5 = new QLabel(verticalLayoutWidget_43);
+        lable_attantion_mops_7_ch_5->setObjectName(QString::fromUtf8("lable_attantion_mops_7_ch_5"));
+
+        horizontalLayout_141->addWidget(lable_attantion_mops_7_ch_5);
+
+        lable_attantion_mops_7_ch_6 = new QLabel(verticalLayoutWidget_43);
+        lable_attantion_mops_7_ch_6->setObjectName(QString::fromUtf8("lable_attantion_mops_7_ch_6"));
+
+        horizontalLayout_141->addWidget(lable_attantion_mops_7_ch_6);
+
+        lable_attantion_mops_7_ch_7 = new QLabel(verticalLayoutWidget_43);
+        lable_attantion_mops_7_ch_7->setObjectName(QString::fromUtf8("lable_attantion_mops_7_ch_7"));
+
+        horizontalLayout_141->addWidget(lable_attantion_mops_7_ch_7);
+
+        lable_attantion_mops_7_ch_8 = new QLabel(verticalLayoutWidget_43);
+        lable_attantion_mops_7_ch_8->setObjectName(QString::fromUtf8("lable_attantion_mops_7_ch_8"));
+
+        horizontalLayout_141->addWidget(lable_attantion_mops_7_ch_8);
+
+
+        verticalLayout_82->addLayout(horizontalLayout_141);
+
+        layoutWidget_25 = new QWidget(mops_7);
+        layoutWidget_25->setObjectName(QString::fromUtf8("layoutWidget_25"));
+        layoutWidget_25->setGeometry(QRect(360, 10, 150, 98));
+        verticalLayout_83 = new QVBoxLayout(layoutWidget_25);
+        verticalLayout_83->setObjectName(QString::fromUtf8("verticalLayout_83"));
+        verticalLayout_83->setContentsMargins(0, 0, 0, 0);
+        just_lable_supply_err_10 = new QLabel(layoutWidget_25);
+        just_lable_supply_err_10->setObjectName(QString::fromUtf8("just_lable_supply_err_10"));
+
+        verticalLayout_83->addWidget(just_lable_supply_err_10);
+
+        horizontalLayout_142 = new QHBoxLayout();
+        horizontalLayout_142->setObjectName(QString::fromUtf8("horizontalLayout_142"));
+        verticalLayout_84 = new QVBoxLayout();
+        verticalLayout_84->setObjectName(QString::fromUtf8("verticalLayout_84"));
+        just_lable_18v_10 = new QLabel(layoutWidget_25);
+        just_lable_18v_10->setObjectName(QString::fromUtf8("just_lable_18v_10"));
+
+        verticalLayout_84->addWidget(just_lable_18v_10);
+
+        just_lable_24v_10 = new QLabel(layoutWidget_25);
+        just_lable_24v_10->setObjectName(QString::fromUtf8("just_lable_24v_10"));
+
+        verticalLayout_84->addWidget(just_lable_24v_10);
+
+        just_lable_28v_10 = new QLabel(layoutWidget_25);
+        just_lable_28v_10->setObjectName(QString::fromUtf8("just_lable_28v_10"));
+
+        verticalLayout_84->addWidget(just_lable_28v_10);
+
+
+        horizontalLayout_142->addLayout(verticalLayout_84);
+
+        verticalLayout_85 = new QVBoxLayout();
+        verticalLayout_85->setObjectName(QString::fromUtf8("verticalLayout_85"));
+        lable_18v_ans_mops_7 = new QLabel(layoutWidget_25);
+        lable_18v_ans_mops_7->setObjectName(QString::fromUtf8("lable_18v_ans_mops_7"));
+
+        verticalLayout_85->addWidget(lable_18v_ans_mops_7);
+
+        lable_24v_ans_mops_7 = new QLabel(layoutWidget_25);
+        lable_24v_ans_mops_7->setObjectName(QString::fromUtf8("lable_24v_ans_mops_7"));
+
+        verticalLayout_85->addWidget(lable_24v_ans_mops_7);
+
+        lable_28v_ans_mops_7 = new QLabel(layoutWidget_25);
+        lable_28v_ans_mops_7->setObjectName(QString::fromUtf8("lable_28v_ans_mops_7"));
+
+        verticalLayout_85->addWidget(lable_28v_ans_mops_7);
+
+
+        horizontalLayout_142->addLayout(verticalLayout_85);
+
+
+        verticalLayout_83->addLayout(horizontalLayout_142);
+
+        layoutWidget_26 = new QWidget(mops_7);
+        layoutWidget_26->setObjectName(QString::fromUtf8("layoutWidget_26"));
+        layoutWidget_26->setGeometry(QRect(10, 40, 244, 22));
+        horizontalLayout_143 = new QHBoxLayout(layoutWidget_26);
+        horizontalLayout_143->setObjectName(QString::fromUtf8("horizontalLayout_143"));
+        horizontalLayout_143->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_24 = new QLabel(layoutWidget_26);
+        just_lable_online_status_req_mops_24->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_24"));
+
+        horizontalLayout_143->addWidget(just_lable_online_status_req_mops_24);
+
+        just_lable_oper_status_ans_mops_7 = new QLabel(layoutWidget_26);
+        just_lable_oper_status_ans_mops_7->setObjectName(QString::fromUtf8("just_lable_oper_status_ans_mops_7"));
+        just_lable_oper_status_ans_mops_7->setMinimumSize(QSize(102, 0));
+        just_lable_oper_status_ans_mops_7->setScaledContents(false);
+        just_lable_oper_status_ans_mops_7->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_143->addWidget(just_lable_oper_status_ans_mops_7);
+
         tab_widget_for_mops->addTab(mops_7, QString());
         mops_8 = new QWidget();
         mops_8->setObjectName(QString::fromUtf8("mops_8"));
+        layoutWidget_29 = new QWidget(mops_8);
+        layoutWidget_29->setObjectName(QString::fromUtf8("layoutWidget_29"));
+        layoutWidget_29->setGeometry(QRect(10, 40, 244, 22));
+        horizontalLayout_156 = new QHBoxLayout(layoutWidget_29);
+        horizontalLayout_156->setObjectName(QString::fromUtf8("horizontalLayout_156"));
+        horizontalLayout_156->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_26 = new QLabel(layoutWidget_29);
+        just_lable_online_status_req_mops_26->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_26"));
+
+        horizontalLayout_156->addWidget(just_lable_online_status_req_mops_26);
+
+        just_lable_oper_status_ans_mops_8 = new QLabel(layoutWidget_29);
+        just_lable_oper_status_ans_mops_8->setObjectName(QString::fromUtf8("just_lable_oper_status_ans_mops_8"));
+        just_lable_oper_status_ans_mops_8->setMinimumSize(QSize(102, 0));
+        just_lable_oper_status_ans_mops_8->setScaledContents(false);
+        just_lable_oper_status_ans_mops_8->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_156->addWidget(just_lable_oper_status_ans_mops_8);
+
+        verticalLayoutWidget_46 = new QWidget(mops_8);
+        verticalLayoutWidget_46->setObjectName(QString::fromUtf8("verticalLayoutWidget_46"));
+        verticalLayoutWidget_46->setGeometry(QRect(20, 260, 491, 91));
+        verticalLayout_88 = new QVBoxLayout(verticalLayoutWidget_46);
+        verticalLayout_88->setObjectName(QString::fromUtf8("verticalLayout_88"));
+        verticalLayout_88->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_149 = new QHBoxLayout();
+        horizontalLayout_149->setObjectName(QString::fromUtf8("horizontalLayout_149"));
+        just_lable_status_55 = new QLabel(verticalLayoutWidget_46);
+        just_lable_status_55->setObjectName(QString::fromUtf8("just_lable_status_55"));
+
+        horizontalLayout_149->addWidget(just_lable_status_55);
+
+        horizontalSpacer_113 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_149->addItem(horizontalSpacer_113);
+
+        label_438 = new QLabel(verticalLayoutWidget_46);
+        label_438->setObjectName(QString::fromUtf8("label_438"));
+
+        horizontalLayout_149->addWidget(label_438);
+
+        label_439 = new QLabel(verticalLayoutWidget_46);
+        label_439->setObjectName(QString::fromUtf8("label_439"));
+
+        horizontalLayout_149->addWidget(label_439);
+
+        label_440 = new QLabel(verticalLayoutWidget_46);
+        label_440->setObjectName(QString::fromUtf8("label_440"));
+
+        horizontalLayout_149->addWidget(label_440);
+
+        label_441 = new QLabel(verticalLayoutWidget_46);
+        label_441->setObjectName(QString::fromUtf8("label_441"));
+
+        horizontalLayout_149->addWidget(label_441);
+
+        label_442 = new QLabel(verticalLayoutWidget_46);
+        label_442->setObjectName(QString::fromUtf8("label_442"));
+
+        horizontalLayout_149->addWidget(label_442);
+
+        label_443 = new QLabel(verticalLayoutWidget_46);
+        label_443->setObjectName(QString::fromUtf8("label_443"));
+
+        horizontalLayout_149->addWidget(label_443);
+
+        label_444 = new QLabel(verticalLayoutWidget_46);
+        label_444->setObjectName(QString::fromUtf8("label_444"));
+
+        horizontalLayout_149->addWidget(label_444);
+
+        label_445 = new QLabel(verticalLayoutWidget_46);
+        label_445->setObjectName(QString::fromUtf8("label_445"));
+
+        horizontalLayout_149->addWidget(label_445);
+
+
+        verticalLayout_88->addLayout(horizontalLayout_149);
+
+        horizontalLayout_150 = new QHBoxLayout();
+        horizontalLayout_150->setObjectName(QString::fromUtf8("horizontalLayout_150"));
+        just_lable_error_55 = new QLabel(verticalLayoutWidget_46);
+        just_lable_error_55->setObjectName(QString::fromUtf8("just_lable_error_55"));
+
+        horizontalLayout_150->addWidget(just_lable_error_55);
+
+        horizontalSpacer_114 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_150->addItem(horizontalSpacer_114);
+
+        lable_norm_mops_8_ch_1 = new QLabel(verticalLayoutWidget_46);
+        lable_norm_mops_8_ch_1->setObjectName(QString::fromUtf8("lable_norm_mops_8_ch_1"));
+
+        horizontalLayout_150->addWidget(lable_norm_mops_8_ch_1);
+
+        lable_norm_mops_8_ch_2 = new QLabel(verticalLayoutWidget_46);
+        lable_norm_mops_8_ch_2->setObjectName(QString::fromUtf8("lable_norm_mops_8_ch_2"));
+
+        horizontalLayout_150->addWidget(lable_norm_mops_8_ch_2);
+
+        lable_norm_mops_8_ch_3 = new QLabel(verticalLayoutWidget_46);
+        lable_norm_mops_8_ch_3->setObjectName(QString::fromUtf8("lable_norm_mops_8_ch_3"));
+
+        horizontalLayout_150->addWidget(lable_norm_mops_8_ch_3);
+
+        lable_norm_mops_8_ch_4 = new QLabel(verticalLayoutWidget_46);
+        lable_norm_mops_8_ch_4->setObjectName(QString::fromUtf8("lable_norm_mops_8_ch_4"));
+
+        horizontalLayout_150->addWidget(lable_norm_mops_8_ch_4);
+
+        lable_norm_mops_8_ch_5 = new QLabel(verticalLayoutWidget_46);
+        lable_norm_mops_8_ch_5->setObjectName(QString::fromUtf8("lable_norm_mops_8_ch_5"));
+
+        horizontalLayout_150->addWidget(lable_norm_mops_8_ch_5);
+
+        lable_norm_mops_8_ch_6 = new QLabel(verticalLayoutWidget_46);
+        lable_norm_mops_8_ch_6->setObjectName(QString::fromUtf8("lable_norm_mops_8_ch_6"));
+
+        horizontalLayout_150->addWidget(lable_norm_mops_8_ch_6);
+
+        lable_norm_mops_8_ch_7 = new QLabel(verticalLayoutWidget_46);
+        lable_norm_mops_8_ch_7->setObjectName(QString::fromUtf8("lable_norm_mops_8_ch_7"));
+
+        horizontalLayout_150->addWidget(lable_norm_mops_8_ch_7);
+
+        lable_norm_mops_8_ch_8 = new QLabel(verticalLayoutWidget_46);
+        lable_norm_mops_8_ch_8->setObjectName(QString::fromUtf8("lable_norm_mops_8_ch_8"));
+
+        horizontalLayout_150->addWidget(lable_norm_mops_8_ch_8);
+
+
+        verticalLayout_88->addLayout(horizontalLayout_150);
+
+        just_lable_break_29 = new QLabel(mops_8);
+        just_lable_break_29->setObjectName(QString::fromUtf8("just_lable_break_29"));
+        just_lable_break_29->setGeometry(QRect(220, 480, 61, 21));
+        just_lable_break_27 = new QLabel(mops_8);
+        just_lable_break_27->setObjectName(QString::fromUtf8("just_lable_break_27"));
+        just_lable_break_27->setGeometry(QRect(220, 610, 151, 21));
+        verticalLayoutWidget_45 = new QWidget(mops_8);
+        verticalLayoutWidget_45->setObjectName(QString::fromUtf8("verticalLayoutWidget_45"));
+        verticalLayoutWidget_45->setGeometry(QRect(20, 640, 491, 91));
+        verticalLayout_87 = new QVBoxLayout(verticalLayoutWidget_45);
+        verticalLayout_87->setObjectName(QString::fromUtf8("verticalLayout_87"));
+        verticalLayout_87->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_147 = new QHBoxLayout();
+        horizontalLayout_147->setObjectName(QString::fromUtf8("horizontalLayout_147"));
+        just_lable_status_54 = new QLabel(verticalLayoutWidget_45);
+        just_lable_status_54->setObjectName(QString::fromUtf8("just_lable_status_54"));
+
+        horizontalLayout_147->addWidget(just_lable_status_54);
+
+        horizontalSpacer_111 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_147->addItem(horizontalSpacer_111);
+
+        label_430 = new QLabel(verticalLayoutWidget_45);
+        label_430->setObjectName(QString::fromUtf8("label_430"));
+
+        horizontalLayout_147->addWidget(label_430);
+
+        label_431 = new QLabel(verticalLayoutWidget_45);
+        label_431->setObjectName(QString::fromUtf8("label_431"));
+
+        horizontalLayout_147->addWidget(label_431);
+
+        label_432 = new QLabel(verticalLayoutWidget_45);
+        label_432->setObjectName(QString::fromUtf8("label_432"));
+
+        horizontalLayout_147->addWidget(label_432);
+
+        label_433 = new QLabel(verticalLayoutWidget_45);
+        label_433->setObjectName(QString::fromUtf8("label_433"));
+
+        horizontalLayout_147->addWidget(label_433);
+
+        label_434 = new QLabel(verticalLayoutWidget_45);
+        label_434->setObjectName(QString::fromUtf8("label_434"));
+
+        horizontalLayout_147->addWidget(label_434);
+
+        label_435 = new QLabel(verticalLayoutWidget_45);
+        label_435->setObjectName(QString::fromUtf8("label_435"));
+
+        horizontalLayout_147->addWidget(label_435);
+
+        label_436 = new QLabel(verticalLayoutWidget_45);
+        label_436->setObjectName(QString::fromUtf8("label_436"));
+
+        horizontalLayout_147->addWidget(label_436);
+
+        label_437 = new QLabel(verticalLayoutWidget_45);
+        label_437->setObjectName(QString::fromUtf8("label_437"));
+
+        horizontalLayout_147->addWidget(label_437);
+
+
+        verticalLayout_87->addLayout(horizontalLayout_147);
+
+        horizontalLayout_148 = new QHBoxLayout();
+        horizontalLayout_148->setObjectName(QString::fromUtf8("horizontalLayout_148"));
+        just_lable_error_54 = new QLabel(verticalLayoutWidget_45);
+        just_lable_error_54->setObjectName(QString::fromUtf8("just_lable_error_54"));
+
+        horizontalLayout_148->addWidget(just_lable_error_54);
+
+        horizontalSpacer_112 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_148->addItem(horizontalSpacer_112);
+
+        lable_break_mops_8_sc_1 = new QLabel(verticalLayoutWidget_45);
+        lable_break_mops_8_sc_1->setObjectName(QString::fromUtf8("lable_break_mops_8_sc_1"));
+
+        horizontalLayout_148->addWidget(lable_break_mops_8_sc_1);
+
+        lable_break_mops_8_sc_2 = new QLabel(verticalLayoutWidget_45);
+        lable_break_mops_8_sc_2->setObjectName(QString::fromUtf8("lable_break_mops_8_sc_2"));
+
+        horizontalLayout_148->addWidget(lable_break_mops_8_sc_2);
+
+        lable_break_mops_8_sc_3 = new QLabel(verticalLayoutWidget_45);
+        lable_break_mops_8_sc_3->setObjectName(QString::fromUtf8("lable_break_mops_8_sc_3"));
+
+        horizontalLayout_148->addWidget(lable_break_mops_8_sc_3);
+
+        lable_break_mops_8_sc_4 = new QLabel(verticalLayoutWidget_45);
+        lable_break_mops_8_sc_4->setObjectName(QString::fromUtf8("lable_break_mops_8_sc_4"));
+
+        horizontalLayout_148->addWidget(lable_break_mops_8_sc_4);
+
+        lable_break_mops_8_sc_5 = new QLabel(verticalLayoutWidget_45);
+        lable_break_mops_8_sc_5->setObjectName(QString::fromUtf8("lable_break_mops_8_sc_5"));
+
+        horizontalLayout_148->addWidget(lable_break_mops_8_sc_5);
+
+        lable_break_mops_8_sc_6 = new QLabel(verticalLayoutWidget_45);
+        lable_break_mops_8_sc_6->setObjectName(QString::fromUtf8("lable_break_mops_8_sc_6"));
+
+        horizontalLayout_148->addWidget(lable_break_mops_8_sc_6);
+
+        lable_break_mops_8_sc_7 = new QLabel(verticalLayoutWidget_45);
+        lable_break_mops_8_sc_7->setObjectName(QString::fromUtf8("lable_break_mops_8_sc_7"));
+
+        horizontalLayout_148->addWidget(lable_break_mops_8_sc_7);
+
+        lable_break_mops_8_sc_8 = new QLabel(verticalLayoutWidget_45);
+        lable_break_mops_8_sc_8->setObjectName(QString::fromUtf8("lable_break_mops_8_sc_8"));
+
+        horizontalLayout_148->addWidget(lable_break_mops_8_sc_8);
+
+
+        verticalLayout_87->addLayout(horizontalLayout_148);
+
+        layoutWidget_28 = new QWidget(mops_8);
+        layoutWidget_28->setObjectName(QString::fromUtf8("layoutWidget_28"));
+        layoutWidget_28->setGeometry(QRect(360, 10, 150, 98));
+        verticalLayout_91 = new QVBoxLayout(layoutWidget_28);
+        verticalLayout_91->setObjectName(QString::fromUtf8("verticalLayout_91"));
+        verticalLayout_91->setContentsMargins(0, 0, 0, 0);
+        just_lable_supply_err_11 = new QLabel(layoutWidget_28);
+        just_lable_supply_err_11->setObjectName(QString::fromUtf8("just_lable_supply_err_11"));
+
+        verticalLayout_91->addWidget(just_lable_supply_err_11);
+
+        horizontalLayout_155 = new QHBoxLayout();
+        horizontalLayout_155->setObjectName(QString::fromUtf8("horizontalLayout_155"));
+        verticalLayout_92 = new QVBoxLayout();
+        verticalLayout_92->setObjectName(QString::fromUtf8("verticalLayout_92"));
+        just_lable_18v_11 = new QLabel(layoutWidget_28);
+        just_lable_18v_11->setObjectName(QString::fromUtf8("just_lable_18v_11"));
+
+        verticalLayout_92->addWidget(just_lable_18v_11);
+
+        just_lable_24v_11 = new QLabel(layoutWidget_28);
+        just_lable_24v_11->setObjectName(QString::fromUtf8("just_lable_24v_11"));
+
+        verticalLayout_92->addWidget(just_lable_24v_11);
+
+        just_lable_28v_11 = new QLabel(layoutWidget_28);
+        just_lable_28v_11->setObjectName(QString::fromUtf8("just_lable_28v_11"));
+
+        verticalLayout_92->addWidget(just_lable_28v_11);
+
+
+        horizontalLayout_155->addLayout(verticalLayout_92);
+
+        verticalLayout_93 = new QVBoxLayout();
+        verticalLayout_93->setObjectName(QString::fromUtf8("verticalLayout_93"));
+        lable_18v_ans_mops_8 = new QLabel(layoutWidget_28);
+        lable_18v_ans_mops_8->setObjectName(QString::fromUtf8("lable_18v_ans_mops_8"));
+
+        verticalLayout_93->addWidget(lable_18v_ans_mops_8);
+
+        lable_24v_ans_mops_8 = new QLabel(layoutWidget_28);
+        lable_24v_ans_mops_8->setObjectName(QString::fromUtf8("lable_24v_ans_mops_8"));
+
+        verticalLayout_93->addWidget(lable_24v_ans_mops_8);
+
+        lable_28v_ans_mops_8 = new QLabel(layoutWidget_28);
+        lable_28v_ans_mops_8->setObjectName(QString::fromUtf8("lable_28v_ans_mops_8"));
+
+        verticalLayout_93->addWidget(lable_28v_ans_mops_8);
+
+
+        horizontalLayout_155->addLayout(verticalLayout_93);
+
+
+        verticalLayout_91->addLayout(horizontalLayout_155);
+
+        layoutWidget_27 = new QWidget(mops_8);
+        layoutWidget_27->setObjectName(QString::fromUtf8("layoutWidget_27"));
+        layoutWidget_27->setGeometry(QRect(10, 10, 219, 22));
+        horizontalLayout_144 = new QHBoxLayout(layoutWidget_27);
+        horizontalLayout_144->setObjectName(QString::fromUtf8("horizontalLayout_144"));
+        horizontalLayout_144->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_25 = new QLabel(layoutWidget_27);
+        just_lable_online_status_req_mops_25->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_25"));
+
+        horizontalLayout_144->addWidget(just_lable_online_status_req_mops_25);
+
+        just_lable_online_status_ans_mops_8 = new QLabel(layoutWidget_27);
+        just_lable_online_status_ans_mops_8->setObjectName(QString::fromUtf8("just_lable_online_status_ans_mops_8"));
+        just_lable_online_status_ans_mops_8->setMinimumSize(QSize(102, 0));
+        just_lable_online_status_ans_mops_8->setScaledContents(false);
+        just_lable_online_status_ans_mops_8->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_144->addWidget(just_lable_online_status_ans_mops_8);
+
+        verticalLayoutWidget_47 = new QWidget(mops_8);
+        verticalLayoutWidget_47->setObjectName(QString::fromUtf8("verticalLayoutWidget_47"));
+        verticalLayoutWidget_47->setGeometry(QRect(20, 510, 491, 91));
+        verticalLayout_89 = new QVBoxLayout(verticalLayoutWidget_47);
+        verticalLayout_89->setObjectName(QString::fromUtf8("verticalLayout_89"));
+        verticalLayout_89->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_151 = new QHBoxLayout();
+        horizontalLayout_151->setObjectName(QString::fromUtf8("horizontalLayout_151"));
+        just_lable_status_56 = new QLabel(verticalLayoutWidget_47);
+        just_lable_status_56->setObjectName(QString::fromUtf8("just_lable_status_56"));
+
+        horizontalLayout_151->addWidget(just_lable_status_56);
+
+        horizontalSpacer_115 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_151->addItem(horizontalSpacer_115);
+
+        label_446 = new QLabel(verticalLayoutWidget_47);
+        label_446->setObjectName(QString::fromUtf8("label_446"));
+
+        horizontalLayout_151->addWidget(label_446);
+
+        label_447 = new QLabel(verticalLayoutWidget_47);
+        label_447->setObjectName(QString::fromUtf8("label_447"));
+
+        horizontalLayout_151->addWidget(label_447);
+
+        label_448 = new QLabel(verticalLayoutWidget_47);
+        label_448->setObjectName(QString::fromUtf8("label_448"));
+
+        horizontalLayout_151->addWidget(label_448);
+
+        label_449 = new QLabel(verticalLayoutWidget_47);
+        label_449->setObjectName(QString::fromUtf8("label_449"));
+
+        horizontalLayout_151->addWidget(label_449);
+
+        label_450 = new QLabel(verticalLayoutWidget_47);
+        label_450->setObjectName(QString::fromUtf8("label_450"));
+
+        horizontalLayout_151->addWidget(label_450);
+
+        label_451 = new QLabel(verticalLayoutWidget_47);
+        label_451->setObjectName(QString::fromUtf8("label_451"));
+
+        horizontalLayout_151->addWidget(label_451);
+
+        label_452 = new QLabel(verticalLayoutWidget_47);
+        label_452->setObjectName(QString::fromUtf8("label_452"));
+
+        horizontalLayout_151->addWidget(label_452);
+
+        label_453 = new QLabel(verticalLayoutWidget_47);
+        label_453->setObjectName(QString::fromUtf8("label_453"));
+
+        horizontalLayout_151->addWidget(label_453);
+
+
+        verticalLayout_89->addLayout(horizontalLayout_151);
+
+        horizontalLayout_152 = new QHBoxLayout();
+        horizontalLayout_152->setObjectName(QString::fromUtf8("horizontalLayout_152"));
+        just_lable_error_56 = new QLabel(verticalLayoutWidget_47);
+        just_lable_error_56->setObjectName(QString::fromUtf8("just_lable_error_56"));
+
+        horizontalLayout_152->addWidget(just_lable_error_56);
+
+        horizontalSpacer_116 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_152->addItem(horizontalSpacer_116);
+
+        lable_fire_mops_8_ch_1 = new QLabel(verticalLayoutWidget_47);
+        lable_fire_mops_8_ch_1->setObjectName(QString::fromUtf8("lable_fire_mops_8_ch_1"));
+
+        horizontalLayout_152->addWidget(lable_fire_mops_8_ch_1);
+
+        lable_fire_mops_8_ch_2 = new QLabel(verticalLayoutWidget_47);
+        lable_fire_mops_8_ch_2->setObjectName(QString::fromUtf8("lable_fire_mops_8_ch_2"));
+
+        horizontalLayout_152->addWidget(lable_fire_mops_8_ch_2);
+
+        lable_fire_mops_8_ch_3 = new QLabel(verticalLayoutWidget_47);
+        lable_fire_mops_8_ch_3->setObjectName(QString::fromUtf8("lable_fire_mops_8_ch_3"));
+
+        horizontalLayout_152->addWidget(lable_fire_mops_8_ch_3);
+
+        lable_fire_mops_8_ch_4 = new QLabel(verticalLayoutWidget_47);
+        lable_fire_mops_8_ch_4->setObjectName(QString::fromUtf8("lable_fire_mops_8_ch_4"));
+
+        horizontalLayout_152->addWidget(lable_fire_mops_8_ch_4);
+
+        lable_fire_mops_8_ch_5 = new QLabel(verticalLayoutWidget_47);
+        lable_fire_mops_8_ch_5->setObjectName(QString::fromUtf8("lable_fire_mops_8_ch_5"));
+
+        horizontalLayout_152->addWidget(lable_fire_mops_8_ch_5);
+
+        lable_fire_mops_8_ch_6 = new QLabel(verticalLayoutWidget_47);
+        lable_fire_mops_8_ch_6->setObjectName(QString::fromUtf8("lable_fire_mops_8_ch_6"));
+
+        horizontalLayout_152->addWidget(lable_fire_mops_8_ch_6);
+
+        lable_fire_mops_8_ch_7 = new QLabel(verticalLayoutWidget_47);
+        lable_fire_mops_8_ch_7->setObjectName(QString::fromUtf8("lable_fire_mops_8_ch_7"));
+
+        horizontalLayout_152->addWidget(lable_fire_mops_8_ch_7);
+
+        lable_fire_mops_8_ch_8 = new QLabel(verticalLayoutWidget_47);
+        lable_fire_mops_8_ch_8->setObjectName(QString::fromUtf8("lable_fire_mops_8_ch_8"));
+
+        horizontalLayout_152->addWidget(lable_fire_mops_8_ch_8);
+
+
+        verticalLayout_89->addLayout(horizontalLayout_152);
+
+        verticalLayoutWidget_44 = new QWidget(mops_8);
+        verticalLayoutWidget_44->setObjectName(QString::fromUtf8("verticalLayoutWidget_44"));
+        verticalLayoutWidget_44->setGeometry(QRect(20, 140, 491, 91));
+        verticalLayout_86 = new QVBoxLayout(verticalLayoutWidget_44);
+        verticalLayout_86->setObjectName(QString::fromUtf8("verticalLayout_86"));
+        verticalLayout_86->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_145 = new QHBoxLayout();
+        horizontalLayout_145->setObjectName(QString::fromUtf8("horizontalLayout_145"));
+        just_lable_status_53 = new QLabel(verticalLayoutWidget_44);
+        just_lable_status_53->setObjectName(QString::fromUtf8("just_lable_status_53"));
+
+        horizontalLayout_145->addWidget(just_lable_status_53);
+
+        horizontalSpacer_109 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_145->addItem(horizontalSpacer_109);
+
+        label_422 = new QLabel(verticalLayoutWidget_44);
+        label_422->setObjectName(QString::fromUtf8("label_422"));
+
+        horizontalLayout_145->addWidget(label_422);
+
+        label_423 = new QLabel(verticalLayoutWidget_44);
+        label_423->setObjectName(QString::fromUtf8("label_423"));
+
+        horizontalLayout_145->addWidget(label_423);
+
+        label_424 = new QLabel(verticalLayoutWidget_44);
+        label_424->setObjectName(QString::fromUtf8("label_424"));
+
+        horizontalLayout_145->addWidget(label_424);
+
+        label_425 = new QLabel(verticalLayoutWidget_44);
+        label_425->setObjectName(QString::fromUtf8("label_425"));
+
+        horizontalLayout_145->addWidget(label_425);
+
+        label_426 = new QLabel(verticalLayoutWidget_44);
+        label_426->setObjectName(QString::fromUtf8("label_426"));
+
+        horizontalLayout_145->addWidget(label_426);
+
+        label_427 = new QLabel(verticalLayoutWidget_44);
+        label_427->setObjectName(QString::fromUtf8("label_427"));
+
+        horizontalLayout_145->addWidget(label_427);
+
+        label_428 = new QLabel(verticalLayoutWidget_44);
+        label_428->setObjectName(QString::fromUtf8("label_428"));
+
+        horizontalLayout_145->addWidget(label_428);
+
+        label_429 = new QLabel(verticalLayoutWidget_44);
+        label_429->setObjectName(QString::fromUtf8("label_429"));
+
+        horizontalLayout_145->addWidget(label_429);
+
+
+        verticalLayout_86->addLayout(horizontalLayout_145);
+
+        horizontalLayout_146 = new QHBoxLayout();
+        horizontalLayout_146->setObjectName(QString::fromUtf8("horizontalLayout_146"));
+        just_lable_error_53 = new QLabel(verticalLayoutWidget_44);
+        just_lable_error_53->setObjectName(QString::fromUtf8("just_lable_error_53"));
+
+        horizontalLayout_146->addWidget(just_lable_error_53);
+
+        horizontalSpacer_110 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_146->addItem(horizontalSpacer_110);
+
+        lable_break_mops_8_ch_1 = new QLabel(verticalLayoutWidget_44);
+        lable_break_mops_8_ch_1->setObjectName(QString::fromUtf8("lable_break_mops_8_ch_1"));
+
+        horizontalLayout_146->addWidget(lable_break_mops_8_ch_1);
+
+        lable_break_mops_8_ch_2 = new QLabel(verticalLayoutWidget_44);
+        lable_break_mops_8_ch_2->setObjectName(QString::fromUtf8("lable_break_mops_8_ch_2"));
+
+        horizontalLayout_146->addWidget(lable_break_mops_8_ch_2);
+
+        lable_break_mops_8_ch_3 = new QLabel(verticalLayoutWidget_44);
+        lable_break_mops_8_ch_3->setObjectName(QString::fromUtf8("lable_break_mops_8_ch_3"));
+
+        horizontalLayout_146->addWidget(lable_break_mops_8_ch_3);
+
+        lable_break_mops_8_ch_4 = new QLabel(verticalLayoutWidget_44);
+        lable_break_mops_8_ch_4->setObjectName(QString::fromUtf8("lable_break_mops_8_ch_4"));
+
+        horizontalLayout_146->addWidget(lable_break_mops_8_ch_4);
+
+        lable_break_mops_8_ch_5 = new QLabel(verticalLayoutWidget_44);
+        lable_break_mops_8_ch_5->setObjectName(QString::fromUtf8("lable_break_mops_8_ch_5"));
+
+        horizontalLayout_146->addWidget(lable_break_mops_8_ch_5);
+
+        lable_break_mops_8_ch_6 = new QLabel(verticalLayoutWidget_44);
+        lable_break_mops_8_ch_6->setObjectName(QString::fromUtf8("lable_break_mops_8_ch_6"));
+
+        horizontalLayout_146->addWidget(lable_break_mops_8_ch_6);
+
+        lable_break_mops_8_ch_7 = new QLabel(verticalLayoutWidget_44);
+        lable_break_mops_8_ch_7->setObjectName(QString::fromUtf8("lable_break_mops_8_ch_7"));
+
+        horizontalLayout_146->addWidget(lable_break_mops_8_ch_7);
+
+        lable_break_mops_8_ch_8 = new QLabel(verticalLayoutWidget_44);
+        lable_break_mops_8_ch_8->setObjectName(QString::fromUtf8("lable_break_mops_8_ch_8"));
+
+        horizontalLayout_146->addWidget(lable_break_mops_8_ch_8);
+
+
+        verticalLayout_86->addLayout(horizontalLayout_146);
+
+        just_lable_status_ch_11 = new QLabel(mops_8);
+        just_lable_status_ch_11->setObjectName(QString::fromUtf8("just_lable_status_ch_11"));
+        just_lable_status_ch_11->setGeometry(QRect(180, 80, 151, 31));
+        just_lable_norm_9 = new QLabel(mops_8);
+        just_lable_norm_9->setObjectName(QString::fromUtf8("just_lable_norm_9"));
+        just_lable_norm_9->setGeometry(QRect(220, 230, 61, 21));
+        just_lable_break_28 = new QLabel(mops_8);
+        just_lable_break_28->setObjectName(QString::fromUtf8("just_lable_break_28"));
+        just_lable_break_28->setGeometry(QRect(220, 110, 61, 21));
+        verticalLayoutWidget_48 = new QWidget(mops_8);
+        verticalLayoutWidget_48->setObjectName(QString::fromUtf8("verticalLayoutWidget_48"));
+        verticalLayoutWidget_48->setGeometry(QRect(20, 390, 491, 91));
+        verticalLayout_90 = new QVBoxLayout(verticalLayoutWidget_48);
+        verticalLayout_90->setObjectName(QString::fromUtf8("verticalLayout_90"));
+        verticalLayout_90->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_153 = new QHBoxLayout();
+        horizontalLayout_153->setObjectName(QString::fromUtf8("horizontalLayout_153"));
+        just_lable_status_57 = new QLabel(verticalLayoutWidget_48);
+        just_lable_status_57->setObjectName(QString::fromUtf8("just_lable_status_57"));
+
+        horizontalLayout_153->addWidget(just_lable_status_57);
+
+        horizontalSpacer_117 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_153->addItem(horizontalSpacer_117);
+
+        label_454 = new QLabel(verticalLayoutWidget_48);
+        label_454->setObjectName(QString::fromUtf8("label_454"));
+
+        horizontalLayout_153->addWidget(label_454);
+
+        label_455 = new QLabel(verticalLayoutWidget_48);
+        label_455->setObjectName(QString::fromUtf8("label_455"));
+
+        horizontalLayout_153->addWidget(label_455);
+
+        label_456 = new QLabel(verticalLayoutWidget_48);
+        label_456->setObjectName(QString::fromUtf8("label_456"));
+
+        horizontalLayout_153->addWidget(label_456);
+
+        label_457 = new QLabel(verticalLayoutWidget_48);
+        label_457->setObjectName(QString::fromUtf8("label_457"));
+
+        horizontalLayout_153->addWidget(label_457);
+
+        label_458 = new QLabel(verticalLayoutWidget_48);
+        label_458->setObjectName(QString::fromUtf8("label_458"));
+
+        horizontalLayout_153->addWidget(label_458);
+
+        label_459 = new QLabel(verticalLayoutWidget_48);
+        label_459->setObjectName(QString::fromUtf8("label_459"));
+
+        horizontalLayout_153->addWidget(label_459);
+
+        label_460 = new QLabel(verticalLayoutWidget_48);
+        label_460->setObjectName(QString::fromUtf8("label_460"));
+
+        horizontalLayout_153->addWidget(label_460);
+
+        label_461 = new QLabel(verticalLayoutWidget_48);
+        label_461->setObjectName(QString::fromUtf8("label_461"));
+
+        horizontalLayout_153->addWidget(label_461);
+
+
+        verticalLayout_90->addLayout(horizontalLayout_153);
+
+        horizontalLayout_154 = new QHBoxLayout();
+        horizontalLayout_154->setObjectName(QString::fromUtf8("horizontalLayout_154"));
+        just_lable_error_57 = new QLabel(verticalLayoutWidget_48);
+        just_lable_error_57->setObjectName(QString::fromUtf8("just_lable_error_57"));
+
+        horizontalLayout_154->addWidget(just_lable_error_57);
+
+        horizontalSpacer_118 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_154->addItem(horizontalSpacer_118);
+
+        lable_attantion_mops_8_ch_1 = new QLabel(verticalLayoutWidget_48);
+        lable_attantion_mops_8_ch_1->setObjectName(QString::fromUtf8("lable_attantion_mops_8_ch_1"));
+
+        horizontalLayout_154->addWidget(lable_attantion_mops_8_ch_1);
+
+        lable_attantion_mops_8_ch_2 = new QLabel(verticalLayoutWidget_48);
+        lable_attantion_mops_8_ch_2->setObjectName(QString::fromUtf8("lable_attantion_mops_8_ch_2"));
+
+        horizontalLayout_154->addWidget(lable_attantion_mops_8_ch_2);
+
+        lable_attantion_mops_8_ch_3 = new QLabel(verticalLayoutWidget_48);
+        lable_attantion_mops_8_ch_3->setObjectName(QString::fromUtf8("lable_attantion_mops_8_ch_3"));
+
+        horizontalLayout_154->addWidget(lable_attantion_mops_8_ch_3);
+
+        lable_attantion_mops_8_ch_4 = new QLabel(verticalLayoutWidget_48);
+        lable_attantion_mops_8_ch_4->setObjectName(QString::fromUtf8("lable_attantion_mops_8_ch_4"));
+
+        horizontalLayout_154->addWidget(lable_attantion_mops_8_ch_4);
+
+        lable_attantion_mops_8_ch_5 = new QLabel(verticalLayoutWidget_48);
+        lable_attantion_mops_8_ch_5->setObjectName(QString::fromUtf8("lable_attantion_mops_8_ch_5"));
+
+        horizontalLayout_154->addWidget(lable_attantion_mops_8_ch_5);
+
+        lable_attantion_mops_8_ch_6 = new QLabel(verticalLayoutWidget_48);
+        lable_attantion_mops_8_ch_6->setObjectName(QString::fromUtf8("lable_attantion_mops_8_ch_6"));
+
+        horizontalLayout_154->addWidget(lable_attantion_mops_8_ch_6);
+
+        lable_attantion_mops_8_ch_7 = new QLabel(verticalLayoutWidget_48);
+        lable_attantion_mops_8_ch_7->setObjectName(QString::fromUtf8("lable_attantion_mops_8_ch_7"));
+
+        horizontalLayout_154->addWidget(lable_attantion_mops_8_ch_7);
+
+        lable_attantion_mops_8_ch_8 = new QLabel(verticalLayoutWidget_48);
+        lable_attantion_mops_8_ch_8->setObjectName(QString::fromUtf8("lable_attantion_mops_8_ch_8"));
+
+        horizontalLayout_154->addWidget(lable_attantion_mops_8_ch_8);
+
+
+        verticalLayout_90->addLayout(horizontalLayout_154);
+
+        just_lable_attantion_12 = new QLabel(mops_8);
+        just_lable_attantion_12->setObjectName(QString::fromUtf8("just_lable_attantion_12"));
+        just_lable_attantion_12->setGeometry(QRect(220, 360, 81, 21));
         tab_widget_for_mops->addTab(mops_8, QString());
         mops_9 = new QWidget();
         mops_9->setObjectName(QString::fromUtf8("mops_9"));
+        layoutWidget_30 = new QWidget(mops_9);
+        layoutWidget_30->setObjectName(QString::fromUtf8("layoutWidget_30"));
+        layoutWidget_30->setGeometry(QRect(10, 10, 219, 22));
+        horizontalLayout_157 = new QHBoxLayout(layoutWidget_30);
+        horizontalLayout_157->setObjectName(QString::fromUtf8("horizontalLayout_157"));
+        horizontalLayout_157->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_27 = new QLabel(layoutWidget_30);
+        just_lable_online_status_req_mops_27->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_27"));
+
+        horizontalLayout_157->addWidget(just_lable_online_status_req_mops_27);
+
+        just_lable_online_status_ans_mops_9 = new QLabel(layoutWidget_30);
+        just_lable_online_status_ans_mops_9->setObjectName(QString::fromUtf8("just_lable_online_status_ans_mops_9"));
+        just_lable_online_status_ans_mops_9->setMinimumSize(QSize(102, 0));
+        just_lable_online_status_ans_mops_9->setScaledContents(false);
+        just_lable_online_status_ans_mops_9->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_157->addWidget(just_lable_online_status_ans_mops_9);
+
+        just_lable_norm_10 = new QLabel(mops_9);
+        just_lable_norm_10->setObjectName(QString::fromUtf8("just_lable_norm_10"));
+        just_lable_norm_10->setGeometry(QRect(220, 230, 61, 21));
+        verticalLayoutWidget_49 = new QWidget(mops_9);
+        verticalLayoutWidget_49->setObjectName(QString::fromUtf8("verticalLayoutWidget_49"));
+        verticalLayoutWidget_49->setGeometry(QRect(20, 140, 491, 91));
+        verticalLayout_94 = new QVBoxLayout(verticalLayoutWidget_49);
+        verticalLayout_94->setObjectName(QString::fromUtf8("verticalLayout_94"));
+        verticalLayout_94->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_158 = new QHBoxLayout();
+        horizontalLayout_158->setObjectName(QString::fromUtf8("horizontalLayout_158"));
+        just_lable_status_58 = new QLabel(verticalLayoutWidget_49);
+        just_lable_status_58->setObjectName(QString::fromUtf8("just_lable_status_58"));
+
+        horizontalLayout_158->addWidget(just_lable_status_58);
+
+        horizontalSpacer_119 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_158->addItem(horizontalSpacer_119);
+
+        label_462 = new QLabel(verticalLayoutWidget_49);
+        label_462->setObjectName(QString::fromUtf8("label_462"));
+
+        horizontalLayout_158->addWidget(label_462);
+
+        label_463 = new QLabel(verticalLayoutWidget_49);
+        label_463->setObjectName(QString::fromUtf8("label_463"));
+
+        horizontalLayout_158->addWidget(label_463);
+
+        label_464 = new QLabel(verticalLayoutWidget_49);
+        label_464->setObjectName(QString::fromUtf8("label_464"));
+
+        horizontalLayout_158->addWidget(label_464);
+
+        label_465 = new QLabel(verticalLayoutWidget_49);
+        label_465->setObjectName(QString::fromUtf8("label_465"));
+
+        horizontalLayout_158->addWidget(label_465);
+
+        label_466 = new QLabel(verticalLayoutWidget_49);
+        label_466->setObjectName(QString::fromUtf8("label_466"));
+
+        horizontalLayout_158->addWidget(label_466);
+
+        label_467 = new QLabel(verticalLayoutWidget_49);
+        label_467->setObjectName(QString::fromUtf8("label_467"));
+
+        horizontalLayout_158->addWidget(label_467);
+
+        label_468 = new QLabel(verticalLayoutWidget_49);
+        label_468->setObjectName(QString::fromUtf8("label_468"));
+
+        horizontalLayout_158->addWidget(label_468);
+
+        label_469 = new QLabel(verticalLayoutWidget_49);
+        label_469->setObjectName(QString::fromUtf8("label_469"));
+
+        horizontalLayout_158->addWidget(label_469);
+
+
+        verticalLayout_94->addLayout(horizontalLayout_158);
+
+        horizontalLayout_159 = new QHBoxLayout();
+        horizontalLayout_159->setObjectName(QString::fromUtf8("horizontalLayout_159"));
+        just_lable_error_58 = new QLabel(verticalLayoutWidget_49);
+        just_lable_error_58->setObjectName(QString::fromUtf8("just_lable_error_58"));
+
+        horizontalLayout_159->addWidget(just_lable_error_58);
+
+        horizontalSpacer_120 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_159->addItem(horizontalSpacer_120);
+
+        lable_break_mops_9_ch_1 = new QLabel(verticalLayoutWidget_49);
+        lable_break_mops_9_ch_1->setObjectName(QString::fromUtf8("lable_break_mops_9_ch_1"));
+
+        horizontalLayout_159->addWidget(lable_break_mops_9_ch_1);
+
+        lable_break_mops_9_ch_2 = new QLabel(verticalLayoutWidget_49);
+        lable_break_mops_9_ch_2->setObjectName(QString::fromUtf8("lable_break_mops_9_ch_2"));
+
+        horizontalLayout_159->addWidget(lable_break_mops_9_ch_2);
+
+        lable_break_mops_9_ch_3 = new QLabel(verticalLayoutWidget_49);
+        lable_break_mops_9_ch_3->setObjectName(QString::fromUtf8("lable_break_mops_9_ch_3"));
+
+        horizontalLayout_159->addWidget(lable_break_mops_9_ch_3);
+
+        lable_break_mops_9_ch_4 = new QLabel(verticalLayoutWidget_49);
+        lable_break_mops_9_ch_4->setObjectName(QString::fromUtf8("lable_break_mops_9_ch_4"));
+
+        horizontalLayout_159->addWidget(lable_break_mops_9_ch_4);
+
+        lable_break_mops_9_ch_5 = new QLabel(verticalLayoutWidget_49);
+        lable_break_mops_9_ch_5->setObjectName(QString::fromUtf8("lable_break_mops_9_ch_5"));
+
+        horizontalLayout_159->addWidget(lable_break_mops_9_ch_5);
+
+        lable_break_mops_9_ch_6 = new QLabel(verticalLayoutWidget_49);
+        lable_break_mops_9_ch_6->setObjectName(QString::fromUtf8("lable_break_mops_9_ch_6"));
+
+        horizontalLayout_159->addWidget(lable_break_mops_9_ch_6);
+
+        lable_break_mops_9_ch_7 = new QLabel(verticalLayoutWidget_49);
+        lable_break_mops_9_ch_7->setObjectName(QString::fromUtf8("lable_break_mops_9_ch_7"));
+
+        horizontalLayout_159->addWidget(lable_break_mops_9_ch_7);
+
+        lable_break_mops_9_ch_8 = new QLabel(verticalLayoutWidget_49);
+        lable_break_mops_9_ch_8->setObjectName(QString::fromUtf8("lable_break_mops_9_ch_8"));
+
+        horizontalLayout_159->addWidget(lable_break_mops_9_ch_8);
+
+
+        verticalLayout_94->addLayout(horizontalLayout_159);
+
+        verticalLayoutWidget_50 = new QWidget(mops_9);
+        verticalLayoutWidget_50->setObjectName(QString::fromUtf8("verticalLayoutWidget_50"));
+        verticalLayoutWidget_50->setGeometry(QRect(20, 640, 491, 91));
+        verticalLayout_95 = new QVBoxLayout(verticalLayoutWidget_50);
+        verticalLayout_95->setObjectName(QString::fromUtf8("verticalLayout_95"));
+        verticalLayout_95->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_160 = new QHBoxLayout();
+        horizontalLayout_160->setObjectName(QString::fromUtf8("horizontalLayout_160"));
+        just_lable_status_59 = new QLabel(verticalLayoutWidget_50);
+        just_lable_status_59->setObjectName(QString::fromUtf8("just_lable_status_59"));
+
+        horizontalLayout_160->addWidget(just_lable_status_59);
+
+        horizontalSpacer_121 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_160->addItem(horizontalSpacer_121);
+
+        label_470 = new QLabel(verticalLayoutWidget_50);
+        label_470->setObjectName(QString::fromUtf8("label_470"));
+
+        horizontalLayout_160->addWidget(label_470);
+
+        label_471 = new QLabel(verticalLayoutWidget_50);
+        label_471->setObjectName(QString::fromUtf8("label_471"));
+
+        horizontalLayout_160->addWidget(label_471);
+
+        label_472 = new QLabel(verticalLayoutWidget_50);
+        label_472->setObjectName(QString::fromUtf8("label_472"));
+
+        horizontalLayout_160->addWidget(label_472);
+
+        label_473 = new QLabel(verticalLayoutWidget_50);
+        label_473->setObjectName(QString::fromUtf8("label_473"));
+
+        horizontalLayout_160->addWidget(label_473);
+
+        label_474 = new QLabel(verticalLayoutWidget_50);
+        label_474->setObjectName(QString::fromUtf8("label_474"));
+
+        horizontalLayout_160->addWidget(label_474);
+
+        label_475 = new QLabel(verticalLayoutWidget_50);
+        label_475->setObjectName(QString::fromUtf8("label_475"));
+
+        horizontalLayout_160->addWidget(label_475);
+
+        label_476 = new QLabel(verticalLayoutWidget_50);
+        label_476->setObjectName(QString::fromUtf8("label_476"));
+
+        horizontalLayout_160->addWidget(label_476);
+
+        label_477 = new QLabel(verticalLayoutWidget_50);
+        label_477->setObjectName(QString::fromUtf8("label_477"));
+
+        horizontalLayout_160->addWidget(label_477);
+
+
+        verticalLayout_95->addLayout(horizontalLayout_160);
+
+        horizontalLayout_161 = new QHBoxLayout();
+        horizontalLayout_161->setObjectName(QString::fromUtf8("horizontalLayout_161"));
+        just_lable_error_59 = new QLabel(verticalLayoutWidget_50);
+        just_lable_error_59->setObjectName(QString::fromUtf8("just_lable_error_59"));
+
+        horizontalLayout_161->addWidget(just_lable_error_59);
+
+        horizontalSpacer_122 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_161->addItem(horizontalSpacer_122);
+
+        lable_break_mops_9_sc_1 = new QLabel(verticalLayoutWidget_50);
+        lable_break_mops_9_sc_1->setObjectName(QString::fromUtf8("lable_break_mops_9_sc_1"));
+
+        horizontalLayout_161->addWidget(lable_break_mops_9_sc_1);
+
+        lable_break_mops_9_sc_2 = new QLabel(verticalLayoutWidget_50);
+        lable_break_mops_9_sc_2->setObjectName(QString::fromUtf8("lable_break_mops_9_sc_2"));
+
+        horizontalLayout_161->addWidget(lable_break_mops_9_sc_2);
+
+        lable_break_mops_9_sc_3 = new QLabel(verticalLayoutWidget_50);
+        lable_break_mops_9_sc_3->setObjectName(QString::fromUtf8("lable_break_mops_9_sc_3"));
+
+        horizontalLayout_161->addWidget(lable_break_mops_9_sc_3);
+
+        lable_break_mops_9_sc_4 = new QLabel(verticalLayoutWidget_50);
+        lable_break_mops_9_sc_4->setObjectName(QString::fromUtf8("lable_break_mops_9_sc_4"));
+
+        horizontalLayout_161->addWidget(lable_break_mops_9_sc_4);
+
+        lable_break_mops_9_sc_5 = new QLabel(verticalLayoutWidget_50);
+        lable_break_mops_9_sc_5->setObjectName(QString::fromUtf8("lable_break_mops_9_sc_5"));
+
+        horizontalLayout_161->addWidget(lable_break_mops_9_sc_5);
+
+        lable_break_mops_9_sc_6 = new QLabel(verticalLayoutWidget_50);
+        lable_break_mops_9_sc_6->setObjectName(QString::fromUtf8("lable_break_mops_9_sc_6"));
+
+        horizontalLayout_161->addWidget(lable_break_mops_9_sc_6);
+
+        lable_break_mops_9_sc_7 = new QLabel(verticalLayoutWidget_50);
+        lable_break_mops_9_sc_7->setObjectName(QString::fromUtf8("lable_break_mops_9_sc_7"));
+
+        horizontalLayout_161->addWidget(lable_break_mops_9_sc_7);
+
+        lable_break_mops_9_sc_8 = new QLabel(verticalLayoutWidget_50);
+        lable_break_mops_9_sc_8->setObjectName(QString::fromUtf8("lable_break_mops_9_sc_8"));
+
+        horizontalLayout_161->addWidget(lable_break_mops_9_sc_8);
+
+
+        verticalLayout_95->addLayout(horizontalLayout_161);
+
+        just_lable_break_30 = new QLabel(mops_9);
+        just_lable_break_30->setObjectName(QString::fromUtf8("just_lable_break_30"));
+        just_lable_break_30->setGeometry(QRect(220, 610, 151, 21));
+        verticalLayoutWidget_51 = new QWidget(mops_9);
+        verticalLayoutWidget_51->setObjectName(QString::fromUtf8("verticalLayoutWidget_51"));
+        verticalLayoutWidget_51->setGeometry(QRect(20, 260, 491, 91));
+        verticalLayout_96 = new QVBoxLayout(verticalLayoutWidget_51);
+        verticalLayout_96->setObjectName(QString::fromUtf8("verticalLayout_96"));
+        verticalLayout_96->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_162 = new QHBoxLayout();
+        horizontalLayout_162->setObjectName(QString::fromUtf8("horizontalLayout_162"));
+        just_lable_status_60 = new QLabel(verticalLayoutWidget_51);
+        just_lable_status_60->setObjectName(QString::fromUtf8("just_lable_status_60"));
+
+        horizontalLayout_162->addWidget(just_lable_status_60);
+
+        horizontalSpacer_123 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_162->addItem(horizontalSpacer_123);
+
+        label_478 = new QLabel(verticalLayoutWidget_51);
+        label_478->setObjectName(QString::fromUtf8("label_478"));
+
+        horizontalLayout_162->addWidget(label_478);
+
+        label_479 = new QLabel(verticalLayoutWidget_51);
+        label_479->setObjectName(QString::fromUtf8("label_479"));
+
+        horizontalLayout_162->addWidget(label_479);
+
+        label_480 = new QLabel(verticalLayoutWidget_51);
+        label_480->setObjectName(QString::fromUtf8("label_480"));
+
+        horizontalLayout_162->addWidget(label_480);
+
+        label_481 = new QLabel(verticalLayoutWidget_51);
+        label_481->setObjectName(QString::fromUtf8("label_481"));
+
+        horizontalLayout_162->addWidget(label_481);
+
+        label_482 = new QLabel(verticalLayoutWidget_51);
+        label_482->setObjectName(QString::fromUtf8("label_482"));
+
+        horizontalLayout_162->addWidget(label_482);
+
+        label_483 = new QLabel(verticalLayoutWidget_51);
+        label_483->setObjectName(QString::fromUtf8("label_483"));
+
+        horizontalLayout_162->addWidget(label_483);
+
+        label_484 = new QLabel(verticalLayoutWidget_51);
+        label_484->setObjectName(QString::fromUtf8("label_484"));
+
+        horizontalLayout_162->addWidget(label_484);
+
+        label_485 = new QLabel(verticalLayoutWidget_51);
+        label_485->setObjectName(QString::fromUtf8("label_485"));
+
+        horizontalLayout_162->addWidget(label_485);
+
+
+        verticalLayout_96->addLayout(horizontalLayout_162);
+
+        horizontalLayout_163 = new QHBoxLayout();
+        horizontalLayout_163->setObjectName(QString::fromUtf8("horizontalLayout_163"));
+        just_lable_error_60 = new QLabel(verticalLayoutWidget_51);
+        just_lable_error_60->setObjectName(QString::fromUtf8("just_lable_error_60"));
+
+        horizontalLayout_163->addWidget(just_lable_error_60);
+
+        horizontalSpacer_124 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_163->addItem(horizontalSpacer_124);
+
+        lable_norm_mops_9_ch_1 = new QLabel(verticalLayoutWidget_51);
+        lable_norm_mops_9_ch_1->setObjectName(QString::fromUtf8("lable_norm_mops_9_ch_1"));
+
+        horizontalLayout_163->addWidget(lable_norm_mops_9_ch_1);
+
+        lable_norm_mops_9_ch_2 = new QLabel(verticalLayoutWidget_51);
+        lable_norm_mops_9_ch_2->setObjectName(QString::fromUtf8("lable_norm_mops_9_ch_2"));
+
+        horizontalLayout_163->addWidget(lable_norm_mops_9_ch_2);
+
+        lable_norm_mops_9_ch_3 = new QLabel(verticalLayoutWidget_51);
+        lable_norm_mops_9_ch_3->setObjectName(QString::fromUtf8("lable_norm_mops_9_ch_3"));
+
+        horizontalLayout_163->addWidget(lable_norm_mops_9_ch_3);
+
+        lable_norm_mops_9_ch_4 = new QLabel(verticalLayoutWidget_51);
+        lable_norm_mops_9_ch_4->setObjectName(QString::fromUtf8("lable_norm_mops_9_ch_4"));
+
+        horizontalLayout_163->addWidget(lable_norm_mops_9_ch_4);
+
+        lable_norm_mops_9_ch_5 = new QLabel(verticalLayoutWidget_51);
+        lable_norm_mops_9_ch_5->setObjectName(QString::fromUtf8("lable_norm_mops_9_ch_5"));
+
+        horizontalLayout_163->addWidget(lable_norm_mops_9_ch_5);
+
+        lable_norm_mops_9_ch_6 = new QLabel(verticalLayoutWidget_51);
+        lable_norm_mops_9_ch_6->setObjectName(QString::fromUtf8("lable_norm_mops_9_ch_6"));
+
+        horizontalLayout_163->addWidget(lable_norm_mops_9_ch_6);
+
+        lable_norm_mops_9_ch_7 = new QLabel(verticalLayoutWidget_51);
+        lable_norm_mops_9_ch_7->setObjectName(QString::fromUtf8("lable_norm_mops_9_ch_7"));
+
+        horizontalLayout_163->addWidget(lable_norm_mops_9_ch_7);
+
+        lable_norm_mops_9_ch_8 = new QLabel(verticalLayoutWidget_51);
+        lable_norm_mops_9_ch_8->setObjectName(QString::fromUtf8("lable_norm_mops_9_ch_8"));
+
+        horizontalLayout_163->addWidget(lable_norm_mops_9_ch_8);
+
+
+        verticalLayout_96->addLayout(horizontalLayout_163);
+
+        just_lable_break_31 = new QLabel(mops_9);
+        just_lable_break_31->setObjectName(QString::fromUtf8("just_lable_break_31"));
+        just_lable_break_31->setGeometry(QRect(220, 110, 61, 21));
+        just_lable_status_ch_12 = new QLabel(mops_9);
+        just_lable_status_ch_12->setObjectName(QString::fromUtf8("just_lable_status_ch_12"));
+        just_lable_status_ch_12->setGeometry(QRect(180, 80, 151, 31));
+        verticalLayoutWidget_52 = new QWidget(mops_9);
+        verticalLayoutWidget_52->setObjectName(QString::fromUtf8("verticalLayoutWidget_52"));
+        verticalLayoutWidget_52->setGeometry(QRect(20, 510, 491, 91));
+        verticalLayout_97 = new QVBoxLayout(verticalLayoutWidget_52);
+        verticalLayout_97->setObjectName(QString::fromUtf8("verticalLayout_97"));
+        verticalLayout_97->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_164 = new QHBoxLayout();
+        horizontalLayout_164->setObjectName(QString::fromUtf8("horizontalLayout_164"));
+        just_lable_status_61 = new QLabel(verticalLayoutWidget_52);
+        just_lable_status_61->setObjectName(QString::fromUtf8("just_lable_status_61"));
+
+        horizontalLayout_164->addWidget(just_lable_status_61);
+
+        horizontalSpacer_125 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_164->addItem(horizontalSpacer_125);
+
+        label_486 = new QLabel(verticalLayoutWidget_52);
+        label_486->setObjectName(QString::fromUtf8("label_486"));
+
+        horizontalLayout_164->addWidget(label_486);
+
+        label_487 = new QLabel(verticalLayoutWidget_52);
+        label_487->setObjectName(QString::fromUtf8("label_487"));
+
+        horizontalLayout_164->addWidget(label_487);
+
+        label_488 = new QLabel(verticalLayoutWidget_52);
+        label_488->setObjectName(QString::fromUtf8("label_488"));
+
+        horizontalLayout_164->addWidget(label_488);
+
+        label_489 = new QLabel(verticalLayoutWidget_52);
+        label_489->setObjectName(QString::fromUtf8("label_489"));
+
+        horizontalLayout_164->addWidget(label_489);
+
+        label_490 = new QLabel(verticalLayoutWidget_52);
+        label_490->setObjectName(QString::fromUtf8("label_490"));
+
+        horizontalLayout_164->addWidget(label_490);
+
+        label_491 = new QLabel(verticalLayoutWidget_52);
+        label_491->setObjectName(QString::fromUtf8("label_491"));
+
+        horizontalLayout_164->addWidget(label_491);
+
+        label_492 = new QLabel(verticalLayoutWidget_52);
+        label_492->setObjectName(QString::fromUtf8("label_492"));
+
+        horizontalLayout_164->addWidget(label_492);
+
+        label_493 = new QLabel(verticalLayoutWidget_52);
+        label_493->setObjectName(QString::fromUtf8("label_493"));
+
+        horizontalLayout_164->addWidget(label_493);
+
+
+        verticalLayout_97->addLayout(horizontalLayout_164);
+
+        horizontalLayout_165 = new QHBoxLayout();
+        horizontalLayout_165->setObjectName(QString::fromUtf8("horizontalLayout_165"));
+        just_lable_error_61 = new QLabel(verticalLayoutWidget_52);
+        just_lable_error_61->setObjectName(QString::fromUtf8("just_lable_error_61"));
+
+        horizontalLayout_165->addWidget(just_lable_error_61);
+
+        horizontalSpacer_126 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_165->addItem(horizontalSpacer_126);
+
+        lable_fire_mops_9_ch_1 = new QLabel(verticalLayoutWidget_52);
+        lable_fire_mops_9_ch_1->setObjectName(QString::fromUtf8("lable_fire_mops_9_ch_1"));
+
+        horizontalLayout_165->addWidget(lable_fire_mops_9_ch_1);
+
+        lable_fire_mops_9_ch_2 = new QLabel(verticalLayoutWidget_52);
+        lable_fire_mops_9_ch_2->setObjectName(QString::fromUtf8("lable_fire_mops_9_ch_2"));
+
+        horizontalLayout_165->addWidget(lable_fire_mops_9_ch_2);
+
+        lable_fire_mops_9_ch_3 = new QLabel(verticalLayoutWidget_52);
+        lable_fire_mops_9_ch_3->setObjectName(QString::fromUtf8("lable_fire_mops_9_ch_3"));
+
+        horizontalLayout_165->addWidget(lable_fire_mops_9_ch_3);
+
+        lable_fire_mops_9_ch_4 = new QLabel(verticalLayoutWidget_52);
+        lable_fire_mops_9_ch_4->setObjectName(QString::fromUtf8("lable_fire_mops_9_ch_4"));
+
+        horizontalLayout_165->addWidget(lable_fire_mops_9_ch_4);
+
+        lable_fire_mops_9_ch_5 = new QLabel(verticalLayoutWidget_52);
+        lable_fire_mops_9_ch_5->setObjectName(QString::fromUtf8("lable_fire_mops_9_ch_5"));
+
+        horizontalLayout_165->addWidget(lable_fire_mops_9_ch_5);
+
+        lable_fire_mops_9_ch_6 = new QLabel(verticalLayoutWidget_52);
+        lable_fire_mops_9_ch_6->setObjectName(QString::fromUtf8("lable_fire_mops_9_ch_6"));
+
+        horizontalLayout_165->addWidget(lable_fire_mops_9_ch_6);
+
+        lable_fire_mops_9_ch_7 = new QLabel(verticalLayoutWidget_52);
+        lable_fire_mops_9_ch_7->setObjectName(QString::fromUtf8("lable_fire_mops_9_ch_7"));
+
+        horizontalLayout_165->addWidget(lable_fire_mops_9_ch_7);
+
+        lable_fire_mops_9_ch_8 = new QLabel(verticalLayoutWidget_52);
+        lable_fire_mops_9_ch_8->setObjectName(QString::fromUtf8("lable_fire_mops_9_ch_8"));
+
+        horizontalLayout_165->addWidget(lable_fire_mops_9_ch_8);
+
+
+        verticalLayout_97->addLayout(horizontalLayout_165);
+
+        just_lable_break_32 = new QLabel(mops_9);
+        just_lable_break_32->setObjectName(QString::fromUtf8("just_lable_break_32"));
+        just_lable_break_32->setGeometry(QRect(220, 480, 61, 21));
+        just_lable_attantion_13 = new QLabel(mops_9);
+        just_lable_attantion_13->setObjectName(QString::fromUtf8("just_lable_attantion_13"));
+        just_lable_attantion_13->setGeometry(QRect(220, 360, 81, 21));
+        verticalLayoutWidget_53 = new QWidget(mops_9);
+        verticalLayoutWidget_53->setObjectName(QString::fromUtf8("verticalLayoutWidget_53"));
+        verticalLayoutWidget_53->setGeometry(QRect(20, 390, 491, 91));
+        verticalLayout_98 = new QVBoxLayout(verticalLayoutWidget_53);
+        verticalLayout_98->setObjectName(QString::fromUtf8("verticalLayout_98"));
+        verticalLayout_98->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_166 = new QHBoxLayout();
+        horizontalLayout_166->setObjectName(QString::fromUtf8("horizontalLayout_166"));
+        just_lable_status_62 = new QLabel(verticalLayoutWidget_53);
+        just_lable_status_62->setObjectName(QString::fromUtf8("just_lable_status_62"));
+
+        horizontalLayout_166->addWidget(just_lable_status_62);
+
+        horizontalSpacer_127 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_166->addItem(horizontalSpacer_127);
+
+        label_494 = new QLabel(verticalLayoutWidget_53);
+        label_494->setObjectName(QString::fromUtf8("label_494"));
+
+        horizontalLayout_166->addWidget(label_494);
+
+        label_495 = new QLabel(verticalLayoutWidget_53);
+        label_495->setObjectName(QString::fromUtf8("label_495"));
+
+        horizontalLayout_166->addWidget(label_495);
+
+        label_496 = new QLabel(verticalLayoutWidget_53);
+        label_496->setObjectName(QString::fromUtf8("label_496"));
+
+        horizontalLayout_166->addWidget(label_496);
+
+        label_497 = new QLabel(verticalLayoutWidget_53);
+        label_497->setObjectName(QString::fromUtf8("label_497"));
+
+        horizontalLayout_166->addWidget(label_497);
+
+        label_498 = new QLabel(verticalLayoutWidget_53);
+        label_498->setObjectName(QString::fromUtf8("label_498"));
+
+        horizontalLayout_166->addWidget(label_498);
+
+        label_499 = new QLabel(verticalLayoutWidget_53);
+        label_499->setObjectName(QString::fromUtf8("label_499"));
+
+        horizontalLayout_166->addWidget(label_499);
+
+        label_500 = new QLabel(verticalLayoutWidget_53);
+        label_500->setObjectName(QString::fromUtf8("label_500"));
+
+        horizontalLayout_166->addWidget(label_500);
+
+        label_501 = new QLabel(verticalLayoutWidget_53);
+        label_501->setObjectName(QString::fromUtf8("label_501"));
+
+        horizontalLayout_166->addWidget(label_501);
+
+
+        verticalLayout_98->addLayout(horizontalLayout_166);
+
+        horizontalLayout_167 = new QHBoxLayout();
+        horizontalLayout_167->setObjectName(QString::fromUtf8("horizontalLayout_167"));
+        just_lable_error_62 = new QLabel(verticalLayoutWidget_53);
+        just_lable_error_62->setObjectName(QString::fromUtf8("just_lable_error_62"));
+
+        horizontalLayout_167->addWidget(just_lable_error_62);
+
+        horizontalSpacer_128 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_167->addItem(horizontalSpacer_128);
+
+        lable_attantion_mops_9_ch_1 = new QLabel(verticalLayoutWidget_53);
+        lable_attantion_mops_9_ch_1->setObjectName(QString::fromUtf8("lable_attantion_mops_9_ch_1"));
+
+        horizontalLayout_167->addWidget(lable_attantion_mops_9_ch_1);
+
+        lable_attantion_mops_9_ch_2 = new QLabel(verticalLayoutWidget_53);
+        lable_attantion_mops_9_ch_2->setObjectName(QString::fromUtf8("lable_attantion_mops_9_ch_2"));
+
+        horizontalLayout_167->addWidget(lable_attantion_mops_9_ch_2);
+
+        lable_attantion_mops_9_ch_3 = new QLabel(verticalLayoutWidget_53);
+        lable_attantion_mops_9_ch_3->setObjectName(QString::fromUtf8("lable_attantion_mops_9_ch_3"));
+
+        horizontalLayout_167->addWidget(lable_attantion_mops_9_ch_3);
+
+        lable_attantion_mops_9_ch_4 = new QLabel(verticalLayoutWidget_53);
+        lable_attantion_mops_9_ch_4->setObjectName(QString::fromUtf8("lable_attantion_mops_9_ch_4"));
+
+        horizontalLayout_167->addWidget(lable_attantion_mops_9_ch_4);
+
+        lable_attantion_mops_9_ch_5 = new QLabel(verticalLayoutWidget_53);
+        lable_attantion_mops_9_ch_5->setObjectName(QString::fromUtf8("lable_attantion_mops_9_ch_5"));
+
+        horizontalLayout_167->addWidget(lable_attantion_mops_9_ch_5);
+
+        lable_attantion_mops_9_ch_6 = new QLabel(verticalLayoutWidget_53);
+        lable_attantion_mops_9_ch_6->setObjectName(QString::fromUtf8("lable_attantion_mops_9_ch_6"));
+
+        horizontalLayout_167->addWidget(lable_attantion_mops_9_ch_6);
+
+        lable_attantion_mops_9_ch_7 = new QLabel(verticalLayoutWidget_53);
+        lable_attantion_mops_9_ch_7->setObjectName(QString::fromUtf8("lable_attantion_mops_9_ch_7"));
+
+        horizontalLayout_167->addWidget(lable_attantion_mops_9_ch_7);
+
+        lable_attantion_mops_9_ch_8 = new QLabel(verticalLayoutWidget_53);
+        lable_attantion_mops_9_ch_8->setObjectName(QString::fromUtf8("lable_attantion_mops_9_ch_8"));
+
+        horizontalLayout_167->addWidget(lable_attantion_mops_9_ch_8);
+
+
+        verticalLayout_98->addLayout(horizontalLayout_167);
+
+        layoutWidget_31 = new QWidget(mops_9);
+        layoutWidget_31->setObjectName(QString::fromUtf8("layoutWidget_31"));
+        layoutWidget_31->setGeometry(QRect(360, 10, 150, 98));
+        verticalLayout_99 = new QVBoxLayout(layoutWidget_31);
+        verticalLayout_99->setObjectName(QString::fromUtf8("verticalLayout_99"));
+        verticalLayout_99->setContentsMargins(0, 0, 0, 0);
+        just_lable_supply_err_12 = new QLabel(layoutWidget_31);
+        just_lable_supply_err_12->setObjectName(QString::fromUtf8("just_lable_supply_err_12"));
+
+        verticalLayout_99->addWidget(just_lable_supply_err_12);
+
+        horizontalLayout_168 = new QHBoxLayout();
+        horizontalLayout_168->setObjectName(QString::fromUtf8("horizontalLayout_168"));
+        verticalLayout_100 = new QVBoxLayout();
+        verticalLayout_100->setObjectName(QString::fromUtf8("verticalLayout_100"));
+        just_lable_18v_12 = new QLabel(layoutWidget_31);
+        just_lable_18v_12->setObjectName(QString::fromUtf8("just_lable_18v_12"));
+
+        verticalLayout_100->addWidget(just_lable_18v_12);
+
+        just_lable_24v_12 = new QLabel(layoutWidget_31);
+        just_lable_24v_12->setObjectName(QString::fromUtf8("just_lable_24v_12"));
+
+        verticalLayout_100->addWidget(just_lable_24v_12);
+
+        just_lable_28v_12 = new QLabel(layoutWidget_31);
+        just_lable_28v_12->setObjectName(QString::fromUtf8("just_lable_28v_12"));
+
+        verticalLayout_100->addWidget(just_lable_28v_12);
+
+
+        horizontalLayout_168->addLayout(verticalLayout_100);
+
+        verticalLayout_101 = new QVBoxLayout();
+        verticalLayout_101->setObjectName(QString::fromUtf8("verticalLayout_101"));
+        lable_18v_ans_mops_9 = new QLabel(layoutWidget_31);
+        lable_18v_ans_mops_9->setObjectName(QString::fromUtf8("lable_18v_ans_mops_9"));
+
+        verticalLayout_101->addWidget(lable_18v_ans_mops_9);
+
+        lable_24v_ans_mops_9 = new QLabel(layoutWidget_31);
+        lable_24v_ans_mops_9->setObjectName(QString::fromUtf8("lable_24v_ans_mops_9"));
+
+        verticalLayout_101->addWidget(lable_24v_ans_mops_9);
+
+        lable_28v_ans_mops_9 = new QLabel(layoutWidget_31);
+        lable_28v_ans_mops_9->setObjectName(QString::fromUtf8("lable_28v_ans_mops_9"));
+
+        verticalLayout_101->addWidget(lable_28v_ans_mops_9);
+
+
+        horizontalLayout_168->addLayout(verticalLayout_101);
+
+
+        verticalLayout_99->addLayout(horizontalLayout_168);
+
+        layoutWidget_32 = new QWidget(mops_9);
+        layoutWidget_32->setObjectName(QString::fromUtf8("layoutWidget_32"));
+        layoutWidget_32->setGeometry(QRect(10, 40, 244, 22));
+        horizontalLayout_169 = new QHBoxLayout(layoutWidget_32);
+        horizontalLayout_169->setObjectName(QString::fromUtf8("horizontalLayout_169"));
+        horizontalLayout_169->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_28 = new QLabel(layoutWidget_32);
+        just_lable_online_status_req_mops_28->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_28"));
+
+        horizontalLayout_169->addWidget(just_lable_online_status_req_mops_28);
+
+        just_lable_oper_status_ans_mops_9 = new QLabel(layoutWidget_32);
+        just_lable_oper_status_ans_mops_9->setObjectName(QString::fromUtf8("just_lable_oper_status_ans_mops_9"));
+        just_lable_oper_status_ans_mops_9->setMinimumSize(QSize(102, 0));
+        just_lable_oper_status_ans_mops_9->setScaledContents(false);
+        just_lable_oper_status_ans_mops_9->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_169->addWidget(just_lable_oper_status_ans_mops_9);
+
         tab_widget_for_mops->addTab(mops_9, QString());
         mops_10 = new QWidget();
         mops_10->setObjectName(QString::fromUtf8("mops_10"));
+        layoutWidget_33 = new QWidget(mops_10);
+        layoutWidget_33->setObjectName(QString::fromUtf8("layoutWidget_33"));
+        layoutWidget_33->setGeometry(QRect(10, 10, 219, 22));
+        horizontalLayout_170 = new QHBoxLayout(layoutWidget_33);
+        horizontalLayout_170->setObjectName(QString::fromUtf8("horizontalLayout_170"));
+        horizontalLayout_170->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_29 = new QLabel(layoutWidget_33);
+        just_lable_online_status_req_mops_29->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_29"));
+
+        horizontalLayout_170->addWidget(just_lable_online_status_req_mops_29);
+
+        just_lable_online_status_ans_mops_10 = new QLabel(layoutWidget_33);
+        just_lable_online_status_ans_mops_10->setObjectName(QString::fromUtf8("just_lable_online_status_ans_mops_10"));
+        just_lable_online_status_ans_mops_10->setMinimumSize(QSize(102, 0));
+        just_lable_online_status_ans_mops_10->setScaledContents(false);
+        just_lable_online_status_ans_mops_10->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_170->addWidget(just_lable_online_status_ans_mops_10);
+
+        just_lable_norm_11 = new QLabel(mops_10);
+        just_lable_norm_11->setObjectName(QString::fromUtf8("just_lable_norm_11"));
+        just_lable_norm_11->setGeometry(QRect(220, 230, 61, 21));
+        verticalLayoutWidget_54 = new QWidget(mops_10);
+        verticalLayoutWidget_54->setObjectName(QString::fromUtf8("verticalLayoutWidget_54"));
+        verticalLayoutWidget_54->setGeometry(QRect(20, 140, 491, 91));
+        verticalLayout_102 = new QVBoxLayout(verticalLayoutWidget_54);
+        verticalLayout_102->setObjectName(QString::fromUtf8("verticalLayout_102"));
+        verticalLayout_102->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_171 = new QHBoxLayout();
+        horizontalLayout_171->setObjectName(QString::fromUtf8("horizontalLayout_171"));
+        just_lable_status_63 = new QLabel(verticalLayoutWidget_54);
+        just_lable_status_63->setObjectName(QString::fromUtf8("just_lable_status_63"));
+
+        horizontalLayout_171->addWidget(just_lable_status_63);
+
+        horizontalSpacer_129 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_171->addItem(horizontalSpacer_129);
+
+        label_502 = new QLabel(verticalLayoutWidget_54);
+        label_502->setObjectName(QString::fromUtf8("label_502"));
+
+        horizontalLayout_171->addWidget(label_502);
+
+        label_503 = new QLabel(verticalLayoutWidget_54);
+        label_503->setObjectName(QString::fromUtf8("label_503"));
+
+        horizontalLayout_171->addWidget(label_503);
+
+        label_504 = new QLabel(verticalLayoutWidget_54);
+        label_504->setObjectName(QString::fromUtf8("label_504"));
+
+        horizontalLayout_171->addWidget(label_504);
+
+        label_505 = new QLabel(verticalLayoutWidget_54);
+        label_505->setObjectName(QString::fromUtf8("label_505"));
+
+        horizontalLayout_171->addWidget(label_505);
+
+        label_506 = new QLabel(verticalLayoutWidget_54);
+        label_506->setObjectName(QString::fromUtf8("label_506"));
+
+        horizontalLayout_171->addWidget(label_506);
+
+        label_507 = new QLabel(verticalLayoutWidget_54);
+        label_507->setObjectName(QString::fromUtf8("label_507"));
+
+        horizontalLayout_171->addWidget(label_507);
+
+        label_508 = new QLabel(verticalLayoutWidget_54);
+        label_508->setObjectName(QString::fromUtf8("label_508"));
+
+        horizontalLayout_171->addWidget(label_508);
+
+        label_509 = new QLabel(verticalLayoutWidget_54);
+        label_509->setObjectName(QString::fromUtf8("label_509"));
+
+        horizontalLayout_171->addWidget(label_509);
+
+
+        verticalLayout_102->addLayout(horizontalLayout_171);
+
+        horizontalLayout_172 = new QHBoxLayout();
+        horizontalLayout_172->setObjectName(QString::fromUtf8("horizontalLayout_172"));
+        just_lable_error_63 = new QLabel(verticalLayoutWidget_54);
+        just_lable_error_63->setObjectName(QString::fromUtf8("just_lable_error_63"));
+
+        horizontalLayout_172->addWidget(just_lable_error_63);
+
+        horizontalSpacer_130 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_172->addItem(horizontalSpacer_130);
+
+        lable_break_mops_10_ch_1 = new QLabel(verticalLayoutWidget_54);
+        lable_break_mops_10_ch_1->setObjectName(QString::fromUtf8("lable_break_mops_10_ch_1"));
+
+        horizontalLayout_172->addWidget(lable_break_mops_10_ch_1);
+
+        lable_break_mops_10_ch_2 = new QLabel(verticalLayoutWidget_54);
+        lable_break_mops_10_ch_2->setObjectName(QString::fromUtf8("lable_break_mops_10_ch_2"));
+
+        horizontalLayout_172->addWidget(lable_break_mops_10_ch_2);
+
+        lable_break_mops_10_ch_3 = new QLabel(verticalLayoutWidget_54);
+        lable_break_mops_10_ch_3->setObjectName(QString::fromUtf8("lable_break_mops_10_ch_3"));
+
+        horizontalLayout_172->addWidget(lable_break_mops_10_ch_3);
+
+        lable_break_mops_10_ch_4 = new QLabel(verticalLayoutWidget_54);
+        lable_break_mops_10_ch_4->setObjectName(QString::fromUtf8("lable_break_mops_10_ch_4"));
+
+        horizontalLayout_172->addWidget(lable_break_mops_10_ch_4);
+
+        lable_break_mops_10_ch_5 = new QLabel(verticalLayoutWidget_54);
+        lable_break_mops_10_ch_5->setObjectName(QString::fromUtf8("lable_break_mops_10_ch_5"));
+
+        horizontalLayout_172->addWidget(lable_break_mops_10_ch_5);
+
+        lable_break_mops_10_ch_6 = new QLabel(verticalLayoutWidget_54);
+        lable_break_mops_10_ch_6->setObjectName(QString::fromUtf8("lable_break_mops_10_ch_6"));
+
+        horizontalLayout_172->addWidget(lable_break_mops_10_ch_6);
+
+        lable_break_mops_10_ch_7 = new QLabel(verticalLayoutWidget_54);
+        lable_break_mops_10_ch_7->setObjectName(QString::fromUtf8("lable_break_mops_10_ch_7"));
+
+        horizontalLayout_172->addWidget(lable_break_mops_10_ch_7);
+
+        lable_break_mops_10_ch_8 = new QLabel(verticalLayoutWidget_54);
+        lable_break_mops_10_ch_8->setObjectName(QString::fromUtf8("lable_break_mops_10_ch_8"));
+
+        horizontalLayout_172->addWidget(lable_break_mops_10_ch_8);
+
+
+        verticalLayout_102->addLayout(horizontalLayout_172);
+
+        verticalLayoutWidget_55 = new QWidget(mops_10);
+        verticalLayoutWidget_55->setObjectName(QString::fromUtf8("verticalLayoutWidget_55"));
+        verticalLayoutWidget_55->setGeometry(QRect(20, 640, 491, 91));
+        verticalLayout_103 = new QVBoxLayout(verticalLayoutWidget_55);
+        verticalLayout_103->setObjectName(QString::fromUtf8("verticalLayout_103"));
+        verticalLayout_103->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_173 = new QHBoxLayout();
+        horizontalLayout_173->setObjectName(QString::fromUtf8("horizontalLayout_173"));
+        just_lable_status_64 = new QLabel(verticalLayoutWidget_55);
+        just_lable_status_64->setObjectName(QString::fromUtf8("just_lable_status_64"));
+
+        horizontalLayout_173->addWidget(just_lable_status_64);
+
+        horizontalSpacer_131 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_173->addItem(horizontalSpacer_131);
+
+        label_510 = new QLabel(verticalLayoutWidget_55);
+        label_510->setObjectName(QString::fromUtf8("label_510"));
+
+        horizontalLayout_173->addWidget(label_510);
+
+        label_511 = new QLabel(verticalLayoutWidget_55);
+        label_511->setObjectName(QString::fromUtf8("label_511"));
+
+        horizontalLayout_173->addWidget(label_511);
+
+        label_512 = new QLabel(verticalLayoutWidget_55);
+        label_512->setObjectName(QString::fromUtf8("label_512"));
+
+        horizontalLayout_173->addWidget(label_512);
+
+        label_513 = new QLabel(verticalLayoutWidget_55);
+        label_513->setObjectName(QString::fromUtf8("label_513"));
+
+        horizontalLayout_173->addWidget(label_513);
+
+        label_514 = new QLabel(verticalLayoutWidget_55);
+        label_514->setObjectName(QString::fromUtf8("label_514"));
+
+        horizontalLayout_173->addWidget(label_514);
+
+        label_515 = new QLabel(verticalLayoutWidget_55);
+        label_515->setObjectName(QString::fromUtf8("label_515"));
+
+        horizontalLayout_173->addWidget(label_515);
+
+        label_516 = new QLabel(verticalLayoutWidget_55);
+        label_516->setObjectName(QString::fromUtf8("label_516"));
+
+        horizontalLayout_173->addWidget(label_516);
+
+        label_517 = new QLabel(verticalLayoutWidget_55);
+        label_517->setObjectName(QString::fromUtf8("label_517"));
+
+        horizontalLayout_173->addWidget(label_517);
+
+
+        verticalLayout_103->addLayout(horizontalLayout_173);
+
+        horizontalLayout_174 = new QHBoxLayout();
+        horizontalLayout_174->setObjectName(QString::fromUtf8("horizontalLayout_174"));
+        just_lable_error_64 = new QLabel(verticalLayoutWidget_55);
+        just_lable_error_64->setObjectName(QString::fromUtf8("just_lable_error_64"));
+
+        horizontalLayout_174->addWidget(just_lable_error_64);
+
+        horizontalSpacer_132 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_174->addItem(horizontalSpacer_132);
+
+        lable_break_mops_10_sc_1 = new QLabel(verticalLayoutWidget_55);
+        lable_break_mops_10_sc_1->setObjectName(QString::fromUtf8("lable_break_mops_10_sc_1"));
+
+        horizontalLayout_174->addWidget(lable_break_mops_10_sc_1);
+
+        lable_break_mops_10_sc_2 = new QLabel(verticalLayoutWidget_55);
+        lable_break_mops_10_sc_2->setObjectName(QString::fromUtf8("lable_break_mops_10_sc_2"));
+
+        horizontalLayout_174->addWidget(lable_break_mops_10_sc_2);
+
+        lable_break_mops_10_sc_3 = new QLabel(verticalLayoutWidget_55);
+        lable_break_mops_10_sc_3->setObjectName(QString::fromUtf8("lable_break_mops_10_sc_3"));
+
+        horizontalLayout_174->addWidget(lable_break_mops_10_sc_3);
+
+        lable_break_mops_10_sc_4 = new QLabel(verticalLayoutWidget_55);
+        lable_break_mops_10_sc_4->setObjectName(QString::fromUtf8("lable_break_mops_10_sc_4"));
+
+        horizontalLayout_174->addWidget(lable_break_mops_10_sc_4);
+
+        lable_break_mops_10_sc_5 = new QLabel(verticalLayoutWidget_55);
+        lable_break_mops_10_sc_5->setObjectName(QString::fromUtf8("lable_break_mops_10_sc_5"));
+
+        horizontalLayout_174->addWidget(lable_break_mops_10_sc_5);
+
+        lable_break_mops_10_sc_6 = new QLabel(verticalLayoutWidget_55);
+        lable_break_mops_10_sc_6->setObjectName(QString::fromUtf8("lable_break_mops_10_sc_6"));
+
+        horizontalLayout_174->addWidget(lable_break_mops_10_sc_6);
+
+        lable_break_mops_10_sc_7 = new QLabel(verticalLayoutWidget_55);
+        lable_break_mops_10_sc_7->setObjectName(QString::fromUtf8("lable_break_mops_10_sc_7"));
+
+        horizontalLayout_174->addWidget(lable_break_mops_10_sc_7);
+
+        lable_break_mops_10_sc_8 = new QLabel(verticalLayoutWidget_55);
+        lable_break_mops_10_sc_8->setObjectName(QString::fromUtf8("lable_break_mops_10_sc_8"));
+
+        horizontalLayout_174->addWidget(lable_break_mops_10_sc_8);
+
+
+        verticalLayout_103->addLayout(horizontalLayout_174);
+
+        just_lable_break_33 = new QLabel(mops_10);
+        just_lable_break_33->setObjectName(QString::fromUtf8("just_lable_break_33"));
+        just_lable_break_33->setGeometry(QRect(220, 610, 151, 21));
+        verticalLayoutWidget_56 = new QWidget(mops_10);
+        verticalLayoutWidget_56->setObjectName(QString::fromUtf8("verticalLayoutWidget_56"));
+        verticalLayoutWidget_56->setGeometry(QRect(20, 260, 491, 91));
+        verticalLayout_104 = new QVBoxLayout(verticalLayoutWidget_56);
+        verticalLayout_104->setObjectName(QString::fromUtf8("verticalLayout_104"));
+        verticalLayout_104->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_175 = new QHBoxLayout();
+        horizontalLayout_175->setObjectName(QString::fromUtf8("horizontalLayout_175"));
+        just_lable_status_65 = new QLabel(verticalLayoutWidget_56);
+        just_lable_status_65->setObjectName(QString::fromUtf8("just_lable_status_65"));
+
+        horizontalLayout_175->addWidget(just_lable_status_65);
+
+        horizontalSpacer_133 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_175->addItem(horizontalSpacer_133);
+
+        label_518 = new QLabel(verticalLayoutWidget_56);
+        label_518->setObjectName(QString::fromUtf8("label_518"));
+
+        horizontalLayout_175->addWidget(label_518);
+
+        label_519 = new QLabel(verticalLayoutWidget_56);
+        label_519->setObjectName(QString::fromUtf8("label_519"));
+
+        horizontalLayout_175->addWidget(label_519);
+
+        label_520 = new QLabel(verticalLayoutWidget_56);
+        label_520->setObjectName(QString::fromUtf8("label_520"));
+
+        horizontalLayout_175->addWidget(label_520);
+
+        label_521 = new QLabel(verticalLayoutWidget_56);
+        label_521->setObjectName(QString::fromUtf8("label_521"));
+
+        horizontalLayout_175->addWidget(label_521);
+
+        label_522 = new QLabel(verticalLayoutWidget_56);
+        label_522->setObjectName(QString::fromUtf8("label_522"));
+
+        horizontalLayout_175->addWidget(label_522);
+
+        label_523 = new QLabel(verticalLayoutWidget_56);
+        label_523->setObjectName(QString::fromUtf8("label_523"));
+
+        horizontalLayout_175->addWidget(label_523);
+
+        label_524 = new QLabel(verticalLayoutWidget_56);
+        label_524->setObjectName(QString::fromUtf8("label_524"));
+
+        horizontalLayout_175->addWidget(label_524);
+
+        label_525 = new QLabel(verticalLayoutWidget_56);
+        label_525->setObjectName(QString::fromUtf8("label_525"));
+
+        horizontalLayout_175->addWidget(label_525);
+
+
+        verticalLayout_104->addLayout(horizontalLayout_175);
+
+        horizontalLayout_176 = new QHBoxLayout();
+        horizontalLayout_176->setObjectName(QString::fromUtf8("horizontalLayout_176"));
+        just_lable_error_65 = new QLabel(verticalLayoutWidget_56);
+        just_lable_error_65->setObjectName(QString::fromUtf8("just_lable_error_65"));
+
+        horizontalLayout_176->addWidget(just_lable_error_65);
+
+        horizontalSpacer_134 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_176->addItem(horizontalSpacer_134);
+
+        lable_norm_mops_10_ch_1 = new QLabel(verticalLayoutWidget_56);
+        lable_norm_mops_10_ch_1->setObjectName(QString::fromUtf8("lable_norm_mops_10_ch_1"));
+
+        horizontalLayout_176->addWidget(lable_norm_mops_10_ch_1);
+
+        lable_norm_mops_10_ch_2 = new QLabel(verticalLayoutWidget_56);
+        lable_norm_mops_10_ch_2->setObjectName(QString::fromUtf8("lable_norm_mops_10_ch_2"));
+
+        horizontalLayout_176->addWidget(lable_norm_mops_10_ch_2);
+
+        lable_norm_mops_10_ch_3 = new QLabel(verticalLayoutWidget_56);
+        lable_norm_mops_10_ch_3->setObjectName(QString::fromUtf8("lable_norm_mops_10_ch_3"));
+
+        horizontalLayout_176->addWidget(lable_norm_mops_10_ch_3);
+
+        lable_norm_mops_10_ch_4 = new QLabel(verticalLayoutWidget_56);
+        lable_norm_mops_10_ch_4->setObjectName(QString::fromUtf8("lable_norm_mops_10_ch_4"));
+
+        horizontalLayout_176->addWidget(lable_norm_mops_10_ch_4);
+
+        lable_norm_mops_10_ch_5 = new QLabel(verticalLayoutWidget_56);
+        lable_norm_mops_10_ch_5->setObjectName(QString::fromUtf8("lable_norm_mops_10_ch_5"));
+
+        horizontalLayout_176->addWidget(lable_norm_mops_10_ch_5);
+
+        lable_norm_mops_10_ch_6 = new QLabel(verticalLayoutWidget_56);
+        lable_norm_mops_10_ch_6->setObjectName(QString::fromUtf8("lable_norm_mops_10_ch_6"));
+
+        horizontalLayout_176->addWidget(lable_norm_mops_10_ch_6);
+
+        lable_norm_mops_10_ch_7 = new QLabel(verticalLayoutWidget_56);
+        lable_norm_mops_10_ch_7->setObjectName(QString::fromUtf8("lable_norm_mops_10_ch_7"));
+
+        horizontalLayout_176->addWidget(lable_norm_mops_10_ch_7);
+
+        lable_norm_mops_10_ch_8 = new QLabel(verticalLayoutWidget_56);
+        lable_norm_mops_10_ch_8->setObjectName(QString::fromUtf8("lable_norm_mops_10_ch_8"));
+
+        horizontalLayout_176->addWidget(lable_norm_mops_10_ch_8);
+
+
+        verticalLayout_104->addLayout(horizontalLayout_176);
+
+        just_lable_break_34 = new QLabel(mops_10);
+        just_lable_break_34->setObjectName(QString::fromUtf8("just_lable_break_34"));
+        just_lable_break_34->setGeometry(QRect(220, 110, 61, 21));
+        just_lable_status_ch_13 = new QLabel(mops_10);
+        just_lable_status_ch_13->setObjectName(QString::fromUtf8("just_lable_status_ch_13"));
+        just_lable_status_ch_13->setGeometry(QRect(180, 80, 151, 31));
+        verticalLayoutWidget_57 = new QWidget(mops_10);
+        verticalLayoutWidget_57->setObjectName(QString::fromUtf8("verticalLayoutWidget_57"));
+        verticalLayoutWidget_57->setGeometry(QRect(20, 510, 491, 91));
+        verticalLayout_105 = new QVBoxLayout(verticalLayoutWidget_57);
+        verticalLayout_105->setObjectName(QString::fromUtf8("verticalLayout_105"));
+        verticalLayout_105->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_177 = new QHBoxLayout();
+        horizontalLayout_177->setObjectName(QString::fromUtf8("horizontalLayout_177"));
+        just_lable_status_66 = new QLabel(verticalLayoutWidget_57);
+        just_lable_status_66->setObjectName(QString::fromUtf8("just_lable_status_66"));
+
+        horizontalLayout_177->addWidget(just_lable_status_66);
+
+        horizontalSpacer_135 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_177->addItem(horizontalSpacer_135);
+
+        label_526 = new QLabel(verticalLayoutWidget_57);
+        label_526->setObjectName(QString::fromUtf8("label_526"));
+
+        horizontalLayout_177->addWidget(label_526);
+
+        label_527 = new QLabel(verticalLayoutWidget_57);
+        label_527->setObjectName(QString::fromUtf8("label_527"));
+
+        horizontalLayout_177->addWidget(label_527);
+
+        label_528 = new QLabel(verticalLayoutWidget_57);
+        label_528->setObjectName(QString::fromUtf8("label_528"));
+
+        horizontalLayout_177->addWidget(label_528);
+
+        label_529 = new QLabel(verticalLayoutWidget_57);
+        label_529->setObjectName(QString::fromUtf8("label_529"));
+
+        horizontalLayout_177->addWidget(label_529);
+
+        label_530 = new QLabel(verticalLayoutWidget_57);
+        label_530->setObjectName(QString::fromUtf8("label_530"));
+
+        horizontalLayout_177->addWidget(label_530);
+
+        label_531 = new QLabel(verticalLayoutWidget_57);
+        label_531->setObjectName(QString::fromUtf8("label_531"));
+
+        horizontalLayout_177->addWidget(label_531);
+
+        label_532 = new QLabel(verticalLayoutWidget_57);
+        label_532->setObjectName(QString::fromUtf8("label_532"));
+
+        horizontalLayout_177->addWidget(label_532);
+
+        label_533 = new QLabel(verticalLayoutWidget_57);
+        label_533->setObjectName(QString::fromUtf8("label_533"));
+
+        horizontalLayout_177->addWidget(label_533);
+
+
+        verticalLayout_105->addLayout(horizontalLayout_177);
+
+        horizontalLayout_178 = new QHBoxLayout();
+        horizontalLayout_178->setObjectName(QString::fromUtf8("horizontalLayout_178"));
+        just_lable_error_66 = new QLabel(verticalLayoutWidget_57);
+        just_lable_error_66->setObjectName(QString::fromUtf8("just_lable_error_66"));
+
+        horizontalLayout_178->addWidget(just_lable_error_66);
+
+        horizontalSpacer_136 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_178->addItem(horizontalSpacer_136);
+
+        lable_fire_mops_10_ch_1 = new QLabel(verticalLayoutWidget_57);
+        lable_fire_mops_10_ch_1->setObjectName(QString::fromUtf8("lable_fire_mops_10_ch_1"));
+
+        horizontalLayout_178->addWidget(lable_fire_mops_10_ch_1);
+
+        lable_fire_mops_10_ch_2 = new QLabel(verticalLayoutWidget_57);
+        lable_fire_mops_10_ch_2->setObjectName(QString::fromUtf8("lable_fire_mops_10_ch_2"));
+
+        horizontalLayout_178->addWidget(lable_fire_mops_10_ch_2);
+
+        lable_fire_mops_10_ch_3 = new QLabel(verticalLayoutWidget_57);
+        lable_fire_mops_10_ch_3->setObjectName(QString::fromUtf8("lable_fire_mops_10_ch_3"));
+
+        horizontalLayout_178->addWidget(lable_fire_mops_10_ch_3);
+
+        lable_fire_mops_10_ch_4 = new QLabel(verticalLayoutWidget_57);
+        lable_fire_mops_10_ch_4->setObjectName(QString::fromUtf8("lable_fire_mops_10_ch_4"));
+
+        horizontalLayout_178->addWidget(lable_fire_mops_10_ch_4);
+
+        lable_fire_mops_10_ch_5 = new QLabel(verticalLayoutWidget_57);
+        lable_fire_mops_10_ch_5->setObjectName(QString::fromUtf8("lable_fire_mops_10_ch_5"));
+
+        horizontalLayout_178->addWidget(lable_fire_mops_10_ch_5);
+
+        lable_fire_mops_10_ch_6 = new QLabel(verticalLayoutWidget_57);
+        lable_fire_mops_10_ch_6->setObjectName(QString::fromUtf8("lable_fire_mops_10_ch_6"));
+
+        horizontalLayout_178->addWidget(lable_fire_mops_10_ch_6);
+
+        lable_fire_mops_10_ch_7 = new QLabel(verticalLayoutWidget_57);
+        lable_fire_mops_10_ch_7->setObjectName(QString::fromUtf8("lable_fire_mops_10_ch_7"));
+
+        horizontalLayout_178->addWidget(lable_fire_mops_10_ch_7);
+
+        lable_fire_mops_10_ch_8 = new QLabel(verticalLayoutWidget_57);
+        lable_fire_mops_10_ch_8->setObjectName(QString::fromUtf8("lable_fire_mops_10_ch_8"));
+
+        horizontalLayout_178->addWidget(lable_fire_mops_10_ch_8);
+
+
+        verticalLayout_105->addLayout(horizontalLayout_178);
+
+        just_lable_break_35 = new QLabel(mops_10);
+        just_lable_break_35->setObjectName(QString::fromUtf8("just_lable_break_35"));
+        just_lable_break_35->setGeometry(QRect(220, 480, 61, 21));
+        just_lable_attantion_14 = new QLabel(mops_10);
+        just_lable_attantion_14->setObjectName(QString::fromUtf8("just_lable_attantion_14"));
+        just_lable_attantion_14->setGeometry(QRect(220, 360, 81, 21));
+        verticalLayoutWidget_58 = new QWidget(mops_10);
+        verticalLayoutWidget_58->setObjectName(QString::fromUtf8("verticalLayoutWidget_58"));
+        verticalLayoutWidget_58->setGeometry(QRect(20, 390, 491, 91));
+        verticalLayout_106 = new QVBoxLayout(verticalLayoutWidget_58);
+        verticalLayout_106->setObjectName(QString::fromUtf8("verticalLayout_106"));
+        verticalLayout_106->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_179 = new QHBoxLayout();
+        horizontalLayout_179->setObjectName(QString::fromUtf8("horizontalLayout_179"));
+        just_lable_status_67 = new QLabel(verticalLayoutWidget_58);
+        just_lable_status_67->setObjectName(QString::fromUtf8("just_lable_status_67"));
+
+        horizontalLayout_179->addWidget(just_lable_status_67);
+
+        horizontalSpacer_137 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_179->addItem(horizontalSpacer_137);
+
+        label_534 = new QLabel(verticalLayoutWidget_58);
+        label_534->setObjectName(QString::fromUtf8("label_534"));
+
+        horizontalLayout_179->addWidget(label_534);
+
+        label_535 = new QLabel(verticalLayoutWidget_58);
+        label_535->setObjectName(QString::fromUtf8("label_535"));
+
+        horizontalLayout_179->addWidget(label_535);
+
+        label_536 = new QLabel(verticalLayoutWidget_58);
+        label_536->setObjectName(QString::fromUtf8("label_536"));
+
+        horizontalLayout_179->addWidget(label_536);
+
+        label_537 = new QLabel(verticalLayoutWidget_58);
+        label_537->setObjectName(QString::fromUtf8("label_537"));
+
+        horizontalLayout_179->addWidget(label_537);
+
+        label_538 = new QLabel(verticalLayoutWidget_58);
+        label_538->setObjectName(QString::fromUtf8("label_538"));
+
+        horizontalLayout_179->addWidget(label_538);
+
+        label_539 = new QLabel(verticalLayoutWidget_58);
+        label_539->setObjectName(QString::fromUtf8("label_539"));
+
+        horizontalLayout_179->addWidget(label_539);
+
+        label_540 = new QLabel(verticalLayoutWidget_58);
+        label_540->setObjectName(QString::fromUtf8("label_540"));
+
+        horizontalLayout_179->addWidget(label_540);
+
+        label_541 = new QLabel(verticalLayoutWidget_58);
+        label_541->setObjectName(QString::fromUtf8("label_541"));
+
+        horizontalLayout_179->addWidget(label_541);
+
+
+        verticalLayout_106->addLayout(horizontalLayout_179);
+
+        horizontalLayout_180 = new QHBoxLayout();
+        horizontalLayout_180->setObjectName(QString::fromUtf8("horizontalLayout_180"));
+        just_lable_error_67 = new QLabel(verticalLayoutWidget_58);
+        just_lable_error_67->setObjectName(QString::fromUtf8("just_lable_error_67"));
+
+        horizontalLayout_180->addWidget(just_lable_error_67);
+
+        horizontalSpacer_138 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_180->addItem(horizontalSpacer_138);
+
+        lable_attantion_mops_10_ch_1 = new QLabel(verticalLayoutWidget_58);
+        lable_attantion_mops_10_ch_1->setObjectName(QString::fromUtf8("lable_attantion_mops_10_ch_1"));
+
+        horizontalLayout_180->addWidget(lable_attantion_mops_10_ch_1);
+
+        lable_attantion_mops_10_ch_2 = new QLabel(verticalLayoutWidget_58);
+        lable_attantion_mops_10_ch_2->setObjectName(QString::fromUtf8("lable_attantion_mops_10_ch_2"));
+
+        horizontalLayout_180->addWidget(lable_attantion_mops_10_ch_2);
+
+        lable_attantion_mops_10_ch_3 = new QLabel(verticalLayoutWidget_58);
+        lable_attantion_mops_10_ch_3->setObjectName(QString::fromUtf8("lable_attantion_mops_10_ch_3"));
+
+        horizontalLayout_180->addWidget(lable_attantion_mops_10_ch_3);
+
+        lable_attantion_mops_10_ch_4 = new QLabel(verticalLayoutWidget_58);
+        lable_attantion_mops_10_ch_4->setObjectName(QString::fromUtf8("lable_attantion_mops_10_ch_4"));
+
+        horizontalLayout_180->addWidget(lable_attantion_mops_10_ch_4);
+
+        lable_attantion_mops_10_ch_5 = new QLabel(verticalLayoutWidget_58);
+        lable_attantion_mops_10_ch_5->setObjectName(QString::fromUtf8("lable_attantion_mops_10_ch_5"));
+
+        horizontalLayout_180->addWidget(lable_attantion_mops_10_ch_5);
+
+        lable_attantion_mops_10_ch_6 = new QLabel(verticalLayoutWidget_58);
+        lable_attantion_mops_10_ch_6->setObjectName(QString::fromUtf8("lable_attantion_mops_10_ch_6"));
+
+        horizontalLayout_180->addWidget(lable_attantion_mops_10_ch_6);
+
+        lable_attantion_mops_10_ch_7 = new QLabel(verticalLayoutWidget_58);
+        lable_attantion_mops_10_ch_7->setObjectName(QString::fromUtf8("lable_attantion_mops_10_ch_7"));
+
+        horizontalLayout_180->addWidget(lable_attantion_mops_10_ch_7);
+
+        lable_attantion_mops_10_ch_8 = new QLabel(verticalLayoutWidget_58);
+        lable_attantion_mops_10_ch_8->setObjectName(QString::fromUtf8("lable_attantion_mops_10_ch_8"));
+
+        horizontalLayout_180->addWidget(lable_attantion_mops_10_ch_8);
+
+
+        verticalLayout_106->addLayout(horizontalLayout_180);
+
+        layoutWidget_34 = new QWidget(mops_10);
+        layoutWidget_34->setObjectName(QString::fromUtf8("layoutWidget_34"));
+        layoutWidget_34->setGeometry(QRect(360, 10, 150, 98));
+        verticalLayout_107 = new QVBoxLayout(layoutWidget_34);
+        verticalLayout_107->setObjectName(QString::fromUtf8("verticalLayout_107"));
+        verticalLayout_107->setContentsMargins(0, 0, 0, 0);
+        just_lable_supply_err_13 = new QLabel(layoutWidget_34);
+        just_lable_supply_err_13->setObjectName(QString::fromUtf8("just_lable_supply_err_13"));
+
+        verticalLayout_107->addWidget(just_lable_supply_err_13);
+
+        horizontalLayout_181 = new QHBoxLayout();
+        horizontalLayout_181->setObjectName(QString::fromUtf8("horizontalLayout_181"));
+        verticalLayout_108 = new QVBoxLayout();
+        verticalLayout_108->setObjectName(QString::fromUtf8("verticalLayout_108"));
+        just_lable_18v_13 = new QLabel(layoutWidget_34);
+        just_lable_18v_13->setObjectName(QString::fromUtf8("just_lable_18v_13"));
+
+        verticalLayout_108->addWidget(just_lable_18v_13);
+
+        just_lable_24v_13 = new QLabel(layoutWidget_34);
+        just_lable_24v_13->setObjectName(QString::fromUtf8("just_lable_24v_13"));
+
+        verticalLayout_108->addWidget(just_lable_24v_13);
+
+        just_lable_28v_13 = new QLabel(layoutWidget_34);
+        just_lable_28v_13->setObjectName(QString::fromUtf8("just_lable_28v_13"));
+
+        verticalLayout_108->addWidget(just_lable_28v_13);
+
+
+        horizontalLayout_181->addLayout(verticalLayout_108);
+
+        verticalLayout_109 = new QVBoxLayout();
+        verticalLayout_109->setObjectName(QString::fromUtf8("verticalLayout_109"));
+        lable_18v_ans_mops_10 = new QLabel(layoutWidget_34);
+        lable_18v_ans_mops_10->setObjectName(QString::fromUtf8("lable_18v_ans_mops_10"));
+
+        verticalLayout_109->addWidget(lable_18v_ans_mops_10);
+
+        lable_24v_ans_mops_10 = new QLabel(layoutWidget_34);
+        lable_24v_ans_mops_10->setObjectName(QString::fromUtf8("lable_24v_ans_mops_10"));
+
+        verticalLayout_109->addWidget(lable_24v_ans_mops_10);
+
+        lable_28v_ans_mops_10 = new QLabel(layoutWidget_34);
+        lable_28v_ans_mops_10->setObjectName(QString::fromUtf8("lable_28v_ans_mops_10"));
+
+        verticalLayout_109->addWidget(lable_28v_ans_mops_10);
+
+
+        horizontalLayout_181->addLayout(verticalLayout_109);
+
+
+        verticalLayout_107->addLayout(horizontalLayout_181);
+
+        layoutWidget_35 = new QWidget(mops_10);
+        layoutWidget_35->setObjectName(QString::fromUtf8("layoutWidget_35"));
+        layoutWidget_35->setGeometry(QRect(10, 40, 244, 22));
+        horizontalLayout_182 = new QHBoxLayout(layoutWidget_35);
+        horizontalLayout_182->setObjectName(QString::fromUtf8("horizontalLayout_182"));
+        horizontalLayout_182->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_30 = new QLabel(layoutWidget_35);
+        just_lable_online_status_req_mops_30->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_30"));
+
+        horizontalLayout_182->addWidget(just_lable_online_status_req_mops_30);
+
+        just_lable_oper_status_ans_mops_10 = new QLabel(layoutWidget_35);
+        just_lable_oper_status_ans_mops_10->setObjectName(QString::fromUtf8("just_lable_oper_status_ans_mops_10"));
+        just_lable_oper_status_ans_mops_10->setMinimumSize(QSize(102, 0));
+        just_lable_oper_status_ans_mops_10->setScaledContents(false);
+        just_lable_oper_status_ans_mops_10->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_182->addWidget(just_lable_oper_status_ans_mops_10);
+
         tab_widget_for_mops->addTab(mops_10, QString());
 
         horizontalLayout_3->addWidget(tab_widget_for_mops);
 
-        tab_widget_for_mups = new QTabWidget(widget1);
+        tab_widget_for_mups = new QTabWidget(layoutWidget1);
         tab_widget_for_mups->setObjectName(QString::fromUtf8("tab_widget_for_mups"));
         mups_1 = new QWidget();
         mups_1->setObjectName(QString::fromUtf8("mups_1"));
@@ -1330,10 +9628,652 @@ public:
 
         horizontalLayout_3->addWidget(tab_widget_for_mups);
 
+        verticalLayoutWidget_59 = new QWidget(centralwidget);
+        verticalLayoutWidget_59->setObjectName(QString::fromUtf8("verticalLayoutWidget_59"));
+        verticalLayoutWidget_59->setGeometry(QRect(580, 1040, 491, 91));
+        verticalLayout_22 = new QVBoxLayout(verticalLayoutWidget_59);
+        verticalLayout_22->setObjectName(QString::fromUtf8("verticalLayout_22"));
+        verticalLayout_22->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_40 = new QHBoxLayout();
+        horizontalLayout_40->setObjectName(QString::fromUtf8("horizontalLayout_40"));
+        just_lable_status_13 = new QLabel(verticalLayoutWidget_59);
+        just_lable_status_13->setObjectName(QString::fromUtf8("just_lable_status_13"));
+
+        horizontalLayout_40->addWidget(just_lable_status_13);
+
+        horizontalSpacer_29 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_40->addItem(horizontalSpacer_29);
+
+        label_12 = new QLabel(verticalLayoutWidget_59);
+        label_12->setObjectName(QString::fromUtf8("label_12"));
+
+        horizontalLayout_40->addWidget(label_12);
+
+        label_13 = new QLabel(verticalLayoutWidget_59);
+        label_13->setObjectName(QString::fromUtf8("label_13"));
+
+        horizontalLayout_40->addWidget(label_13);
+
+        label_102 = new QLabel(verticalLayoutWidget_59);
+        label_102->setObjectName(QString::fromUtf8("label_102"));
+
+        horizontalLayout_40->addWidget(label_102);
+
+        label_103 = new QLabel(verticalLayoutWidget_59);
+        label_103->setObjectName(QString::fromUtf8("label_103"));
+
+        horizontalLayout_40->addWidget(label_103);
+
+
+        verticalLayout_22->addLayout(horizontalLayout_40);
+
+        horizontalLayout_41 = new QHBoxLayout();
+        horizontalLayout_41->setObjectName(QString::fromUtf8("horizontalLayout_41"));
+        just_lable_error_13 = new QLabel(verticalLayoutWidget_59);
+        just_lable_error_13->setObjectName(QString::fromUtf8("just_lable_error_13"));
+
+        horizontalLayout_41->addWidget(just_lable_error_13);
+
+        horizontalSpacer_30 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_41->addItem(horizontalSpacer_30);
+
+        lable_break_mops_1_ch_11 = new QLabel(verticalLayoutWidget_59);
+        lable_break_mops_1_ch_11->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_11"));
+
+        horizontalLayout_41->addWidget(lable_break_mops_1_ch_11);
+
+        lable_break_mops_1_ch_12 = new QLabel(verticalLayoutWidget_59);
+        lable_break_mops_1_ch_12->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_12"));
+
+        horizontalLayout_41->addWidget(lable_break_mops_1_ch_12);
+
+        lable_break_mops_1_ch_37 = new QLabel(verticalLayoutWidget_59);
+        lable_break_mops_1_ch_37->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_37"));
+
+        horizontalLayout_41->addWidget(lable_break_mops_1_ch_37);
+
+        lable_break_mops_1_ch_38 = new QLabel(verticalLayoutWidget_59);
+        lable_break_mops_1_ch_38->setObjectName(QString::fromUtf8("lable_break_mops_1_ch_38"));
+
+        horizontalLayout_41->addWidget(lable_break_mops_1_ch_38);
+
+
+        verticalLayout_22->addLayout(horizontalLayout_41);
+
+        verticalLayoutWidget_60 = new QWidget(centralwidget);
+        verticalLayoutWidget_60->setObjectName(QString::fromUtf8("verticalLayoutWidget_60"));
+        verticalLayoutWidget_60->setGeometry(QRect(580, 1290, 491, 91));
+        verticalLayout_23 = new QVBoxLayout(verticalLayoutWidget_60);
+        verticalLayout_23->setObjectName(QString::fromUtf8("verticalLayout_23"));
+        verticalLayout_23->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_42 = new QHBoxLayout();
+        horizontalLayout_42->setObjectName(QString::fromUtf8("horizontalLayout_42"));
+        just_lable_status_14 = new QLabel(verticalLayoutWidget_60);
+        just_lable_status_14->setObjectName(QString::fromUtf8("just_lable_status_14"));
+
+        horizontalLayout_42->addWidget(just_lable_status_14);
+
+        horizontalSpacer_31 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_42->addItem(horizontalSpacer_31);
+
+        label_108 = new QLabel(verticalLayoutWidget_60);
+        label_108->setObjectName(QString::fromUtf8("label_108"));
+
+        horizontalLayout_42->addWidget(label_108);
+
+        label_109 = new QLabel(verticalLayoutWidget_60);
+        label_109->setObjectName(QString::fromUtf8("label_109"));
+
+        horizontalLayout_42->addWidget(label_109);
+
+        label_110 = new QLabel(verticalLayoutWidget_60);
+        label_110->setObjectName(QString::fromUtf8("label_110"));
+
+        horizontalLayout_42->addWidget(label_110);
+
+        label_111 = new QLabel(verticalLayoutWidget_60);
+        label_111->setObjectName(QString::fromUtf8("label_111"));
+
+        horizontalLayout_42->addWidget(label_111);
+
+        label_112 = new QLabel(verticalLayoutWidget_60);
+        label_112->setObjectName(QString::fromUtf8("label_112"));
+
+        horizontalLayout_42->addWidget(label_112);
+
+        label_113 = new QLabel(verticalLayoutWidget_60);
+        label_113->setObjectName(QString::fromUtf8("label_113"));
+
+        horizontalLayout_42->addWidget(label_113);
+
+        label_114 = new QLabel(verticalLayoutWidget_60);
+        label_114->setObjectName(QString::fromUtf8("label_114"));
+
+        horizontalLayout_42->addWidget(label_114);
+
+        label_115 = new QLabel(verticalLayoutWidget_60);
+        label_115->setObjectName(QString::fromUtf8("label_115"));
+
+        horizontalLayout_42->addWidget(label_115);
+
+
+        verticalLayout_23->addLayout(horizontalLayout_42);
+
+        horizontalLayout_43 = new QHBoxLayout();
+        horizontalLayout_43->setObjectName(QString::fromUtf8("horizontalLayout_43"));
+        just_lable_error_14 = new QLabel(verticalLayoutWidget_60);
+        just_lable_error_14->setObjectName(QString::fromUtf8("just_lable_error_14"));
+
+        horizontalLayout_43->addWidget(just_lable_error_14);
+
+        horizontalSpacer_32 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_43->addItem(horizontalSpacer_32);
+
+        lable_attantion_mops_1_ch_17 = new QLabel(verticalLayoutWidget_60);
+        lable_attantion_mops_1_ch_17->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_17"));
+
+        horizontalLayout_43->addWidget(lable_attantion_mops_1_ch_17);
+
+        lable_attantion_mops_1_ch_18 = new QLabel(verticalLayoutWidget_60);
+        lable_attantion_mops_1_ch_18->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_18"));
+
+        horizontalLayout_43->addWidget(lable_attantion_mops_1_ch_18);
+
+        lable_attantion_mops_1_ch_19 = new QLabel(verticalLayoutWidget_60);
+        lable_attantion_mops_1_ch_19->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_19"));
+
+        horizontalLayout_43->addWidget(lable_attantion_mops_1_ch_19);
+
+        lable_attantion_mops_1_ch_20 = new QLabel(verticalLayoutWidget_60);
+        lable_attantion_mops_1_ch_20->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_20"));
+
+        horizontalLayout_43->addWidget(lable_attantion_mops_1_ch_20);
+
+        lable_attantion_mops_1_ch_21 = new QLabel(verticalLayoutWidget_60);
+        lable_attantion_mops_1_ch_21->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_21"));
+
+        horizontalLayout_43->addWidget(lable_attantion_mops_1_ch_21);
+
+        lable_attantion_mops_1_ch_22 = new QLabel(verticalLayoutWidget_60);
+        lable_attantion_mops_1_ch_22->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_22"));
+
+        horizontalLayout_43->addWidget(lable_attantion_mops_1_ch_22);
+
+        lable_attantion_mops_1_ch_23 = new QLabel(verticalLayoutWidget_60);
+        lable_attantion_mops_1_ch_23->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_23"));
+
+        horizontalLayout_43->addWidget(lable_attantion_mops_1_ch_23);
+
+        lable_attantion_mops_1_ch_24 = new QLabel(verticalLayoutWidget_60);
+        lable_attantion_mops_1_ch_24->setObjectName(QString::fromUtf8("lable_attantion_mops_1_ch_24"));
+
+        horizontalLayout_43->addWidget(lable_attantion_mops_1_ch_24);
+
+
+        verticalLayout_23->addLayout(horizontalLayout_43);
+
+        just_lable_status_ch_14 = new QLabel(centralwidget);
+        just_lable_status_ch_14->setObjectName(QString::fromUtf8("just_lable_status_ch_14"));
+        just_lable_status_ch_14->setGeometry(QRect(740, 980, 151, 31));
+        layoutWidget_5 = new QWidget(centralwidget);
+        layoutWidget_5->setObjectName(QString::fromUtf8("layoutWidget_5"));
+        layoutWidget_5->setGeometry(QRect(570, 940, 244, 22));
+        horizontalLayout_44 = new QHBoxLayout(layoutWidget_5);
+        horizontalLayout_44->setObjectName(QString::fromUtf8("horizontalLayout_44"));
+        horizontalLayout_44->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_9 = new QLabel(layoutWidget_5);
+        just_lable_online_status_req_mops_9->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_9"));
+
+        horizontalLayout_44->addWidget(just_lable_online_status_req_mops_9);
+
+        just_lable_oper_status_ans_mups_ = new QLabel(layoutWidget_5);
+        just_lable_oper_status_ans_mups_->setObjectName(QString::fromUtf8("just_lable_oper_status_ans_mups_"));
+        just_lable_oper_status_ans_mups_->setMinimumSize(QSize(102, 0));
+        just_lable_oper_status_ans_mups_->setScaledContents(false);
+        just_lable_oper_status_ans_mups_->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_44->addWidget(just_lable_oper_status_ans_mups_);
+
+        just_lable_break_36 = new QLabel(centralwidget);
+        just_lable_break_36->setObjectName(QString::fromUtf8("just_lable_break_36"));
+        just_lable_break_36->setGeometry(QRect(780, 1510, 151, 21));
+        just_lable_break_37 = new QLabel(centralwidget);
+        just_lable_break_37->setObjectName(QString::fromUtf8("just_lable_break_37"));
+        just_lable_break_37->setGeometry(QRect(780, 1010, 61, 21));
+        just_lable_attantion_15 = new QLabel(centralwidget);
+        just_lable_attantion_15->setObjectName(QString::fromUtf8("just_lable_attantion_15"));
+        just_lable_attantion_15->setGeometry(QRect(780, 1260, 81, 21));
+        layoutWidget_36 = new QWidget(centralwidget);
+        layoutWidget_36->setObjectName(QString::fromUtf8("layoutWidget_36"));
+        layoutWidget_36->setGeometry(QRect(570, 910, 219, 22));
+        horizontalLayout_45 = new QHBoxLayout(layoutWidget_36);
+        horizontalLayout_45->setObjectName(QString::fromUtf8("horizontalLayout_45"));
+        horizontalLayout_45->setContentsMargins(0, 0, 0, 0);
+        just_lable_online_status_req_mops_10 = new QLabel(layoutWidget_36);
+        just_lable_online_status_req_mops_10->setObjectName(QString::fromUtf8("just_lable_online_status_req_mops_10"));
+
+        horizontalLayout_45->addWidget(just_lable_online_status_req_mops_10);
+
+        just_lable_online_status_ans_mups_ = new QLabel(layoutWidget_36);
+        just_lable_online_status_ans_mups_->setObjectName(QString::fromUtf8("just_lable_online_status_ans_mups_"));
+        just_lable_online_status_ans_mups_->setMinimumSize(QSize(102, 0));
+        just_lable_online_status_ans_mups_->setScaledContents(false);
+        just_lable_online_status_ans_mups_->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+
+        horizontalLayout_45->addWidget(just_lable_online_status_ans_mups_);
+
+        verticalLayoutWidget_61 = new QWidget(centralwidget);
+        verticalLayoutWidget_61->setObjectName(QString::fromUtf8("verticalLayoutWidget_61"));
+        verticalLayoutWidget_61->setGeometry(QRect(580, 1160, 491, 91));
+        verticalLayout_24 = new QVBoxLayout(verticalLayoutWidget_61);
+        verticalLayout_24->setObjectName(QString::fromUtf8("verticalLayout_24"));
+        verticalLayout_24->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_46 = new QHBoxLayout();
+        horizontalLayout_46->setObjectName(QString::fromUtf8("horizontalLayout_46"));
+        just_lable_status_15 = new QLabel(verticalLayoutWidget_61);
+        just_lable_status_15->setObjectName(QString::fromUtf8("just_lable_status_15"));
+
+        horizontalLayout_46->addWidget(just_lable_status_15);
+
+        horizontalSpacer_33 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_46->addItem(horizontalSpacer_33);
+
+        label_116 = new QLabel(verticalLayoutWidget_61);
+        label_116->setObjectName(QString::fromUtf8("label_116"));
+
+        horizontalLayout_46->addWidget(label_116);
+
+        label_117 = new QLabel(verticalLayoutWidget_61);
+        label_117->setObjectName(QString::fromUtf8("label_117"));
+
+        horizontalLayout_46->addWidget(label_117);
+
+        label_118 = new QLabel(verticalLayoutWidget_61);
+        label_118->setObjectName(QString::fromUtf8("label_118"));
+
+        horizontalLayout_46->addWidget(label_118);
+
+        label_119 = new QLabel(verticalLayoutWidget_61);
+        label_119->setObjectName(QString::fromUtf8("label_119"));
+
+        horizontalLayout_46->addWidget(label_119);
+
+        label_120 = new QLabel(verticalLayoutWidget_61);
+        label_120->setObjectName(QString::fromUtf8("label_120"));
+
+        horizontalLayout_46->addWidget(label_120);
+
+        label_121 = new QLabel(verticalLayoutWidget_61);
+        label_121->setObjectName(QString::fromUtf8("label_121"));
+
+        horizontalLayout_46->addWidget(label_121);
+
+        label_122 = new QLabel(verticalLayoutWidget_61);
+        label_122->setObjectName(QString::fromUtf8("label_122"));
+
+        horizontalLayout_46->addWidget(label_122);
+
+        label_123 = new QLabel(verticalLayoutWidget_61);
+        label_123->setObjectName(QString::fromUtf8("label_123"));
+
+        horizontalLayout_46->addWidget(label_123);
+
+
+        verticalLayout_24->addLayout(horizontalLayout_46);
+
+        horizontalLayout_47 = new QHBoxLayout();
+        horizontalLayout_47->setObjectName(QString::fromUtf8("horizontalLayout_47"));
+        just_lable_error_15 = new QLabel(verticalLayoutWidget_61);
+        just_lable_error_15->setObjectName(QString::fromUtf8("just_lable_error_15"));
+
+        horizontalLayout_47->addWidget(just_lable_error_15);
+
+        horizontalSpacer_34 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_47->addItem(horizontalSpacer_34);
+
+        lable_norm_mops_1_ch_17 = new QLabel(verticalLayoutWidget_61);
+        lable_norm_mops_1_ch_17->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_17"));
+
+        horizontalLayout_47->addWidget(lable_norm_mops_1_ch_17);
+
+        lable_norm_mops_1_ch_18 = new QLabel(verticalLayoutWidget_61);
+        lable_norm_mops_1_ch_18->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_18"));
+
+        horizontalLayout_47->addWidget(lable_norm_mops_1_ch_18);
+
+        lable_norm_mops_1_ch_19 = new QLabel(verticalLayoutWidget_61);
+        lable_norm_mops_1_ch_19->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_19"));
+
+        horizontalLayout_47->addWidget(lable_norm_mops_1_ch_19);
+
+        lable_norm_mops_1_ch_20 = new QLabel(verticalLayoutWidget_61);
+        lable_norm_mops_1_ch_20->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_20"));
+
+        horizontalLayout_47->addWidget(lable_norm_mops_1_ch_20);
+
+        lable_norm_mops_1_ch_21 = new QLabel(verticalLayoutWidget_61);
+        lable_norm_mops_1_ch_21->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_21"));
+
+        horizontalLayout_47->addWidget(lable_norm_mops_1_ch_21);
+
+        lable_norm_mops_1_ch_22 = new QLabel(verticalLayoutWidget_61);
+        lable_norm_mops_1_ch_22->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_22"));
+
+        horizontalLayout_47->addWidget(lable_norm_mops_1_ch_22);
+
+        lable_norm_mops_1_ch_23 = new QLabel(verticalLayoutWidget_61);
+        lable_norm_mops_1_ch_23->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_23"));
+
+        horizontalLayout_47->addWidget(lable_norm_mops_1_ch_23);
+
+        lable_norm_mops_1_ch_24 = new QLabel(verticalLayoutWidget_61);
+        lable_norm_mops_1_ch_24->setObjectName(QString::fromUtf8("lable_norm_mops_1_ch_24"));
+
+        horizontalLayout_47->addWidget(lable_norm_mops_1_ch_24);
+
+
+        verticalLayout_24->addLayout(horizontalLayout_47);
+
+        layoutWidget_37 = new QWidget(centralwidget);
+        layoutWidget_37->setObjectName(QString::fromUtf8("layoutWidget_37"));
+        layoutWidget_37->setGeometry(QRect(920, 910, 150, 98));
+        verticalLayout_25 = new QVBoxLayout(layoutWidget_37);
+        verticalLayout_25->setObjectName(QString::fromUtf8("verticalLayout_25"));
+        verticalLayout_25->setContentsMargins(0, 0, 0, 0);
+        just_lable_supply_err_3 = new QLabel(layoutWidget_37);
+        just_lable_supply_err_3->setObjectName(QString::fromUtf8("just_lable_supply_err_3"));
+
+        verticalLayout_25->addWidget(just_lable_supply_err_3);
+
+        horizontalLayout_48 = new QHBoxLayout();
+        horizontalLayout_48->setObjectName(QString::fromUtf8("horizontalLayout_48"));
+        verticalLayout_26 = new QVBoxLayout();
+        verticalLayout_26->setObjectName(QString::fromUtf8("verticalLayout_26"));
+        just_lable_18v_3 = new QLabel(layoutWidget_37);
+        just_lable_18v_3->setObjectName(QString::fromUtf8("just_lable_18v_3"));
+
+        verticalLayout_26->addWidget(just_lable_18v_3);
+
+        just_lable_24v_3 = new QLabel(layoutWidget_37);
+        just_lable_24v_3->setObjectName(QString::fromUtf8("just_lable_24v_3"));
+
+        verticalLayout_26->addWidget(just_lable_24v_3);
+
+        just_lable_28v_3 = new QLabel(layoutWidget_37);
+        just_lable_28v_3->setObjectName(QString::fromUtf8("just_lable_28v_3"));
+
+        verticalLayout_26->addWidget(just_lable_28v_3);
+
+
+        horizontalLayout_48->addLayout(verticalLayout_26);
+
+        verticalLayout_27 = new QVBoxLayout();
+        verticalLayout_27->setObjectName(QString::fromUtf8("verticalLayout_27"));
+        lable_18v_ans_mups_ = new QLabel(layoutWidget_37);
+        lable_18v_ans_mups_->setObjectName(QString::fromUtf8("lable_18v_ans_mups_"));
+
+        verticalLayout_27->addWidget(lable_18v_ans_mups_);
+
+        lable_24v_ans_mups_ = new QLabel(layoutWidget_37);
+        lable_24v_ans_mups_->setObjectName(QString::fromUtf8("lable_24v_ans_mups_"));
+
+        verticalLayout_27->addWidget(lable_24v_ans_mups_);
+
+        lable_28v_ans_mups_ = new QLabel(layoutWidget_37);
+        lable_28v_ans_mups_->setObjectName(QString::fromUtf8("lable_28v_ans_mups_"));
+
+        verticalLayout_27->addWidget(lable_28v_ans_mups_);
+
+
+        horizontalLayout_48->addLayout(verticalLayout_27);
+
+
+        verticalLayout_25->addLayout(horizontalLayout_48);
+
+        verticalLayoutWidget_62 = new QWidget(centralwidget);
+        verticalLayoutWidget_62->setObjectName(QString::fromUtf8("verticalLayoutWidget_62"));
+        verticalLayoutWidget_62->setGeometry(QRect(580, 1410, 491, 91));
+        verticalLayout_28 = new QVBoxLayout(verticalLayoutWidget_62);
+        verticalLayout_28->setObjectName(QString::fromUtf8("verticalLayout_28"));
+        verticalLayout_28->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_49 = new QHBoxLayout();
+        horizontalLayout_49->setObjectName(QString::fromUtf8("horizontalLayout_49"));
+        just_lable_status_16 = new QLabel(verticalLayoutWidget_62);
+        just_lable_status_16->setObjectName(QString::fromUtf8("just_lable_status_16"));
+
+        horizontalLayout_49->addWidget(just_lable_status_16);
+
+        horizontalSpacer_35 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_49->addItem(horizontalSpacer_35);
+
+        label_124 = new QLabel(verticalLayoutWidget_62);
+        label_124->setObjectName(QString::fromUtf8("label_124"));
+
+        horizontalLayout_49->addWidget(label_124);
+
+        label_125 = new QLabel(verticalLayoutWidget_62);
+        label_125->setObjectName(QString::fromUtf8("label_125"));
+
+        horizontalLayout_49->addWidget(label_125);
+
+        label_126 = new QLabel(verticalLayoutWidget_62);
+        label_126->setObjectName(QString::fromUtf8("label_126"));
+
+        horizontalLayout_49->addWidget(label_126);
+
+        label_127 = new QLabel(verticalLayoutWidget_62);
+        label_127->setObjectName(QString::fromUtf8("label_127"));
+
+        horizontalLayout_49->addWidget(label_127);
+
+        label_128 = new QLabel(verticalLayoutWidget_62);
+        label_128->setObjectName(QString::fromUtf8("label_128"));
+
+        horizontalLayout_49->addWidget(label_128);
+
+        label_129 = new QLabel(verticalLayoutWidget_62);
+        label_129->setObjectName(QString::fromUtf8("label_129"));
+
+        horizontalLayout_49->addWidget(label_129);
+
+        label_130 = new QLabel(verticalLayoutWidget_62);
+        label_130->setObjectName(QString::fromUtf8("label_130"));
+
+        horizontalLayout_49->addWidget(label_130);
+
+        label_131 = new QLabel(verticalLayoutWidget_62);
+        label_131->setObjectName(QString::fromUtf8("label_131"));
+
+        horizontalLayout_49->addWidget(label_131);
+
+
+        verticalLayout_28->addLayout(horizontalLayout_49);
+
+        horizontalLayout_50 = new QHBoxLayout();
+        horizontalLayout_50->setObjectName(QString::fromUtf8("horizontalLayout_50"));
+        just_lable_error_16 = new QLabel(verticalLayoutWidget_62);
+        just_lable_error_16->setObjectName(QString::fromUtf8("just_lable_error_16"));
+
+        horizontalLayout_50->addWidget(just_lable_error_16);
+
+        horizontalSpacer_36 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_50->addItem(horizontalSpacer_36);
+
+        lable_fire_mops_1_ch_17 = new QLabel(verticalLayoutWidget_62);
+        lable_fire_mops_1_ch_17->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_17"));
+
+        horizontalLayout_50->addWidget(lable_fire_mops_1_ch_17);
+
+        lable_fire_mops_1_ch_18 = new QLabel(verticalLayoutWidget_62);
+        lable_fire_mops_1_ch_18->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_18"));
+
+        horizontalLayout_50->addWidget(lable_fire_mops_1_ch_18);
+
+        lable_fire_mops_1_ch_19 = new QLabel(verticalLayoutWidget_62);
+        lable_fire_mops_1_ch_19->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_19"));
+
+        horizontalLayout_50->addWidget(lable_fire_mops_1_ch_19);
+
+        lable_fire_mops_1_ch_20 = new QLabel(verticalLayoutWidget_62);
+        lable_fire_mops_1_ch_20->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_20"));
+
+        horizontalLayout_50->addWidget(lable_fire_mops_1_ch_20);
+
+        lable_fire_mops_1_ch_21 = new QLabel(verticalLayoutWidget_62);
+        lable_fire_mops_1_ch_21->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_21"));
+
+        horizontalLayout_50->addWidget(lable_fire_mops_1_ch_21);
+
+        lable_fire_mops_1_ch_22 = new QLabel(verticalLayoutWidget_62);
+        lable_fire_mops_1_ch_22->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_22"));
+
+        horizontalLayout_50->addWidget(lable_fire_mops_1_ch_22);
+
+        lable_fire_mops_1_ch_23 = new QLabel(verticalLayoutWidget_62);
+        lable_fire_mops_1_ch_23->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_23"));
+
+        horizontalLayout_50->addWidget(lable_fire_mops_1_ch_23);
+
+        lable_fire_mops_1_ch_24 = new QLabel(verticalLayoutWidget_62);
+        lable_fire_mops_1_ch_24->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_24"));
+
+        horizontalLayout_50->addWidget(lable_fire_mops_1_ch_24);
+
+
+        verticalLayout_28->addLayout(horizontalLayout_50);
+
+        just_lable_norm_12 = new QLabel(centralwidget);
+        just_lable_norm_12->setObjectName(QString::fromUtf8("just_lable_norm_12"));
+        just_lable_norm_12->setGeometry(QRect(780, 1130, 61, 21));
+        just_lable_break_38 = new QLabel(centralwidget);
+        just_lable_break_38->setObjectName(QString::fromUtf8("just_lable_break_38"));
+        just_lable_break_38->setGeometry(QRect(780, 1380, 61, 21));
+        verticalLayoutWidget_63 = new QWidget(centralwidget);
+        verticalLayoutWidget_63->setObjectName(QString::fromUtf8("verticalLayoutWidget_63"));
+        verticalLayoutWidget_63->setGeometry(QRect(580, 1540, 491, 91));
+        verticalLayout_29 = new QVBoxLayout(verticalLayoutWidget_63);
+        verticalLayout_29->setObjectName(QString::fromUtf8("verticalLayout_29"));
+        verticalLayout_29->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_51 = new QHBoxLayout();
+        horizontalLayout_51->setObjectName(QString::fromUtf8("horizontalLayout_51"));
+        just_lable_status_17 = new QLabel(verticalLayoutWidget_63);
+        just_lable_status_17->setObjectName(QString::fromUtf8("just_lable_status_17"));
+
+        horizontalLayout_51->addWidget(just_lable_status_17);
+
+        horizontalSpacer_37 = new QSpacerItem(42, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_51->addItem(horizontalSpacer_37);
+
+        label_132 = new QLabel(verticalLayoutWidget_63);
+        label_132->setObjectName(QString::fromUtf8("label_132"));
+
+        horizontalLayout_51->addWidget(label_132);
+
+        label_133 = new QLabel(verticalLayoutWidget_63);
+        label_133->setObjectName(QString::fromUtf8("label_133"));
+
+        horizontalLayout_51->addWidget(label_133);
+
+        label_134 = new QLabel(verticalLayoutWidget_63);
+        label_134->setObjectName(QString::fromUtf8("label_134"));
+
+        horizontalLayout_51->addWidget(label_134);
+
+        label_135 = new QLabel(verticalLayoutWidget_63);
+        label_135->setObjectName(QString::fromUtf8("label_135"));
+
+        horizontalLayout_51->addWidget(label_135);
+
+        label_136 = new QLabel(verticalLayoutWidget_63);
+        label_136->setObjectName(QString::fromUtf8("label_136"));
+
+        horizontalLayout_51->addWidget(label_136);
+
+        label_137 = new QLabel(verticalLayoutWidget_63);
+        label_137->setObjectName(QString::fromUtf8("label_137"));
+
+        horizontalLayout_51->addWidget(label_137);
+
+        label_138 = new QLabel(verticalLayoutWidget_63);
+        label_138->setObjectName(QString::fromUtf8("label_138"));
+
+        horizontalLayout_51->addWidget(label_138);
+
+        label_139 = new QLabel(verticalLayoutWidget_63);
+        label_139->setObjectName(QString::fromUtf8("label_139"));
+
+        horizontalLayout_51->addWidget(label_139);
+
+
+        verticalLayout_29->addLayout(horizontalLayout_51);
+
+        horizontalLayout_52 = new QHBoxLayout();
+        horizontalLayout_52->setObjectName(QString::fromUtf8("horizontalLayout_52"));
+        just_lable_error_17 = new QLabel(verticalLayoutWidget_63);
+        just_lable_error_17->setObjectName(QString::fromUtf8("just_lable_error_17"));
+
+        horizontalLayout_52->addWidget(just_lable_error_17);
+
+        horizontalSpacer_38 = new QSpacerItem(32, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+
+        horizontalLayout_52->addItem(horizontalSpacer_38);
+
+        lable_break_mops_1_sc_17 = new QLabel(verticalLayoutWidget_63);
+        lable_break_mops_1_sc_17->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_17"));
+
+        horizontalLayout_52->addWidget(lable_break_mops_1_sc_17);
+
+        lable_break_mops_1_sc_18 = new QLabel(verticalLayoutWidget_63);
+        lable_break_mops_1_sc_18->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_18"));
+
+        horizontalLayout_52->addWidget(lable_break_mops_1_sc_18);
+
+        lable_break_mops_1_sc_19 = new QLabel(verticalLayoutWidget_63);
+        lable_break_mops_1_sc_19->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_19"));
+
+        horizontalLayout_52->addWidget(lable_break_mops_1_sc_19);
+
+        lable_break_mops_1_sc_20 = new QLabel(verticalLayoutWidget_63);
+        lable_break_mops_1_sc_20->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_20"));
+
+        horizontalLayout_52->addWidget(lable_break_mops_1_sc_20);
+
+        lable_break_mops_1_sc_21 = new QLabel(verticalLayoutWidget_63);
+        lable_break_mops_1_sc_21->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_21"));
+
+        horizontalLayout_52->addWidget(lable_break_mops_1_sc_21);
+
+        lable_break_mops_1_sc_22 = new QLabel(verticalLayoutWidget_63);
+        lable_break_mops_1_sc_22->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_22"));
+
+        horizontalLayout_52->addWidget(lable_break_mops_1_sc_22);
+
+        lable_break_mops_1_sc_23 = new QLabel(verticalLayoutWidget_63);
+        lable_break_mops_1_sc_23->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_23"));
+
+        horizontalLayout_52->addWidget(lable_break_mops_1_sc_23);
+
+        lable_break_mops_1_sc_24 = new QLabel(verticalLayoutWidget_63);
+        lable_break_mops_1_sc_24->setObjectName(QString::fromUtf8("lable_break_mops_1_sc_24"));
+
+        horizontalLayout_52->addWidget(lable_break_mops_1_sc_24);
+
+
+        verticalLayout_29->addLayout(horizontalLayout_52);
+
         stend_main_window->setCentralWidget(centralwidget);
         menubar = new QMenuBar(stend_main_window);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1740, 25));
+        menubar->setGeometry(QRect(0, 0, 1743, 25));
         stend_main_window->setMenuBar(menubar);
         statusbar = new QStatusBar(stend_main_window);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -1342,7 +10282,7 @@ public:
         retranslateUi(stend_main_window);
 
         tab_widget_for_mops->setCurrentIndex(0);
-        tab_widget_for_mups->setCurrentIndex(2);
+        tab_widget_for_mups->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(stend_main_window);
@@ -1380,13 +10320,120 @@ public:
         button_start_main_test->setText(QCoreApplication::translate("stend_main_window", "\320\241\321\202\320\260\321\200\321\202 ", nullptr));
         button_stop_main_test->setText(QCoreApplication::translate("stend_main_window", "\320\241\321\202\320\276\320\277 ", nullptr));
         label->setText(QCoreApplication::translate("stend_main_window", "\320\230\321\201\320\277\321\213\321\202\320\260\320\275\320\270\321\217", nullptr));
+        just_lable_status_12->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_94->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_95->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_96->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_97->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_98->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_99->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_100->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_101->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_12->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_1_sc_9->setText(QString());
+        lable_break_mops_1_sc_10->setText(QString());
+        lable_break_mops_1_sc_11->setText(QString());
+        lable_break_mops_1_sc_12->setText(QString());
+        lable_break_mops_1_sc_13->setText(QString());
+        lable_break_mops_1_sc_14->setText(QString());
+        lable_break_mops_1_sc_15->setText(QString());
+        lable_break_mops_1_sc_16->setText(QString());
+        just_lable_supply_err_2->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260 \320\277\321\200\320\270 \320\277\320\270\321\202\320\260\320\275\320\270\320\270", nullptr));
+        just_lable_18v_2->setText(QCoreApplication::translate("stend_main_window", "18v:", nullptr));
+        just_lable_24v_2->setText(QCoreApplication::translate("stend_main_window", "24v:", nullptr));
+        just_lable_28v_2->setText(QCoreApplication::translate("stend_main_window", "28v:", nullptr));
+        lable_18v_ans_2->setText(QString());
+        lable_24v_ans_2->setText(QString());
+        lable_28v_ans_2->setText(QString());
+        just_lable_norm_2->setText(QCoreApplication::translate("stend_main_window", "\320\235\320\276\321\200\320\274\320\260", nullptr));
+        just_lable_status_8->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_10->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_11->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_40->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_41->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_50->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_51->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_60->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_61->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_8->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_1_ch_9->setText(QString());
+        lable_break_mops_1_ch_10->setText(QString());
+        lable_break_mops_1_ch_31->setText(QString());
+        lable_break_mops_1_ch_32->setText(QString());
+        lable_break_mops_1_ch_33->setText(QString());
+        lable_break_mops_1_ch_34->setText(QString());
+        lable_break_mops_1_ch_35->setText(QString());
+        lable_break_mops_1_ch_36->setText(QString());
+        just_lable_online_status_req_mops_7->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\270\321\201\320\277\321\200\320\260\320\262\320\265\320\275:", nullptr));
+        just_lable_online_status_ans_mops_->setText(QString());
+        just_lable_status_9->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_70->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_71->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_72->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_73->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_74->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_75->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_76->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_77->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_9->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_norm_mops_1_ch_9->setText(QString());
+        lable_norm_mops_1_ch_10->setText(QString());
+        lable_norm_mops_1_ch_11->setText(QString());
+        lable_norm_mops_1_ch_12->setText(QString());
+        lable_norm_mops_1_ch_13->setText(QString());
+        lable_norm_mops_1_ch_14->setText(QString());
+        lable_norm_mops_1_ch_15->setText(QString());
+        lable_norm_mops_1_ch_16->setText(QString());
+        just_lable_online_status_req_mops_8->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\276\320\275\320\273\320\260\320\271\320\275:", nullptr));
+        just_lable_online_status_ans_mop->setText(QString());
+        just_lable_status_11->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_86->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_87->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_88->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_89->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_90->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_91->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_92->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_93->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_11->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_fire_mops_1_ch_8->setText(QString());
+        lable_fire_mops_1_ch_10->setText(QString());
+        lable_fire_mops_1_ch_11->setText(QString());
+        lable_fire_mops_1_ch_12->setText(QString());
+        lable_fire_mops_1_ch_13->setText(QString());
+        lable_fire_mops_1_ch_14->setText(QString());
+        lable_fire_mops_1_ch_15->setText(QString());
+        lable_fire_mops_1_ch_16->setText(QString());
+        just_lable_status_10->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_78->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_79->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_80->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_81->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_82->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_83->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_84->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_85->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_10->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_attantion_mops_1_ch_9->setText(QString());
+        lable_attantion_mops_1_ch_10->setText(QString());
+        lable_attantion_mops_1_ch_11->setText(QString());
+        lable_attantion_mops_1_ch_12->setText(QString());
+        lable_attantion_mops_1_ch_13->setText(QString());
+        lable_attantion_mops_1_ch_14->setText(QString());
+        lable_attantion_mops_1_ch_15->setText(QString());
+        lable_attantion_mops_1_ch_16->setText(QString());
+        just_lable_attantion_5->setText(QCoreApplication::translate("stend_main_window", "\320\222\320\275\320\270\320\274\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_break_7->setText(QCoreApplication::translate("stend_main_window", "\320\237\320\276\320\266\320\260\321\200", nullptr));
+        just_lable_break_6->setText(QCoreApplication::translate("stend_main_window", "\320\236\320\261\321\200\321\213\320\262", nullptr));
+        just_lable_status_ch_4->setText(QCoreApplication::translate("stend_main_window", "\320\241\320\276\321\201\321\202\320\276\321\217\320\275\320\270\320\265 \320\272\320\260\320\275\320\260\320\273\320\276\320\262", nullptr));
+        just_lable_break_8->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\276\321\200\320\276\321\202\320\272\320\276\320\265 \320\267\320\260\320\274\321\213\320\272\320\260\320\275\320\270\320\265", nullptr));
         just_mops_lable->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\236\320\237\320\241", nullptr));
         just_mups_lable->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\243\320\237\320\241", nullptr));
 #if QT_CONFIG(tooltip)
         mops_1->setToolTip(QCoreApplication::translate("stend_main_window", "<html><head/><body><p>1</p></body></html>", nullptr));
 #endif // QT_CONFIG(tooltip)
         just_lable_online_status_req_mops_2->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\270\321\201\320\277\321\200\320\260\320\262\320\265\320\275:", nullptr));
-        just_lable_online_status_ans_mops_2->setText(QString());
+        just_lable_oper_status_ans_mops_1->setText(QString());
         just_lable_status_ch->setText(QCoreApplication::translate("stend_main_window", "\320\241\320\276\321\201\321\202\320\276\321\217\320\275\320\270\320\265 \320\272\320\260\320\275\320\260\320\273\320\276\320\262", nullptr));
         just_lable_break->setText(QCoreApplication::translate("stend_main_window", "\320\236\320\261\321\200\321\213\320\262", nullptr));
         just_lable_status->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
@@ -1398,8 +10445,6 @@ public:
         label_7->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
         label_8->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
         label_9->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
-        label_10->setText(QCoreApplication::translate("stend_main_window", "9", nullptr));
-        label_11->setText(QCoreApplication::translate("stend_main_window", "10", nullptr));
         just_lable_error->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
         lable_break_mops_1_ch_1->setText(QString());
         lable_break_mops_1_ch_2->setText(QString());
@@ -1409,8 +10454,6 @@ public:
         lable_break_mops_1_ch_6->setText(QString());
         lable_break_mops_1_ch_7->setText(QString());
         lable_break_mops_1_ch_8->setText(QString());
-        lable_break_mops_1_ch_9->setText(QString());
-        lable_break_mops_1_ch_10->setText(QString());
         just_lable_norm_1->setText(QCoreApplication::translate("stend_main_window", "\320\235\320\276\321\200\320\274\320\260", nullptr));
         just_lable_status_4->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
         label_32->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
@@ -1421,8 +10464,6 @@ public:
         label_37->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
         label_38->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
         label_39->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
-        label_40->setText(QCoreApplication::translate("stend_main_window", "9", nullptr));
-        label_41->setText(QCoreApplication::translate("stend_main_window", "10", nullptr));
         just_lable_error_4->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
         lable_norm_mops_1_ch_1->setText(QString());
         lable_norm_mops_1_ch_2->setText(QString());
@@ -1432,8 +10473,6 @@ public:
         lable_norm_mops_1_ch_6->setText(QString());
         lable_norm_mops_1_ch_7->setText(QString());
         lable_norm_mops_1_ch_8->setText(QString());
-        lable_norm_mops_1_ch_9->setText(QString());
-        lable_norm_mops_1_ch_10->setText(QString());
         just_lable_status_5->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
         label_42->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
         label_43->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
@@ -1443,8 +10482,6 @@ public:
         label_47->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
         label_48->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
         label_49->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
-        label_50->setText(QCoreApplication::translate("stend_main_window", "9", nullptr));
-        label_51->setText(QCoreApplication::translate("stend_main_window", "10", nullptr));
         just_lable_error_5->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
         lable_attantion_mops_1_ch_1->setText(QString());
         lable_attantion_mops_1_ch_2->setText(QString());
@@ -1454,8 +10491,6 @@ public:
         lable_attantion_mops_1_ch_6->setText(QString());
         lable_attantion_mops_1_ch_7->setText(QString());
         lable_attantion_mops_1_ch_8->setText(QString());
-        lable_attantion_mops_1_ch_9->setText(QString());
-        lable_attantion_mops_1_ch_10->setText(QString());
         just_lable_attantion_4->setText(QCoreApplication::translate("stend_main_window", "\320\222\320\275\320\270\320\274\320\260\320\275\320\270\320\265", nullptr));
         just_lable_status_6->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
         label_52->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
@@ -1466,8 +10501,6 @@ public:
         label_57->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
         label_58->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
         label_59->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
-        label_60->setText(QCoreApplication::translate("stend_main_window", "9", nullptr));
-        label_61->setText(QCoreApplication::translate("stend_main_window", "10", nullptr));
         just_lable_error_6->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
         lable_fire_mops_1_ch_1->setText(QString());
         lable_fire_mops_1_ch_2->setText(QString());
@@ -1477,8 +10510,6 @@ public:
         lable_fire_mops_1_ch_6->setText(QString());
         lable_fire_mops_1_ch_7->setText(QString());
         lable_fire_mops_1_ch_9->setText(QString());
-        lable_break_mops_1_ch_39->setText(QString());
-        lable_break_mops_1_ch_40->setText(QString());
         just_lable_break_4->setText(QCoreApplication::translate("stend_main_window", "\320\237\320\276\320\266\320\260\321\200", nullptr));
         just_lable_break_5->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\276\321\200\320\276\321\202\320\272\320\276\320\265 \320\267\320\260\320\274\321\213\320\272\320\260\320\275\320\270\320\265", nullptr));
         just_lable_status_7->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
@@ -1490,8 +10521,6 @@ public:
         label_67->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
         label_68->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
         label_69->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
-        label_70->setText(QCoreApplication::translate("stend_main_window", "9", nullptr));
-        label_71->setText(QCoreApplication::translate("stend_main_window", "10", nullptr));
         just_lable_error_7->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
         lable_break_mops_1_sc_1->setText(QString());
         lable_break_mops_1_sc_2->setText(QString());
@@ -1501,26 +10530,987 @@ public:
         lable_break_mops_1_sc_6->setText(QString());
         lable_break_mops_1_sc_7->setText(QString());
         lable_break_mops_1_sc_8->setText(QString());
-        lable_break_mops_1_sc_9->setText(QString());
-        lable_break_mops_1_sc_10->setText(QString());
         just_lable_supply_err->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260 \320\277\321\200\320\270 \320\277\320\270\321\202\320\260\320\275\320\270\320\270", nullptr));
         just_lable_18v->setText(QCoreApplication::translate("stend_main_window", "18v:", nullptr));
         just_lable_24v->setText(QCoreApplication::translate("stend_main_window", "24v:", nullptr));
         just_lable_28v->setText(QCoreApplication::translate("stend_main_window", "28v:", nullptr));
-        lable_18v_ans->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
-        lable_24v_ans->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
-        lable_28v_ans->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        lable_18v_ans_mops_1->setText(QString());
+        lable_24v_ans_mops_1->setText(QString());
+        lable_28v_ans_mops_1->setText(QString());
         just_lable_online_status_req_mops_1->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\276\320\275\320\273\320\260\320\271\320\275:", nullptr));
         just_lable_online_status_ans_mops_1->setText(QString());
         tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_1), QCoreApplication::translate("stend_main_window", "1", nullptr));
+        just_lable_online_status_req_mops_13->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\276\320\275\320\273\320\260\320\271\320\275:", nullptr));
+        just_lable_online_status_ans_mops_2->setText(QString());
+        just_lable_norm_3->setText(QCoreApplication::translate("stend_main_window", "\320\235\320\276\321\200\320\274\320\260", nullptr));
+        just_lable_status_23->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_182->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_183->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_184->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_185->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_186->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_187->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_188->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_189->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_23->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_2_ch_1->setText(QString());
+        lable_break_mops_2_ch_2->setText(QString());
+        lable_break_mops_2_ch_3->setText(QString());
+        lable_break_mops_2_ch_4->setText(QString());
+        lable_break_mops_2_ch_5->setText(QString());
+        lable_break_mops_2_ch_6->setText(QString());
+        lable_break_mops_2_ch_7->setText(QString());
+        lable_break_mops_2_ch_8->setText(QString());
+        just_lable_status_24->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_190->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_191->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_192->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_193->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_194->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_195->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_196->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_197->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_24->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_2_sc_1->setText(QString());
+        lable_break_mops_2_sc_2->setText(QString());
+        lable_break_mops_2_sc_3->setText(QString());
+        lable_break_mops_2_sc_4->setText(QString());
+        lable_break_mops_2_sc_5->setText(QString());
+        lable_break_mops_2_sc_6->setText(QString());
+        lable_break_mops_2_sc_7->setText(QString());
+        lable_break_mops_2_sc_8->setText(QString());
+        just_lable_break_9->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\276\321\200\320\276\321\202\320\272\320\276\320\265 \320\267\320\260\320\274\321\213\320\272\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_25->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_198->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_199->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_200->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_201->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_202->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_203->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_204->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_205->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_25->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_norm_mops_2_ch_1->setText(QString());
+        lable_norm_mops_2_ch_2->setText(QString());
+        lable_norm_mops_2_ch_3->setText(QString());
+        lable_norm_mops_2_ch_4->setText(QString());
+        lable_norm_mops_2_ch_5->setText(QString());
+        lable_norm_mops_2_ch_6->setText(QString());
+        lable_norm_mops_2_ch_7->setText(QString());
+        lable_norm_mops_2_ch_8->setText(QString());
+        just_lable_break_10->setText(QCoreApplication::translate("stend_main_window", "\320\236\320\261\321\200\321\213\320\262", nullptr));
+        just_lable_status_ch_5->setText(QCoreApplication::translate("stend_main_window", "\320\241\320\276\321\201\321\202\320\276\321\217\320\275\320\270\320\265 \320\272\320\260\320\275\320\260\320\273\320\276\320\262", nullptr));
+        just_lable_status_26->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_206->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_207->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_208->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_209->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_210->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_211->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_212->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_213->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_26->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_fire_mops_2_ch_1->setText(QString());
+        lable_fire_mops_2_ch_2->setText(QString());
+        lable_fire_mops_2_ch_3->setText(QString());
+        lable_fire_mops_2_ch_4->setText(QString());
+        lable_fire_mops_2_ch_5->setText(QString());
+        lable_fire_mops_2_ch_6->setText(QString());
+        lable_fire_mops_2_ch_7->setText(QString());
+        lable_fire_mops_2_ch_8->setText(QString());
+        just_lable_break_11->setText(QCoreApplication::translate("stend_main_window", "\320\237\320\276\320\266\320\260\321\200", nullptr));
+        just_lable_attantion_6->setText(QCoreApplication::translate("stend_main_window", "\320\222\320\275\320\270\320\274\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_27->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_214->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_215->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_216->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_217->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_218->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_219->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_220->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_221->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_27->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_attantion_mops_2_ch_1->setText(QString());
+        lable_attantion_mops_2_ch_2->setText(QString());
+        lable_attantion_mops_2_ch_3->setText(QString());
+        lable_attantion_mops_2_ch_4->setText(QString());
+        lable_attantion_mops_2_ch_5->setText(QString());
+        lable_attantion_mops_2_ch_6->setText(QString());
+        lable_attantion_mops_2_ch_7->setText(QString());
+        lable_attantion_mops_2_ch_8->setText(QString());
+        just_lable_supply_err_5->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260 \320\277\321\200\320\270 \320\277\320\270\321\202\320\260\320\275\320\270\320\270", nullptr));
+        just_lable_18v_5->setText(QCoreApplication::translate("stend_main_window", "18v:", nullptr));
+        just_lable_24v_5->setText(QCoreApplication::translate("stend_main_window", "24v:", nullptr));
+        just_lable_28v_5->setText(QCoreApplication::translate("stend_main_window", "28v:", nullptr));
+        lable_18v_ans_mops_2->setText(QString());
+        lable_24v_ans_mops_2->setText(QString());
+        lable_28v_ans_mops_2->setText(QString());
+        just_lable_online_status_req_mops_14->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\270\321\201\320\277\321\200\320\260\320\262\320\265\320\275:", nullptr));
+        just_lable_oper_status_ans_mops_2->setText(QString());
         tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_2), QCoreApplication::translate("stend_main_window", "2", nullptr));
+        just_lable_online_status_req_mops_15->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\276\320\275\320\273\320\260\320\271\320\275:", nullptr));
+        just_lable_online_status_ans_mops_3->setText(QString());
+        just_lable_norm_4->setText(QCoreApplication::translate("stend_main_window", "\320\235\320\276\321\200\320\274\320\260", nullptr));
+        just_lable_status_28->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_222->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_223->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_224->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_225->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_226->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_227->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_228->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_229->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_28->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_3_ch_1->setText(QString());
+        lable_break_mops_3_ch_2->setText(QString());
+        lable_break_mops_3_ch_3->setText(QString());
+        lable_break_mops_3_ch_4->setText(QString());
+        lable_break_mops_3_ch_5->setText(QString());
+        lable_break_mops_3_ch_6->setText(QString());
+        lable_break_mops_3_ch_7->setText(QString());
+        lable_break_mops_3_ch_8->setText(QString());
+        just_lable_status_29->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_230->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_231->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_232->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_233->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_234->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_235->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_236->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_237->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_29->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_3_sc_1->setText(QString());
+        lable_break_mops_3_sc_2->setText(QString());
+        lable_break_mops_3_sc_3->setText(QString());
+        lable_break_mops_3_sc_4->setText(QString());
+        lable_break_mops_3_sc_5->setText(QString());
+        lable_break_mops_3_sc_6->setText(QString());
+        lable_break_mops_3_sc_7->setText(QString());
+        lable_break_mops_3_sc_8->setText(QString());
+        just_lable_break_12->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\276\321\200\320\276\321\202\320\272\320\276\320\265 \320\267\320\260\320\274\321\213\320\272\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_30->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_238->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_239->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_240->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_241->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_242->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_243->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_244->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_245->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_30->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_norm_mops_3_ch_1->setText(QString());
+        lable_norm_mops_3_ch_2->setText(QString());
+        lable_norm_mops_3_ch_3->setText(QString());
+        lable_norm_mops_3_ch_4->setText(QString());
+        lable_norm_mops_3_ch_5->setText(QString());
+        lable_norm_mops_3_ch_6->setText(QString());
+        lable_norm_mops_3_ch_7->setText(QString());
+        lable_norm_mops_3_ch_8->setText(QString());
+        just_lable_break_13->setText(QCoreApplication::translate("stend_main_window", "\320\236\320\261\321\200\321\213\320\262", nullptr));
+        just_lable_status_ch_6->setText(QCoreApplication::translate("stend_main_window", "\320\241\320\276\321\201\321\202\320\276\321\217\320\275\320\270\320\265 \320\272\320\260\320\275\320\260\320\273\320\276\320\262", nullptr));
+        just_lable_status_31->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_246->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_247->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_248->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_249->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_250->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_251->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_252->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_253->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_31->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_fire_mops_3_ch_1->setText(QString());
+        lable_fire_mops_3_ch_2->setText(QString());
+        lable_fire_mops_3_ch_3->setText(QString());
+        lable_fire_mops_3_ch_4->setText(QString());
+        lable_fire_mops_3_ch_5->setText(QString());
+        lable_fire_mops_3_ch_6->setText(QString());
+        lable_fire_mops_3_ch_7->setText(QString());
+        lable_fire_mops_3_ch_8->setText(QString());
+        just_lable_break_14->setText(QCoreApplication::translate("stend_main_window", "\320\237\320\276\320\266\320\260\321\200", nullptr));
+        just_lable_attantion_7->setText(QCoreApplication::translate("stend_main_window", "\320\222\320\275\320\270\320\274\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_32->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_254->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_255->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_256->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_257->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_258->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_259->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_260->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_261->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_32->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_attantion_mops_3_ch_1->setText(QString());
+        lable_attantion_mops_3_ch_2->setText(QString());
+        lable_attantion_mops_3_ch_3->setText(QString());
+        lable_attantion_mops_3_ch_4->setText(QString());
+        lable_attantion_mops_3_ch_5->setText(QString());
+        lable_attantion_mops_3_ch_6->setText(QString());
+        lable_attantion_mops_3_ch_7->setText(QString());
+        lable_attantion_mops_3_ch_8->setText(QString());
+        just_lable_supply_err_6->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260 \320\277\321\200\320\270 \320\277\320\270\321\202\320\260\320\275\320\270\320\270", nullptr));
+        just_lable_18v_6->setText(QCoreApplication::translate("stend_main_window", "18v:", nullptr));
+        just_lable_24v_6->setText(QCoreApplication::translate("stend_main_window", "24v:", nullptr));
+        just_lable_28v_6->setText(QCoreApplication::translate("stend_main_window", "28v:", nullptr));
+        lable_18v_ans_mops_3->setText(QString());
+        lable_24v_ans_mops_3->setText(QString());
+        lable_28v_ans_mops_3->setText(QString());
+        just_lable_online_status_req_mops_16->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\270\321\201\320\277\321\200\320\260\320\262\320\265\320\275:", nullptr));
+        just_lable_oper_status_ans_mops_3->setText(QString());
         tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_3), QCoreApplication::translate("stend_main_window", "3", nullptr));
+        just_lable_online_status_req_mops_17->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\276\320\275\320\273\320\260\320\271\320\275:", nullptr));
+        just_lable_online_status_ans_mops_4->setText(QString());
+        just_lable_norm_5->setText(QCoreApplication::translate("stend_main_window", "\320\235\320\276\321\200\320\274\320\260", nullptr));
+        just_lable_status_33->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_262->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_263->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_264->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_265->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_266->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_267->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_268->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_269->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_33->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_4_ch_1->setText(QString());
+        lable_break_mops_4_ch_2->setText(QString());
+        lable_break_mops_4_ch_3->setText(QString());
+        lable_break_mops_4_ch_4->setText(QString());
+        lable_break_mops_4_ch_5->setText(QString());
+        lable_break_mops_4_ch_6->setText(QString());
+        lable_break_mops_4_ch_7->setText(QString());
+        lable_break_mops_4_ch_8->setText(QString());
+        just_lable_status_34->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_270->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_271->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_272->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_273->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_274->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_275->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_276->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_277->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_34->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_4_sc_1->setText(QString());
+        lable_break_mops_4_sc_2->setText(QString());
+        lable_break_mops_4_sc_3->setText(QString());
+        lable_break_mops_4_sc_4->setText(QString());
+        lable_break_mops_4_sc_5->setText(QString());
+        lable_break_mops_4_sc_6->setText(QString());
+        lable_break_mops_4_sc_7->setText(QString());
+        lable_break_mops_4_sc_8->setText(QString());
+        just_lable_break_15->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\276\321\200\320\276\321\202\320\272\320\276\320\265 \320\267\320\260\320\274\321\213\320\272\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_35->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_278->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_279->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_280->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_281->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_282->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_283->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_284->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_285->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_35->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_norm_mops_4_ch_1->setText(QString());
+        lable_norm_mops_4_ch_2->setText(QString());
+        lable_norm_mops_4_ch_3->setText(QString());
+        lable_norm_mops_4_ch_4->setText(QString());
+        lable_norm_mops_4_ch_5->setText(QString());
+        lable_norm_mops_4_ch_6->setText(QString());
+        lable_norm_mops_4_ch_7->setText(QString());
+        lable_norm_mops_4_ch_8->setText(QString());
+        just_lable_break_16->setText(QCoreApplication::translate("stend_main_window", "\320\236\320\261\321\200\321\213\320\262", nullptr));
+        just_lable_status_ch_7->setText(QCoreApplication::translate("stend_main_window", "\320\241\320\276\321\201\321\202\320\276\321\217\320\275\320\270\320\265 \320\272\320\260\320\275\320\260\320\273\320\276\320\262", nullptr));
+        just_lable_status_36->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_286->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_287->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_288->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_289->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_290->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_291->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_292->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_293->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_36->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_fire_mops_4_ch_1->setText(QString());
+        lable_fire_mops_4_ch_2->setText(QString());
+        lable_fire_mops_4_ch_3->setText(QString());
+        lable_fire_mops_4_ch_4->setText(QString());
+        lable_fire_mops_4_ch_5->setText(QString());
+        lable_fire_mops_4_ch_6->setText(QString());
+        lable_fire_mops_4_ch_7->setText(QString());
+        lable_fire_mops_4_ch_8->setText(QString());
+        just_lable_break_17->setText(QCoreApplication::translate("stend_main_window", "\320\237\320\276\320\266\320\260\321\200", nullptr));
+        just_lable_attantion_8->setText(QCoreApplication::translate("stend_main_window", "\320\222\320\275\320\270\320\274\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_37->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_294->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_295->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_296->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_297->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_298->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_299->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_300->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_301->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_37->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_attantion_mops_4_ch_1->setText(QString());
+        lable_attantion_mops_4_ch_2->setText(QString());
+        lable_attantion_mops_4_ch_3->setText(QString());
+        lable_attantion_mops_4_ch_4->setText(QString());
+        lable_attantion_mops_4_ch_5->setText(QString());
+        lable_attantion_mops_4_ch_6->setText(QString());
+        lable_attantion_mops_4_ch_7->setText(QString());
+        lable_attantion_mops_4_ch_8->setText(QString());
+        just_lable_supply_err_7->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260 \320\277\321\200\320\270 \320\277\320\270\321\202\320\260\320\275\320\270\320\270", nullptr));
+        just_lable_18v_7->setText(QCoreApplication::translate("stend_main_window", "18v:", nullptr));
+        just_lable_24v_7->setText(QCoreApplication::translate("stend_main_window", "24v:", nullptr));
+        just_lable_28v_7->setText(QCoreApplication::translate("stend_main_window", "28v:", nullptr));
+        lable_18v_ans_mops_4->setText(QString());
+        lable_24v_ans_mops_4->setText(QString());
+        lable_28v_ans_mops_4->setText(QString());
+        just_lable_online_status_req_mops_18->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\270\321\201\320\277\321\200\320\260\320\262\320\265\320\275:", nullptr));
+        just_lable_oper_status_ans_mops_4->setText(QString());
         tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_4), QCoreApplication::translate("stend_main_window", "4", nullptr));
+        just_lable_online_status_req_mops_19->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\276\320\275\320\273\320\260\320\271\320\275:", nullptr));
+        just_lable_online_status_ans_mops_5->setText(QString());
+        just_lable_norm_6->setText(QCoreApplication::translate("stend_main_window", "\320\235\320\276\321\200\320\274\320\260", nullptr));
+        just_lable_status_38->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_302->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_303->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_304->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_305->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_306->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_307->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_308->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_309->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_38->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_5_ch_1->setText(QString());
+        lable_break_mops_5_ch_2->setText(QString());
+        lable_break_mops_5_ch_3->setText(QString());
+        lable_break_mops_5_ch_4->setText(QString());
+        lable_break_mops_5_ch_5->setText(QString());
+        lable_break_mops_5_ch_6->setText(QString());
+        lable_break_mops_5_ch_7->setText(QString());
+        lable_break_mops_5_ch_8->setText(QString());
+        just_lable_status_39->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_310->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_311->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_312->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_313->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_314->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_315->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_316->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_317->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_39->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_5_sc_1->setText(QString());
+        lable_break_mops_5_sc_2->setText(QString());
+        lable_break_mops_5_sc_3->setText(QString());
+        lable_break_mops_5_sc_4->setText(QString());
+        lable_break_mops_5_sc_5->setText(QString());
+        lable_break_mops_5_sc_6->setText(QString());
+        lable_break_mops_5_sc_7->setText(QString());
+        lable_break_mops_5_sc_8->setText(QString());
+        just_lable_break_18->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\276\321\200\320\276\321\202\320\272\320\276\320\265 \320\267\320\260\320\274\321\213\320\272\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_40->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_318->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_319->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_320->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_321->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_322->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_323->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_324->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_325->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_40->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_norm_mops_5_ch_1->setText(QString());
+        lable_norm_mops_5_ch_2->setText(QString());
+        lable_norm_mops_5_ch_3->setText(QString());
+        lable_norm_mops_5_ch_4->setText(QString());
+        lable_norm_mops_5_ch_5->setText(QString());
+        lable_norm_mops_5_ch_6->setText(QString());
+        lable_norm_mops_5_ch_7->setText(QString());
+        lable_norm_mops_5_ch_8->setText(QString());
+        just_lable_break_19->setText(QCoreApplication::translate("stend_main_window", "\320\236\320\261\321\200\321\213\320\262", nullptr));
+        just_lable_status_ch_8->setText(QCoreApplication::translate("stend_main_window", "\320\241\320\276\321\201\321\202\320\276\321\217\320\275\320\270\320\265 \320\272\320\260\320\275\320\260\320\273\320\276\320\262", nullptr));
+        just_lable_status_41->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_326->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_327->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_328->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_329->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_330->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_331->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_332->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_333->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_41->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_fire_mops_5_ch_1->setText(QString());
+        lable_fire_mops_5_ch_2->setText(QString());
+        lable_fire_mops_5_ch_3->setText(QString());
+        lable_fire_mops_5_ch_4->setText(QString());
+        lable_fire_mops_5_ch_5->setText(QString());
+        lable_fire_mops_5_ch_6->setText(QString());
+        lable_fire_mops_5_ch_7->setText(QString());
+        lable_fire_mops_5_ch_8->setText(QString());
+        just_lable_break_20->setText(QCoreApplication::translate("stend_main_window", "\320\237\320\276\320\266\320\260\321\200", nullptr));
+        just_lable_attantion_9->setText(QCoreApplication::translate("stend_main_window", "\320\222\320\275\320\270\320\274\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_42->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_334->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_335->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_336->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_337->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_338->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_339->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_340->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_341->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_42->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_attantion_mops_5_ch_1->setText(QString());
+        lable_attantion_mops_5_ch_2->setText(QString());
+        lable_attantion_mops_5_ch_3->setText(QString());
+        lable_attantion_mops_5_ch_4->setText(QString());
+        lable_attantion_mops_5_ch_5->setText(QString());
+        lable_attantion_mops_5_ch_6->setText(QString());
+        lable_attantion_mops_5_ch_7->setText(QString());
+        lable_attantion_mops_5_ch_8->setText(QString());
+        just_lable_supply_err_8->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260 \320\277\321\200\320\270 \320\277\320\270\321\202\320\260\320\275\320\270\320\270", nullptr));
+        just_lable_18v_8->setText(QCoreApplication::translate("stend_main_window", "18v:", nullptr));
+        just_lable_24v_8->setText(QCoreApplication::translate("stend_main_window", "24v:", nullptr));
+        just_lable_28v_8->setText(QCoreApplication::translate("stend_main_window", "28v:", nullptr));
+        lable_18v_ans_mops_5->setText(QString());
+        lable_24v_ans_mops_5->setText(QString());
+        lable_28v_ans_mops_5->setText(QString());
+        just_lable_online_status_req_mops_20->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\270\321\201\320\277\321\200\320\260\320\262\320\265\320\275:", nullptr));
+        just_lable_oper_status_ans_mops_5->setText(QString());
         tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_5), QCoreApplication::translate("stend_main_window", "5", nullptr));
+        just_lable_online_status_req_mops_21->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\276\320\275\320\273\320\260\320\271\320\275:", nullptr));
+        just_lable_online_status_ans_mops_6->setText(QString());
+        just_lable_norm_7->setText(QCoreApplication::translate("stend_main_window", "\320\235\320\276\321\200\320\274\320\260", nullptr));
+        just_lable_status_43->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_342->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_343->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_344->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_345->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_346->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_347->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_348->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_349->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_43->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_6_ch_1->setText(QString());
+        lable_break_mops_6_ch_2->setText(QString());
+        lable_break_mops_6_ch_3->setText(QString());
+        lable_break_mops_6_ch_4->setText(QString());
+        lable_break_mops_6_ch_5->setText(QString());
+        lable_break_mops_6_ch_6->setText(QString());
+        lable_break_mops_6_ch_7->setText(QString());
+        lable_break_mops_6_ch_8->setText(QString());
+        just_lable_status_44->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_350->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_351->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_352->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_353->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_354->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_355->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_356->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_357->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_44->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_6_sc_1->setText(QString());
+        lable_break_mops_6_sc_2->setText(QString());
+        lable_break_mops_6_sc_3->setText(QString());
+        lable_break_mops_6_sc_4->setText(QString());
+        lable_break_mops_6_sc_5->setText(QString());
+        lable_break_mops_6_sc_6->setText(QString());
+        lable_break_mops_6_sc_7->setText(QString());
+        lable_break_mops_6_sc_8->setText(QString());
+        just_lable_break_21->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\276\321\200\320\276\321\202\320\272\320\276\320\265 \320\267\320\260\320\274\321\213\320\272\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_45->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_358->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_359->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_360->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_361->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_362->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_363->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_364->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_365->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_45->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_norm_mops_6_ch_1->setText(QString());
+        lable_norm_mops_6_ch_2->setText(QString());
+        lable_norm_mops_6_ch_3->setText(QString());
+        lable_norm_mops_6_ch_4->setText(QString());
+        lable_norm_mops_6_ch_5->setText(QString());
+        lable_norm_mops_6_ch_6->setText(QString());
+        lable_norm_mops_6_ch_7->setText(QString());
+        lable_norm_mops_6_ch_8->setText(QString());
+        just_lable_break_22->setText(QCoreApplication::translate("stend_main_window", "\320\236\320\261\321\200\321\213\320\262", nullptr));
+        just_lable_status_ch_9->setText(QCoreApplication::translate("stend_main_window", "\320\241\320\276\321\201\321\202\320\276\321\217\320\275\320\270\320\265 \320\272\320\260\320\275\320\260\320\273\320\276\320\262", nullptr));
+        just_lable_status_46->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_366->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_367->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_368->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_369->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_370->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_371->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_372->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_373->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_46->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_fire_mops_6_ch_1->setText(QString());
+        lable_fire_mops_6_ch_2->setText(QString());
+        lable_fire_mops_6_ch_3->setText(QString());
+        lable_fire_mops_6_ch_4->setText(QString());
+        lable_fire_mops_6_ch_5->setText(QString());
+        lable_fire_mops_6_ch_6->setText(QString());
+        lable_fire_mops_6_ch_7->setText(QString());
+        lable_fire_mops_6_ch_8->setText(QString());
+        just_lable_break_23->setText(QCoreApplication::translate("stend_main_window", "\320\237\320\276\320\266\320\260\321\200", nullptr));
+        just_lable_attantion_10->setText(QCoreApplication::translate("stend_main_window", "\320\222\320\275\320\270\320\274\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_47->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_374->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_375->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_376->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_377->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_378->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_379->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_380->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_381->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_47->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_attantion_mops_6_ch_1->setText(QString());
+        lable_attantion_mops_6_ch_2->setText(QString());
+        lable_attantion_mops_6_ch_3->setText(QString());
+        lable_attantion_mops_6_ch_4->setText(QString());
+        lable_attantion_mops_6_ch_5->setText(QString());
+        lable_attantion_mops_6_ch_6->setText(QString());
+        lable_attantion_mops_6_ch_7->setText(QString());
+        lable_attantion_mops_6_ch_8->setText(QString());
+        just_lable_supply_err_9->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260 \320\277\321\200\320\270 \320\277\320\270\321\202\320\260\320\275\320\270\320\270", nullptr));
+        just_lable_18v_9->setText(QCoreApplication::translate("stend_main_window", "18v:", nullptr));
+        just_lable_24v_9->setText(QCoreApplication::translate("stend_main_window", "24v:", nullptr));
+        just_lable_28v_9->setText(QCoreApplication::translate("stend_main_window", "28v:", nullptr));
+        lable_18v_ans_mops_6->setText(QString());
+        lable_24v_ans_mops_6->setText(QString());
+        lable_28v_ans_mops_6->setText(QString());
+        just_lable_online_status_req_mops_22->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\270\321\201\320\277\321\200\320\260\320\262\320\265\320\275:", nullptr));
+        just_lable_oper_status_ans_mops_6->setText(QString());
         tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_6), QCoreApplication::translate("stend_main_window", "6", nullptr));
+        just_lable_online_status_req_mops_23->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\276\320\275\320\273\320\260\320\271\320\275:", nullptr));
+        just_lable_online_status_ans_mops_7->setText(QString());
+        just_lable_norm_8->setText(QCoreApplication::translate("stend_main_window", "\320\235\320\276\321\200\320\274\320\260", nullptr));
+        just_lable_status_48->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_382->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_383->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_384->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_385->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_386->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_387->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_388->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_389->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_48->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_7_ch_1->setText(QString());
+        lable_break_mops_7_ch_2->setText(QString());
+        lable_break_mops_7_ch_3->setText(QString());
+        lable_break_mops_7_ch_4->setText(QString());
+        lable_break_mops_7_ch_5->setText(QString());
+        lable_break_mops_7_ch_6->setText(QString());
+        lable_break_mops_7_ch_7->setText(QString());
+        lable_break_mops_7_ch_8->setText(QString());
+        just_lable_status_49->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_390->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_391->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_392->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_393->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_394->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_395->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_396->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_397->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_49->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_7_sc_1->setText(QString());
+        lable_break_mops_7_sc_2->setText(QString());
+        lable_break_mops_7_sc_3->setText(QString());
+        lable_break_mops_7_sc_4->setText(QString());
+        lable_break_mops_7_sc_5->setText(QString());
+        lable_break_mops_7_sc_6->setText(QString());
+        lable_break_mops_7_sc_7->setText(QString());
+        lable_break_mops_7_sc_8->setText(QString());
+        just_lable_break_24->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\276\321\200\320\276\321\202\320\272\320\276\320\265 \320\267\320\260\320\274\321\213\320\272\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_50->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_398->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_399->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_400->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_401->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_402->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_403->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_404->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_405->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_50->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_norm_mops_7_ch_1->setText(QString());
+        lable_norm_mops_7_ch_2->setText(QString());
+        lable_norm_mops_7_ch_3->setText(QString());
+        lable_norm_mops_7_ch_4->setText(QString());
+        lable_norm_mops_7_ch_5->setText(QString());
+        lable_norm_mops_7_ch_6->setText(QString());
+        lable_norm_mops_7_ch_7->setText(QString());
+        lable_norm_mops_7_ch_8->setText(QString());
+        just_lable_break_25->setText(QCoreApplication::translate("stend_main_window", "\320\236\320\261\321\200\321\213\320\262", nullptr));
+        just_lable_status_ch_10->setText(QCoreApplication::translate("stend_main_window", "\320\241\320\276\321\201\321\202\320\276\321\217\320\275\320\270\320\265 \320\272\320\260\320\275\320\260\320\273\320\276\320\262", nullptr));
+        just_lable_status_51->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_406->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_407->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_408->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_409->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_410->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_411->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_412->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_413->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_51->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_fire_mops_7_ch_1->setText(QString());
+        lable_fire_mops_7_ch_2->setText(QString());
+        lable_fire_mops_7_ch_3->setText(QString());
+        lable_fire_mops_7_ch_4->setText(QString());
+        lable_fire_mops_7_ch_5->setText(QString());
+        lable_fire_mops_7_ch_6->setText(QString());
+        lable_fire_mops_7_ch_7->setText(QString());
+        lable_fire_mops_7_ch_8->setText(QString());
+        just_lable_break_26->setText(QCoreApplication::translate("stend_main_window", "\320\237\320\276\320\266\320\260\321\200", nullptr));
+        just_lable_attantion_11->setText(QCoreApplication::translate("stend_main_window", "\320\222\320\275\320\270\320\274\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_52->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_414->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_415->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_416->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_417->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_418->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_419->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_420->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_421->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_52->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_attantion_mops_7_ch_1->setText(QString());
+        lable_attantion_mops_7_ch_2->setText(QString());
+        lable_attantion_mops_7_ch_3->setText(QString());
+        lable_attantion_mops_7_ch_4->setText(QString());
+        lable_attantion_mops_7_ch_5->setText(QString());
+        lable_attantion_mops_7_ch_6->setText(QString());
+        lable_attantion_mops_7_ch_7->setText(QString());
+        lable_attantion_mops_7_ch_8->setText(QString());
+        just_lable_supply_err_10->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260 \320\277\321\200\320\270 \320\277\320\270\321\202\320\260\320\275\320\270\320\270", nullptr));
+        just_lable_18v_10->setText(QCoreApplication::translate("stend_main_window", "18v:", nullptr));
+        just_lable_24v_10->setText(QCoreApplication::translate("stend_main_window", "24v:", nullptr));
+        just_lable_28v_10->setText(QCoreApplication::translate("stend_main_window", "28v:", nullptr));
+        lable_18v_ans_mops_7->setText(QString());
+        lable_24v_ans_mops_7->setText(QString());
+        lable_28v_ans_mops_7->setText(QString());
+        just_lable_online_status_req_mops_24->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\270\321\201\320\277\321\200\320\260\320\262\320\265\320\275:", nullptr));
+        just_lable_oper_status_ans_mops_7->setText(QString());
         tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_7), QCoreApplication::translate("stend_main_window", "7", nullptr));
+        just_lable_online_status_req_mops_26->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\270\321\201\320\277\321\200\320\260\320\262\320\265\320\275:", nullptr));
+        just_lable_oper_status_ans_mops_8->setText(QString());
+        just_lable_status_55->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_438->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_439->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_440->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_441->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_442->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_443->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_444->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_445->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_55->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_norm_mops_8_ch_1->setText(QString());
+        lable_norm_mops_8_ch_2->setText(QString());
+        lable_norm_mops_8_ch_3->setText(QString());
+        lable_norm_mops_8_ch_4->setText(QString());
+        lable_norm_mops_8_ch_5->setText(QString());
+        lable_norm_mops_8_ch_6->setText(QString());
+        lable_norm_mops_8_ch_7->setText(QString());
+        lable_norm_mops_8_ch_8->setText(QString());
+        just_lable_break_29->setText(QCoreApplication::translate("stend_main_window", "\320\237\320\276\320\266\320\260\321\200", nullptr));
+        just_lable_break_27->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\276\321\200\320\276\321\202\320\272\320\276\320\265 \320\267\320\260\320\274\321\213\320\272\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_54->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_430->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_431->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_432->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_433->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_434->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_435->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_436->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_437->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_54->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_8_sc_1->setText(QString());
+        lable_break_mops_8_sc_2->setText(QString());
+        lable_break_mops_8_sc_3->setText(QString());
+        lable_break_mops_8_sc_4->setText(QString());
+        lable_break_mops_8_sc_5->setText(QString());
+        lable_break_mops_8_sc_6->setText(QString());
+        lable_break_mops_8_sc_7->setText(QString());
+        lable_break_mops_8_sc_8->setText(QString());
+        just_lable_supply_err_11->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260 \320\277\321\200\320\270 \320\277\320\270\321\202\320\260\320\275\320\270\320\270", nullptr));
+        just_lable_18v_11->setText(QCoreApplication::translate("stend_main_window", "18v:", nullptr));
+        just_lable_24v_11->setText(QCoreApplication::translate("stend_main_window", "24v:", nullptr));
+        just_lable_28v_11->setText(QCoreApplication::translate("stend_main_window", "28v:", nullptr));
+        lable_18v_ans_mops_8->setText(QString());
+        lable_24v_ans_mops_8->setText(QString());
+        lable_28v_ans_mops_8->setText(QString());
+        just_lable_online_status_req_mops_25->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\276\320\275\320\273\320\260\320\271\320\275:", nullptr));
+        just_lable_online_status_ans_mops_8->setText(QString());
+        just_lable_status_56->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_446->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_447->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_448->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_449->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_450->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_451->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_452->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_453->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_56->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_fire_mops_8_ch_1->setText(QString());
+        lable_fire_mops_8_ch_2->setText(QString());
+        lable_fire_mops_8_ch_3->setText(QString());
+        lable_fire_mops_8_ch_4->setText(QString());
+        lable_fire_mops_8_ch_5->setText(QString());
+        lable_fire_mops_8_ch_6->setText(QString());
+        lable_fire_mops_8_ch_7->setText(QString());
+        lable_fire_mops_8_ch_8->setText(QString());
+        just_lable_status_53->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_422->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_423->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_424->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_425->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_426->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_427->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_428->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_429->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_53->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_8_ch_1->setText(QString());
+        lable_break_mops_8_ch_2->setText(QString());
+        lable_break_mops_8_ch_3->setText(QString());
+        lable_break_mops_8_ch_4->setText(QString());
+        lable_break_mops_8_ch_5->setText(QString());
+        lable_break_mops_8_ch_6->setText(QString());
+        lable_break_mops_8_ch_7->setText(QString());
+        lable_break_mops_8_ch_8->setText(QString());
+        just_lable_status_ch_11->setText(QCoreApplication::translate("stend_main_window", "\320\241\320\276\321\201\321\202\320\276\321\217\320\275\320\270\320\265 \320\272\320\260\320\275\320\260\320\273\320\276\320\262", nullptr));
+        just_lable_norm_9->setText(QCoreApplication::translate("stend_main_window", "\320\235\320\276\321\200\320\274\320\260", nullptr));
+        just_lable_break_28->setText(QCoreApplication::translate("stend_main_window", "\320\236\320\261\321\200\321\213\320\262", nullptr));
+        just_lable_status_57->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_454->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_455->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_456->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_457->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_458->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_459->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_460->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_461->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_57->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_attantion_mops_8_ch_1->setText(QString());
+        lable_attantion_mops_8_ch_2->setText(QString());
+        lable_attantion_mops_8_ch_3->setText(QString());
+        lable_attantion_mops_8_ch_4->setText(QString());
+        lable_attantion_mops_8_ch_5->setText(QString());
+        lable_attantion_mops_8_ch_6->setText(QString());
+        lable_attantion_mops_8_ch_7->setText(QString());
+        lable_attantion_mops_8_ch_8->setText(QString());
+        just_lable_attantion_12->setText(QCoreApplication::translate("stend_main_window", "\320\222\320\275\320\270\320\274\320\260\320\275\320\270\320\265", nullptr));
         tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_8), QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_online_status_req_mops_27->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\276\320\275\320\273\320\260\320\271\320\275:", nullptr));
+        just_lable_online_status_ans_mops_9->setText(QString());
+        just_lable_norm_10->setText(QCoreApplication::translate("stend_main_window", "\320\235\320\276\321\200\320\274\320\260", nullptr));
+        just_lable_status_58->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_462->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_463->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_464->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_465->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_466->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_467->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_468->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_469->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_58->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_9_ch_1->setText(QString());
+        lable_break_mops_9_ch_2->setText(QString());
+        lable_break_mops_9_ch_3->setText(QString());
+        lable_break_mops_9_ch_4->setText(QString());
+        lable_break_mops_9_ch_5->setText(QString());
+        lable_break_mops_9_ch_6->setText(QString());
+        lable_break_mops_9_ch_7->setText(QString());
+        lable_break_mops_9_ch_8->setText(QString());
+        just_lable_status_59->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_470->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_471->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_472->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_473->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_474->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_475->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_476->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_477->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_59->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_9_sc_1->setText(QString());
+        lable_break_mops_9_sc_2->setText(QString());
+        lable_break_mops_9_sc_3->setText(QString());
+        lable_break_mops_9_sc_4->setText(QString());
+        lable_break_mops_9_sc_5->setText(QString());
+        lable_break_mops_9_sc_6->setText(QString());
+        lable_break_mops_9_sc_7->setText(QString());
+        lable_break_mops_9_sc_8->setText(QString());
+        just_lable_break_30->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\276\321\200\320\276\321\202\320\272\320\276\320\265 \320\267\320\260\320\274\321\213\320\272\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_60->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_478->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_479->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_480->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_481->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_482->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_483->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_484->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_485->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_60->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_norm_mops_9_ch_1->setText(QString());
+        lable_norm_mops_9_ch_2->setText(QString());
+        lable_norm_mops_9_ch_3->setText(QString());
+        lable_norm_mops_9_ch_4->setText(QString());
+        lable_norm_mops_9_ch_5->setText(QString());
+        lable_norm_mops_9_ch_6->setText(QString());
+        lable_norm_mops_9_ch_7->setText(QString());
+        lable_norm_mops_9_ch_8->setText(QString());
+        just_lable_break_31->setText(QCoreApplication::translate("stend_main_window", "\320\236\320\261\321\200\321\213\320\262", nullptr));
+        just_lable_status_ch_12->setText(QCoreApplication::translate("stend_main_window", "\320\241\320\276\321\201\321\202\320\276\321\217\320\275\320\270\320\265 \320\272\320\260\320\275\320\260\320\273\320\276\320\262", nullptr));
+        just_lable_status_61->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_486->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_487->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_488->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_489->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_490->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_491->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_492->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_493->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_61->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_fire_mops_9_ch_1->setText(QString());
+        lable_fire_mops_9_ch_2->setText(QString());
+        lable_fire_mops_9_ch_3->setText(QString());
+        lable_fire_mops_9_ch_4->setText(QString());
+        lable_fire_mops_9_ch_5->setText(QString());
+        lable_fire_mops_9_ch_6->setText(QString());
+        lable_fire_mops_9_ch_7->setText(QString());
+        lable_fire_mops_9_ch_8->setText(QString());
+        just_lable_break_32->setText(QCoreApplication::translate("stend_main_window", "\320\237\320\276\320\266\320\260\321\200", nullptr));
+        just_lable_attantion_13->setText(QCoreApplication::translate("stend_main_window", "\320\222\320\275\320\270\320\274\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_62->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_494->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_495->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_496->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_497->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_498->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_499->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_500->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_501->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_62->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_attantion_mops_9_ch_1->setText(QString());
+        lable_attantion_mops_9_ch_2->setText(QString());
+        lable_attantion_mops_9_ch_3->setText(QString());
+        lable_attantion_mops_9_ch_4->setText(QString());
+        lable_attantion_mops_9_ch_5->setText(QString());
+        lable_attantion_mops_9_ch_6->setText(QString());
+        lable_attantion_mops_9_ch_7->setText(QString());
+        lable_attantion_mops_9_ch_8->setText(QString());
+        just_lable_supply_err_12->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260 \320\277\321\200\320\270 \320\277\320\270\321\202\320\260\320\275\320\270\320\270", nullptr));
+        just_lable_18v_12->setText(QCoreApplication::translate("stend_main_window", "18v:", nullptr));
+        just_lable_24v_12->setText(QCoreApplication::translate("stend_main_window", "24v:", nullptr));
+        just_lable_28v_12->setText(QCoreApplication::translate("stend_main_window", "28v:", nullptr));
+        lable_18v_ans_mops_9->setText(QString());
+        lable_24v_ans_mops_9->setText(QString());
+        lable_28v_ans_mops_9->setText(QString());
+        just_lable_online_status_req_mops_28->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\270\321\201\320\277\321\200\320\260\320\262\320\265\320\275:", nullptr));
+        just_lable_oper_status_ans_mops_9->setText(QString());
         tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_9), QCoreApplication::translate("stend_main_window", "9", nullptr));
+        just_lable_online_status_req_mops_29->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\276\320\275\320\273\320\260\320\271\320\275:", nullptr));
+        just_lable_online_status_ans_mops_10->setText(QString());
+        just_lable_norm_11->setText(QCoreApplication::translate("stend_main_window", "\320\235\320\276\321\200\320\274\320\260", nullptr));
+        just_lable_status_63->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_502->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_503->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_504->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_505->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_506->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_507->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_508->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_509->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_63->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_10_ch_1->setText(QString());
+        lable_break_mops_10_ch_2->setText(QString());
+        lable_break_mops_10_ch_3->setText(QString());
+        lable_break_mops_10_ch_4->setText(QString());
+        lable_break_mops_10_ch_5->setText(QString());
+        lable_break_mops_10_ch_6->setText(QString());
+        lable_break_mops_10_ch_7->setText(QString());
+        lable_break_mops_10_ch_8->setText(QString());
+        just_lable_status_64->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_510->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_511->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_512->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_513->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_514->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_515->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_516->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_517->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_64->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_10_sc_1->setText(QString());
+        lable_break_mops_10_sc_2->setText(QString());
+        lable_break_mops_10_sc_3->setText(QString());
+        lable_break_mops_10_sc_4->setText(QString());
+        lable_break_mops_10_sc_5->setText(QString());
+        lable_break_mops_10_sc_6->setText(QString());
+        lable_break_mops_10_sc_7->setText(QString());
+        lable_break_mops_10_sc_8->setText(QString());
+        just_lable_break_33->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\276\321\200\320\276\321\202\320\272\320\276\320\265 \320\267\320\260\320\274\321\213\320\272\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_65->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_518->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_519->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_520->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_521->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_522->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_523->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_524->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_525->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_65->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_norm_mops_10_ch_1->setText(QString());
+        lable_norm_mops_10_ch_2->setText(QString());
+        lable_norm_mops_10_ch_3->setText(QString());
+        lable_norm_mops_10_ch_4->setText(QString());
+        lable_norm_mops_10_ch_5->setText(QString());
+        lable_norm_mops_10_ch_6->setText(QString());
+        lable_norm_mops_10_ch_7->setText(QString());
+        lable_norm_mops_10_ch_8->setText(QString());
+        just_lable_break_34->setText(QCoreApplication::translate("stend_main_window", "\320\236\320\261\321\200\321\213\320\262", nullptr));
+        just_lable_status_ch_13->setText(QCoreApplication::translate("stend_main_window", "\320\241\320\276\321\201\321\202\320\276\321\217\320\275\320\270\320\265 \320\272\320\260\320\275\320\260\320\273\320\276\320\262", nullptr));
+        just_lable_status_66->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_526->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_527->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_528->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_529->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_530->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_531->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_532->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_533->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_66->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_fire_mops_10_ch_1->setText(QString());
+        lable_fire_mops_10_ch_2->setText(QString());
+        lable_fire_mops_10_ch_3->setText(QString());
+        lable_fire_mops_10_ch_4->setText(QString());
+        lable_fire_mops_10_ch_5->setText(QString());
+        lable_fire_mops_10_ch_6->setText(QString());
+        lable_fire_mops_10_ch_7->setText(QString());
+        lable_fire_mops_10_ch_8->setText(QString());
+        just_lable_break_35->setText(QCoreApplication::translate("stend_main_window", "\320\237\320\276\320\266\320\260\321\200", nullptr));
+        just_lable_attantion_14->setText(QCoreApplication::translate("stend_main_window", "\320\222\320\275\320\270\320\274\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_status_67->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_534->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_535->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_536->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_537->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_538->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_539->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_540->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_541->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_67->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_attantion_mops_10_ch_1->setText(QString());
+        lable_attantion_mops_10_ch_2->setText(QString());
+        lable_attantion_mops_10_ch_3->setText(QString());
+        lable_attantion_mops_10_ch_4->setText(QString());
+        lable_attantion_mops_10_ch_5->setText(QString());
+        lable_attantion_mops_10_ch_6->setText(QString());
+        lable_attantion_mops_10_ch_7->setText(QString());
+        lable_attantion_mops_10_ch_8->setText(QString());
+        just_lable_supply_err_13->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260 \320\277\321\200\320\270 \320\277\320\270\321\202\320\260\320\275\320\270\320\270", nullptr));
+        just_lable_18v_13->setText(QCoreApplication::translate("stend_main_window", "18v:", nullptr));
+        just_lable_24v_13->setText(QCoreApplication::translate("stend_main_window", "24v:", nullptr));
+        just_lable_28v_13->setText(QCoreApplication::translate("stend_main_window", "28v:", nullptr));
+        lable_18v_ans_mops_10->setText(QString());
+        lable_24v_ans_mops_10->setText(QString());
+        lable_28v_ans_mops_10->setText(QString());
+        just_lable_online_status_req_mops_30->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\270\321\201\320\277\321\200\320\260\320\262\320\265\320\275:", nullptr));
+        just_lable_oper_status_ans_mops_10->setText(QString());
         tab_widget_for_mops->setTabText(tab_widget_for_mops->indexOf(mops_10), QCoreApplication::translate("stend_main_window", "10", nullptr));
         tab_widget_for_mups->setTabText(tab_widget_for_mups->indexOf(mups_1), QCoreApplication::translate("stend_main_window", "1", nullptr));
         tab_widget_for_mups->setTabText(tab_widget_for_mups->indexOf(mups_2), QCoreApplication::translate("stend_main_window", "2", nullptr));
@@ -1532,6 +11522,105 @@ public:
         tab_widget_for_mups->setTabText(tab_widget_for_mups->indexOf(mups_8), QCoreApplication::translate("stend_main_window", "8", nullptr));
         tab_widget_for_mups->setTabText(tab_widget_for_mups->indexOf(mups_9), QCoreApplication::translate("stend_main_window", "9", nullptr));
         tab_widget_for_mups->setTabText(tab_widget_for_mups->indexOf(mups_10), QCoreApplication::translate("stend_main_window", "10", nullptr));
+        just_lable_status_13->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_12->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_13->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_102->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_103->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        just_lable_error_13->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_1_ch_11->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        lable_break_mops_1_ch_12->setText(QString());
+        lable_break_mops_1_ch_37->setText(QString());
+        lable_break_mops_1_ch_38->setText(QString());
+        just_lable_status_14->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_108->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_109->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_110->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_111->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_112->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_113->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_114->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_115->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_14->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_attantion_mops_1_ch_17->setText(QString());
+        lable_attantion_mops_1_ch_18->setText(QString());
+        lable_attantion_mops_1_ch_19->setText(QString());
+        lable_attantion_mops_1_ch_20->setText(QString());
+        lable_attantion_mops_1_ch_21->setText(QString());
+        lable_attantion_mops_1_ch_22->setText(QString());
+        lable_attantion_mops_1_ch_23->setText(QString());
+        lable_attantion_mops_1_ch_24->setText(QString());
+        just_lable_status_ch_14->setText(QCoreApplication::translate("stend_main_window", "\320\241\320\276\321\201\321\202\320\276\321\217\320\275\320\270\320\265 \320\272\320\260\320\275\320\260\320\273\320\276\320\262", nullptr));
+        just_lable_online_status_req_mops_9->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\270\321\201\320\277\321\200\320\260\320\262\320\265\320\275:", nullptr));
+        just_lable_oper_status_ans_mups_->setText(QString());
+        just_lable_break_36->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\276\321\200\320\276\321\202\320\272\320\276\320\265 \320\267\320\260\320\274\321\213\320\272\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_break_37->setText(QCoreApplication::translate("stend_main_window", "\320\236\320\261\321\200\321\213\320\262", nullptr));
+        just_lable_attantion_15->setText(QCoreApplication::translate("stend_main_window", "\320\222\320\275\320\270\320\274\320\260\320\275\320\270\320\265", nullptr));
+        just_lable_online_status_req_mops_10->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\276\320\275\320\273\320\260\320\271\320\275:", nullptr));
+        just_lable_online_status_ans_mups_->setText(QString());
+        just_lable_status_15->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_116->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_117->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_118->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_119->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_120->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_121->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_122->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_123->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_15->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_norm_mops_1_ch_17->setText(QString());
+        lable_norm_mops_1_ch_18->setText(QString());
+        lable_norm_mops_1_ch_19->setText(QString());
+        lable_norm_mops_1_ch_20->setText(QString());
+        lable_norm_mops_1_ch_21->setText(QString());
+        lable_norm_mops_1_ch_22->setText(QString());
+        lable_norm_mops_1_ch_23->setText(QString());
+        lable_norm_mops_1_ch_24->setText(QString());
+        just_lable_supply_err_3->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260 \320\277\321\200\320\270 \320\277\320\270\321\202\320\260\320\275\320\270\320\270", nullptr));
+        just_lable_18v_3->setText(QCoreApplication::translate("stend_main_window", "18v:", nullptr));
+        just_lable_24v_3->setText(QCoreApplication::translate("stend_main_window", "24v:", nullptr));
+        just_lable_28v_3->setText(QCoreApplication::translate("stend_main_window", "28v:", nullptr));
+        lable_18v_ans_mups_->setText(QString());
+        lable_24v_ans_mups_->setText(QString());
+        lable_28v_ans_mups_->setText(QString());
+        just_lable_status_16->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_124->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_125->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_126->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_127->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_128->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_129->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_130->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_131->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_16->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_fire_mops_1_ch_17->setText(QString());
+        lable_fire_mops_1_ch_18->setText(QString());
+        lable_fire_mops_1_ch_19->setText(QString());
+        lable_fire_mops_1_ch_20->setText(QString());
+        lable_fire_mops_1_ch_21->setText(QString());
+        lable_fire_mops_1_ch_22->setText(QString());
+        lable_fire_mops_1_ch_23->setText(QString());
+        lable_fire_mops_1_ch_24->setText(QString());
+        just_lable_norm_12->setText(QCoreApplication::translate("stend_main_window", "\320\235\320\276\321\200\320\274\320\260", nullptr));
+        just_lable_break_38->setText(QCoreApplication::translate("stend_main_window", "\320\237\320\276\320\266\320\260\321\200", nullptr));
+        just_lable_status_17->setText(QCoreApplication::translate("stend_main_window", "\320\232\320\260\320\275\320\260\320\273", nullptr));
+        label_132->setText(QCoreApplication::translate("stend_main_window", "1", nullptr));
+        label_133->setText(QCoreApplication::translate("stend_main_window", "2", nullptr));
+        label_134->setText(QCoreApplication::translate("stend_main_window", "3", nullptr));
+        label_135->setText(QCoreApplication::translate("stend_main_window", "4", nullptr));
+        label_136->setText(QCoreApplication::translate("stend_main_window", "5", nullptr));
+        label_137->setText(QCoreApplication::translate("stend_main_window", "6", nullptr));
+        label_138->setText(QCoreApplication::translate("stend_main_window", "7", nullptr));
+        label_139->setText(QCoreApplication::translate("stend_main_window", "8", nullptr));
+        just_lable_error_17->setText(QCoreApplication::translate("stend_main_window", "\320\236\321\210\320\270\320\261\320\272\320\260", nullptr));
+        lable_break_mops_1_sc_17->setText(QString());
+        lable_break_mops_1_sc_18->setText(QString());
+        lable_break_mops_1_sc_19->setText(QString());
+        lable_break_mops_1_sc_20->setText(QString());
+        lable_break_mops_1_sc_21->setText(QString());
+        lable_break_mops_1_sc_22->setText(QString());
+        lable_break_mops_1_sc_23->setText(QString());
+        lable_break_mops_1_sc_24->setText(QString());
     } // retranslateUi
 
 };
