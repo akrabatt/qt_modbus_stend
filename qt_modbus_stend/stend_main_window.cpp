@@ -204,6 +204,8 @@ void stend_main_window::start_main_test()
             // записываем id модулей в плату которые будем испытывать
             stand_test_board.process_checkboxes(mops_checkboxes, mups_checkboxes, 10, 10, &stand_test_board, &modbus_stand_board, this);
 
+
+            // ТУТ НАЧИНАЕТСЯ ГЛАВНЫЙ ЦИКЛ ИСПЫТАНИЙ
             int i = 0;
             // Пример выполнения некоторой операции
             while (isTestRunning)
