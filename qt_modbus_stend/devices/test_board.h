@@ -162,9 +162,6 @@ public:
      */
     void process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mops_count, int mups_count, test_board *test_board_ptr, modbusRTU *modbusrtu_ptr, stend_main_window* window);
 
-
-    bool start_main_test_mops(modbusRTU *modbusrtu_ptr, stend_main_window *window_ptr, test_board *test_board_ptr);
-
     /**
      * @brief check_test_is_busy данный метод проверяет 9001 и 9003 регистры платы, которые являются флагами что в данный момент идет проверка
      * @param modbusrtu_ptr указатель на объект контекста соединения модбаса
@@ -173,6 +170,21 @@ public:
      */
     bool check_test_is_busy(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
 
+    /**
+     * @brief start_main_test_mops функция старта тестирования МОПСов
+     * @param modbusrtu_ptr указатель на контекст подключения модбаса
+     * @param window_ptr указатель на gui
+     * @param test_board_ptr
+     */
+    void start_main_test_mops(modbusRTU *modbusrtu_ptr, stend_main_window *window_ptr, test_board *test_board_ptr);
+
+    /**
+     * @brief start_main_test_mops функция старта тестирования МУПСов
+     * @param modbusrtu_ptr указатель на контекст подключения модбаса
+     * @param window_ptr указатель на gui
+     * @param test_board_ptr
+     */
+    void start_main_test_mups(modbusRTU *modbusrtu_ptr, stend_main_window *window_ptr, test_board *test_board_ptr);
 };
 
 #endif // TEST_BOARD_H

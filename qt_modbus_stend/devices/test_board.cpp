@@ -244,13 +244,32 @@ bool test_board::check_test_is_busy(modbusRTU *modbusrtu_ptr, test_board *test_b
     return result_sum == 0 ? 1 : 0;
 }
 
-
-bool test_board::start_main_test_mops(modbusRTU *modbusrtu_ptr, stend_main_window *window_ptr, test_board *test_board_ptr)
+/**
+ * @brief start_main_test_mops функция старта тестирования МОПСов
+ * @param modbusrtu_ptr указатель на контекст подключения модбаса
+ * @param window_ptr указатель на gui
+ * @param test_board_ptr
+ */
+void test_board::start_main_test_mops(modbusRTU *modbusrtu_ptr, stend_main_window *window_ptr, test_board *test_board_ptr)
 {
     // проверяем стоит ли какой либо из флагов, если да, то выходим
-    if(test_board_ptr->check_test_is_busy(modbusrtu_ptr, test_board_ptr) == 0) {return false;}
+    if(test_board_ptr->check_test_is_busy(modbusrtu_ptr, test_board_ptr) == 0) {return;}
 
     // записываем флаг старта испытания МОПСов
     modbusrtu_ptr->mbm_16_write_single_register(this->start_check_mops_button_reg, 1);
 }
 
+/**
+ * @brief start_main_test_mops функция старта тестирования МУПСов
+ * @param modbusrtu_ptr указатель на контекст подключения модбаса
+ * @param window_ptr указатель на gui
+ * @param test_board_ptr
+ */
+void test_board::start_main_test_mups(modbusRTU *modbusrtu_ptr, stend_main_window *window_ptr, test_board *test_board_ptr)
+{
+    // проверяем стоит ли какой либо из флагов, если да, то выходим
+    if(test_board_ptr->check_test_is_busy(modbusrtu_ptr, test_board_ptr) == 0) {return;}
+
+    // записываем флаг старта испытания МОПСов
+    modbusrtu_ptr->mbm_16_write_single_register(this->start_check_mups_button_reg, 1);
+}

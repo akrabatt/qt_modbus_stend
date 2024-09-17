@@ -212,7 +212,13 @@ void stend_main_window::start_main_test()
             {
                 std::this_thread::sleep_for(std::chrono::seconds(1));
                 i++;
-                stand_test_board.start_main_test_mops(&modbus_stand_board, this, &stand_test_board);
+                // стартуем тест мопсов
+                //stand_test_board.start_main_test_mops(&modbus_stand_board, this, &stand_test_board);
+
+//                while()
+//                {
+//                    ... чтаем без остановки пока не опустится флаг теста
+//                }
 
                 // Пример обновления GUI из потока
                 QMetaObject::invokeMethod(this, [this, i]()
