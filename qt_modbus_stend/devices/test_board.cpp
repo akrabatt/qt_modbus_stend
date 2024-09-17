@@ -251,6 +251,6 @@ bool test_board::start_main_test_mops(modbusRTU *modbusrtu_ptr, stend_main_windo
     if(test_board_ptr->check_test_is_busy(modbusrtu_ptr, test_board_ptr) == 0) {return false;}
 
     // записываем флаг старта испытания МОПСов
-    modbusrtu_ptr->mbm_16_write_registers(this->start_check_mops_button_reg, 1, 1);
+    modbusrtu_ptr->mbm_16_write_single_register(this->start_check_mops_button_reg, 1);
 }
 

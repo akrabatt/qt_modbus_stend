@@ -58,6 +58,13 @@ public:
     void mbm_16_write_registers(const int &start_address, const int &size, const std::vector<uint16_t> &values);
 
     /**
+     * @brief modbusRTU::mbm_16_write_single_register Функция для записи одного регистра.
+     * @param start_address Адрес регистра для записи.
+     * @param value Значение для записи в регистр.
+     */
+    void mbm_16_write_single_register(const int &start_address, const uint16_t &value);
+
+    /**
      * @brief modbusRTU::mbm_16_write_registers Функция для записи регистров. с флагом
      * @param start_address Стартовый регистр.
      * @param size Количество регистров для записи.

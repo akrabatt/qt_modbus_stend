@@ -15,57 +15,34 @@ modbusRTU::modbusRTU(){};   // пустой конструктор
 modbusRTU::modbusRTU(const std::string &device, int baud, char parity, int data_bit, int stop_bit, int slave_id)
     : device(device), baud(baud), parity(parity), data_bit(data_bit), stop_bit(stop_bit)
 {
-    try
+    // блокируем мьютексом конструктор
+    std::lock_guard<std::mutex> lock(mtx_constr);
+
+    // Создаем контекст Modbus RTU
+    ctx = modbus_new_rtu(device.c_str(), baud, parity, data_bit, stop_bit);
+    if (ctx == nullptr)
     {
-        // блокируем мьютексом конструктор
-        std::lock_guard<std::mutex> lock(mtx_constr);
-
-        // Создаем контекст Modbus RTU
-        ctx = modbus_new_rtu(device.c_str(), baud, parity, data_bit, stop_bit);
-        if (ctx == nullptr)
-        {
-            throw std::runtime_error("Unable to create the libmodbus context");
-        }
-
-        // Устанавливаем идентификатор slave
-        if (modbus_set_slave(ctx, slave_id) == -1)
-        {
-            //modbus_free(ctx);
-            //throw std::runtime_error("Unable to set slave ID");
-            if (ctx != nullptr)
-            {
-                modbus_free(ctx);
-                ctx = nullptr;
-            }
-            throw std::runtime_error("Connection failed: " + std::string(modbus_strerror(errno)));
-        }
-
-        // Устанавливаем таймауты (опционально)
-        struct timeval response_timeout;
-        response_timeout.tv_sec = 1;    // секунды
-        response_timeout.tv_usec = 0;   // мил.сек
-        modbus_set_response_timeout(ctx, response_timeout.tv_sec, response_timeout.tv_usec);
-
-        // Подключаемся к устройству
-        if (modbus_connect(ctx) == -1)
-        {
-            if (ctx != nullptr)
-            {
-                modbus_free(ctx);
-                ctx = nullptr;
-            }
-            throw std::runtime_error("Connection failed: " + std::string(modbus_strerror(errno)));
-        }
+        throw std::runtime_error("Unable to create the libmodbus context");
     }
-    catch (const std::exception &e)
+
+    // Устанавливаем идентификатор slave
+    if (modbus_set_slave(ctx, slave_id) == -1)
     {
-        // Закрываем порт при ошибке
-        if (this->ctx != nullptr)
-        {
-            modbus_free(this->ctx);
-            this->ctx = nullptr;
-        }
-        throw std::runtime_error("Connection failed: " + std::string(modbus_strerror(errno)));;  // Повторно выбрасываем исключение
+        modbus_free(ctx);
+        throw std::runtime_error("Unable to set slave ID");
+    }
+
+    // Устанавливаем таймауты (опционально)
+    struct timeval response_timeout;
+    response_timeout.tv_sec = 1;    // секунды
+    response_timeout.tv_usec = 0;   // мил.сек
+    modbus_set_response_timeout(ctx, response_timeout.tv_sec, response_timeout.tv_usec);
+
+    // Подключаемся к устройству
+    if (modbus_connect(ctx) == -1)
+    {
+        modbus_free(ctx);
+        throw std::runtime_error("Connection failed: " + std::string(modbus_strerror(errno)));
     }
 }
 
@@ -142,25 +119,22 @@ void modbusRTU::mbm_16_write_registers(const int &start_address, const int &size
 }
 
 /**
- * @brief modbusRTU::mbm_16_write_registers Функция для записи регистра
- * @param start_address Стартовый регистр.
- * @param size Количество регистров для записи.
- * @param values Вектор значений для записи.
+ * @brief modbusRTU::mbm_16_write_single_register Функция для записи одного регистра с использованием modbus_write_registers.
+ * @param start_address Адрес регистра для записи.
+ * @param value Значение для записи в регистр.
  */
-void modbusRTU::mbm_16_write_register(const int &start_address, const int &size, const int val)
+void modbusRTU::mbm_16_write_single_register(const int &start_address, const uint16_t &value)
 {
     // Блокируем доступ к ресурсу с помощью мьютекса
     std::lock_guard<std::mutex> lock(mtx_constr);
 
-    // Проверяем, что указанный размер не превышает размер вектора
-    if (size > val) {
-        throw std::runtime_error("Size parameter exceeds the size of the values vector.");
-    }
+    // Создаем массив с одним значением
+    uint16_t values[1] = { value };
 
-    // Пишем значения в несколько регистров
-    if (modbus_write_registers(ctx, start_address, size, val) == -1)
+    // Пишем значение в один регистр с помощью modbus_write_registers
+    if (modbus_write_registers(ctx, start_address, 1, values) == -1)
     {
-        throw std::runtime_error("Failed to write registers: " + std::string(modbus_strerror(errno)));
+        throw std::runtime_error("Failed to write register: " + std::string(modbus_strerror(errno)));
     }
 }
 

@@ -3495,10 +3495,10 @@ public:
 
         just_lable_break_4 = new QLabel(mops_1);
         just_lable_break_4->setObjectName(QString::fromUtf8("just_lable_break_4"));
-        just_lable_break_4->setGeometry(QRect(230, 480, 61, 21));
+        just_lable_break_4->setGeometry(QRect(220, 480, 61, 21));
         just_lable_break_5 = new QLabel(mops_1);
         just_lable_break_5->setObjectName(QString::fromUtf8("just_lable_break_5"));
-        just_lable_break_5->setGeometry(QRect(190, 610, 151, 21));
+        just_lable_break_5->setGeometry(QRect(220, 610, 151, 21));
         verticalLayoutWidget_8 = new QWidget(mops_1);
         verticalLayoutWidget_8->setObjectName(QString::fromUtf8("verticalLayoutWidget_8"));
         verticalLayoutWidget_8->setGeometry(QRect(20, 640, 491, 91));
@@ -10191,7 +10191,7 @@ public:
 
         verticalLayoutWidget_69 = new QWidget(mups_1);
         verticalLayoutWidget_69->setObjectName(QString::fromUtf8("verticalLayoutWidget_69"));
-        verticalLayoutWidget_69->setGeometry(QRect(20, 400, 231, 91));
+        verticalLayoutWidget_69->setGeometry(QRect(20, 400, 269, 91));
         verticalLayout_110 = new QVBoxLayout(verticalLayoutWidget_69);
         verticalLayout_110->setObjectName(QString::fromUtf8("verticalLayout_110"));
         verticalLayout_110->setContentsMargins(0, 0, 0, 0);
@@ -15485,7 +15485,7 @@ public:
         stend_main_window->setCentralWidget(centralwidget);
         menubar = new QMenuBar(stend_main_window);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1605, 25));
+        menubar->setGeometry(QRect(0, 0, 1605, 21));
         stend_main_window->setMenuBar(menubar);
         statusbar = new QStatusBar(stend_main_window);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
