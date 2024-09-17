@@ -809,7 +809,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QLabel" name="just_lable_online_status_ans_mops_7">
+      <widget class="QLabel" name="just_lable_online_status_ans_mops_">
        <property name="minimumSize">
         <size>
          <width>102</width>
@@ -1025,7 +1025,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QLabel" name="just_lable_online_status_ans_mops_8">
+      <widget class="QLabel" name="just_lable_online_status_ans_mop">
        <property name="minimumSize">
         <size>
          <width>102</width>
@@ -1466,7 +1466,7 @@
      <string>Короткое замыкание</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>610</x>
@@ -1505,7 +1505,7 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>610</x>
@@ -1518,7 +1518,7 @@
      <item>
       <widget class="QTabWidget" name="tab_widget_for_mops">
        <property name="currentIndex">
-        <number>0</number>
+        <number>9</number>
        </property>
        <widget class="QWidget" name="mops_1">
         <property name="toolTip">
@@ -1545,7 +1545,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_2">
+           <widget class="QLabel" name="just_lable_oper_status_ans_mops_1">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -2533,7 +2533,7 @@
           </item>
          </layout>
         </widget>
-        <widget class="QWidget" name="">
+        <widget class="QWidget" name="layoutWidget">
          <property name="geometry">
           <rect>
            <x>360</x>
@@ -2580,21 +2580,21 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_11">
               <item>
-               <widget class="QLabel" name="lable_18v_ans_1">
+               <widget class="QLabel" name="lable_18v_ans_mops_1">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_24v_ans_1">
+               <widget class="QLabel" name="lable_24v_ans_mops_1">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_28v_ans_1">
+               <widget class="QLabel" name="lable_28v_ans_mops_1">
                 <property name="text">
                  <string/>
                 </property>
@@ -2606,7 +2606,7 @@
           </item>
          </layout>
         </widget>
-        <widget class="QWidget" name="">
+        <widget class="QWidget" name="layoutWidget">
          <property name="geometry">
           <rect>
            <x>10</x>
@@ -2667,7 +2667,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_13">
+           <widget class="QLabel" name="just_lable_online_status_ans_mops_2">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -2819,56 +2819,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_53">
+             <widget class="QLabel" name="lable_break_mops_2_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_54">
+             <widget class="QLabel" name="lable_break_mops_2_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_55">
+             <widget class="QLabel" name="lable_break_mops_2_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_56">
+             <widget class="QLabel" name="lable_break_mops_2_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_57">
+             <widget class="QLabel" name="lable_break_mops_2_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_58">
+             <widget class="QLabel" name="lable_break_mops_2_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_59">
+             <widget class="QLabel" name="lable_break_mops_2_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_60">
+             <widget class="QLabel" name="lable_break_mops_2_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -2997,56 +2997,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_33">
+             <widget class="QLabel" name="lable_break_mops_2_sc_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_34">
+             <widget class="QLabel" name="lable_break_mops_2_sc_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_35">
+             <widget class="QLabel" name="lable_break_mops_2_sc_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_36">
+             <widget class="QLabel" name="lable_break_mops_2_sc_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_37">
+             <widget class="QLabel" name="lable_break_mops_2_sc_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_38">
+             <widget class="QLabel" name="lable_break_mops_2_sc_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_39">
+             <widget class="QLabel" name="lable_break_mops_2_sc_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_40">
+             <widget class="QLabel" name="lable_break_mops_2_sc_8">
               <property name="text">
                <string/>
               </property>
@@ -3188,56 +3188,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_33">
+             <widget class="QLabel" name="lable_norm_mops_2_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_34">
+             <widget class="QLabel" name="lable_norm_mops_2_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_35">
+             <widget class="QLabel" name="lable_norm_mops_2_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_36">
+             <widget class="QLabel" name="lable_norm_mops_2_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_37">
+             <widget class="QLabel" name="lable_norm_mops_2_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_38">
+             <widget class="QLabel" name="lable_norm_mops_2_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_39">
+             <widget class="QLabel" name="lable_norm_mops_2_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_40">
+             <widget class="QLabel" name="lable_norm_mops_2_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -3392,56 +3392,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_33">
+             <widget class="QLabel" name="lable_fire_mops_2_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_34">
+             <widget class="QLabel" name="lable_fire_mops_2_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_35">
+             <widget class="QLabel" name="lable_fire_mops_2_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_36">
+             <widget class="QLabel" name="lable_fire_mops_2_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_37">
+             <widget class="QLabel" name="lable_fire_mops_2_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_38">
+             <widget class="QLabel" name="lable_fire_mops_2_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_39">
+             <widget class="QLabel" name="lable_fire_mops_2_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_40">
+             <widget class="QLabel" name="lable_fire_mops_2_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -3596,56 +3596,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_33">
+             <widget class="QLabel" name="lable_attantion_mops_2_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_34">
+             <widget class="QLabel" name="lable_attantion_mops_2_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_35">
+             <widget class="QLabel" name="lable_attantion_mops_2_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_36">
+             <widget class="QLabel" name="lable_attantion_mops_2_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_37">
+             <widget class="QLabel" name="lable_attantion_mops_2_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_38">
+             <widget class="QLabel" name="lable_attantion_mops_2_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_39">
+             <widget class="QLabel" name="lable_attantion_mops_2_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_40">
+             <widget class="QLabel" name="lable_attantion_mops_2_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -3702,21 +3702,21 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_45">
               <item>
-               <widget class="QLabel" name="lable_18v_ans_5">
+               <widget class="QLabel" name="lable_18v_ans_mops_2">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_24v_ans_5">
+               <widget class="QLabel" name="lable_24v_ans_mops_2">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_28v_ans_5">
+               <widget class="QLabel" name="lable_28v_ans_mops_2">
                 <property name="text">
                  <string/>
                 </property>
@@ -3746,7 +3746,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_14">
+           <widget class="QLabel" name="just_lable_oper_status_ans_mops_2">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -3789,7 +3789,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_15">
+           <widget class="QLabel" name="just_lable_online_status_ans_mops_3">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -3941,56 +3941,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_61">
+             <widget class="QLabel" name="lable_break_mops_3_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_62">
+             <widget class="QLabel" name="lable_break_mops_3_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_63">
+             <widget class="QLabel" name="lable_break_mops_3_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_64">
+             <widget class="QLabel" name="lable_break_mops_3_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_65">
+             <widget class="QLabel" name="lable_break_mops_3_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_66">
+             <widget class="QLabel" name="lable_break_mops_3_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_67">
+             <widget class="QLabel" name="lable_break_mops_3_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_68">
+             <widget class="QLabel" name="lable_break_mops_3_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -4119,56 +4119,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_41">
+             <widget class="QLabel" name="lable_break_mops_3_sc_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_42">
+             <widget class="QLabel" name="lable_break_mops_3_sc_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_43">
+             <widget class="QLabel" name="lable_break_mops_3_sc_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_44">
+             <widget class="QLabel" name="lable_break_mops_3_sc_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_45">
+             <widget class="QLabel" name="lable_break_mops_3_sc_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_46">
+             <widget class="QLabel" name="lable_break_mops_3_sc_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_47">
+             <widget class="QLabel" name="lable_break_mops_3_sc_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_48">
+             <widget class="QLabel" name="lable_break_mops_3_sc_8">
               <property name="text">
                <string/>
               </property>
@@ -4310,56 +4310,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_41">
+             <widget class="QLabel" name="lable_norm_mops_3_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_42">
+             <widget class="QLabel" name="lable_norm_mops_3_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_43">
+             <widget class="QLabel" name="lable_norm_mops_3_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_44">
+             <widget class="QLabel" name="lable_norm_mops_3_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_45">
+             <widget class="QLabel" name="lable_norm_mops_3_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_46">
+             <widget class="QLabel" name="lable_norm_mops_3_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_47">
+             <widget class="QLabel" name="lable_norm_mops_3_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_48">
+             <widget class="QLabel" name="lable_norm_mops_3_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -4514,56 +4514,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_41">
+             <widget class="QLabel" name="lable_fire_mops_3_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_42">
+             <widget class="QLabel" name="lable_fire_mops_3_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_43">
+             <widget class="QLabel" name="lable_fire_mops_3_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_44">
+             <widget class="QLabel" name="lable_fire_mops_3_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_45">
+             <widget class="QLabel" name="lable_fire_mops_3_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_46">
+             <widget class="QLabel" name="lable_fire_mops_3_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_47">
+             <widget class="QLabel" name="lable_fire_mops_3_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_48">
+             <widget class="QLabel" name="lable_fire_mops_3_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -4718,56 +4718,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_41">
+             <widget class="QLabel" name="lable_attantion_mops_3_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_42">
+             <widget class="QLabel" name="lable_attantion_mops_3_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_43">
+             <widget class="QLabel" name="lable_attantion_mops_3_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_44">
+             <widget class="QLabel" name="lable_attantion_mops_3_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_45">
+             <widget class="QLabel" name="lable_attantion_mops_3_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_46">
+             <widget class="QLabel" name="lable_attantion_mops_3_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_47">
+             <widget class="QLabel" name="lable_attantion_mops_3_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_48">
+             <widget class="QLabel" name="lable_attantion_mops_3_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -4824,21 +4824,21 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_53">
               <item>
-               <widget class="QLabel" name="lable_18v_ans_6">
+               <widget class="QLabel" name="lable_18v_ans_mops_3">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_24v_ans_6">
+               <widget class="QLabel" name="lable_24v_ans_mops_3">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_28v_ans_6">
+               <widget class="QLabel" name="lable_28v_ans_mops_3">
                 <property name="text">
                  <string/>
                 </property>
@@ -4868,7 +4868,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_16">
+           <widget class="QLabel" name="just_lable_oper_status_ans_mops_3">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -4911,7 +4911,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_17">
+           <widget class="QLabel" name="just_lable_online_status_ans_mops_4">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -5063,56 +5063,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_69">
+             <widget class="QLabel" name="lable_break_mops_4_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_70">
+             <widget class="QLabel" name="lable_break_mops_4_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_71">
+             <widget class="QLabel" name="lable_break_mops_4_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_72">
+             <widget class="QLabel" name="lable_break_mops_4_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_73">
+             <widget class="QLabel" name="lable_break_mops_4_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_74">
+             <widget class="QLabel" name="lable_break_mops_4_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_75">
+             <widget class="QLabel" name="lable_break_mops_4_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_76">
+             <widget class="QLabel" name="lable_break_mops_4_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -5241,56 +5241,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_49">
+             <widget class="QLabel" name="lable_break_mops_4_sc_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_50">
+             <widget class="QLabel" name="lable_break_mops_4_sc_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_51">
+             <widget class="QLabel" name="lable_break_mops_4_sc_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_52">
+             <widget class="QLabel" name="lable_break_mops_4_sc_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_53">
+             <widget class="QLabel" name="lable_break_mops_4_sc_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_54">
+             <widget class="QLabel" name="lable_break_mops_4_sc_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_55">
+             <widget class="QLabel" name="lable_break_mops_4_sc_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_56">
+             <widget class="QLabel" name="lable_break_mops_4_sc_8">
               <property name="text">
                <string/>
               </property>
@@ -5432,56 +5432,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_49">
+             <widget class="QLabel" name="lable_norm_mops_4_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_50">
+             <widget class="QLabel" name="lable_norm_mops_4_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_51">
+             <widget class="QLabel" name="lable_norm_mops_4_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_52">
+             <widget class="QLabel" name="lable_norm_mops_4_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_53">
+             <widget class="QLabel" name="lable_norm_mops_4_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_54">
+             <widget class="QLabel" name="lable_norm_mops_4_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_55">
+             <widget class="QLabel" name="lable_norm_mops_4_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_56">
+             <widget class="QLabel" name="lable_norm_mops_4_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -5636,56 +5636,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_49">
+             <widget class="QLabel" name="lable_fire_mops_4_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_50">
+             <widget class="QLabel" name="lable_fire_mops_4_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_51">
+             <widget class="QLabel" name="lable_fire_mops_4_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_52">
+             <widget class="QLabel" name="lable_fire_mops_4_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_53">
+             <widget class="QLabel" name="lable_fire_mops_4_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_54">
+             <widget class="QLabel" name="lable_fire_mops_4_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_55">
+             <widget class="QLabel" name="lable_fire_mops_4_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_56">
+             <widget class="QLabel" name="lable_fire_mops_4_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -5840,56 +5840,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_49">
+             <widget class="QLabel" name="lable_attantion_mops_4_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_50">
+             <widget class="QLabel" name="lable_attantion_mops_4_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_51">
+             <widget class="QLabel" name="lable_attantion_mops_4_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_52">
+             <widget class="QLabel" name="lable_attantion_mops_4_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_53">
+             <widget class="QLabel" name="lable_attantion_mops_4_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_54">
+             <widget class="QLabel" name="lable_attantion_mops_4_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_55">
+             <widget class="QLabel" name="lable_attantion_mops_4_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_56">
+             <widget class="QLabel" name="lable_attantion_mops_4_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -5946,21 +5946,21 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_61">
               <item>
-               <widget class="QLabel" name="lable_18v_ans_7">
+               <widget class="QLabel" name="lable_18v_ans_mops_4">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_24v_ans_7">
+               <widget class="QLabel" name="lable_24v_ans_mops_4">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_28v_ans_7">
+               <widget class="QLabel" name="lable_28v_ans_mops_4">
                 <property name="text">
                  <string/>
                 </property>
@@ -5990,7 +5990,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_18">
+           <widget class="QLabel" name="just_lable_oper_status_ans_mops_4">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -6033,7 +6033,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_19">
+           <widget class="QLabel" name="just_lable_online_status_ans_mops_5">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -6185,56 +6185,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_77">
+             <widget class="QLabel" name="lable_break_mops_5_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_78">
+             <widget class="QLabel" name="lable_break_mops_5_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_79">
+             <widget class="QLabel" name="lable_break_mops_5_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_80">
+             <widget class="QLabel" name="lable_break_mops_5_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_81">
+             <widget class="QLabel" name="lable_break_mops_5_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_82">
+             <widget class="QLabel" name="lable_break_mops_5_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_83">
+             <widget class="QLabel" name="lable_break_mops_5_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_84">
+             <widget class="QLabel" name="lable_break_mops_5_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -6363,56 +6363,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_57">
+             <widget class="QLabel" name="lable_break_mops_5_sc_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_58">
+             <widget class="QLabel" name="lable_break_mops_5_sc_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_59">
+             <widget class="QLabel" name="lable_break_mops_5_sc_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_60">
+             <widget class="QLabel" name="lable_break_mops_5_sc_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_61">
+             <widget class="QLabel" name="lable_break_mops_5_sc_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_62">
+             <widget class="QLabel" name="lable_break_mops_5_sc_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_63">
+             <widget class="QLabel" name="lable_break_mops_5_sc_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_64">
+             <widget class="QLabel" name="lable_break_mops_5_sc_8">
               <property name="text">
                <string/>
               </property>
@@ -6554,56 +6554,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_57">
+             <widget class="QLabel" name="lable_norm_mops_5_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_58">
+             <widget class="QLabel" name="lable_norm_mops_5_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_59">
+             <widget class="QLabel" name="lable_norm_mops_5_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_60">
+             <widget class="QLabel" name="lable_norm_mops_5_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_61">
+             <widget class="QLabel" name="lable_norm_mops_5_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_62">
+             <widget class="QLabel" name="lable_norm_mops_5_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_63">
+             <widget class="QLabel" name="lable_norm_mops_5_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_64">
+             <widget class="QLabel" name="lable_norm_mops_5_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -6758,56 +6758,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_57">
+             <widget class="QLabel" name="lable_fire_mops_5_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_58">
+             <widget class="QLabel" name="lable_fire_mops_5_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_59">
+             <widget class="QLabel" name="lable_fire_mops_5_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_60">
+             <widget class="QLabel" name="lable_fire_mops_5_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_61">
+             <widget class="QLabel" name="lable_fire_mops_5_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_62">
+             <widget class="QLabel" name="lable_fire_mops_5_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_63">
+             <widget class="QLabel" name="lable_fire_mops_5_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_64">
+             <widget class="QLabel" name="lable_fire_mops_5_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -6962,56 +6962,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_57">
+             <widget class="QLabel" name="lable_attantion_mops_5_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_58">
+             <widget class="QLabel" name="lable_attantion_mops_5_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_59">
+             <widget class="QLabel" name="lable_attantion_mops_5_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_60">
+             <widget class="QLabel" name="lable_attantion_mops_5_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_61">
+             <widget class="QLabel" name="lable_attantion_mops_5_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_62">
+             <widget class="QLabel" name="lable_attantion_mops_5_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_63">
+             <widget class="QLabel" name="lable_attantion_mops_5_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_64">
+             <widget class="QLabel" name="lable_attantion_mops_5_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -7068,21 +7068,21 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_69">
               <item>
-               <widget class="QLabel" name="lable_18v_ans_8">
+               <widget class="QLabel" name="lable_18v_ans_mops_5">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_24v_ans_8">
+               <widget class="QLabel" name="lable_24v_ans_mops_5">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_28v_ans_8">
+               <widget class="QLabel" name="lable_28v_ans_mops_5">
                 <property name="text">
                  <string/>
                 </property>
@@ -7112,7 +7112,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_20">
+           <widget class="QLabel" name="just_lable_oper_status_ans_mops_5">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -7155,7 +7155,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_21">
+           <widget class="QLabel" name="just_lable_online_status_ans_mops_6">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -7307,56 +7307,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_85">
+             <widget class="QLabel" name="lable_break_mops_6_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_86">
+             <widget class="QLabel" name="lable_break_mops_6_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_87">
+             <widget class="QLabel" name="lable_break_mops_6_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_88">
+             <widget class="QLabel" name="lable_break_mops_6_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_89">
+             <widget class="QLabel" name="lable_break_mops_6_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_90">
+             <widget class="QLabel" name="lable_break_mops_6_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_91">
+             <widget class="QLabel" name="lable_break_mops_6_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_92">
+             <widget class="QLabel" name="lable_break_mops_6_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -7485,56 +7485,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_65">
+             <widget class="QLabel" name="lable_break_mops_6_sc_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_66">
+             <widget class="QLabel" name="lable_break_mops_6_sc_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_67">
+             <widget class="QLabel" name="lable_break_mops_6_sc_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_68">
+             <widget class="QLabel" name="lable_break_mops_6_sc_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_69">
+             <widget class="QLabel" name="lable_break_mops_6_sc_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_70">
+             <widget class="QLabel" name="lable_break_mops_6_sc_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_71">
+             <widget class="QLabel" name="lable_break_mops_6_sc_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_72">
+             <widget class="QLabel" name="lable_break_mops_6_sc_8">
               <property name="text">
                <string/>
               </property>
@@ -7676,56 +7676,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_65">
+             <widget class="QLabel" name="lable_norm_mops_6_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_66">
+             <widget class="QLabel" name="lable_norm_mops_6_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_67">
+             <widget class="QLabel" name="lable_norm_mops_6_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_68">
+             <widget class="QLabel" name="lable_norm_mops_6_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_69">
+             <widget class="QLabel" name="lable_norm_mops_6_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_70">
+             <widget class="QLabel" name="lable_norm_mops_6_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_71">
+             <widget class="QLabel" name="lable_norm_mops_6_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_72">
+             <widget class="QLabel" name="lable_norm_mops_6_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -7880,56 +7880,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_65">
+             <widget class="QLabel" name="lable_fire_mops_6_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_66">
+             <widget class="QLabel" name="lable_fire_mops_6_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_67">
+             <widget class="QLabel" name="lable_fire_mops_6_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_68">
+             <widget class="QLabel" name="lable_fire_mops_6_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_69">
+             <widget class="QLabel" name="lable_fire_mops_6_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_70">
+             <widget class="QLabel" name="lable_fire_mops_6_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_71">
+             <widget class="QLabel" name="lable_fire_mops_6_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_72">
+             <widget class="QLabel" name="lable_fire_mops_6_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -8084,56 +8084,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_65">
+             <widget class="QLabel" name="lable_attantion_mops_6_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_66">
+             <widget class="QLabel" name="lable_attantion_mops_6_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_67">
+             <widget class="QLabel" name="lable_attantion_mops_6_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_68">
+             <widget class="QLabel" name="lable_attantion_mops_6_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_69">
+             <widget class="QLabel" name="lable_attantion_mops_6_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_70">
+             <widget class="QLabel" name="lable_attantion_mops_6_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_71">
+             <widget class="QLabel" name="lable_attantion_mops_6_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_72">
+             <widget class="QLabel" name="lable_attantion_mops_6_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -8190,21 +8190,21 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_77">
               <item>
-               <widget class="QLabel" name="lable_18v_ans_9">
+               <widget class="QLabel" name="lable_18v_ans_mops_6">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_24v_ans_9">
+               <widget class="QLabel" name="lable_24v_ans_mops_6">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_28v_ans_9">
+               <widget class="QLabel" name="lable_28v_ans_mops_6">
                 <property name="text">
                  <string/>
                 </property>
@@ -8234,7 +8234,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_22">
+           <widget class="QLabel" name="just_lable_oper_status_ans_mops_6">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -8277,7 +8277,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_23">
+           <widget class="QLabel" name="just_lable_online_status_ans_mops_7">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -8429,56 +8429,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_93">
+             <widget class="QLabel" name="lable_break_mops_7_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_94">
+             <widget class="QLabel" name="lable_break_mops_7_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_95">
+             <widget class="QLabel" name="lable_break_mops_7_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_96">
+             <widget class="QLabel" name="lable_break_mops_7_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_97">
+             <widget class="QLabel" name="lable_break_mops_7_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_98">
+             <widget class="QLabel" name="lable_break_mops_7_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_99">
+             <widget class="QLabel" name="lable_break_mops_7_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_100">
+             <widget class="QLabel" name="lable_break_mops_7_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -8607,56 +8607,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_73">
+             <widget class="QLabel" name="lable_break_mops_7_sc_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_74">
+             <widget class="QLabel" name="lable_break_mops_7_sc_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_75">
+             <widget class="QLabel" name="lable_break_mops_7_sc_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_76">
+             <widget class="QLabel" name="lable_break_mops_7_sc_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_77">
+             <widget class="QLabel" name="lable_break_mops_7_sc_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_78">
+             <widget class="QLabel" name="lable_break_mops_7_sc_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_79">
+             <widget class="QLabel" name="lable_break_mops_7_sc_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_80">
+             <widget class="QLabel" name="lable_break_mops_7_sc_8">
               <property name="text">
                <string/>
               </property>
@@ -8798,56 +8798,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_73">
+             <widget class="QLabel" name="lable_norm_mops_7_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_74">
+             <widget class="QLabel" name="lable_norm_mops_7_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_75">
+             <widget class="QLabel" name="lable_norm_mops_7_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_76">
+             <widget class="QLabel" name="lable_norm_mops_7_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_77">
+             <widget class="QLabel" name="lable_norm_mops_7_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_78">
+             <widget class="QLabel" name="lable_norm_mops_7_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_79">
+             <widget class="QLabel" name="lable_norm_mops_7_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_80">
+             <widget class="QLabel" name="lable_norm_mops_7_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -9002,56 +9002,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_73">
+             <widget class="QLabel" name="lable_fire_mops_7_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_74">
+             <widget class="QLabel" name="lable_fire_mops_7_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_75">
+             <widget class="QLabel" name="lable_fire_mops_7_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_76">
+             <widget class="QLabel" name="lable_fire_mops_7_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_77">
+             <widget class="QLabel" name="lable_fire_mops_7_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_78">
+             <widget class="QLabel" name="lable_fire_mops_7_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_79">
+             <widget class="QLabel" name="lable_fire_mops_7_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_80">
+             <widget class="QLabel" name="lable_fire_mops_7_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -9206,56 +9206,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_73">
+             <widget class="QLabel" name="lable_attantion_mops_7_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_74">
+             <widget class="QLabel" name="lable_attantion_mops_7_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_75">
+             <widget class="QLabel" name="lable_attantion_mops_7_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_76">
+             <widget class="QLabel" name="lable_attantion_mops_7_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_77">
+             <widget class="QLabel" name="lable_attantion_mops_7_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_78">
+             <widget class="QLabel" name="lable_attantion_mops_7_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_79">
+             <widget class="QLabel" name="lable_attantion_mops_7_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_80">
+             <widget class="QLabel" name="lable_attantion_mops_7_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -9312,21 +9312,21 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_85">
               <item>
-               <widget class="QLabel" name="lable_18v_ans_10">
+               <widget class="QLabel" name="lable_18v_ans_mops_7">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_24v_ans_10">
+               <widget class="QLabel" name="lable_24v_ans_mops_7">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_28v_ans_10">
+               <widget class="QLabel" name="lable_28v_ans_mops_7">
                 <property name="text">
                  <string/>
                 </property>
@@ -9356,7 +9356,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_24">
+           <widget class="QLabel" name="just_lable_oper_status_ans_mops_7">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -9399,7 +9399,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_26">
+           <widget class="QLabel" name="just_lable_oper_status_ans_mops_8">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -9538,56 +9538,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_81">
+             <widget class="QLabel" name="lable_norm_mops_8_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_82">
+             <widget class="QLabel" name="lable_norm_mops_8_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_83">
+             <widget class="QLabel" name="lable_norm_mops_8_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_84">
+             <widget class="QLabel" name="lable_norm_mops_8_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_85">
+             <widget class="QLabel" name="lable_norm_mops_8_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_86">
+             <widget class="QLabel" name="lable_norm_mops_8_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_87">
+             <widget class="QLabel" name="lable_norm_mops_8_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_88">
+             <widget class="QLabel" name="lable_norm_mops_8_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -9742,56 +9742,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_81">
+             <widget class="QLabel" name="lable_break_mops_8_sc_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_82">
+             <widget class="QLabel" name="lable_break_mops_8_sc_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_83">
+             <widget class="QLabel" name="lable_break_mops_8_sc_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_84">
+             <widget class="QLabel" name="lable_break_mops_8_sc_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_85">
+             <widget class="QLabel" name="lable_break_mops_8_sc_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_86">
+             <widget class="QLabel" name="lable_break_mops_8_sc_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_87">
+             <widget class="QLabel" name="lable_break_mops_8_sc_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_88">
+             <widget class="QLabel" name="lable_break_mops_8_sc_8">
               <property name="text">
                <string/>
               </property>
@@ -9848,21 +9848,21 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_93">
               <item>
-               <widget class="QLabel" name="lable_18v_ans_11">
+               <widget class="QLabel" name="lable_18v_ans_mops_8">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_24v_ans_11">
+               <widget class="QLabel" name="lable_24v_ans_mops_8">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_28v_ans_11">
+               <widget class="QLabel" name="lable_28v_ans_mops_8">
                 <property name="text">
                  <string/>
                 </property>
@@ -9892,7 +9892,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_25">
+           <widget class="QLabel" name="just_lable_online_status_ans_mops_8">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -10031,56 +10031,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_81">
+             <widget class="QLabel" name="lable_fire_mops_8_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_82">
+             <widget class="QLabel" name="lable_fire_mops_8_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_83">
+             <widget class="QLabel" name="lable_fire_mops_8_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_84">
+             <widget class="QLabel" name="lable_fire_mops_8_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_85">
+             <widget class="QLabel" name="lable_fire_mops_8_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_86">
+             <widget class="QLabel" name="lable_fire_mops_8_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_87">
+             <widget class="QLabel" name="lable_fire_mops_8_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_88">
+             <widget class="QLabel" name="lable_fire_mops_8_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -10209,56 +10209,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_101">
+             <widget class="QLabel" name="lable_break_mops_8_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_102">
+             <widget class="QLabel" name="lable_break_mops_8_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_103">
+             <widget class="QLabel" name="lable_break_mops_8_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_104">
+             <widget class="QLabel" name="lable_break_mops_8_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_105">
+             <widget class="QLabel" name="lable_break_mops_8_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_106">
+             <widget class="QLabel" name="lable_break_mops_8_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_107">
+             <widget class="QLabel" name="lable_break_mops_8_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_108">
+             <widget class="QLabel" name="lable_break_mops_8_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -10426,56 +10426,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_81">
+             <widget class="QLabel" name="lable_attantion_mops_8_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_82">
+             <widget class="QLabel" name="lable_attantion_mops_8_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_83">
+             <widget class="QLabel" name="lable_attantion_mops_8_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_84">
+             <widget class="QLabel" name="lable_attantion_mops_8_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_85">
+             <widget class="QLabel" name="lable_attantion_mops_8_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_86">
+             <widget class="QLabel" name="lable_attantion_mops_8_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_87">
+             <widget class="QLabel" name="lable_attantion_mops_8_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_88">
+             <widget class="QLabel" name="lable_attantion_mops_8_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -10521,7 +10521,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_27">
+           <widget class="QLabel" name="just_lable_online_status_ans_mops_9">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -10673,56 +10673,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_109">
+             <widget class="QLabel" name="lable_break_mops_9_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_110">
+             <widget class="QLabel" name="lable_break_mops_9_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_111">
+             <widget class="QLabel" name="lable_break_mops_9_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_112">
+             <widget class="QLabel" name="lable_break_mops_9_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_113">
+             <widget class="QLabel" name="lable_break_mops_9_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_114">
+             <widget class="QLabel" name="lable_break_mops_9_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_115">
+             <widget class="QLabel" name="lable_break_mops_9_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_116">
+             <widget class="QLabel" name="lable_break_mops_9_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -10851,56 +10851,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_89">
+             <widget class="QLabel" name="lable_break_mops_9_sc_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_90">
+             <widget class="QLabel" name="lable_break_mops_9_sc_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_91">
+             <widget class="QLabel" name="lable_break_mops_9_sc_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_92">
+             <widget class="QLabel" name="lable_break_mops_9_sc_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_93">
+             <widget class="QLabel" name="lable_break_mops_9_sc_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_94">
+             <widget class="QLabel" name="lable_break_mops_9_sc_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_95">
+             <widget class="QLabel" name="lable_break_mops_9_sc_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_96">
+             <widget class="QLabel" name="lable_break_mops_9_sc_8">
               <property name="text">
                <string/>
               </property>
@@ -11042,56 +11042,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_89">
+             <widget class="QLabel" name="lable_norm_mops_9_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_90">
+             <widget class="QLabel" name="lable_norm_mops_9_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_91">
+             <widget class="QLabel" name="lable_norm_mops_9_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_92">
+             <widget class="QLabel" name="lable_norm_mops_9_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_93">
+             <widget class="QLabel" name="lable_norm_mops_9_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_94">
+             <widget class="QLabel" name="lable_norm_mops_9_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_95">
+             <widget class="QLabel" name="lable_norm_mops_9_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_96">
+             <widget class="QLabel" name="lable_norm_mops_9_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -11246,56 +11246,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_89">
+             <widget class="QLabel" name="lable_fire_mops_9_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_90">
+             <widget class="QLabel" name="lable_fire_mops_9_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_91">
+             <widget class="QLabel" name="lable_fire_mops_9_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_92">
+             <widget class="QLabel" name="lable_fire_mops_9_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_93">
+             <widget class="QLabel" name="lable_fire_mops_9_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_94">
+             <widget class="QLabel" name="lable_fire_mops_9_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_95">
+             <widget class="QLabel" name="lable_fire_mops_9_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_96">
+             <widget class="QLabel" name="lable_fire_mops_9_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -11450,56 +11450,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_89">
+             <widget class="QLabel" name="lable_attantion_mops_9_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_90">
+             <widget class="QLabel" name="lable_attantion_mops_9_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_91">
+             <widget class="QLabel" name="lable_attantion_mops_9_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_92">
+             <widget class="QLabel" name="lable_attantion_mops_9_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_93">
+             <widget class="QLabel" name="lable_attantion_mops_9_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_94">
+             <widget class="QLabel" name="lable_attantion_mops_9_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_95">
+             <widget class="QLabel" name="lable_attantion_mops_9_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_96">
+             <widget class="QLabel" name="lable_attantion_mops_9_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -11556,21 +11556,21 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_101">
               <item>
-               <widget class="QLabel" name="lable_18v_ans_12">
+               <widget class="QLabel" name="lable_18v_ans_mops_9">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_24v_ans_12">
+               <widget class="QLabel" name="lable_24v_ans_mops_9">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_28v_ans_12">
+               <widget class="QLabel" name="lable_28v_ans_mops_9">
                 <property name="text">
                  <string/>
                 </property>
@@ -11600,7 +11600,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_28">
+           <widget class="QLabel" name="just_lable_oper_status_ans_mops_9">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -11643,7 +11643,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_29">
+           <widget class="QLabel" name="just_lable_online_status_ans_mops_10">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -11795,56 +11795,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_117">
+             <widget class="QLabel" name="lable_break_mops_10_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_118">
+             <widget class="QLabel" name="lable_break_mops_10_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_119">
+             <widget class="QLabel" name="lable_break_mops_10_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_120">
+             <widget class="QLabel" name="lable_break_mops_10_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_121">
+             <widget class="QLabel" name="lable_break_mops_10_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_122">
+             <widget class="QLabel" name="lable_break_mops_10_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_123">
+             <widget class="QLabel" name="lable_break_mops_10_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_ch_124">
+             <widget class="QLabel" name="lable_break_mops_10_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -11973,56 +11973,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_97">
+             <widget class="QLabel" name="lable_break_mops_10_sc_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_98">
+             <widget class="QLabel" name="lable_break_mops_10_sc_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_99">
+             <widget class="QLabel" name="lable_break_mops_10_sc_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_100">
+             <widget class="QLabel" name="lable_break_mops_10_sc_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_101">
+             <widget class="QLabel" name="lable_break_mops_10_sc_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_102">
+             <widget class="QLabel" name="lable_break_mops_10_sc_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_103">
+             <widget class="QLabel" name="lable_break_mops_10_sc_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_break_mops_1_sc_104">
+             <widget class="QLabel" name="lable_break_mops_10_sc_8">
               <property name="text">
                <string/>
               </property>
@@ -12164,56 +12164,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_97">
+             <widget class="QLabel" name="lable_norm_mops_10_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_98">
+             <widget class="QLabel" name="lable_norm_mops_10_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_99">
+             <widget class="QLabel" name="lable_norm_mops_10_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_100">
+             <widget class="QLabel" name="lable_norm_mops_10_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_101">
+             <widget class="QLabel" name="lable_norm_mops_10_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_102">
+             <widget class="QLabel" name="lable_norm_mops_10_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_103">
+             <widget class="QLabel" name="lable_norm_mops_10_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_norm_mops_1_ch_104">
+             <widget class="QLabel" name="lable_norm_mops_10_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -12368,56 +12368,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_97">
+             <widget class="QLabel" name="lable_fire_mops_10_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_98">
+             <widget class="QLabel" name="lable_fire_mops_10_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_99">
+             <widget class="QLabel" name="lable_fire_mops_10_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_100">
+             <widget class="QLabel" name="lable_fire_mops_10_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_101">
+             <widget class="QLabel" name="lable_fire_mops_10_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_102">
+             <widget class="QLabel" name="lable_fire_mops_10_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_103">
+             <widget class="QLabel" name="lable_fire_mops_10_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_fire_mops_1_ch_104">
+             <widget class="QLabel" name="lable_fire_mops_10_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -12572,56 +12572,56 @@
              </spacer>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_97">
+             <widget class="QLabel" name="lable_attantion_mops_10_ch_1">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_98">
+             <widget class="QLabel" name="lable_attantion_mops_10_ch_2">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_99">
+             <widget class="QLabel" name="lable_attantion_mops_10_ch_3">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_100">
+             <widget class="QLabel" name="lable_attantion_mops_10_ch_4">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_101">
+             <widget class="QLabel" name="lable_attantion_mops_10_ch_5">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_102">
+             <widget class="QLabel" name="lable_attantion_mops_10_ch_6">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_103">
+             <widget class="QLabel" name="lable_attantion_mops_10_ch_7">
               <property name="text">
                <string/>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lable_attantion_mops_1_ch_104">
+             <widget class="QLabel" name="lable_attantion_mops_10_ch_8">
               <property name="text">
                <string/>
               </property>
@@ -12678,21 +12678,21 @@
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_109">
               <item>
-               <widget class="QLabel" name="lable_18v_ans_13">
+               <widget class="QLabel" name="lable_18v_ans_mops_10">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_24v_ans_13">
+               <widget class="QLabel" name="lable_24v_ans_mops_10">
                 <property name="text">
                  <string/>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="lable_28v_ans_13">
+               <widget class="QLabel" name="lable_28v_ans_mops_10">
                 <property name="text">
                  <string/>
                 </property>
@@ -12722,7 +12722,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="just_lable_online_status_ans_mops_30">
+           <widget class="QLabel" name="just_lable_oper_status_ans_mops_10">
             <property name="minimumSize">
              <size>
               <width>102</width>
@@ -12748,7 +12748,7 @@
      <item>
       <widget class="QTabWidget" name="tab_widget_for_mups">
        <property name="currentIndex">
-        <number>2</number>
+        <number>0</number>
        </property>
        <widget class="QWidget" name="mups_1">
         <attribute name="title">
