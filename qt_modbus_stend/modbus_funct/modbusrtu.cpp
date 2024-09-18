@@ -173,7 +173,7 @@ bool modbusRTU::mbm_16_write_registers_flag(const int &start_address, const int 
  * @param num_registers кол-во регистров для чтения
  * @return возвращаем вектор с регистрами
  */
-std::vector<uint16_t> modbusRTU::mbm_03_read_registers(int start_address, int num_registers)
+std::vector<uint16_t> modbusRTU::mbm_03_read_registers(uint16_t start_address, uint16_t num_registers)
 {
     // блокируем доступ к ресурам
     std::lock_guard<std::mutex> lock(mtx_constr);
@@ -186,6 +186,7 @@ std::vector<uint16_t> modbusRTU::mbm_03_read_registers(int start_address, int nu
     {
         throw std::runtime_error("Failed to read registers: " + std::string(modbus_strerror(errno)));
     }
+    //modbus_read_registers(ctx, start_address, num_registers, values.data());
 
     return values;
 }
@@ -214,88 +215,5 @@ bool modbusRTU::mbm_03_check_connection()
     return true;
 }
 
-/**
- * @brief init_and_read_registers Метод для создания контекста и чтения регистров.
- * @param device Устройство (например, COM порт)
- * @param baud Скорость (например, 115200)
- * @param parity Четность (например, 'N')
- * @param data_bit Кол-во бит данных (например, 8)
- * @param stop_bit Стоповый бит (например, 1)
- * @param slave_id Идентификатор slave устройства
- * @param start_address Адрес регистра для чтения
- * @param num_registers Кол-во регистров для чтения
- * @return Вектор с прочитанными регистрами
- */
-std::vector<uint16_t> modbusRTU::init_and_read_registers(const std::string &device, int baud, char parity, int data_bit, int stop_bit, int slave_id, int start_address, int num_registers)
-{
-    // Вызываем функцию для создания контекста
-    create_modbus_context(device, baud, parity, data_bit, stop_bit, slave_id);
-
-    // Читаем регистры
-    std::vector<uint16_t> values(num_registers);
-    if (modbus_read_registers(ctx, start_address, num_registers, values.data()) == -1)
-    {
-        throw std::runtime_error("Failed to read registers: " + std::string(modbus_strerror(errno)));
-    }
-
-    // Возвращаем прочитанные значения
-    return values;
-}
-
-/**
- * @brief init_and_check_connection Метод для создания контекста и проверки подклчения к плате
- * @param device Устройство (например, COM порт)
- * @param baud Скорость (например, 115200)
- * @param parity Четность (например, 'N')
- * @param data_bit Кол-во бит данных (например, 8)
- * @param stop_bit Стоповый бит (например, 1)
- * @param slave_id Идентификатор slave устройства
- * @param start_address Адрес регистра для чтения
- * @param num_registers Кол-во регистров для чтения
- * @return результат подключения к плате 1 - успешно, 0 - неуспешно
- */
-bool modbusRTU::init_and_check_connection(const std::string &device, int baud, char parity, int data_bit, int stop_bit, int slave_id, int start_address, int num_registers)
-{
-
-    // Если контекст еще не был создан, создаем его
-        if (ctx == nullptr)
-    {
-        create_modbus_context(device, baud, parity, data_bit, stop_bit, slave_id);
-    }
-
-    // Читаем регистры
-    std::vector<uint16_t> values(num_registers);
-    if (modbus_read_registers(ctx, start_address, num_registers, values.data()) == -1)
-    {
-        throw std::runtime_error("Failed to read registers: " + std::string(modbus_strerror(errno)));
-        return false;
-    }
-
-    // Возвращаем прочитанные значения
-    return true;
-}
-
-/**
- * @brief init_and_write_registers Метод для создания контекста и записи регистров.
- * @param device Устройство (например, COM порт)
- * @param baud Скорость (например, 115200)
- * @param parity Четность (например, 'N')
- * @param data_bit Кол-во бит данных (например, 8)
- * @param stop_bit Стоповый бит (например, 1)
- * @param slave_id Идентификатор slave устройства
- * @param start_address Адрес регистра для записи
- * @param values Вектор со значениями для записи
- */
-void modbusRTU::init_and_write_registers(const std::string &device, int baud, char parity, int data_bit, int stop_bit, int slave_id, int start_address, const std::vector<uint16_t> &values)
-{
-    // Вызываем функцию для создания контекста
-    create_modbus_context(device, baud, parity, data_bit, stop_bit, slave_id);
-
-    // Пишем значения в несколько регистров
-    if (modbus_write_registers(ctx, start_address, values.size(), values.data()) == -1)
-    {
-        throw std::runtime_error("Failed to write registers: " + std::string(modbus_strerror(errno)));
-    }
-}
 
 
