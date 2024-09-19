@@ -201,8 +201,15 @@ void stend_main_window::start_main_test()
             // Создаем объект испытательной платы
             test_board stand_test_board(1);
 
-            // Записываем id модулей в плату, которые будем испытывать
-            stand_test_board.process_checkboxes(mops_checkboxes, mups_checkboxes, 10, 10, &stand_test_board, &modbus_stand_board, this);
+            // Записываем id модулей в плату, которые будем испытывать и проверяем успех выполнения
+            bool checkbox_res = false;  // переменная для проверки
+            checkbox_res = stand_test_board.process_checkboxes(mops_checkboxes, mups_checkboxes, 10, 10, &stand_test_board, &modbus_stand_board, this);
+            if (!checkbox_res)
+                {
+                    // Если checkboxes возвращает false, то останавливаем тест
+                    QMetaObject::invokeMethod(this, [this](){this->stop_main_test();});
+                    return; // Завершаем поток
+                }
 
             // Главный цикл испытаний
             int mops_num = 0;
@@ -279,9 +286,6 @@ void stend_main_window::start_main_test()
                 mups_num++;
                 QMetaObject::invokeMethod(this, [this, mups_num](){ui->just_lable_mups_ans->setText(QString("%1").arg(mups_num));});
 
-                // Пример обновления GUI из потока
-//                QMetaObject::invokeMethod(this, [this, i](){ui->answer_connection_lable->setText(QString("Testing... Step %1").arg(i+1));});
-
                 // при остановке теста
                 if (!isTestRunning)
                 {
@@ -290,14 +294,6 @@ void stend_main_window::start_main_test()
                     break;
                 }
             }
-
-//            if (isTestRunning)
-//            {
-//                QMetaObject::invokeMethod(this, [this]()
-//                {
-//                    QMessageBox::information(this, "Test Finished", "Test completed successfully!");
-//                });
-//            }
         }
         catch (const std::exception &e)
         {

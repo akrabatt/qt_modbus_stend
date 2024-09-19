@@ -177,8 +177,9 @@ bool test_board::wirte_active_mops_and_mups_to_test_board_flag(modbusRTU *modbus
  * @param test_board_ptr указатель на объект тестовой платы
  * @param modbustru_ptr указатель на объект контекста соединения модбаса
  * @param window указатель на объект главного окна
+ * @param 1 - успех, 0 - неуспех
  */
-void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mops_count, int mups_count, test_board *test_board_ptr, modbusRTU *modbusrtu_ptr, stend_main_window* window)
+bool test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mops_count, int mups_count, test_board *test_board_ptr, modbusRTU *modbusrtu_ptr, stend_main_window* window)
 {
     // обрабатываем чек-боксы для МОПСов и МУПСов
     for (int i = 0; i < 10; ++i)
@@ -198,7 +199,7 @@ void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mo
         {
             QMessageBox::warning(window, "Error", "The module is not selected");
         });
-        return; // Завершаем выполнение потока
+        return false; // Завершаем выполнение потока
     }
 
     // записываем регистры с МОПСами и МУПСами которые будем испытывать в плату
@@ -208,6 +209,7 @@ void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mo
     if (!success)
     {
         throw std::runtime_error("Error writing registers.");
+        return false;
     }
 
     // Проверяем успех операции
@@ -216,6 +218,7 @@ void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mo
         QMetaObject::invokeMethod(window, [window]()
         {
             QMessageBox::information(window, "Success", "Registers written successfully.");
+            return true;
         });
     }
     else
@@ -223,8 +226,10 @@ void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mo
         QMetaObject::invokeMethod(window, [window]()
         {
             QMessageBox::warning(window, "Error", "Error writing registers.");
+            return false;
         });
     }
+    return true;
 }
 
 /**
