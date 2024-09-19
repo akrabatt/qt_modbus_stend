@@ -132,6 +132,11 @@
            <layout class="QVBoxLayout" name="verticalLayout_6">
             <item>
              <widget class="QLabel" name="just_lable_mops_ans">
+              <property name="font">
+               <font>
+                <bold>true</bold>
+               </font>
+              </property>
               <property name="text">
                <string/>
               </property>
@@ -139,6 +144,11 @@
             </item>
             <item>
              <widget class="QLabel" name="just_lable_mups_ans">
+              <property name="font">
+               <font>
+                <bold>true</bold>
+               </font>
+              </property>
               <property name="text">
                <string/>
               </property>
@@ -161,6 +171,11 @@
         </item>
         <item>
          <widget class="QLabel" name="just_lable_in_test_ans">
+          <property name="font">
+           <font>
+            <bold>true</bold>
+           </font>
+          </property>
           <property name="text">
            <string/>
           </property>
@@ -1345,6 +1360,11 @@
            <width>261</width>
            <height>91</height>
           </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>false</bold>
+          </font>
          </property>
          <property name="title">
           <string>Состояние модуля МОПС 1</string>
@@ -21959,7 +21979,7 @@
      <x>0</x>
      <y>0</y>
      <width>1634</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

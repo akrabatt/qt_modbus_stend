@@ -2868,11 +2868,15 @@ public:
         verticalLayout_6->setObjectName(QString::fromUtf8("verticalLayout_6"));
         just_lable_mops_ans = new QLabel(layoutWidget_2);
         just_lable_mops_ans->setObjectName(QString::fromUtf8("just_lable_mops_ans"));
+        QFont font;
+        font.setBold(true);
+        just_lable_mops_ans->setFont(font);
 
         verticalLayout_6->addWidget(just_lable_mops_ans);
 
         just_lable_mups_ans = new QLabel(layoutWidget_2);
         just_lable_mups_ans->setObjectName(QString::fromUtf8("just_lable_mups_ans"));
+        just_lable_mups_ans->setFont(font);
 
         verticalLayout_6->addWidget(just_lable_mups_ans);
 
@@ -2894,6 +2898,7 @@ public:
 
         just_lable_in_test_ans = new QLabel(layoutWidget_2);
         just_lable_in_test_ans->setObjectName(QString::fromUtf8("just_lable_in_test_ans"));
+        just_lable_in_test_ans->setFont(font);
 
         horizontalLayout_9->addWidget(just_lable_in_test_ans);
 
@@ -15576,7 +15581,7 @@ public:
         stend_main_window->setCentralWidget(centralwidget);
         menubar = new QMenuBar(stend_main_window);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1634, 25));
+        menubar->setGeometry(QRect(0, 0, 1634, 21));
         stend_main_window->setMenuBar(menubar);
         statusbar = new QStatusBar(stend_main_window);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));

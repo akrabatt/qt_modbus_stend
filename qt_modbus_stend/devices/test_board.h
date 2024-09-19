@@ -9,6 +9,8 @@
 #include <iostream>
 #include <QWidget>
 #include <QMessageBox>
+#include "mops.h"
+#include "mups.h"
 
 /**
  * @brief The test_board class
@@ -68,6 +70,11 @@ private:
     std::vector<uint16_t> mops_active_checkbox;  // вектор хранящий выбранные для проверки МОПСы
     std::vector<uint16_t> mups_active_checkbox;  // векстр хранящий выбранные для проверки МУПСы
 
+    // вектор с МОПСами
+    std::vector<mops> mops_arr;
+
+    // вектор с МУПСами
+    std::vector<mups> mups_arr;
 
 public:
     // пустой конструктор
@@ -174,18 +181,30 @@ public:
     /**
      * @brief start_main_test_mops функция старта тестирования МОПСов
      * @param modbusrtu_ptr указатель на контекст подключения модбаса
-     * @param window_ptr указатель на gui
      * @param test_board_ptr
      */
-    void start_main_test_mops(modbusRTU *modbusrtu_ptr, stend_main_window *window_ptr, test_board *test_board_ptr);
+    void start_main_test_mops(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
 
     /**
      * @brief start_main_test_mops функция старта тестирования МУПСов
      * @param modbusrtu_ptr указатель на контекст подключения модбаса
-     * @param window_ptr указатель на gui
      * @param test_board_ptr
      */
-    void start_main_test_mups(modbusRTU *modbusrtu_ptr, stend_main_window *window_ptr, test_board *test_board_ptr);
+    void start_main_test_mups(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
+
+    /**
+     * @brief read_mops_status
+     * @param modbusrtu_ptr
+     * @param test_board_ptr
+     */
+    void read_mops_status(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
+
+    /**
+     * @brief read_mups_status
+     * @param modbusrtu_ptr
+     * @param test_board_ptr
+     */
+    void read_mups_status(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
 };
 
 #endif // TEST_BOARD_H

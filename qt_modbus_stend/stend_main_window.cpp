@@ -240,7 +240,7 @@ void stend_main_window::start_main_test()
                 // Устанавливаем лейбл, что в данный момент тестируется МОПС
                 QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("МОПС");});
 
-                // Цикл, который проверяет, занят ли тест
+                // Цикл проверки МОПСов
                 while (isTestRunning)
                 {
                     std::this_thread::sleep_for(std::chrono::seconds(1));
@@ -274,7 +274,7 @@ void stend_main_window::start_main_test()
                 // Устанавливаем лейбл, что в данный момент тестируется МУПС
                 QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("МУПС");});
 
-                // Цикл, который проверяет, занят ли тест
+                // Цикл проверки МУПСов
                 while (isTestRunning)
                 {
                     std::this_thread::sleep_for(std::chrono::seconds(1));
