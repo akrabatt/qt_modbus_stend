@@ -205,11 +205,21 @@ void stend_main_window::start_main_test()
             bool checkbox_res = false;  // переменная для проверки
             checkbox_res = stand_test_board.process_checkboxes(mops_checkboxes, mups_checkboxes, 10, 10, &stand_test_board, &modbus_stand_board, this);
             if (!checkbox_res)
-                {
-                    // Если checkboxes возвращает false, то останавливаем тест
-                    QMetaObject::invokeMethod(this, [this](){this->stop_main_test();});
-                    return; // Завершаем поток
-                }
+            {
+                // Если checkboxes возвращает false, то останавливаем тест
+                QMetaObject::invokeMethod(this, [this](){this->stop_main_test();});
+                return; // Завершаем поток
+            }
+
+            //проверяем идет ли в данный момент тест
+            bool current_test_res = false;
+            current_test_res = stand_test_board.check_test_is_busy(&modbus_stand_board, &stand_test_board);
+            if (!current_test_res)
+            {
+                // Если checkboxes возвращает false, то останавливаем тест
+                QMetaObject::invokeMethod(this, [this](){this->stop_main_test(); QMessageBox::warning(this, "Error", "Test in progress!");});
+                return; // Завершаем поток
+            }
 
             // Главный цикл испытаний
             int mops_num = 0;
