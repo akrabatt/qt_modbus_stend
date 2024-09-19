@@ -212,6 +212,15 @@ void stend_main_window::start_main_test()
             // Создаем объект испытательной платы
             test_board stand_test_board(1);
 
+            // проверим не выполняется ли тестирование в данный момент
+            bool is_test_busy = stand_test_board.check_test_is_busy(&modbus_stand_board, &stand_test_board);
+            if(!is_test_busy)
+            {
+                // Если checkboxes возвращает false, то останавливаем тест
+                QMetaObject::invokeMethod(this, [this](){this->stop_main_test(); QMessageBox::warning(this, "Error", "Test is busy !");});
+                return; // Завершаем поток
+            }
+
             // Записываем id модулей в плату, которые будем испытывать и проверяем успех выполнения
             bool checkbox_res = false;  // переменная для проверки
             checkbox_res = stand_test_board.process_checkboxes(mops_checkboxes, mups_checkboxes, 10, 10, &stand_test_board, &modbus_stand_board, this);
@@ -244,6 +253,9 @@ void stend_main_window::start_main_test()
                     {
                         // Устанавливаем лейбл, что ничего не тестируется
                         QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
+                        // Инкрементируем счетчик тестов МОПСа
+                        mops_num++;
+                        QMetaObject::invokeMethod(this, [this](){ui->just_lable_mops_ans->setText(QString("%1").arg(mops_num));});
                         break;
                     }
 
@@ -252,9 +264,6 @@ void stend_main_window::start_main_test()
                     {
                         // Устанавливаем лейбл, что ничего не тестируется
                         QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
-                        // Инкрементируем счетчик тестов МОПСа
-                        mops_num++;
-                        QMetaObject::invokeMethod(this, [this](){ui->just_lable_mops_ans->setText(QString("%1").arg(mops_num));});
                         break;
                     }
                 }
@@ -278,6 +287,9 @@ void stend_main_window::start_main_test()
                     {
                         // Устанавливаем лейбл, что ничего не тестируется
                         QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
+                        // Инкрементируем счетчик тестов МУПСа
+                        mups_num++;
+                        QMetaObject::invokeMethod(this, [this](){ui->just_lable_mups_ans->setText(QString("%1").arg(mups_num));});
                         break;
                     }
 
@@ -286,9 +298,6 @@ void stend_main_window::start_main_test()
                     {
                         // Устанавливаем лейбл, что ничего не тестируется
                         QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
-                        // Инкрементируем счетчик тестов МУПСа
-                        mups_num++;
-                        QMetaObject::invokeMethod(this, [this](){ui->just_lable_mups_ans->setText(QString("%1").arg(mups_num));});
                         break;
                     }
                 }
