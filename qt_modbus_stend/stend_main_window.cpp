@@ -190,6 +190,17 @@ void stend_main_window::start_main_test()
     // Отключаем кнопку тест соединения
     ui->button_test_connection->setEnabled(false);
 
+    // Сбрасываем счетчики при новом запуске теста
+    mops_num = 0;
+    mups_num = 0;
+
+    // Обновляем лейблы счетчиков
+    QMetaObject::invokeMethod(this, [this]()
+    {
+        ui->just_lable_mops_ans->setText("0");
+        ui->just_lable_mups_ans->setText("0");
+    });
+
     // Запуск потока
     test_thread = std::thread([this, com_port]()
     {
@@ -211,25 +222,13 @@ void stend_main_window::start_main_test()
                 return; // Завершаем поток
             }
 
-            //проверяем идет ли в данный момент тест
-            bool current_test_res = false;
-            current_test_res = stand_test_board.check_test_is_busy(&modbus_stand_board, &stand_test_board);
-            if (!current_test_res)
-            {
-                // Если checkboxes возвращает false, то останавливаем тест
-                QMetaObject::invokeMethod(this, [this](){this->stop_main_test(); QMessageBox::warning(this, "Error", "Test in progress!");});
-                return; // Завершаем поток
-            }
-
             // Главный цикл испытаний
-            int mops_num = 0;
-            int mups_num = 0;
             while (isTestRunning)
             {
                 // СТАРТ тест МОПСов
                 stand_test_board.start_main_test_mops(&modbus_stand_board, this, &stand_test_board);
 
-                // устанавливаем лейбл что в данный момент тестируется МОПС
+                // Устанавливаем лейбл, что в данный момент тестируется МОПС
                 QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("МОПС");});
 
                 // Цикл, который проверяет, занят ли тест
@@ -243,28 +242,27 @@ void stend_main_window::start_main_test()
                     // Если тест завершен, выходим из цикла
                     if (status == true)
                     {
-                        // устанавливаем лейбл что ничего не тестируется
+                        // Устанавливаем лейбл, что ничего не тестируется
                         QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
-
-                        // Инкрементируем счетчик тестов МОПСа только если тест завершился успешно
-                        mops_num++;
-                        QMetaObject::invokeMethod(this, [this, mops_num](){ui->just_lable_mops_ans->setText(QString("%1").arg(mops_num));});
                         break;
                     }
 
                     // Проверяем флаг isTestRunning, чтобы завершить цикл
                     if (!isTestRunning)
                     {
-                        // устанавливаем лейбл что ничего не тестируется
+                        // Устанавливаем лейбл, что ничего не тестируется
                         QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
-                        return;  // Прерываем тест и не инкрементируем счетчики
+                        // Инкрементируем счетчик тестов МОПСа
+                        mops_num++;
+                        QMetaObject::invokeMethod(this, [this](){ui->just_lable_mops_ans->setText(QString("%1").arg(mops_num));});
+                        break;
                     }
                 }
 
                 // СТАРТ тест МУПСов
                 stand_test_board.start_main_test_mups(&modbus_stand_board, this, &stand_test_board);
 
-                // устанавливаем лейбл что в данный момент тестируется МУПС
+                // Устанавливаем лейбл, что в данный момент тестируется МУПС
                 QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("МУПС");});
 
                 // Цикл, который проверяет, занят ли тест
@@ -278,33 +276,31 @@ void stend_main_window::start_main_test()
                     // Если тест завершен, выходим из цикла
                     if (status == true)
                     {
-                        // устанавливаем лейбл что ничего не тестируется
+                        // Устанавливаем лейбл, что ничего не тестируется
                         QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
-
-                        // Инкрементируем счетчик тестов МУПСа только если тест завершился успешно
-                        mups_num++;
-                        QMetaObject::invokeMethod(this, [this, mups_num](){ui->just_lable_mups_ans->setText(QString("%1").arg(mups_num));});
                         break;
                     }
 
                     // Проверяем флаг isTestRunning, чтобы завершить цикл
                     if (!isTestRunning)
                     {
-                        // устанавливаем лейбл что ничего не тестируется
+                        // Устанавливаем лейбл, что ничего не тестируется
                         QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
-                        return;  // Прерываем тест и не инкрементируем счетчики
+                        // Инкрементируем счетчик тестов МУПСа
+                        mups_num++;
+                        QMetaObject::invokeMethod(this, [this](){ui->just_lable_mups_ans->setText(QString("%1").arg(mups_num));});
+                        break;
                     }
                 }
 
                 // при остановке теста
                 if (!isTestRunning)
                 {
-                    // устанавливаем лейбл что ничего не тестируется
+                    // Устанавливаем лейбл, что ничего не тестируется
                     QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
                     break;
                 }
             }
-
         }
         catch (const std::exception &e)
         {
@@ -321,5 +317,6 @@ void stend_main_window::start_main_test()
         });
     });
 }
+
 
 

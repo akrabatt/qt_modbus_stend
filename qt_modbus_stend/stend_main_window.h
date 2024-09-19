@@ -49,6 +49,10 @@ private:
     // Поток для выполнения тестов
     std::thread test_thread;
 
+    // счетчик выполненных тестов МОПСов и МУПСов
+    int mops_num;
+    int mups_num;
+
     QCheckBox* mops_checkboxes[10];  // Массив указателей на чекбоксы МОПС
     QCheckBox* mups_checkboxes[10];  // Массив указателей на чекбоксы МУПС
 };
