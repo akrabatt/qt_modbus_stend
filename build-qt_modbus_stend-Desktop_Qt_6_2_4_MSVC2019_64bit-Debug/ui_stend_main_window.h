@@ -3311,7 +3311,7 @@ public:
         groupBox_20->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
         layoutWidget_4 = new QWidget(groupBox_20);
         layoutWidget_4->setObjectName(QString::fromUtf8("layoutWidget_4"));
-        layoutWidget_4->setGeometry(QRect(10, 30, 150, 74));
+        layoutWidget_4->setGeometry(QRect(10, 30, 150, 61));
         verticalLayout_13 = new QVBoxLayout(layoutWidget_4);
         verticalLayout_13->setObjectName(QString::fromUtf8("verticalLayout_13"));
         verticalLayout_13->setContentsMargins(0, 0, 0, 0);
@@ -4276,7 +4276,7 @@ public:
         groupBox_26->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_10 = new QWidget(groupBox_26);
         layoutWidget_10->setObjectName(QString::fromUtf8("layoutWidget_10"));
-        layoutWidget_10->setGeometry(QRect(10, 30, 150, 74));
+        layoutWidget_10->setGeometry(QRect(10, 30, 150, 61));
         verticalLayout_43 = new QVBoxLayout(layoutWidget_10);
         verticalLayout_43->setObjectName(QString::fromUtf8("verticalLayout_43"));
         verticalLayout_43->setContentsMargins(0, 0, 0, 0);
@@ -4687,7 +4687,7 @@ public:
         groupBox_29->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_13 = new QWidget(groupBox_29);
         layoutWidget_13->setObjectName(QString::fromUtf8("layoutWidget_13"));
-        layoutWidget_13->setGeometry(QRect(10, 30, 150, 74));
+        layoutWidget_13->setGeometry(QRect(10, 30, 150, 61));
         verticalLayout_51 = new QVBoxLayout(layoutWidget_13);
         verticalLayout_51->setObjectName(QString::fromUtf8("verticalLayout_51"));
         verticalLayout_51->setContentsMargins(0, 0, 0, 0);
@@ -5257,7 +5257,7 @@ public:
         groupBox_36->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_16 = new QWidget(groupBox_36);
         layoutWidget_16->setObjectName(QString::fromUtf8("layoutWidget_16"));
-        layoutWidget_16->setGeometry(QRect(10, 30, 150, 74));
+        layoutWidget_16->setGeometry(QRect(10, 30, 150, 61));
         verticalLayout_59 = new QVBoxLayout(layoutWidget_16);
         verticalLayout_59->setObjectName(QString::fromUtf8("verticalLayout_59"));
         verticalLayout_59->setContentsMargins(0, 0, 0, 0);
@@ -5945,7 +5945,7 @@ public:
         groupBox_43->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_19 = new QWidget(groupBox_43);
         layoutWidget_19->setObjectName(QString::fromUtf8("layoutWidget_19"));
-        layoutWidget_19->setGeometry(QRect(10, 30, 150, 74));
+        layoutWidget_19->setGeometry(QRect(10, 30, 150, 61));
         verticalLayout_67 = new QVBoxLayout(layoutWidget_19);
         verticalLayout_67->setObjectName(QString::fromUtf8("verticalLayout_67"));
         verticalLayout_67->setContentsMargins(0, 0, 0, 0);
@@ -6397,7 +6397,7 @@ public:
         groupBox_50->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_22 = new QWidget(groupBox_50);
         layoutWidget_22->setObjectName(QString::fromUtf8("layoutWidget_22"));
-        layoutWidget_22->setGeometry(QRect(10, 30, 150, 74));
+        layoutWidget_22->setGeometry(QRect(10, 30, 150, 61));
         verticalLayout_75 = new QVBoxLayout(layoutWidget_22);
         verticalLayout_75->setObjectName(QString::fromUtf8("verticalLayout_75"));
         verticalLayout_75->setContentsMargins(0, 0, 0, 0);
@@ -7716,7 +7716,7 @@ public:
         groupBox_57->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_25 = new QWidget(groupBox_57);
         layoutWidget_25->setObjectName(QString::fromUtf8("layoutWidget_25"));
-        layoutWidget_25->setGeometry(QRect(10, 30, 151, 74));
+        layoutWidget_25->setGeometry(QRect(10, 30, 151, 61));
         verticalLayout_83 = new QVBoxLayout(layoutWidget_25);
         verticalLayout_83->setObjectName(QString::fromUtf8("verticalLayout_83"));
         verticalLayout_83->setContentsMargins(0, 0, 0, 0);
@@ -8286,7 +8286,7 @@ public:
         groupBox_64->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_7 = new QWidget(groupBox_64);
         layoutWidget_7->setObjectName(QString::fromUtf8("layoutWidget_7"));
-        layoutWidget_7->setGeometry(QRect(10, 30, 148, 72));
+        layoutWidget_7->setGeometry(QRect(10, 30, 148, 61));
         horizontalLayout_155 = new QHBoxLayout(layoutWidget_7);
         horizontalLayout_155->setObjectName(QString::fromUtf8("horizontalLayout_155"));
         horizontalLayout_155->setContentsMargins(0, 0, 0, 0);
@@ -8456,7 +8456,7 @@ public:
         groupBox_71->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_8 = new QWidget(groupBox_71);
         layoutWidget_8->setObjectName(QString::fromUtf8("layoutWidget_8"));
-        layoutWidget_8->setGeometry(QRect(10, 30, 148, 72));
+        layoutWidget_8->setGeometry(QRect(10, 30, 148, 61));
         horizontalLayout_168 = new QHBoxLayout(layoutWidget_8);
         horizontalLayout_168->setObjectName(QString::fromUtf8("horizontalLayout_168"));
         horizontalLayout_168->setContentsMargins(0, 0, 0, 0);
@@ -9139,7 +9139,7 @@ public:
         groupBox_78->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_28 = new QWidget(groupBox_78);
         layoutWidget_28->setObjectName(QString::fromUtf8("layoutWidget_28"));
-        layoutWidget_28->setGeometry(QRect(10, 30, 148, 72));
+        layoutWidget_28->setGeometry(QRect(10, 30, 148, 61));
         horizontalLayout_181 = new QHBoxLayout(layoutWidget_28);
         horizontalLayout_181->setObjectName(QString::fromUtf8("horizontalLayout_181"));
         horizontalLayout_181->setContentsMargins(0, 0, 0, 0);
@@ -9827,7 +9827,7 @@ public:
         groupBox_84->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_31 = new QWidget(groupBox_84);
         layoutWidget_31->setObjectName(QString::fromUtf8("layoutWidget_31"));
-        layoutWidget_31->setGeometry(QRect(10, 30, 148, 72));
+        layoutWidget_31->setGeometry(QRect(10, 30, 148, 61));
         horizontalLayout_63 = new QHBoxLayout(layoutWidget_31);
         horizontalLayout_63->setObjectName(QString::fromUtf8("horizontalLayout_63"));
         horizontalLayout_63->setContentsMargins(0, 0, 0, 0);
@@ -10466,7 +10466,7 @@ public:
         groupBox_93->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_36 = new QWidget(groupBox_93);
         layoutWidget_36->setObjectName(QString::fromUtf8("layoutWidget_36"));
-        layoutWidget_36->setGeometry(QRect(10, 30, 148, 72));
+        layoutWidget_36->setGeometry(QRect(10, 30, 148, 61));
         horizontalLayout_195 = new QHBoxLayout(layoutWidget_36);
         horizontalLayout_195->setObjectName(QString::fromUtf8("horizontalLayout_195"));
         horizontalLayout_195->setContentsMargins(0, 0, 0, 0);
@@ -11068,7 +11068,7 @@ public:
         groupBox_101->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_37 = new QWidget(groupBox_101);
         layoutWidget_37->setObjectName(QString::fromUtf8("layoutWidget_37"));
-        layoutWidget_37->setGeometry(QRect(10, 30, 148, 72));
+        layoutWidget_37->setGeometry(QRect(10, 30, 148, 61));
         horizontalLayout_210 = new QHBoxLayout(layoutWidget_37);
         horizontalLayout_210->setObjectName(QString::fromUtf8("horizontalLayout_210"));
         horizontalLayout_210->setContentsMargins(0, 0, 0, 0);
@@ -11510,7 +11510,7 @@ public:
         groupBox_109->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_38 = new QWidget(groupBox_109);
         layoutWidget_38->setObjectName(QString::fromUtf8("layoutWidget_38"));
-        layoutWidget_38->setGeometry(QRect(10, 30, 148, 72));
+        layoutWidget_38->setGeometry(QRect(10, 30, 148, 61));
         horizontalLayout_225 = new QHBoxLayout(layoutWidget_38);
         horizontalLayout_225->setObjectName(QString::fromUtf8("horizontalLayout_225"));
         horizontalLayout_225->setContentsMargins(0, 0, 0, 0);
@@ -12583,7 +12583,7 @@ public:
         groupBox_117->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_40 = new QWidget(groupBox_117);
         layoutWidget_40->setObjectName(QString::fromUtf8("layoutWidget_40"));
-        layoutWidget_40->setGeometry(QRect(10, 30, 148, 72));
+        layoutWidget_40->setGeometry(QRect(10, 30, 148, 61));
         horizontalLayout_240 = new QHBoxLayout(layoutWidget_40);
         horizontalLayout_240->setObjectName(QString::fromUtf8("horizontalLayout_240"));
         horizontalLayout_240->setContentsMargins(0, 0, 0, 0);
@@ -12791,7 +12791,7 @@ public:
         groupBox_125->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_43 = new QWidget(groupBox_125);
         layoutWidget_43->setObjectName(QString::fromUtf8("layoutWidget_43"));
-        layoutWidget_43->setGeometry(QRect(10, 30, 148, 72));
+        layoutWidget_43->setGeometry(QRect(10, 30, 148, 61));
         horizontalLayout_255 = new QHBoxLayout(layoutWidget_43);
         horizontalLayout_255->setObjectName(QString::fromUtf8("horizontalLayout_255"));
         horizontalLayout_255->setContentsMargins(0, 0, 0, 0);
@@ -13430,7 +13430,7 @@ public:
         groupBox_133->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_46 = new QWidget(groupBox_133);
         layoutWidget_46->setObjectName(QString::fromUtf8("layoutWidget_46"));
-        layoutWidget_46->setGeometry(QRect(10, 30, 148, 72));
+        layoutWidget_46->setGeometry(QRect(10, 30, 148, 61));
         horizontalLayout_270 = new QHBoxLayout(layoutWidget_46);
         horizontalLayout_270->setObjectName(QString::fromUtf8("horizontalLayout_270"));
         horizontalLayout_270->setContentsMargins(0, 0, 0, 0);
@@ -14225,7 +14225,7 @@ public:
         groupBox_141->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_49 = new QWidget(groupBox_141);
         layoutWidget_49->setObjectName(QString::fromUtf8("layoutWidget_49"));
-        layoutWidget_49->setGeometry(QRect(10, 30, 148, 72));
+        layoutWidget_49->setGeometry(QRect(10, 30, 148, 61));
         horizontalLayout_285 = new QHBoxLayout(layoutWidget_49);
         horizontalLayout_285->setObjectName(QString::fromUtf8("horizontalLayout_285"));
         horizontalLayout_285->setContentsMargins(0, 0, 0, 0);
@@ -14396,7 +14396,7 @@ public:
         groupBox_149->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_52 = new QWidget(groupBox_149);
         layoutWidget_52->setObjectName(QString::fromUtf8("layoutWidget_52"));
-        layoutWidget_52->setGeometry(QRect(10, 30, 141, 72));
+        layoutWidget_52->setGeometry(QRect(10, 30, 141, 61));
         horizontalLayout_300 = new QHBoxLayout(layoutWidget_52);
         horizontalLayout_300->setObjectName(QString::fromUtf8("horizontalLayout_300"));
         horizontalLayout_300->setContentsMargins(0, 0, 0, 0);
@@ -15388,7 +15388,7 @@ public:
         groupBox_157->setGeometry(QRect(350, 10, 171, 101));
         layoutWidget_55 = new QWidget(groupBox_157);
         layoutWidget_55->setObjectName(QString::fromUtf8("layoutWidget_55"));
-        layoutWidget_55->setGeometry(QRect(10, 30, 148, 72));
+        layoutWidget_55->setGeometry(QRect(10, 30, 148, 61));
         horizontalLayout_315 = new QHBoxLayout(layoutWidget_55);
         horizontalLayout_315->setObjectName(QString::fromUtf8("horizontalLayout_315"));
         horizontalLayout_315->setContentsMargins(0, 0, 0, 0);
