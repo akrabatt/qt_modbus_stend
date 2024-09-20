@@ -9,6 +9,7 @@
 #include <iostream>
 #include <QWidget>
 #include <QMessageBox>
+#include <algorithm>
 #include "mops.h"
 #include "mups.h"
 
@@ -70,11 +71,13 @@ private:
     std::vector<uint16_t> mops_active_checkbox;  // вектор хранящий выбранные для проверки МОПСы
     std::vector<uint16_t> mups_active_checkbox;  // векстр хранящий выбранные для проверки МУПСы
 
-    // вектор с МОПСами
-    std::vector<mops> mops_arr;
+    // объекты МОПСами
+    std::map<int, mops> mops_map;   // список с объектами МОПСов
+    std::vector<int> mops_id = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};     // id
 
-    // вектор с МУПСами
-    std::vector<mups> mups_arr;
+    // объекты МУПСами
+    std::map<int, mups> mups_map;   // список с объектами МУПСов
+    std::vector<int> mups_id = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};     // id
 
 public:
     // пустой конструктор

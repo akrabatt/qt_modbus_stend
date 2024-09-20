@@ -285,11 +285,28 @@ void test_board::start_main_test_mups(modbusRTU *modbusrtu_ptr, test_board *test
  */
 void test_board::read_mops_status(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr)
 {
+    // очищаем наш список с объектами мопсов
+    this->mops_map.clear();
+
+    // создаем переменную равную кол-ву модулей
     size_t mops_addr_start_reg_size = sizeof(this->mops_start_reg_arr)/sizeof(this->mops_start_reg_arr[0]);
+
+    // запускаем цикл
     for(int i = 0; i < mops_addr_start_reg_size; i++)
     {
-        // прочитать i-ный МОПС
-        //сделать пуш бэк в вектор мопсов объекта платы
-        //
+        // считываем данные i-ого МОПСа
+        std::vector<uint16_t> current_buffer = modbusrtu_ptr->mbm_03_read_registers(this->mops_start_reg_arr[i], this->mops_quant_reg);
+
+        // создаем МОПС
+        mops mops_obj(i);
+
+        // Копируем данные из current_buffer в поля структуры mops_stand_statment вручную
+        if (current_buffer.size() >= 56) // Проверяем, что буфер содержит достаточно данных
+        {
+            for (size_t j = 0; j < 56; j++)
+            {
+                mops_obj.mops_stand_statment.main_buff[j] = static_cast<int>(current_buffer[j]);  // Преобразуем uint16_t в int
+            }
+        }
     }
 }

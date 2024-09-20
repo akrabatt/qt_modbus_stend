@@ -235,7 +235,7 @@ void stend_main_window::start_main_test()
             while (isTestRunning)
             {
                 // СТАРТ тест МОПСов
-                stand_test_board.start_main_test_mops(&modbus_stand_board, this, &stand_test_board);
+                stand_test_board.start_main_test_mops(&modbus_stand_board, &stand_test_board);
 
                 // Устанавливаем лейбл, что в данный момент тестируется МОПС
                 QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("МОПС");});
@@ -251,6 +251,7 @@ void stend_main_window::start_main_test()
                     // Если тест завершен, выходим из цикла
                     if (status == true)
                     {
+                        stand_test_board.read_mops_status(&modbus_stand_board, &stand_test_board);  // считываем результаты
                         // Устанавливаем лейбл, что ничего не тестируется
                         QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
                         // Инкрементируем счетчик тестов МОПСа
@@ -269,7 +270,7 @@ void stend_main_window::start_main_test()
                 }
 
                 // СТАРТ тест МУПСов
-                stand_test_board.start_main_test_mups(&modbus_stand_board, this, &stand_test_board);
+                stand_test_board.start_main_test_mups(&modbus_stand_board, &stand_test_board);
 
                 // Устанавливаем лейбл, что в данный момент тестируется МУПС
                 QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("МУПС");});

@@ -3604,6 +3604,9 @@ public:
         groupBox_16 = new QGroupBox(mops_1);
         groupBox_16->setObjectName(QString::fromUtf8("groupBox_16"));
         groupBox_16->setGeometry(QRect(10, 10, 261, 91));
+        QFont font1;
+        font1.setBold(false);
+        groupBox_16->setFont(font1);
         layoutWidget_5 = new QWidget(groupBox_16);
         layoutWidget_5->setObjectName(QString::fromUtf8("layoutWidget_5"));
         layoutWidget_5->setGeometry(QRect(10, 60, 244, 22));
