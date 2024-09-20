@@ -227,7 +227,7 @@ public:
      * @param test_board_ptr
      * @return
      */
-    std::map<int, mops> read_mups_status_return(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
+    std::map<int, mups> read_mups_status_return(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
 };
 
 #endif // TEST_BOARD_H

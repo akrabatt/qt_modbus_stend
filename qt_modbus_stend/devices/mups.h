@@ -10,7 +10,7 @@
  */
 class mups : public device_base_class
 {
-private:
+public:
 
     // структура данных состояния мyпса
     union tag_mups_stand_statment
