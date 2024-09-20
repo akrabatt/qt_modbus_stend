@@ -201,7 +201,7 @@ public:
     QLabel *lable_fire_mops_1_ch_5;
     QLabel *lable_fire_mops_1_ch_6;
     QLabel *lable_fire_mops_1_ch_7;
-    QLabel *lable_fire_mops_1_ch_9;
+    QLabel *lable_fire_mops_1_ch_8;
     QGroupBox *groupBox_16;
     QWidget *layoutWidget_5;
     QHBoxLayout *horizontalLayout_6;
@@ -3593,10 +3593,10 @@ public:
 
         horizontalLayout_23->addWidget(lable_fire_mops_1_ch_7);
 
-        lable_fire_mops_1_ch_9 = new QLabel(verticalLayoutWidget_7);
-        lable_fire_mops_1_ch_9->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_9"));
+        lable_fire_mops_1_ch_8 = new QLabel(verticalLayoutWidget_7);
+        lable_fire_mops_1_ch_8->setObjectName(QString::fromUtf8("lable_fire_mops_1_ch_8"));
 
-        horizontalLayout_23->addWidget(lable_fire_mops_1_ch_9);
+        horizontalLayout_23->addWidget(lable_fire_mops_1_ch_8);
 
 
         verticalLayout_9->addLayout(horizontalLayout_23);
@@ -15720,7 +15720,7 @@ public:
         lable_fire_mops_1_ch_5->setText(QString());
         lable_fire_mops_1_ch_6->setText(QString());
         lable_fire_mops_1_ch_7->setText(QString());
-        lable_fire_mops_1_ch_9->setText(QString());
+        lable_fire_mops_1_ch_8->setText(QString());
         groupBox_16->setTitle(QCoreApplication::translate("stend_main_window", "\320\241\320\276\321\201\321\202\320\276\321\217\320\275\320\270\320\265 \320\274\320\276\320\264\321\203\320\273\321\217 \320\234\320\236\320\237\320\241 1", nullptr));
         just_lable_online_status_req_mops_2->setText(QCoreApplication::translate("stend_main_window", "\320\234\320\276\320\264\321\203\320\273\321\214 \320\270\321\201\320\277\321\200\320\260\320\262\320\265\320\275:", nullptr));
         just_lable_oper_status_ans_mops_1->setText(QString());

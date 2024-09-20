@@ -72,6 +72,12 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
             QLabel* online_label = findChild<QLabel*>(QString("just_lable_online_status_ans_mops_%1").arg(id + 1));
             if (online_label)
             {
+                if(mops_obj.mops_stand_statment.mops_statment.mops_offline > 0)
+                {
+                    online_label->setText("Offline");
+                    online_label->setStyleSheet("QLabel { color : gray; }");
+                    continue;
+                }
                 if (mops_obj.mops_stand_statment.mops_statment.mops_online)
                 {
                     online_label->setText("Online");
@@ -79,13 +85,14 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
                 }
                 else
                 {
-                    online_label->setText("Offline");
+                    online_label->setText("Online error !");
                     online_label->setStyleSheet("QLabel { color : red; }");    // Красный для оффлайн
+                    continue;
                 }
             }
 
             // Обновляем статус питания
-            QLabel* v18_label = findChild<QLabel*>(QString("lable_18v_mops_%1").arg(id + 1));
+            QLabel* v18_label = findChild<QLabel*>(QString("lable_18v_ans_mops_%1").arg(id + 1));
             if (v18_label)
             {
                 if (mops_obj.mops_stand_statment.mops_power_supply_error.mops_18v_error > 0)
@@ -100,7 +107,7 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
                 }
             }
 
-            QLabel* v24_label = findChild<QLabel*>(QString("lable_24v_mops_%1").arg(id + 1));
+            QLabel* v24_label = findChild<QLabel*>(QString("lable_24v_ans_mops_%1").arg(id + 1));
             if (v24_label)
             {
                 if (mops_obj.mops_stand_statment.mops_power_supply_error.mops_24v_error > 0)
@@ -115,7 +122,7 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
                 }
             }
 
-            QLabel* v28_label = findChild<QLabel*>(QString("lable_28v_mops_%1").arg(id + 1));
+            QLabel* v28_label = findChild<QLabel*>(QString("lable_28v_ans_mops_%1").arg(id + 1));
             if (v28_label)
             {
                 if (mops_obj.mops_stand_statment.mops_power_supply_error.mops_28v_error > 0)
