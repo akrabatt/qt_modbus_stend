@@ -6,6 +6,8 @@
 #include <QMutex>
 #include <thread>
 #include <atomic>
+#include "devices/mops.h"
+#include "devices/mups.h"
 
 // GUI КЛАСС
 QT_BEGIN_NAMESPACE
@@ -19,6 +21,12 @@ class stend_main_window : public QMainWindow
 public:
     explicit stend_main_window(QWidget *parent = nullptr);
     ~stend_main_window();
+
+    /**
+     * @brief update_mops_gui метод обновления статусов в ГУИ
+     * @param mops_map
+     */
+    void update_mops_gui(const std::map<int, mops> &mops_map);
 
     // Подключаем слот для тестирования связи с оборудованием
 private slots:

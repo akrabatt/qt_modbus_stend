@@ -1341,7 +1341,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="lable_fire_mops_1_ch_9">
+              <widget class="QLabel" name="lable_fire_mops_1_ch_8">
                <property name="text">
                 <string/>
                </property>
@@ -21979,7 +21979,7 @@
      <x>0</x>
      <y>0</y>
      <width>1634</width>
-     <height>21</height>
+     <height>25</height>
     </rect>
    </property>
   </widget>

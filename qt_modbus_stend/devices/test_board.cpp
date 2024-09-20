@@ -308,5 +308,53 @@ void test_board::read_mops_status(modbusRTU *modbusrtu_ptr, test_board *test_boa
                 mops_obj.mops_stand_statment.main_buff[j] = static_cast<int>(current_buffer[j]);  // Преобразуем uint16_t в int
             }
         }
+
+        // добавляем мопс
+        //this->mops_map.insert({i, mops_obj});
+        this->mops_map[i] = mops_obj;
     }
+}
+
+
+/**
+ * @brief read_mops_status_return метод считывающий результаты тестирования МОПСов и возвращает обратно контейнер
+ * @param modbusrtu_ptr
+ * @param test_board_ptr
+ * @return
+ */
+std::map<int, mops> test_board::read_mops_status_return(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr)
+{
+    // создаем локальный контейнер
+    std::map<int, mops> local_mops_map;
+
+    // очищаем наш список с объектами мопсов
+    this->mops_map.clear();
+
+    // создаем переменную равную кол-ву модулей
+    size_t mops_addr_start_reg_size = sizeof(this->mops_start_reg_arr)/sizeof(this->mops_start_reg_arr[0]);
+
+    // запускаем цикл
+    for(int i = 0; i < mops_addr_start_reg_size; i++)
+    {
+        // считываем данные i-ого МОПСа
+        std::vector<uint16_t> current_buffer = modbusrtu_ptr->mbm_03_read_registers(this->mops_start_reg_arr[i], this->mops_quant_reg);
+
+        // создаем МОПС
+        mops mops_obj(i);
+
+        // Копируем данные из current_buffer в поля структуры mops_stand_statment вручную
+        if (current_buffer.size() >= 56) // Проверяем, что буфер содержит достаточно данных
+        {
+            for (size_t j = 0; j < 56; j++)
+            {
+                mops_obj.mops_stand_statment.main_buff[j] = static_cast<int>(current_buffer[j]);  // Преобразуем uint16_t в int
+            }
+        }
+
+        // добавляем мопс
+        //this->mops_map.insert({i, mops_obj});
+        local_mops_map[i] = mops_obj;
+    }
+
+    return local_mops_map;
 }

@@ -61,6 +61,165 @@ stend_main_window::~stend_main_window()
     delete ui;
 }
 
+void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
+{
+    QMetaObject::invokeMethod(this, [this, mops_map]()
+    {
+        // Проходим по всем МОПСам в карте
+        for (const auto& [id, mops_obj] : mops_map)
+        {
+            // Обновляем статус онлайн/оффлайн
+            QLabel* online_label = findChild<QLabel*>(QString("just_lable_online_status_ans_mops_%1").arg(id + 1));
+            if (online_label)
+            {
+                if (mops_obj.mops_stand_statment.mops_statment.mops_online)
+                {
+                    online_label->setText("Online");
+                    online_label->setStyleSheet("QLabel { color : green; }");  // Зеленый для онлайн
+                }
+                else
+                {
+                    online_label->setText("Offline");
+                    online_label->setStyleSheet("QLabel { color : red; }");    // Красный для оффлайн
+                }
+            }
+
+            // Обновляем статус питания
+            QLabel* v18_label = findChild<QLabel*>(QString("lable_18v_mops_%1").arg(id + 1));
+            if (v18_label)
+            {
+                if (mops_obj.mops_stand_statment.mops_power_supply_error.mops_18v_error > 0)
+                {
+                    v18_label->setText("err");
+                    v18_label->setStyleSheet("QLabel { color : red; }");  // Красный для ошибки
+                }
+                else
+                {
+                    v18_label->setText("");
+                    v18_label->setStyleSheet("QLabel { color : green; }");  // Зеленый для нормы
+                }
+            }
+
+            QLabel* v24_label = findChild<QLabel*>(QString("lable_24v_mops_%1").arg(id + 1));
+            if (v24_label)
+            {
+                if (mops_obj.mops_stand_statment.mops_power_supply_error.mops_24v_error > 0)
+                {
+                    v24_label->setText("err");
+                    v24_label->setStyleSheet("QLabel { color : red; }");
+                }
+                else
+                {
+                    v24_label->setText("");
+                    v24_label->setStyleSheet("QLabel { color : green; }");
+                }
+            }
+
+            QLabel* v28_label = findChild<QLabel*>(QString("lable_28v_mops_%1").arg(id + 1));
+            if (v28_label)
+            {
+                if (mops_obj.mops_stand_statment.mops_power_supply_error.mops_28v_error > 0)
+                {
+                    v28_label->setText("err");
+                    v28_label->setStyleSheet("QLabel { color : red; }");
+                }
+                else
+                {
+                    v28_label->setText("");
+                    v28_label->setStyleSheet("QLabel { color : green; }");
+                }
+            }
+
+            // Обновляем статус каналов
+            for (int ch = 0; ch < 8; ++ch)
+            {
+                // Норма
+                QLabel* norm_label = findChild<QLabel*>(QString("lable_norm_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                if (norm_label)
+                {
+                    if (mops_obj.mops_stand_statment.mops_ch_statement.mops_ch_err_normal[ch] == 0)
+                    {
+                        norm_label->setText("ok");
+                        norm_label->setStyleSheet("QLabel { color : green; }");
+                    }
+                    else
+                    {
+                        norm_label->setText("err");
+                        norm_label->setStyleSheet("QLabel { color : red; }");
+                    }
+                }
+
+                // Обрыв
+                QLabel* break_label = findChild<QLabel*>(QString("lable_break_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                if (break_label)
+                {
+                    if (mops_obj.mops_stand_statment.mops_ch_statement.mops_ch_err_break[ch] == 0)
+                    {
+                        break_label->setText("ok");
+                        break_label->setStyleSheet("QLabel { color : green; }");
+                    }
+                    else
+                    {
+                        break_label->setText("err");
+                        break_label->setStyleSheet("QLabel { color : red; }");
+                    }
+                }
+
+                // Внимание
+                QLabel* attn_label = findChild<QLabel*>(QString("lable_attantion_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                if (attn_label)
+                {
+                    if (mops_obj.mops_stand_statment.mops_ch_statement.mops_ch_err_attantion[ch] == 0)
+                    {
+                        attn_label->setText("ok");
+                        attn_label->setStyleSheet("QLabel { color : green; }");
+
+                    }
+                    else
+                    {
+                        attn_label->setText("err");
+                        attn_label->setStyleSheet("QLabel { color : red; }");
+                    }
+                }
+
+                // Пожар
+                QLabel* fire_label = findChild<QLabel*>(QString("lable_fire_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                if (fire_label)
+                {
+                    if (mops_obj.mops_stand_statment.mops_ch_statement.mops_ch_err_fire[ch] == 0)
+                    {
+                        fire_label->setText("ok");
+                        fire_label->setStyleSheet("QLabel { color : green; }");
+                    }
+                    else
+                    {
+                        fire_label->setText("err");
+                        fire_label->setStyleSheet("QLabel { color : red; }");
+                    }
+                }
+
+                // Короткое замыкание
+                QLabel* sc_label = findChild<QLabel*>(QString("lable_break_mops_%1_sc_%2").arg(id + 1).arg(ch + 1));
+                if (sc_label)
+                {
+                    if (mops_obj.mops_stand_statment.mops_ch_statement.mops_ch_err_sc[ch] == 0)
+                    {
+                        sc_label->setText("ok");
+                        sc_label->setStyleSheet("QLabel { color : green; }");
+                    }
+                    else
+                    {
+                        sc_label->setText("err");
+                        sc_label->setStyleSheet("QLabel { color : red; }");
+                    }
+                }
+            }
+        }
+    });
+}
+
+
+
 /**
  * @brief Остановка теста
  */
@@ -251,7 +410,12 @@ void stend_main_window::start_main_test()
                     // Если тест завершен, выходим из цикла
                     if (status == true)
                     {
-                        stand_test_board.read_mops_status(&modbus_stand_board, &stand_test_board);  // считываем результаты
+                        // считываем результаты тестирования МОПСов
+                        std::map<int, mops> mops_map_cont = stand_test_board.read_mops_status_return(&modbus_stand_board, &stand_test_board);  // считываем результаты
+
+                        // обновляем ГУИ
+                        this->update_mops_gui(mops_map_cont);
+
                         // Устанавливаем лейбл, что ничего не тестируется
                         QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
                         // Инкрементируем счетчик тестов МОПСа

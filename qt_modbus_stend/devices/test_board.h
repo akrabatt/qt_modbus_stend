@@ -71,12 +71,16 @@ private:
     std::vector<uint16_t> mops_active_checkbox;  // вектор хранящий выбранные для проверки МОПСы
     std::vector<uint16_t> mups_active_checkbox;  // векстр хранящий выбранные для проверки МУПСы
 
+public:
     // объекты МОПСами
     std::map<int, mops> mops_map;   // список с объектами МОПСов
+private:
     std::vector<int> mops_id = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};     // id
 
+public:
     // объекты МУПСами
     std::map<int, mups> mups_map;   // список с объектами МУПСов
+private:
     std::vector<int> mups_id = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};     // id
 
 public:
@@ -196,18 +200,34 @@ public:
     void start_main_test_mups(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
 
     /**
-     * @brief read_mops_status
+     * @brief read_mops_status метод считывающий результаты тестирования МОПСов с платы
      * @param modbusrtu_ptr
      * @param test_board_ptr
      */
     void read_mops_status(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
 
     /**
-     * @brief read_mups_status
+     * @brief read_mups_status метод считывающий результаты тестирования МУПСов с платы
      * @param modbusrtu_ptr
      * @param test_board_ptr
      */
     void read_mups_status(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
+
+    /**
+     * @brief read_mops_status_return метод считывающий результаты тестирования МОПСов и возвращает обратно контейнер
+     * @param modbusrtu_ptr
+     * @param test_board_ptr
+     * @return
+     */
+    std::map<int, mops> read_mops_status_return(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
+
+    /**
+     * @brief read_mups_status_return
+     * @param modbusrtu_ptr
+     * @param test_board_ptr
+     * @return
+     */
+    std::map<int, mops> read_mups_status_return(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
 };
 
 #endif // TEST_BOARD_H
