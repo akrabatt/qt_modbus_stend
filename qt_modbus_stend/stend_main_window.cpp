@@ -68,30 +68,54 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
         // Проходим по всем МОПСам в карте
         for (const auto& [id, mops_obj] : mops_map)
         {
-            // Обновняем статус работоспособности МОПСа
+            // статус исправности
             QLabel* operable_label = findChild<QLabel*>(QString("just_lable_oper_status_ans_mops_%1").arg(id + 1));
+            // статус онлайн/оффлайн
+            QLabel* online_label = findChild<QLabel*>(QString("just_lable_online_status_ans_mops_%1").arg(id + 1));
+
+            // получаем указатель на вкладку
+            int tabIndex = id; // соответствует индексу вкладки
+            QString tabName = QString("%1").arg(id + 1);
+
+            // Определяем цвет текста и его жирность в зависимости от состояния
+            QColor textColor;
+            QFont tabFont = ui->tab_widget_for_mops->tabBar()->font();  // Получаем шрифт вкладки
+            tabFont.setBold(true);  // Делаем шрифт жирным
+
+            // Обновняем статус работоспособности МОПСа
             if(operable_label)
             {
                 if(mops_obj.mops_stand_statment.mops_statment.mops_operable > 0)
                 {
                     operable_label->setText("Operable");
                     operable_label->setStyleSheet("QLabel { color : green; }");
+
+                    // Изменяем цвет текста вкладки на зеленый
+                    ui->tab_widget_for_mops->setTabText(tabIndex, tabName); // изменяем текст вкладки
+                    ui->tab_widget_for_mops->tabBar()->setTabTextColor(tabIndex, QColor("green"));  // устанавливаем текст
                 }
                 else
                 {
                     operable_label->setText("Error");
                     operable_label->setStyleSheet("QLabel { color : red; }");
+
+                    // Изменяем цвет текста вкладки на красный
+                    ui->tab_widget_for_mops->setTabText(tabIndex, tabName);
+                    ui->tab_widget_for_mops->tabBar()->setTabTextColor(tabIndex, QColor("red"));
                 }
             }
 
             // Обновляем статус онлайн/оффлайн
-            QLabel* online_label = findChild<QLabel*>(QString("just_lable_online_status_ans_mops_%1").arg(id + 1));
             if (online_label)
             {
                 if(mops_obj.mops_stand_statment.mops_statment.mops_offline > 0)
                 {
                     online_label->setText("Offline");
                     online_label->setStyleSheet("QLabel { color : gray; }");
+                    operable_label->setText("");
+                    // Изменяем цвет текста вкладки на зеленый
+                    ui->tab_widget_for_mops->setTabText(tabIndex, tabName); // изменяем текст вкладки
+                    ui->tab_widget_for_mops->tabBar()->setTabTextColor(tabIndex, QColor("gray"));  // устанавливаем текст
                     continue;
                 }
                 if (mops_obj.mops_stand_statment.mops_statment.mops_online)
@@ -102,7 +126,7 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
                 else
                 {
                     online_label->setText("Online error !");
-                    online_label->setStyleSheet("QLabel { color : red; }");    // Красный для оффлайн
+                    online_label->setStyleSheet("QLabel { color : red; }");    // Красный для ошибки онлайна
                     continue;
                 }
             }

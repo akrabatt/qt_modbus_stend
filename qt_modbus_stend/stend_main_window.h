@@ -6,6 +6,7 @@
 #include <QMutex>
 #include <thread>
 #include <atomic>
+#include <QTabBar>
 #include "devices/mops.h"
 #include "devices/mups.h"
 
