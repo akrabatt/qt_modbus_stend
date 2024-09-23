@@ -24,10 +24,16 @@ public:
     ~stend_main_window();
 
     /**
-     * @brief update_mops_gui метод обновления статусов в ГУИ
+     * @brief update_mops_gui данный метод обновляет ГУИ всех вкладок МОПСов
      * @param mops_map
      */
     void update_mops_gui(const std::map<int, mops> &mops_map);
+
+    /**
+     * @brief update_mups_gui данный метод обновляет ГУИ всех вкладок МУПСов
+     * @param mups_map
+     */
+    void update_mups_gui(const std::map<int, mups> &mups_map);
 
     // Подключаем слот для тестирования связи с оборудованием
 private slots:

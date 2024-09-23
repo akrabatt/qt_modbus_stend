@@ -61,6 +61,11 @@ stend_main_window::~stend_main_window()
     delete ui;
 }
 
+
+/**
+ * @brief update_mops_gui данный метод обновляет ГУИ всех вкладок МУПСов
+ * @param mops_map
+ */
 void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
 {
     QMetaObject::invokeMethod(this, [this, mops_map]()
@@ -68,38 +73,38 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
         // Проходим по всем МОПСам в карте
         for (const auto& [id, mops_obj] : mops_map)
         {
-            // статус исправности
+            // статус исправности модуля
             QLabel* operable_label = findChild<QLabel*>(QString("just_lable_oper_status_ans_mops_%1").arg(id + 1));
-            // статус онлайн/оффлайн
+            // статус онлайн/оффлайн статуса модуля
             QLabel* online_label = findChild<QLabel*>(QString("just_lable_online_status_ans_mops_%1").arg(id + 1));
 
             // получаем указатель на вкладку
             int tabIndex = id; // соответствует индексу вкладки
-            QString tabName = QString("%1").arg(id + 1);
+            QString tabName = QString("%1").arg(id + 1);   // название вкладки
 
-            // Определяем цвет текста и его жирность в зависимости от состояния
-            QColor textColor;
-            QFont tabFont = ui->tab_widget_for_mops->tabBar()->font();  // Получаем шрифт вкладки
+            // Устанавливаем жирный шрифт для текста вкладки
+            QFont tabFont = ui->tab_widget_for_mops->tabBar()->font();  // Получаем текущий шрифт вкладки
             tabFont.setBold(true);  // Делаем шрифт жирным
+            ui->tab_widget_for_mops->tabBar()->setFont(tabFont);  // Применяем жирный шрифт
 
-            // Обновняем статус работоспособности МОПСа
-            if(operable_label)
+            // Обновляем статус работоспособности МОПСа
+            if (operable_label)
             {
-                if(mops_obj.mops_stand_statment.mops_statment.mops_operable > 0)
+                if (mops_obj.mops_stand_statment.mops_statment.mops_operable > 0)
                 {
                     operable_label->setText("Operable");
                     operable_label->setStyleSheet("QLabel { color : green; }");
 
-                    // Изменяем цвет текста вкладки на зеленый
-                    ui->tab_widget_for_mops->setTabText(tabIndex, tabName); // изменяем текст вкладки
-                    ui->tab_widget_for_mops->tabBar()->setTabTextColor(tabIndex, QColor("green"));  // устанавливаем текст
+                    // Изменяем текст вкладки (оставляем логику неизменной)
+                    ui->tab_widget_for_mops->setTabText(tabIndex, tabName);
+                    ui->tab_widget_for_mops->tabBar()->setTabTextColor(tabIndex, QColor("green"));
                 }
                 else
                 {
                     operable_label->setText("Error");
                     operable_label->setStyleSheet("QLabel { color : red; }");
 
-                    // Изменяем цвет текста вкладки на красный
+                    // Изменяем текст вкладки (оставляем логику неизменной)
                     ui->tab_widget_for_mops->setTabText(tabIndex, tabName);
                     ui->tab_widget_for_mops->tabBar()->setTabTextColor(tabIndex, QColor("red"));
                 }
@@ -108,42 +113,43 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
             // Обновляем статус онлайн/оффлайн
             if (online_label)
             {
-                if(mops_obj.mops_stand_statment.mops_statment.mops_offline > 0)
+                if (mops_obj.mops_stand_statment.mops_statment.mops_offline > 0)
                 {
                     online_label->setText("Offline");
                     online_label->setStyleSheet("QLabel { color : gray; }");
                     operable_label->setText("");
-                    // Изменяем цвет текста вкладки на зеленый
-                    ui->tab_widget_for_mops->setTabText(tabIndex, tabName); // изменяем текст вкладки
-                    ui->tab_widget_for_mops->tabBar()->setTabTextColor(tabIndex, QColor("gray"));  // устанавливаем текст
+
+                    // Изменяем текст вкладки (оставляем логику неизменной)
+                    ui->tab_widget_for_mops->setTabText(tabIndex, tabName);
+                    ui->tab_widget_for_mops->tabBar()->setTabTextColor(tabIndex, QColor("gray"));
                     continue;
                 }
                 if (mops_obj.mops_stand_statment.mops_statment.mops_online)
                 {
                     online_label->setText("Online");
-                    online_label->setStyleSheet("QLabel { color : green; }");  // Зеленый для онлайн
+                    online_label->setStyleSheet("QLabel { color : green; }");
                 }
                 else
                 {
                     online_label->setText("Online error !");
-                    online_label->setStyleSheet("QLabel { color : red; }");    // Красный для ошибки онлайна
+                    online_label->setStyleSheet("QLabel { color : red; }");
                     continue;
                 }
             }
 
-            // Обновляем статус питания
+            // Обновляем статус питания и каналов (логика не менялась, остается такой же)
             QLabel* v18_label = findChild<QLabel*>(QString("lable_18v_ans_mops_%1").arg(id + 1));
             if (v18_label)
             {
                 if (mops_obj.mops_stand_statment.mops_power_supply_error.mops_18v_error > 0)
                 {
                     v18_label->setText("err");
-                    v18_label->setStyleSheet("QLabel { color : red; }");  // Красный для ошибки
+                    v18_label->setStyleSheet("QLabel { color : red; }");
                 }
                 else
                 {
                     v18_label->setText("");
-                    v18_label->setStyleSheet("QLabel { color : green; }");  // Зеленый для нормы
+                    v18_label->setStyleSheet("QLabel { color : green; }");
                 }
             }
 
@@ -177,11 +183,12 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
                 }
             }
 
-            // Обновляем статус каналов
+            // Обновляем статус каналов (логика не менялась, остается такой же)
             for (int ch = 0; ch < 8; ++ch)
             {
-                // Норма
+                // указатель на лейбл канала нормального статуса
                 QLabel* norm_label = findChild<QLabel*>(QString("lable_norm_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                // обновляем статус канала
                 if (norm_label)
                 {
                     if (mops_obj.mops_stand_statment.mops_ch_statement.mops_ch_err_normal[ch] == 0)
@@ -196,7 +203,7 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
                     }
                 }
 
-                // Обрыв
+                // указатель на лейбл обрыва канала
                 QLabel* break_label = findChild<QLabel*>(QString("lable_break_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
                 if (break_label)
                 {
@@ -212,7 +219,7 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
                     }
                 }
 
-                // Внимание
+                // указатель на статус внимания канала
                 QLabel* attn_label = findChild<QLabel*>(QString("lable_attantion_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
                 if (attn_label)
                 {
@@ -220,7 +227,6 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
                     {
                         attn_label->setText("ok");
                         attn_label->setStyleSheet("QLabel { color : green; }");
-
                     }
                     else
                     {
@@ -229,7 +235,7 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
                     }
                 }
 
-                // Пожар
+                // указатель на статус пожара канала
                 QLabel* fire_label = findChild<QLabel*>(QString("lable_fire_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
                 if (fire_label)
                 {
@@ -245,7 +251,7 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
                     }
                 }
 
-                // Короткое замыкание
+                // указатель на статус короткого замыкания канала
                 QLabel* sc_label = findChild<QLabel*>(QString("lable_break_mops_%1_sc_%2").arg(id + 1).arg(ch + 1));
                 if (sc_label)
                 {
@@ -265,6 +271,67 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
     });
 }
 
+
+
+void stend_main_window::update_mups_gui(const std::map<int, mups>& mups_map)
+{
+    QMetaObject::invokeMethod(this, [this, mups_map]()
+    {
+        for(const auto& [id, mups_obj] : mups_map)
+        {
+            // статус исправности модуля
+            QLabel* operable_label = findChild<QLabel*>(QString("just_lable_online_status_ans_mups_%1").arg(id + 1));
+            // статус исправности модуля
+            QLabel* online_label = findChild<QLabel*>(QString("just_lable_oper_status_ans_mups_%1").arg(id + 1));
+
+            // получаем указатель на вкладку
+            int tabIndex = id;  // соответстует индексу вкладки
+            QString tabName = QString("%1").arg(id + 1); // текст название вкладки
+
+            // устанавливаем жирный шрифт для текста вкладки
+            QFont tabFont = ui->tab_widget_for_mups->tabBar()->font();  // получаем текущий шрифт вкладки
+            tabFont.setBold(true);  // делаем шрифт жирным
+            ui->tab_widget_for_mups->tabBar()->setFont(tabFont);    // применяем жирный шрифт
+
+            // обновляем статус работоспособности МУПСа
+            if(operable_label)
+            {
+                if(mups_obj.mups_stand_statment.mups_statment.mups_operable > 0)
+                {
+                    operable_label->setText("Operable");
+                    operable_label->setStyleSheet("QLabel { color : green; }");
+
+                    // Изменяем текст вкладки
+                    ui->tab_widget_for_mups->setTabText(tabIndex, tabName);
+                    ui->tab_widget_for_mups->tabBar()->setTabTextColor(tabIndex, QColor("green"));
+                }
+                else
+                {
+                    operable_label->setText("Error");
+                    operable_label->setStyleSheet("QLabel { color : red; }");
+
+                    // Изменяем текст вкладки
+                    ui->tab_widget_for_mups->setTabText(tabIndex, tabName);
+                    ui->tab_widget_for_mups->tabBar()->setTabTextColor(tabIndex, QColor("red"));
+                }
+            }
+
+            // обновляем статус онлайн/оффлайн
+            if(online_label)
+            {
+                if(mups_obj.mups_stand_statment.mups_statment.mups_offline > 0)
+                {
+                    online_label->setText("Offline");
+                    online_label->setStyleSheet("QLabel { color : gray; }");
+                    operable_label->setText("");
+
+                    // изменяем текст вкладки
+
+                }
+            }
+        }
+    });
+}
 
 
 /**
@@ -497,6 +564,12 @@ void stend_main_window::start_main_test()
                     // Если тест завершен, выходим из цикла
                     if (status == true)
                     {
+                        // считываем результаты тестирования МYПСов
+                        std::map<int, mups> mups_map_cont = stand_test_board.read_mups_status_return(&modbus_stand_board, &stand_test_board);  // считываем результаты
+
+                        // обновляем ГУИ
+                        //this->update_mups_gui(mups_map_cont);
+
                         // Устанавливаем лейбл, что ничего не тестируется
                         QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
                         // Инкрементируем счетчик тестов МУПСа
