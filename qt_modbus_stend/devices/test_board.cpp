@@ -379,16 +379,16 @@ std::map<int, mups> test_board::read_mups_status_return(modbusRTU *modbusrtu_ptr
     // запускаем цикл
     for(int i = 0; i < mups_addr_start_reg_size; i++)
     {
-        // считываем данные i-ого МОПСа
+        // считываем данные i-ого МУПСа
         std::vector<uint16_t> current_buffer = modbusrtu_ptr->mbm_03_read_registers(this->mups_start_reg_arr[i], this->mups_quant_reg);
 
         // создаем МОПС
         mups mups_obj(i);
 
         // Копируем данные из current_buffer в поля структуры mops_stand_statment вручную
-        if (current_buffer.size() >= 56) // Проверяем, что буфер содержит достаточно данных
+        if (current_buffer.size() >= 36) // Проверяем, что буфер содержит достаточно данных
         {
-            for (size_t j = 0; j < 56; j++)
+            for (size_t j = 0; j < 36; j++)
             {
                 mups_obj.mups_stand_statment.main_buff[j] = static_cast<int>(current_buffer[j]);  // Преобразуем uint16_t в int
             }

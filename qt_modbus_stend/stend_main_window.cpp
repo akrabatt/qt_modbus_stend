@@ -68,6 +68,22 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
         // Проходим по всем МОПСам в карте
         for (const auto& [id, mops_obj] : mops_map)
         {
+            // Обновняем статус работоспособности МОПСа
+            QLabel* operable_label = findChild<QLabel*>(QString("just_lable_oper_status_ans_mops_%1").arg(id + 1));
+            if(operable_label)
+            {
+                if(mops_obj.mops_stand_statment.mops_statment.mops_operable > 0)
+                {
+                    operable_label->setText("Operable");
+                    operable_label->setStyleSheet("QLabel { color : green; }");
+                }
+                else
+                {
+                    operable_label->setText("Error");
+                    operable_label->setStyleSheet("QLabel { color : red; }");
+                }
+            }
+
             // Обновляем статус онлайн/оффлайн
             QLabel* online_label = findChild<QLabel*>(QString("just_lable_online_status_ans_mops_%1").arg(id + 1));
             if (online_label)
