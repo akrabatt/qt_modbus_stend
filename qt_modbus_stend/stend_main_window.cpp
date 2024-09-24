@@ -319,6 +319,7 @@ void stend_main_window::update_mups_gui(const std::map<int, mups>& mups_map)
             // обновляем статус онлайн/оффлайн
             if(online_label)
             {
+                // offline
                 if(mups_obj.mups_stand_statment.mups_statment.mups_offline > 0)
                 {
                     online_label->setText("Offline");
@@ -326,7 +327,75 @@ void stend_main_window::update_mups_gui(const std::map<int, mups>& mups_map)
                     operable_label->setText("");
 
                     // изменяем текст вкладки
+                    ui->tab_widget_for_mups->setTabText(tabIndex, tabName);
+                    ui->tab_widget_for_mups->tabBar()->setTabTextColor(tabIndex, QColor("gray"));
+                    continue;
+                }
+                // online
+                if(mups_obj.mups_stand_statment.mups_statment.mups_online)
+                {
+                    online_label->setText("Online");
+                    online_label->setStyleSheet("QLabel { color : green; }");
+                }
+                else
+                {
+                    online_label->setText("Online error !");
+                    online_label->setStyleSheet("QLabel { color : red; }");
+                    continue;
+                }
+            }
 
+            // объновляем статус питания и каналов
+            QLabel* v18_label = findChild<QLabel*>(QString("lable_18v_ans_mups_%1").arg(id + 1));
+            QLabel* v24_label = findChild<QLabel*>(QString("lable_24v_ans_mups_%1").arg(id + 1));
+            QLabel* v28_label = findChild<QLabel*>(QString("lable_28v_ans_mups_%1").arg(id + 1));
+
+            if(v18_label)   // 18
+            {
+                if(mups_obj.mups_stand_statment.mups_power_supply_error.mups_18v_error > 0)
+                    {v18_label->setText("err"); v18_label->setStyleSheet("QLabel { color : red; }");}
+                else
+                    {v18_label->setText("Ok"); v18_label->setStyleSheet("QLabel { color : green; }");}
+            }
+            if(v24_label)   // 24
+            {
+                if(mups_obj.mups_stand_statment.mups_power_supply_error.mups_24v_error > 0)
+                    {v24_label->setText("err"); v24_label->setStyleSheet("QLabel { color : red; }");}
+                else
+                    {v24_label->setText("Ok"); v24_label->setStyleSheet("QLabel { color : green; }");}
+            }
+            if(v28_label) // 28
+            {
+                if(mups_obj.mups_stand_statment.mups_power_supply_error.mups_28v_error > 0)
+                    {v28_label->setText("err"); v28_label->setStyleSheet("QLabel { color : red; }");}
+                else
+                    {v28_label->setText("Ok"); v28_label->setStyleSheet("QLabel { color : green; }");}
+            }
+
+            // Обновляем статус каналов
+            for(int ch = 0; ch < 4; ++ch)
+            {
+                // обрыв, канал выключен
+                QLabel* break_ch_off = findChild<QLabel*> (QString("lable_break_ch_off_mups_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                // обрыв, канал ыключен
+                QLabel* break_ch_on = findChild<QLabel*> (QString("lable_break_ch_on_mups_%1_ch_%2").arg(id + 1).arg(ch + 1));
+
+                // норма, канал выключен
+                QLabel* norm_ch_off = findChild<QLabel*> (QString("lable_norm_ch_off_mups_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                // норма, канал ыключен
+                QLabel* norm_ch_on = findChild<QLabel*> (QString("lable_norm_ch_on_mups_%1_ch_%2").arg(id + 1).arg(ch + 1));
+
+                // обрыв, канал выключен
+                QLabel* sc_ch_off = findChild<QLabel*> (QString("lable_sc_ch_off_mups_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                // превышение по току, канал принудительно отключен
+                QLabel* curr_up_ch_for_off = findChild<QLabel*> (QString("lable_curr_off_ch_off_mups_%1_ch_%2").arg(id + 1).arg(ch + 1));
+
+                if(break_ch_off)   // обрыв, канал отключен
+                {
+                    if(mups_obj.mups_stand_statment.mups_ch_statement.mups_ch_err_break_ch_off[ch] > 0)
+                        {break_ch_off->setText("err"); break_ch_off->setStyleSheet("QLabel { color : red; }");}
+                    else
+                        {break_ch_off->setText("Ok"); break_ch_off->setStyleSheet("QLabel { color : green; }");}
                 }
             }
         }
