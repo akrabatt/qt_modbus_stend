@@ -280,9 +280,9 @@ void stend_main_window::update_mups_gui(const std::map<int, mups>& mups_map)
         for(const auto& [id, mups_obj] : mups_map)
         {
             // статус исправности модуля
-            QLabel* operable_label = findChild<QLabel*>(QString("just_lable_online_status_ans_mups_%1").arg(id + 1));
+            QLabel* online_label = findChild<QLabel*>(QString("just_lable_online_status_ans_mups_%1").arg(id + 1));
             // статус исправности модуля
-            QLabel* online_label = findChild<QLabel*>(QString("just_lable_oper_status_ans_mups_%1").arg(id + 1));
+            QLabel* operable_label = findChild<QLabel*>(QString("just_lable_oper_status_ans_mups_%1").arg(id + 1));
 
             // получаем указатель на вкладку
             int tabIndex = id;  // соответстует индексу вкладки
@@ -396,6 +396,46 @@ void stend_main_window::update_mups_gui(const std::map<int, mups>& mups_map)
                         {break_ch_off->setText("err"); break_ch_off->setStyleSheet("QLabel { color : red; }");}
                     else
                         {break_ch_off->setText("Ok"); break_ch_off->setStyleSheet("QLabel { color : green; }");}
+                }
+
+                if(break_ch_on)   // обрыв, канал включен
+                {
+                    if(mups_obj.mups_stand_statment.mups_ch_statement.mups_ch_err_break_ch_on[ch] > 0)
+                        {break_ch_on->setText("err"); break_ch_on->setStyleSheet("QLabel { color : red; }");}
+                    else
+                        {break_ch_on->setText("Ok"); break_ch_on->setStyleSheet("QLabel { color : green; }");}
+                }
+
+                if(norm_ch_off)   // норма, канал выключен
+                {
+                    if(mups_obj.mups_stand_statment.mups_ch_statement.mups_ch_err_norm_ch_off[ch] > 0)
+                        {norm_ch_off->setText("err"); norm_ch_off->setStyleSheet("QLabel { color : red; }");}
+                    else
+                        {norm_ch_off->setText("Ok"); norm_ch_off->setStyleSheet("QLabel { color : green; }");}
+                }
+
+                if(norm_ch_on)   // норма, канал включен
+                {
+                    if(mups_obj.mups_stand_statment.mups_ch_statement.mups_ch_err_norm_ch_on[ch] > 0)
+                        {norm_ch_on->setText("err"); norm_ch_on->setStyleSheet("QLabel { color : red; }");}
+                    else
+                        {norm_ch_on->setText("Ok"); norm_ch_on->setStyleSheet("QLabel { color : green; }");}
+                }
+
+                if(sc_ch_off)   // КЗ, канал выключен
+                {
+                    if(mups_obj.mups_stand_statment.mups_ch_statement.mups_ch_err_sc_ch_off[ch] > 0)
+                        {sc_ch_off->setText("err"); sc_ch_off->setStyleSheet("QLabel { color : red; }");}
+                    else
+                        {sc_ch_off->setText("Ok"); sc_ch_off->setStyleSheet("QLabel { color : green; }");}
+                }
+
+                if(curr_up_ch_for_off)   // превышение тока, канал принудительно отключен
+                {
+                    if(mups_obj.mups_stand_statment.mups_ch_statement.mups_ch_err_cur_up_ch_off_force[ch] > 0)
+                        {curr_up_ch_for_off->setText("err"); curr_up_ch_for_off->setStyleSheet("QLabel { color : red; }");}
+                    else
+                        {curr_up_ch_for_off->setText("Ok"); curr_up_ch_for_off->setStyleSheet("QLabel { color : green; }");}
                 }
             }
         }
@@ -637,7 +677,7 @@ void stend_main_window::start_main_test()
                         std::map<int, mups> mups_map_cont = stand_test_board.read_mups_status_return(&modbus_stand_board, &stand_test_board);  // считываем результаты
 
                         // обновляем ГУИ
-                        //this->update_mups_gui(mups_map_cont);
+                        this->update_mups_gui(mups_map_cont);
 
                         // Устанавливаем лейбл, что ничего не тестируется
                         QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
