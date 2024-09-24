@@ -137,134 +137,196 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
                 }
             }
 
-            // Обновляем статус питания и каналов (логика не менялась, остается такой же)
+            // Обновляем статус питания и каналов
             QLabel* v18_label = findChild<QLabel*>(QString("lable_18v_ans_mops_%1").arg(id + 1));
-            if (v18_label)
+            QLabel* v24_label = findChild<QLabel*>(QString("lable_24v_ans_mops_%1").arg(id + 1));
+            QLabel* v28_label = findChild<QLabel*>(QString("lable_28v_ans_mops_%1").arg(id + 1));
+            if (v18_label)  // 18v
             {
                 if (mops_obj.mops_stand_statment.mops_power_supply_error.mops_18v_error > 0)
-                {
-                    v18_label->setText("err");
-                    v18_label->setStyleSheet("QLabel { color : red; }");
-                }
+                    {v18_label->setText("err"); v18_label->setStyleSheet("QLabel { color : red; }");}
                 else
-                {
-                    v18_label->setText("");
-                    v18_label->setStyleSheet("QLabel { color : green; }");
-                }
+                    {v18_label->setText("ok"); v18_label->setStyleSheet("QLabel { color : green; }");}
             }
-
-            QLabel* v24_label = findChild<QLabel*>(QString("lable_24v_ans_mops_%1").arg(id + 1));
-            if (v24_label)
+            if (v24_label) // 24v
             {
                 if (mops_obj.mops_stand_statment.mops_power_supply_error.mops_24v_error > 0)
-                {
-                    v24_label->setText("err");
-                    v24_label->setStyleSheet("QLabel { color : red; }");
-                }
+                    {v24_label->setText("err"); v24_label->setStyleSheet("QLabel { color : red; }");}
                 else
-                {
-                    v24_label->setText("");
-                    v24_label->setStyleSheet("QLabel { color : green; }");
-                }
+                    {v24_label->setText("ok"); v24_label->setStyleSheet("QLabel { color : green; }");}
             }
-
-            QLabel* v28_label = findChild<QLabel*>(QString("lable_28v_ans_mops_%1").arg(id + 1));
-            if (v28_label)
+            if (v28_label) // 28v
             {
                 if (mops_obj.mops_stand_statment.mops_power_supply_error.mops_28v_error > 0)
-                {
-                    v28_label->setText("err");
-                    v28_label->setStyleSheet("QLabel { color : red; }");
-                }
+                    {v28_label->setText("err"); v28_label->setStyleSheet("QLabel { color : red; }");}
                 else
-                {
-                    v28_label->setText("");
-                    v28_label->setStyleSheet("QLabel { color : green; }");
-                }
+                    {v28_label->setText("ok"); v28_label->setStyleSheet("QLabel { color : green; }");}
             }
+
 
             // Обновляем статус каналов (логика не менялась, остается такой же)
             for (int ch = 0; ch < 8; ++ch)
             {
                 // указатель на лейбл канала нормального статуса
                 QLabel* norm_label = findChild<QLabel*>(QString("lable_norm_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                // указатель на лейбл обрыва канала
+                QLabel* break_label = findChild<QLabel*>(QString("lable_break_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                // указатель на статус внимания канала
+                QLabel* attn_label = findChild<QLabel*>(QString("lable_attantion_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                // указатель на статус пожара канала
+                QLabel* fire_label = findChild<QLabel*>(QString("lable_fire_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                // указатель на статус короткого замыкания канала
+                QLabel* sc_label = findChild<QLabel*>(QString("lable_break_mops_%1_sc_%2").arg(id + 1).arg(ch + 1));
+
                 // обновляем статус канала
                 if (norm_label)
                 {
                     if (mops_obj.mops_stand_statment.mops_ch_statement.mops_ch_err_normal[ch] == 0)
-                    {
-                        norm_label->setText("ok");
-                        norm_label->setStyleSheet("QLabel { color : green; }");
-                    }
+                        {norm_label->setText("ok"); norm_label->setStyleSheet("QLabel { color : green; }");}
                     else
-                    {
-                        norm_label->setText("err");
-                        norm_label->setStyleSheet("QLabel { color : red; }");
-                    }
+                        {norm_label->setText("err"); norm_label->setStyleSheet("QLabel { color : red; }");}
                 }
 
-                // указатель на лейбл обрыва канала
-                QLabel* break_label = findChild<QLabel*>(QString("lable_break_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
                 if (break_label)
                 {
                     if (mops_obj.mops_stand_statment.mops_ch_statement.mops_ch_err_break[ch] == 0)
-                    {
-                        break_label->setText("ok");
-                        break_label->setStyleSheet("QLabel { color : green; }");
-                    }
+                        {break_label->setText("ok"); break_label->setStyleSheet("QLabel { color : green; }");}
                     else
-                    {
-                        break_label->setText("err");
-                        break_label->setStyleSheet("QLabel { color : red; }");
-                    }
+                        {break_label->setText("err"); break_label->setStyleSheet("QLabel { color : red; }");}
                 }
 
-                // указатель на статус внимания канала
-                QLabel* attn_label = findChild<QLabel*>(QString("lable_attantion_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
                 if (attn_label)
                 {
                     if (mops_obj.mops_stand_statment.mops_ch_statement.mops_ch_err_attantion[ch] == 0)
-                    {
-                        attn_label->setText("ok");
-                        attn_label->setStyleSheet("QLabel { color : green; }");
-                    }
+                        {attn_label->setText("ok"); attn_label->setStyleSheet("QLabel { color : green; }");}
                     else
-                    {
-                        attn_label->setText("err");
-                        attn_label->setStyleSheet("QLabel { color : red; }");
-                    }
+                        {attn_label->setText("err"); attn_label->setStyleSheet("QLabel { color : red; }");}
                 }
 
-                // указатель на статус пожара канала
-                QLabel* fire_label = findChild<QLabel*>(QString("lable_fire_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
+
                 if (fire_label)
                 {
                     if (mops_obj.mops_stand_statment.mops_ch_statement.mops_ch_err_fire[ch] == 0)
-                    {
-                        fire_label->setText("ok");
-                        fire_label->setStyleSheet("QLabel { color : green; }");
-                    }
+                        {fire_label->setText("ok"); fire_label->setStyleSheet("QLabel { color : green; }");}
                     else
-                    {
-                        fire_label->setText("err");
-                        fire_label->setStyleSheet("QLabel { color : red; }");
-                    }
+                        {fire_label->setText("err"); fire_label->setStyleSheet("QLabel { color : red; }");}
                 }
 
-                // указатель на статус короткого замыкания канала
-                QLabel* sc_label = findChild<QLabel*>(QString("lable_break_mops_%1_sc_%2").arg(id + 1).arg(ch + 1));
+
                 if (sc_label)
                 {
                     if (mops_obj.mops_stand_statment.mops_ch_statement.mops_ch_err_sc[ch] == 0)
-                    {
-                        sc_label->setText("ok");
-                        sc_label->setStyleSheet("QLabel { color : green; }");
-                    }
+                        {sc_label->setText("ok"); sc_label->setStyleSheet("QLabel { color : green; }");}
                     else
-                    {
-                        sc_label->setText("err");
-                        sc_label->setStyleSheet("QLabel { color : red; }");
-                    }
+                        {sc_label->setText("err");sc_label->setStyleSheet("QLabel { color : red; }");}
+                }
+            }
+        }
+    });
+}
+
+/**
+ * @brief clear_mops_gui данный метод очищает ГУИ всех вкладок МУПСов
+ */
+void stend_main_window::clear_mops_gui()
+{
+    QMetaObject::invokeMethod(this, [this]()
+    {
+        // Проходим по всем МОПСам в карте
+        for (int id = 0; id < 10; ++id)
+        {
+            // статус исправности модуля
+            QLabel* operable_label = findChild<QLabel*>(QString("just_lable_oper_status_ans_mops_%1").arg(id + 1));
+            // статус онлайн/оффлайн статуса модуля
+            QLabel* online_label = findChild<QLabel*>(QString("just_lable_online_status_ans_mops_%1").arg(id + 1));
+
+            // получаем указатель на вкладку
+            int tabIndex = id; // соответствует индексу вкладки
+            QString tabName = QString("%1").arg(id + 1);   // название вкладки
+
+            // Устанавливаем обычный шрифт для текста вкладки
+            QFont tabFont = ui->tab_widget_for_mops->tabBar()->font();  // Получаем текущий обычный вкладки
+            tabFont.setBold(false);  // Делаем шрифт жирным
+            ui->tab_widget_for_mops->tabBar()->setFont(tabFont);  // Применяем обычный шрифт
+
+            // очищаем статус работоспособности МОПСа
+            if (operable_label)
+            {
+
+                    operable_label->setText("");
+                    operable_label->setStyleSheet("QLabel { color : black; }");
+
+                    // Изменяем текст вкладки (оставляем логику неизменной)
+                    ui->tab_widget_for_mops->setTabText(tabIndex, tabName);
+                    ui->tab_widget_for_mops->tabBar()->setTabTextColor(tabIndex, QColor("black"));
+            }
+
+            // Обновляем статус онлайн/оффлайн
+            if (online_label)
+            {
+
+                    online_label->setText("");
+                    online_label->setStyleSheet("QLabel { color : black; }");
+            }
+
+            // Обновляем статус питания и каналов
+            QLabel* v18_label = findChild<QLabel*>(QString("lable_18v_ans_mops_%1").arg(id + 1));
+            QLabel* v24_label = findChild<QLabel*>(QString("lable_24v_ans_mops_%1").arg(id + 1));
+            QLabel* v28_label = findChild<QLabel*>(QString("lable_28v_ans_mops_%1").arg(id + 1));
+            if (v18_label)  // 18v
+            {
+                v18_label->setText(""); v18_label->setStyleSheet("QLabel { color : black; }");
+            }
+            if (v24_label) // 24v
+            {
+                v24_label->setText(""); v24_label->setStyleSheet("QLabel { color : black; }");
+            }
+            if (v28_label) // 28v
+            {
+                v28_label->setText(""); v28_label->setStyleSheet("QLabel { color : black; }");
+            }
+
+
+            // Обновляем статус каналов (логика не менялась, остается такой же)
+            for (int ch = 0; ch < 8; ++ch)
+            {
+                // указатель на лейбл канала нормального статуса
+                QLabel* norm_label = findChild<QLabel*>(QString("lable_norm_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                // указатель на лейбл обрыва канала
+                QLabel* break_label = findChild<QLabel*>(QString("lable_break_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                // указатель на статус внимания канала
+                QLabel* attn_label = findChild<QLabel*>(QString("lable_attantion_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                // указатель на статус пожара канала
+                QLabel* fire_label = findChild<QLabel*>(QString("lable_fire_mops_%1_ch_%2").arg(id + 1).arg(ch + 1));
+                // указатель на статус короткого замыкания канала
+                QLabel* sc_label = findChild<QLabel*>(QString("lable_break_mops_%1_sc_%2").arg(id + 1).arg(ch + 1));
+
+                // обновляем статус канала
+                if (norm_label)
+                {
+                    norm_label->setText(""); norm_label->setStyleSheet("QLabel { color : black; }");
+                }
+
+                if (break_label)
+                {
+                    break_label->setText(""); break_label->setStyleSheet("QLabel { color : black; }");
+                }
+
+                if (attn_label)
+                {
+                    attn_label->setText(""); attn_label->setStyleSheet("QLabel { color : black; }");
+                }
+
+
+                if (fire_label)
+                {
+                    fire_label->setText(""); fire_label->setStyleSheet("QLabel { color : balck; }");
+                }
+
+
+                if (sc_label)
+                {
+                    sc_label->setText(""); sc_label->setStyleSheet("QLabel { color : black; }");
                 }
             }
         }
