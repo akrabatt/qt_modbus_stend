@@ -190,7 +190,12 @@ bool test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mo
 
     // Проверяем количество отмеченных МОПСов и МУПСов
     int mops_var_sum = test_board_ptr->get_sum_mops_checkbox();
+    if(mops_var_sum > 0){this->mops_flag_checbox = true;}   // устанавливаем флаг того что хотя-бы один чек бокс МОПСов установлен
+    else{this->mops_flag_checbox = false;}
+
     int mups_var_sum = test_board_ptr->get_sum_mups_checkbox();
+    if(mups_var_sum > 0){this->mups_flag_checbox = true;}   // аналогично с МУПСами
+    else{this->mups_flag_checbox = false;}
 
     // если не отмечены модули, то выводим ошибку и выходим
     if (mops_var_sum == 0 && mups_var_sum == 0)
@@ -400,4 +405,22 @@ std::map<int, mups> test_board::read_mups_status_return(modbusRTU *modbusrtu_ptr
     }
 
     return local_mups_map;
+}
+
+/**
+ * @brief get_mops_checkbox_flag функция возвращает флаг который показывает установлен или хотя-бы один чекбокс МОПСов
+ * @return
+ */
+bool test_board::get_mops_checkbox_flag()
+{
+    return this->mops_flag_checbox;
+}
+
+/**
+ * @brief get_mups_checkbox_flag функция возвращает флаг который показывает установлен или хотя-бы один чекбокс МУПСов
+ * @return
+ */
+bool test_board::get_mups_checkbox_flag()
+{
+    return this->mups_flag_checbox;
 }

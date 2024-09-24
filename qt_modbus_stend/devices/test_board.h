@@ -69,7 +69,10 @@ private:
     uint16_t mops_start_reg_arr[10] = {10000, 10056, 10112, 10168, 10224, 10280, 10336, 10392, 10448, 10504};       // стартовые регистры МОПСов в массиве
 
     std::vector<uint16_t> mops_active_checkbox;  // вектор хранящий выбранные для проверки МОПСы
+    bool mops_flag_checbox = false;     // флаг означает что один из чекбоксов МОПСов отмечен
+
     std::vector<uint16_t> mups_active_checkbox;  // векстр хранящий выбранные для проверки МУПСы
+    bool mups_flag_checbox = false;     // флаг означает что один из чекбоксов МУПСов отмечен
 
 public:
     // объекты МОПСами
@@ -228,6 +231,18 @@ public:
      * @return
      */
     std::map<int, mups> read_mups_status_return(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
+
+    /**
+     * @brief get_mops_checkbox_flag функция возвращает флаг который показывает установлен или хотя-бы один чекбокс МОПСов
+     * @return
+     */
+    bool get_mops_checkbox_flag();
+
+    /**
+     * @brief get_mups_checkbox_flag функция возвращает флаг который показывает установлен или хотя-бы один чекбокс МУПСов
+     * @return
+     */
+    bool get_mups_checkbox_flag();
 };
 
 #endif // TEST_BOARD_H

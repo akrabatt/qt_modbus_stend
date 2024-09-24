@@ -35,6 +35,16 @@ public:
      */
     void update_mups_gui(const std::map<int, mups> &mups_map);
 
+    /**
+     * @brief clear_mops_gui данный метод очищает интерфейс МОПСов
+     */
+    void clear_mops_gui();
+
+    /**
+     * @brief clear_mups_gui данный метод очищает интерфейс МУПСов
+     */
+    void clear_mups_gui();
+
     // Подключаем слот для тестирования связи с оборудованием
 private slots:
     /**
