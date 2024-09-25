@@ -751,6 +751,10 @@ void stend_main_window::start_main_test()
             // Создаем объект испытательной платы
             test_board stand_test_board(1);
 
+            // очищаем гуи мопсов и мупсов
+            this->clear_mops_gui();
+            this->clear_mups_gui();
+
             // проверим не выполняется ли тестирование в данный момент
             bool is_test_busy = stand_test_board.check_test_is_busy(&modbus_stand_board, &stand_test_board);
             if(!is_test_busy)
