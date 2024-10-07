@@ -18,7 +18,7 @@ stend_main_window::stend_main_window(QWidget *parent)
 {
     ui->setupUi(this);
 
-    // Инициализация массива чекбоксов для МОПС
+    // Инициализация массива чекбоксов для МОПС         //
     mops_checkboxes[0] = ui->checkBox_active_mops_1;
     mops_checkboxes[1] = ui->checkBox_active_mops_2;
     mops_checkboxes[2] = ui->checkBox_active_mops_3;
