@@ -132,6 +132,11 @@
            <layout class="QVBoxLayout" name="verticalLayout_6">
             <item>
              <widget class="QLabel" name="just_lable_mops_ans">
+              <property name="font">
+               <font>
+                <bold>true</bold>
+               </font>
+              </property>
               <property name="text">
                <string/>
               </property>
@@ -139,6 +144,11 @@
             </item>
             <item>
              <widget class="QLabel" name="just_lable_mups_ans">
+              <property name="font">
+               <font>
+                <bold>true</bold>
+               </font>
+              </property>
               <property name="text">
                <string/>
               </property>
@@ -161,6 +171,11 @@
         </item>
         <item>
          <widget class="QLabel" name="just_lable_in_test_ans">
+          <property name="font">
+           <font>
+            <bold>true</bold>
+           </font>
+          </property>
           <property name="text">
            <string/>
           </property>
@@ -1326,7 +1341,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="lable_fire_mops_1_ch_9">
+              <widget class="QLabel" name="lable_fire_mops_1_ch_8">
                <property name="text">
                 <string/>
                </property>
@@ -1345,6 +1360,11 @@
            <width>261</width>
            <height>91</height>
           </rect>
+         </property>
+         <property name="font">
+          <font>
+           <bold>false</bold>
+          </font>
          </property>
          <property name="title">
           <string>Состояние модуля МОПС 1</string>
@@ -11719,7 +11739,7 @@
            <x>350</x>
            <y>10</y>
            <width>171</width>
-           <height>101</height>
+           <height>111</height>
           </rect>
          </property>
          <property name="title">
@@ -11731,7 +11751,7 @@
             <x>10</x>
             <y>30</y>
             <width>148</width>
-            <height>61</height>
+            <height>72</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_63">
@@ -12854,7 +12874,7 @@
            <x>350</x>
            <y>10</y>
            <width>171</width>
-           <height>101</height>
+           <height>111</height>
           </rect>
          </property>
          <property name="title">
@@ -12866,7 +12886,7 @@
             <x>10</x>
             <y>30</y>
             <width>148</width>
-            <height>61</height>
+            <height>72</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_195">
@@ -13940,7 +13960,7 @@
            <x>350</x>
            <y>10</y>
            <width>171</width>
-           <height>101</height>
+           <height>111</height>
           </rect>
          </property>
          <property name="title">
@@ -13952,7 +13972,7 @@
             <x>10</x>
             <y>30</y>
             <width>148</width>
-            <height>61</height>
+            <height>72</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_210">
@@ -14710,7 +14730,7 @@
            <x>350</x>
            <y>10</y>
            <width>171</width>
-           <height>101</height>
+           <height>111</height>
           </rect>
          </property>
          <property name="title">
@@ -14722,7 +14742,7 @@
             <x>10</x>
             <y>30</y>
             <width>148</width>
-            <height>61</height>
+            <height>72</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_225">
@@ -16637,7 +16657,7 @@
            <x>350</x>
            <y>10</y>
            <width>171</width>
-           <height>101</height>
+           <height>111</height>
           </rect>
          </property>
          <property name="title">
@@ -16649,7 +16669,7 @@
             <x>10</x>
             <y>30</y>
             <width>148</width>
-            <height>61</height>
+            <height>72</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_240">
@@ -16993,7 +17013,7 @@
            <x>350</x>
            <y>10</y>
            <width>171</width>
-           <height>101</height>
+           <height>111</height>
           </rect>
          </property>
          <property name="title">
@@ -17005,7 +17025,7 @@
             <x>10</x>
             <y>30</y>
             <width>148</width>
-            <height>61</height>
+            <height>72</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_255">
@@ -18128,7 +18148,7 @@
            <x>350</x>
            <y>10</y>
            <width>171</width>
-           <height>101</height>
+           <height>111</height>
           </rect>
          </property>
          <property name="title">
@@ -18140,7 +18160,7 @@
             <x>10</x>
             <y>30</y>
             <width>148</width>
-            <height>61</height>
+            <height>72</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_270">
@@ -19539,7 +19559,7 @@
            <x>350</x>
            <y>10</y>
            <width>171</width>
-           <height>101</height>
+           <height>111</height>
           </rect>
          </property>
          <property name="title">
@@ -19551,7 +19571,7 @@
             <x>10</x>
             <y>30</y>
             <width>148</width>
-            <height>61</height>
+            <height>72</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_285">
@@ -19846,7 +19866,7 @@
            <x>350</x>
            <y>10</y>
            <width>171</width>
-           <height>101</height>
+           <height>111</height>
           </rect>
          </property>
          <property name="title">
@@ -19858,7 +19878,7 @@
             <x>10</x>
             <y>30</y>
             <width>141</width>
-            <height>61</height>
+            <height>72</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_300">
@@ -21622,7 +21642,7 @@
            <x>350</x>
            <y>10</y>
            <width>171</width>
-           <height>101</height>
+           <height>111</height>
           </rect>
          </property>
          <property name="title">
@@ -21634,7 +21654,7 @@
             <x>10</x>
             <y>30</y>
             <width>148</width>
-            <height>61</height>
+            <height>72</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_315">

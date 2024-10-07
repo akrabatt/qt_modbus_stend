@@ -1,0 +1,46 @@
+# Компилированные объекты и бинарные файлы
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+
+# Файлы компилятора и IDE
+*.log
+*.pro.user
+*.pro.user.*
+*.user
+*.qbs.user
+*.creator.user
+*.creator.*
+.qmake.stash
+*.qmake.cache
+
+# Каталог сборки (если не указывать директорию вручную)
+build-*/
+
+# Каталоги и файлы CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Каталоги отладки и профилирования
+debug/
+release/
+*.dSYM
+vgcore.*
+
+# Каталог C++ проектов
+*.pro
+*.pro.user
+*.pro.user.*
+
+# Каталоги временных файлов QtCreator
+*.autosave
+*.qmlproject.user
+*.qtc_clangd
+

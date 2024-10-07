@@ -9,7 +9,7 @@
  */
 class mops : public device_base_class
 {
-private:
+public:
 
     // структура данных состояния мопса
     union tag_mops_stand_statment

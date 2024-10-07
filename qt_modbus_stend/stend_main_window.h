@@ -6,6 +6,9 @@
 #include <QMutex>
 #include <thread>
 #include <atomic>
+#include <QTabBar>
+#include "devices/mops.h"
+#include "devices/mups.h"
 
 // GUI КЛАСС
 QT_BEGIN_NAMESPACE
@@ -19,6 +22,28 @@ class stend_main_window : public QMainWindow
 public:
     explicit stend_main_window(QWidget *parent = nullptr);
     ~stend_main_window();
+
+    /**
+     * @brief update_mops_gui данный метод обновляет ГУИ всех вкладок МОПСов
+     * @param mops_map
+     */
+    void update_mops_gui(const std::map<int, mops> &mops_map);
+
+    /**
+     * @brief update_mups_gui данный метод обновляет ГУИ всех вкладок МУПСов
+     * @param mups_map
+     */
+    void update_mups_gui(const std::map<int, mups> &mups_map);
+
+    /**
+     * @brief clear_mops_gui данный метод очищает интерфейс МОПСов
+     */
+    void clear_mops_gui();
+
+    /**
+     * @brief clear_mups_gui данный метод очищает интерфейс МУПСов
+     */
+    void clear_mups_gui();
 
     // Подключаем слот для тестирования связи с оборудованием
 private slots:
@@ -48,6 +73,10 @@ private:
 
     // Поток для выполнения тестов
     std::thread test_thread;
+
+    // счетчик выполненных тестов МОПСов и МУПСов
+    int mops_num;
+    int mups_num;
 
     QCheckBox* mops_checkboxes[10];  // Массив указателей на чекбоксы МОПС
     QCheckBox* mups_checkboxes[10];  // Массив указателей на чекбоксы МУПС

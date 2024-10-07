@@ -177,8 +177,9 @@ bool test_board::wirte_active_mops_and_mups_to_test_board_flag(modbusRTU *modbus
  * @param test_board_ptr указатель на объект тестовой платы
  * @param modbustru_ptr указатель на объект контекста соединения модбаса
  * @param window указатель на объект главного окна
+ * @param 1 - успех, 0 - неуспех
  */
-void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mops_count, int mups_count, test_board *test_board_ptr, modbusRTU *modbusrtu_ptr, stend_main_window* window)
+bool test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mops_count, int mups_count, test_board *test_board_ptr, modbusRTU *modbusrtu_ptr, stend_main_window* window)
 {
     // обрабатываем чек-боксы для МОПСов и МУПСов
     for (int i = 0; i < 10; ++i)
@@ -189,7 +190,12 @@ void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mo
 
     // Проверяем количество отмеченных МОПСов и МУПСов
     int mops_var_sum = test_board_ptr->get_sum_mops_checkbox();
+    if(mops_var_sum > 0){this->mops_flag_checbox = true;}   // устанавливаем флаг того что хотя-бы один чек бокс МОПСов установлен
+    else{this->mops_flag_checbox = false;}
+
     int mups_var_sum = test_board_ptr->get_sum_mups_checkbox();
+    if(mups_var_sum > 0){this->mups_flag_checbox = true;}   // аналогично с МУПСами
+    else{this->mups_flag_checbox = false;}
 
     // если не отмечены модули, то выводим ошибку и выходим
     if (mops_var_sum == 0 && mups_var_sum == 0)
@@ -198,7 +204,7 @@ void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mo
         {
             QMessageBox::warning(window, "Error", "The module is not selected");
         });
-        return; // Завершаем выполнение потока
+        return false; // Завершаем выполнение потока
     }
 
     // записываем регистры с МОПСами и МУПСами которые будем испытывать в плату
@@ -208,6 +214,7 @@ void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mo
     if (!success)
     {
         throw std::runtime_error("Error writing registers.");
+        return false;
     }
 
     // Проверяем успех операции
@@ -216,6 +223,7 @@ void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mo
         QMetaObject::invokeMethod(window, [window]()
         {
             QMessageBox::information(window, "Success", "Registers written successfully.");
+            return true;
         });
     }
     else
@@ -223,8 +231,10 @@ void test_board::process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mo
         QMetaObject::invokeMethod(window, [window]()
         {
             QMessageBox::warning(window, "Error", "Error writing registers.");
+            return false;
         });
     }
+    return true;
 }
 
 /**
@@ -250,7 +260,7 @@ bool test_board::check_test_is_busy(modbusRTU *modbusrtu_ptr, test_board *test_b
  * @param window_ptr указатель на gui
  * @param test_board_ptr
  */
-void test_board::start_main_test_mops(modbusRTU *modbusrtu_ptr, stend_main_window *window_ptr, test_board *test_board_ptr)
+void test_board::start_main_test_mops(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr)
 {
     // проверяем стоит ли какой либо из флагов, если да, то выходим
     if(test_board_ptr->check_test_is_busy(modbusrtu_ptr, test_board_ptr) == 0) {return;}
@@ -262,14 +272,155 @@ void test_board::start_main_test_mops(modbusRTU *modbusrtu_ptr, stend_main_windo
 /**
  * @brief start_main_test_mops функция старта тестирования МУПСов
  * @param modbusrtu_ptr указатель на контекст подключения модбаса
- * @param window_ptr указатель на gui
  * @param test_board_ptr
  */
-void test_board::start_main_test_mups(modbusRTU *modbusrtu_ptr, stend_main_window *window_ptr, test_board *test_board_ptr)
+void test_board::start_main_test_mups(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr)
 {
     // проверяем стоит ли какой либо из флагов, если да, то выходим
     if(test_board_ptr->check_test_is_busy(modbusrtu_ptr, test_board_ptr) == 0) {return;}
 
     // записываем флаг старта испытания МОПСов
     modbusrtu_ptr->mbm_16_write_single_register(this->start_check_mups_button_reg, 1);
+}
+
+/**
+ * @brief test_board::read_mops_status
+ * @param modbusrtu_ptr
+ * @param test_board_ptr
+ */
+void test_board::read_mops_status(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr)
+{
+    // очищаем наш список с объектами мопсов
+    this->mops_map.clear();
+
+    // создаем переменную равную кол-ву модулей
+    size_t mops_addr_start_reg_size = sizeof(this->mops_start_reg_arr)/sizeof(this->mops_start_reg_arr[0]);
+
+    // запускаем цикл
+    for(int i = 0; i < mops_addr_start_reg_size; i++)
+    {
+        // считываем данные i-ого МОПСа
+        std::vector<uint16_t> current_buffer = modbusrtu_ptr->mbm_03_read_registers(this->mops_start_reg_arr[i], this->mops_quant_reg);
+
+        // создаем МОПС
+        mops mops_obj(i);
+
+        // Копируем данные из current_buffer в поля структуры mops_stand_statment вручную
+        if (current_buffer.size() >= 56) // Проверяем, что буфер содержит достаточно данных
+        {
+            for (size_t j = 0; j < 56; j++)
+            {
+                mops_obj.mops_stand_statment.main_buff[j] = static_cast<int>(current_buffer[j]);  // Преобразуем uint16_t в int
+            }
+        }
+
+        // добавляем мопс
+        //this->mops_map.insert({i, mops_obj});
+        this->mops_map[i] = mops_obj;
+    }
+}
+
+
+/**
+ * @brief read_mops_status_return метод считывающий результаты тестирования МОПСов и возвращает обратно контейнер
+ * @param modbusrtu_ptr
+ * @param test_board_ptr
+ * @return
+ */
+std::map<int, mops> test_board::read_mops_status_return(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr)
+{
+    // создаем локальный контейнер
+    std::map<int, mops> local_mops_map;
+
+    // очищаем наш список с объектами мопсов
+    this->mops_map.clear();
+
+    // создаем переменную равную кол-ву модулей
+    size_t mops_addr_start_reg_size = sizeof(this->mops_start_reg_arr)/sizeof(this->mops_start_reg_arr[0]);
+
+    // запускаем цикл
+    for(int i = 0; i < mops_addr_start_reg_size; i++)
+    {
+        // считываем данные i-ого МОПСа
+        std::vector<uint16_t> current_buffer = modbusrtu_ptr->mbm_03_read_registers(this->mops_start_reg_arr[i], this->mops_quant_reg);
+
+        // создаем МОПС
+        mops mops_obj(i);
+
+        // Копируем данные из current_buffer в поля структуры mops_stand_statment вручную
+        if (current_buffer.size() >= 56) // Проверяем, что буфер содержит достаточно данных
+        {
+            for (size_t j = 0; j < 56; j++)
+            {
+                mops_obj.mops_stand_statment.main_buff[j] = static_cast<int>(current_buffer[j]);  // Преобразуем uint16_t в int
+            }
+        }
+
+        // добавляем мопс
+        //this->mops_map.insert({i, mops_obj});
+        local_mops_map[i] = mops_obj;
+    }
+
+    return local_mops_map;
+}
+
+/**
+ * @brief read_mups_status_return метод считывающий результаты тестирования МУПСов и возвращает обратно контейнер
+ * @param modbusrtu_ptr
+ * @param test_board_ptr
+ * @return
+ */
+std::map<int, mups> test_board::read_mups_status_return(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr)
+{
+    // создаем локальный контейнер
+    std::map<int, mups> local_mups_map;
+
+    // очищаем наш список с объектами мопсов
+    this->mups_map.clear();
+
+    // создаем переменную равную кол-ву модулей
+    size_t mups_addr_start_reg_size = sizeof(this->mups_start_reg_arr)/sizeof(this->mups_start_reg_arr[0]);
+
+    // запускаем цикл
+    for(int i = 0; i < mups_addr_start_reg_size; i++)
+    {
+        // считываем данные i-ого МУПСа
+        std::vector<uint16_t> current_buffer = modbusrtu_ptr->mbm_03_read_registers(this->mups_start_reg_arr[i], this->mups_quant_reg);
+
+        // создаем МОПС
+        mups mups_obj(i);
+
+        // Копируем данные из current_buffer в поля структуры mops_stand_statment вручную
+        if (current_buffer.size() >= 36) // Проверяем, что буфер содержит достаточно данных
+        {
+            for (size_t j = 0; j < 36; j++)
+            {
+                mups_obj.mups_stand_statment.main_buff[j] = static_cast<int>(current_buffer[j]);  // Преобразуем uint16_t в int
+            }
+        }
+
+        // добавляем мопс
+        //this->mops_map.insert({i, mops_obj});
+        local_mups_map[i] = mups_obj;
+    }
+
+    return local_mups_map;
+}
+
+/**
+ * @brief get_mops_checkbox_flag функция возвращает флаг который показывает установлен или хотя-бы один чекбокс МОПСов
+ * @return
+ */
+bool test_board::get_mops_checkbox_flag()
+{
+    return this->mops_flag_checbox;
+}
+
+/**
+ * @brief get_mups_checkbox_flag функция возвращает флаг который показывает установлен или хотя-бы один чекбокс МУПСов
+ * @return
+ */
+bool test_board::get_mups_checkbox_flag()
+{
+    return this->mups_flag_checbox;
 }

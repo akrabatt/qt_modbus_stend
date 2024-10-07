@@ -9,6 +9,9 @@
 #include <iostream>
 #include <QWidget>
 #include <QMessageBox>
+#include <algorithm>
+#include "mops.h"
+#include "mups.h"
 
 /**
  * @brief The test_board class
@@ -66,8 +69,22 @@ private:
     uint16_t mops_start_reg_arr[10] = {10000, 10056, 10112, 10168, 10224, 10280, 10336, 10392, 10448, 10504};       // стартовые регистры МОПСов в массиве
 
     std::vector<uint16_t> mops_active_checkbox;  // вектор хранящий выбранные для проверки МОПСы
-    std::vector<uint16_t> mups_active_checkbox;  // векстр хранящий выбранные для проверки МУПСы
+    bool mops_flag_checbox = false;     // флаг означает что один из чекбоксов МОПСов отмечен
 
+    std::vector<uint16_t> mups_active_checkbox;  // векстр хранящий выбранные для проверки МУПСы
+    bool mups_flag_checbox = false;     // флаг означает что один из чекбоксов МУПСов отмечен
+
+public:
+    // объекты МОПСами
+    std::map<int, mops> mops_map;   // список с объектами МОПСов
+private:
+    std::vector<int> mops_id = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};     // id
+
+public:
+    // объекты МУПСами
+    std::map<int, mups> mups_map;   // список с объектами МУПСов
+private:
+    std::vector<int> mups_id = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};     // id
 
 public:
     // пустой конструктор
@@ -159,8 +176,9 @@ public:
      * @param test_board_ptr указатель на объект тестовой платы
      * @param modbustru_ptr указатель на объект контекста соединения модбаса
      * @param window указатель на объект главного окна
+     * @return 1 - успешно, 0 - неуспешно
      */
-    void process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mops_count, int mups_count, test_board *test_board_ptr, modbusRTU *modbusrtu_ptr, stend_main_window* window);
+    bool process_checkboxes(QCheckBox* mops[], QCheckBox* mups[], int mops_count, int mups_count, test_board *test_board_ptr, modbusRTU *modbusrtu_ptr, stend_main_window* window);
 
     /**
      * @brief check_test_is_busy данный метод проверяет 9001 и 9003 регистры платы, которые являются флагами что в данный момент идет проверка
@@ -173,18 +191,58 @@ public:
     /**
      * @brief start_main_test_mops функция старта тестирования МОПСов
      * @param modbusrtu_ptr указатель на контекст подключения модбаса
-     * @param window_ptr указатель на gui
      * @param test_board_ptr
      */
-    void start_main_test_mops(modbusRTU *modbusrtu_ptr, stend_main_window *window_ptr, test_board *test_board_ptr);
+    void start_main_test_mops(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
 
     /**
      * @brief start_main_test_mops функция старта тестирования МУПСов
      * @param modbusrtu_ptr указатель на контекст подключения модбаса
-     * @param window_ptr указатель на gui
      * @param test_board_ptr
      */
-    void start_main_test_mups(modbusRTU *modbusrtu_ptr, stend_main_window *window_ptr, test_board *test_board_ptr);
+    void start_main_test_mups(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
+
+    /**
+     * @brief read_mops_status метод считывающий результаты тестирования МОПСов с платы
+     * @param modbusrtu_ptr
+     * @param test_board_ptr
+     */
+    void read_mops_status(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
+
+    /**
+     * @brief read_mups_status метод считывающий результаты тестирования МУПСов с платы
+     * @param modbusrtu_ptr
+     * @param test_board_ptr
+     */
+    void read_mups_status(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
+
+    /**
+     * @brief read_mops_status_return метод считывающий результаты тестирования МОПСов и возвращает обратно контейнер
+     * @param modbusrtu_ptr
+     * @param test_board_ptr
+     * @return
+     */
+    std::map<int, mops> read_mops_status_return(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
+
+    /**
+     * @brief read_mups_status_return
+     * @param modbusrtu_ptr
+     * @param test_board_ptr
+     * @return
+     */
+    std::map<int, mups> read_mups_status_return(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
+
+    /**
+     * @brief get_mops_checkbox_flag функция возвращает флаг который показывает установлен или хотя-бы один чекбокс МОПСов
+     * @return
+     */
+    bool get_mops_checkbox_flag();
+
+    /**
+     * @brief get_mups_checkbox_flag функция возвращает флаг который показывает установлен или хотя-бы один чекбокс МУПСов
+     * @return
+     */
+    bool get_mups_checkbox_flag();
 };
 
 #endif // TEST_BOARD_H
