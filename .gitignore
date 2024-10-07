@@ -44,3 +44,5 @@ vgcore.*
 *.qmlproject.user
 *.qtc_clangd
 
+# zip файлы
+*.zip
