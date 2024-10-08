@@ -1,6 +1,7 @@
 #ifndef DEFINE_H
 #define DEFINE_H
 
+// МОПС
 /**
  * @brief макрос по выбору массива начальных адрессов МОПСов
  */
@@ -9,7 +10,16 @@
      (cond_var) == 1 ? mops_start_reg_arr_24v :     \
                        mops_start_reg_arr_28v)
 
+/**
+ * @brief макрос по выбору массива начальных объектов МОПСов
+ */
+#define MACRO_SET_MOPS_OBJ_ARR(cond_var)      \
+    ((cond_var) == 0 ? mops_map_18v :         \
+     (cond_var) == 1 ? mops_map_24v :         \
+                       mops_map_28v)
 
+
+// МУПС
 /**
  * @brief макрос по выбору массива начальных адрессов МУПСов
  */
@@ -18,6 +28,13 @@
      (cond_var) == 1 ? mups_start_reg_arr_24v :     \
                        mups_start_reg_arr_28v)
 
+/**
+ * @brief макрос по выбору массива начальных объектов МОПСов
+ */
+#define MACRO_SET_MUPS_OBJ_ARR(cond_var)      \
+    ((cond_var) == 0 ? mups_map_18v :         \
+     (cond_var) == 1 ? mups_map_24v :         \
+                       mups_map_28v)
 
 
 #endif // DEFINE_H

@@ -252,7 +252,6 @@ void stend_main_window::clear_mops_gui()
             // очищаем статус работоспособности МОПСа
             if (operable_label)
             {
-
                     operable_label->setText("");
                     operable_label->setStyleSheet("QLabel { color : black; }");
 
@@ -273,18 +272,10 @@ void stend_main_window::clear_mops_gui()
             QLabel* v18_label = findChild<QLabel*>(QString("lable_18v_ans_mops_%1").arg(id + 1));
             QLabel* v24_label = findChild<QLabel*>(QString("lable_24v_ans_mops_%1").arg(id + 1));
             QLabel* v28_label = findChild<QLabel*>(QString("lable_28v_ans_mops_%1").arg(id + 1));
-            if (v18_label)  // 18v
-            {
-                v18_label->setText(""); v18_label->setStyleSheet("QLabel { color : black; }");
-            }
-            if (v24_label) // 24v
-            {
-                v24_label->setText(""); v24_label->setStyleSheet("QLabel { color : black; }");
-            }
-            if (v28_label) // 28v
-            {
-                v28_label->setText(""); v28_label->setStyleSheet("QLabel { color : black; }");
-            }
+
+            if (v18_label)  {v18_label->setText(""); v18_label->setStyleSheet("QLabel { color : black; }");} // 18v
+            if (v24_label) {v24_label->setText(""); v24_label->setStyleSheet("QLabel { color : black; }");}  // 24v
+            if (v28_label) {v28_label->setText(""); v28_label->setStyleSheet("QLabel { color : black; }");}  // 28v
 
 
             // Обновляем статус каналов (логика не менялась, остается такой же)
@@ -302,32 +293,11 @@ void stend_main_window::clear_mops_gui()
                 QLabel* sc_label = findChild<QLabel*>(QString("lable_break_mops_%1_sc_%2").arg(id + 1).arg(ch + 1));
 
                 // обновляем статус канала
-                if (norm_label)
-                {
-                    norm_label->setText(""); norm_label->setStyleSheet("QLabel { color : black; }");
-                }
-
-                if (break_label)
-                {
-                    break_label->setText(""); break_label->setStyleSheet("QLabel { color : black; }");
-                }
-
-                if (attn_label)
-                {
-                    attn_label->setText(""); attn_label->setStyleSheet("QLabel { color : black; }");
-                }
-
-
-                if (fire_label)
-                {
-                    fire_label->setText(""); fire_label->setStyleSheet("QLabel { color : balck; }");
-                }
-
-
-                if (sc_label)
-                {
-                    sc_label->setText(""); sc_label->setStyleSheet("QLabel { color : black; }");
-                }
+                if (norm_label){norm_label->setText(""); norm_label->setStyleSheet("QLabel { color : black; }");}
+                if (break_label){break_label->setText(""); break_label->setStyleSheet("QLabel { color : black; }");}
+                if (attn_label){attn_label->setText(""); attn_label->setStyleSheet("QLabel { color : black; }");}
+                if (fire_label){fire_label->setText(""); fire_label->setStyleSheet("QLabel { color : balck; }");}
+                if (sc_label){sc_label->setText(""); sc_label->setStyleSheet("QLabel { color : black; }");}
             }
         }
     });
@@ -798,10 +768,12 @@ void stend_main_window::start_main_test()
                         if (status == true)
                         {
                             // считываем результаты тестирования МОПСов
-                            std::map<int, mops> mops_map_cont = stand_test_board.read_mops_status_return(&modbus_stand_board, &stand_test_board, 0);  // считываем результаты
+                            stand_test_board.mops_map_18v = stand_test_board.read_mops_status_return(&modbus_stand_board, &stand_test_board, 0); // 18v
+                            stand_test_board.mops_map_24v = stand_test_board.read_mops_status_return(&modbus_stand_board, &stand_test_board, 1); // 24v
+                            stand_test_board.mops_map_28v = stand_test_board.read_mops_status_return(&modbus_stand_board, &stand_test_board, 2); // 28v
 
                             // обновляем ГУИ
-                            this->update_mops_gui(mops_map_cont);
+                            this->update_mops_gui(stand_test_board.mops_map_24v);   // по стандарту будем показывать ошибки при 24v
 
                             // Устанавливаем лейбл, что ничего не тестируется
                             QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
@@ -842,10 +814,12 @@ void stend_main_window::start_main_test()
                         if (status == true)
                         {
                             // считываем результаты тестирования МYПСов
-                            std::map<int, mups> mups_map_cont = stand_test_board.read_mups_status_return(&modbus_stand_board, &stand_test_board, 0);  // считываем результаты
+                            stand_test_board.mups_map_18v = stand_test_board.read_mups_status_return(&modbus_stand_board, &stand_test_board, 0); // 18v
+                            stand_test_board.mups_map_24v = stand_test_board.read_mups_status_return(&modbus_stand_board, &stand_test_board, 1); // 24v
+                            stand_test_board.mups_map_28v = stand_test_board.read_mups_status_return(&modbus_stand_board, &stand_test_board, 2); // 28v
 
                             // обновляем ГУИ
-                            this->update_mups_gui(mups_map_cont);
+                            this->update_mups_gui(stand_test_board.mups_map_24v);   // по стандарту будем показывать ошибки при 24v
 
                             // Устанавливаем лейбл, что ничего не тестируется
                             QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});

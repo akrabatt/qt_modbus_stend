@@ -334,7 +334,7 @@ std::map<int, mops>test_board::read_mops_status_return(modbusRTU *modbusrtu_ptr,
     std::map<int, mops> local_mops_map;
 
     // очищаем наш список с объектами мопсов
-    this->mops_map.clear();
+    MACRO_SET_MOPS_OBJ_ARR(cond_var).clear();
 
     // создаем переменную равную кол-ву модулей
     size_t mops_addr_start_reg_size = sizeof(MACRO_SET_MOPS_18_24_28_ADDR(cond_var))/sizeof(MACRO_SET_MOPS_18_24_28_ADDR(cond_var)[0]);
@@ -378,7 +378,7 @@ std::map<int, mups>test_board::read_mups_status_return(modbusRTU *modbusrtu_ptr,
     std::map<int, mups> local_mups_map;
 
     // очищаем наш список с объектами мопсов
-    this->mups_map.clear();
+    MACRO_SET_MUPS_OBJ_ARR(cond_var).clear();
 
     // создаем переменную равную кол-ву модулей
     size_t mups_addr_start_reg_size = sizeof(MACRO_SET_MUPS_18_24_28_ADDR(cond_var))/sizeof(MACRO_SET_MUPS_18_24_28_ADDR(cond_var)[0]);

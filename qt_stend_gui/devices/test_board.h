@@ -57,8 +57,14 @@ private:
     std::vector<int> mups_id = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};     // id
 
 public:
-    std::map<int, mops> mops_map;   // список с объектами МОПСов
-    std::map<int, mups> mups_map;   // список с объектами МУПСов
+    std::map<int, mops> mops_map_18v;   // список с объектами МОПСов 18v
+    std::map<int, mups> mups_map_18v;   // список с объектами МУПСов
+
+    std::map<int, mops> mops_map_24v;   // список с объектами МОПСов 24v
+    std::map<int, mups> mups_map_24v;   // список с объектами МУПСов
+
+    std::map<int, mops> mops_map_28v;   // список с объектами МОПСов 28v
+    std::map<int, mups> mups_map_28v;   // список с объектами МУПСов
 
 
     // пустой конструктор

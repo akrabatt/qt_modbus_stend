@@ -21733,7 +21733,7 @@
     <property name="geometry">
      <rect>
       <x>340</x>
-      <y>330</y>
+      <y>240</y>
       <width>171</width>
       <height>161</height>
      </rect>
@@ -21975,41 +21975,41 @@
    <widget class="QGroupBox" name="groupBox_5">
     <property name="geometry">
      <rect>
-      <x>1210</x>
-      <y>10</y>
-      <width>251</width>
-      <height>71</height>
+      <x>340</x>
+      <y>460</y>
+      <width>171</width>
+      <height>241</height>
      </rect>
     </property>
     <property name="title">
-     <string>Показать состояние при питании:</string>
+     <string>Ошибки при питании:</string>
     </property>
     <widget class="QWidget" name="">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>40</y>
-       <width>241</width>
-       <height>28</height>
+       <y>30</y>
+       <width>151</width>
+       <height>201</height>
       </rect>
      </property>
-     <layout class="QHBoxLayout" name="horizontalLayout_12">
+     <layout class="QVBoxLayout" name="verticalLayout_15">
       <item>
-       <widget class="QRadioButton" name="radioButton_set18v">
+       <widget class="QPushButton" name="pushButton">
         <property name="text">
          <string>18v</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QRadioButton" name="radioButton_set24v">
+       <widget class="QPushButton" name="pushButton_2">
         <property name="text">
          <string>24v</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QRadioButton" name="radioButton_3">
+       <widget class="QPushButton" name="pushButton_3">
         <property name="text">
          <string>28v</string>
         </property>
