@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1634</width>
-    <height>962</height>
+    <height>960</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -42,7 +42,7 @@
     <property name="geometry">
      <rect>
       <x>520</x>
-      <y>10</y>
+      <y>40</y>
       <width>581</width>
       <height>51</height>
      </rect>
@@ -282,7 +282,7 @@
     <property name="geometry">
      <rect>
       <x>520</x>
-      <y>60</y>
+      <y>90</y>
       <width>1081</width>
       <height>811</height>
      </rect>
@@ -903,7 +903,7 @@
             <x>10</x>
             <y>30</y>
             <width>150</width>
-            <height>61</height>
+            <height>74</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_13">
@@ -2528,7 +2528,7 @@
             <x>10</x>
             <y>30</y>
             <width>150</width>
-            <height>61</height>
+            <height>74</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_43">
@@ -3194,7 +3194,7 @@
             <x>10</x>
             <y>30</y>
             <width>150</width>
-            <height>61</height>
+            <height>74</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_51">
@@ -4143,7 +4143,7 @@
             <x>10</x>
             <y>30</y>
             <width>150</width>
-            <height>61</height>
+            <height>74</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_59">
@@ -5286,7 +5286,7 @@
             <x>10</x>
             <y>30</y>
             <width>150</width>
-            <height>61</height>
+            <height>74</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_67">
@@ -6041,7 +6041,7 @@
             <x>10</x>
             <y>30</y>
             <width>150</width>
-            <height>61</height>
+            <height>74</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_75">
@@ -8243,7 +8243,7 @@
             <x>10</x>
             <y>30</y>
             <width>151</width>
-            <height>61</height>
+            <height>74</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_83">
@@ -9192,7 +9192,7 @@
             <x>10</x>
             <y>30</y>
             <width>148</width>
-            <height>61</height>
+            <height>72</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_155">
@@ -9466,7 +9466,7 @@
             <x>10</x>
             <y>30</y>
             <width>148</width>
-            <height>61</height>
+            <height>72</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_168">
@@ -10605,7 +10605,7 @@
             <x>10</x>
             <y>30</y>
             <width>148</width>
-            <height>61</height>
+            <height>72</height>
            </rect>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout_181">
@@ -21968,6 +21968,52 @@
          </widget>
         </item>
        </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>10</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Показать состояние при питании:</string>
+    </property>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>241</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_12">
+      <item>
+       <widget class="QRadioButton" name="radioButton_set18v">
+        <property name="text">
+         <string>18v</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radioButton_set24v">
+        <property name="text">
+         <string>24v</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radioButton_3">
+        <property name="text">
+         <string>28v</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>

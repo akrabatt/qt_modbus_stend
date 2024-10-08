@@ -798,7 +798,7 @@ void stend_main_window::start_main_test()
                         if (status == true)
                         {
                             // считываем результаты тестирования МОПСов
-                            std::map<int, mops> mops_map_cont = stand_test_board.read_mops_status_return(&modbus_stand_board, &stand_test_board);  // считываем результаты
+                            std::map<int, mops> mops_map_cont = stand_test_board.read_mops_status_return(&modbus_stand_board, &stand_test_board, 0);  // считываем результаты
 
                             // обновляем ГУИ
                             this->update_mops_gui(mops_map_cont);
@@ -842,7 +842,7 @@ void stend_main_window::start_main_test()
                         if (status == true)
                         {
                             // считываем результаты тестирования МYПСов
-                            std::map<int, mups> mups_map_cont = stand_test_board.read_mups_status_return(&modbus_stand_board, &stand_test_board);  // считываем результаты
+                            std::map<int, mups> mups_map_cont = stand_test_board.read_mups_status_return(&modbus_stand_board, &stand_test_board, 0);  // считываем результаты
 
                             // обновляем ГУИ
                             this->update_mups_gui(mups_map_cont);

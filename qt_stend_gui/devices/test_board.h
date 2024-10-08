@@ -12,6 +12,7 @@
 #include <algorithm>
 #include "mops.h"
 #include "mups.h"
+#include "define.h"
 
 /**
  * @brief The test_board class
@@ -36,37 +37,15 @@ private:
     uint16_t mups_active_start_reg = 510;   // стартовый регистр МУПСов для активации проверки
     uint16_t mups_active_quant_reg = 10;    // кол-во регистров
 
-    enum : uint16_t
-    {
-        mups_id_1 = 11000,
-        mups_id_2 = 11036,
-        mups_id_3 = 11072,
-        mups_id_4 = 11108,
-        mups_id_5 = 11144,
-        mups_id_6 = 11180,
-        mups_id_7 = 11216,
-        mups_id_8 = 11252,
-        mups_id_9 = 11288,
-        musp_id_10 = 11324
-    }mups_start_reg;        // стартовые регистры для каждого из мупсов
 
-    uint16_t mups_start_reg_arr[10] = {11000, 11036, 11072, 11108, 11144, 11180, 11216, 11252, 11288, 11324};       // стартовые регистры МУПСов в массиве
+    uint16_t mups_start_reg_arr_18v[10] = {11000, 11036, 11072, 11108, 11144, 11180, 11216, 11252, 11288, 11324};       // стартовые регистры МУПСов в массиве 18v
+    uint16_t mups_start_reg_arr_24v[10] = {13000, 13036, 13072, 13108, 13144, 13180, 13216, 13252, 13288, 13324};       // стартовые регистры МУПСов в массиве 24v
+    uint16_t mups_start_reg_arr_28v[10] = {15000, 15036, 15072, 15108, 15144, 15180, 15216, 15252, 15288, 15324};       // стартовые регистры МУПСов в массиве 28v
 
-    enum : uint16_t
-    {
-        mops_id_1 = 10000,
-        mops_id_2 = 10056,
-        mops_id_3 = 10112,
-        mops_id_4 = 10168,
-        mops_id_5 = 10224,
-        mops_id_6 = 10280,
-        mops_id_7 = 10336,
-        mops_id_8 = 10392,
-        mops_id_9 = 10448,
-        mops_id_10 = 10504
-    }mops_start_reg;        // стартовые регистры для каждого из мопсов
 
-    uint16_t mops_start_reg_arr[10] = {10000, 10056, 10112, 10168, 10224, 10280, 10336, 10392, 10448, 10504};       // стартовые регистры МОПСов в массиве
+    uint16_t mops_start_reg_arr_18v[10] = {10000, 10056, 10112, 10168, 10224, 10280, 10336, 10392, 10448, 10504};       // стартовые регистры МОПСов в массиве 18v
+    uint16_t mops_start_reg_arr_24v[10] = {12000, 12056, 12112, 12168, 12224, 12280, 12336, 12392, 12448, 12504};       // стартовые регистры МОПСов в массиве 18v
+    uint16_t mops_start_reg_arr_28v[10] = {14000, 14056, 14112, 14168, 14224, 14280, 14336, 14392, 14448, 14504};       // стартовые регистры МОПСов в массиве 18v
 
     std::vector<uint16_t> mops_active_checkbox;  // вектор хранящий выбранные для проверки МОПСы
     bool mops_flag_checbox = false;     // флаг означает что один из чекбоксов МОПСов отмечен
@@ -74,19 +53,14 @@ private:
     std::vector<uint16_t> mups_active_checkbox;  // векстр хранящий выбранные для проверки МУПСы
     bool mups_flag_checbox = false;     // флаг означает что один из чекбоксов МУПСов отмечен
 
-public:
-    // объекты МОПСами
-    std::map<int, mops> mops_map;   // список с объектами МОПСов
-private:
     std::vector<int> mops_id = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};     // id
-
-public:
-    // объекты МУПСами
-    std::map<int, mups> mups_map;   // список с объектами МУПСов
-private:
     std::vector<int> mups_id = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};     // id
 
 public:
+    std::map<int, mops> mops_map;   // список с объектами МОПСов
+    std::map<int, mups> mups_map;   // список с объектами МУПСов
+
+
     // пустой конструктор
     test_board();
 
@@ -207,30 +181,32 @@ public:
      * @param modbusrtu_ptr
      * @param test_board_ptr
      */
-    void read_mops_status(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
+//    void read_mops_status(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
 
     /**
      * @brief read_mups_status метод считывающий результаты тестирования МУПСов с платы
      * @param modbusrtu_ptr
      * @param test_board_ptr
      */
-    void read_mups_status(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
+//    void read_mups_status(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
 
     /**
      * @brief read_mops_status_return метод считывающий результаты тестирования МОПСов и возвращает обратно контейнер
      * @param modbusrtu_ptr
      * @param test_board_ptr
+     * @param cond_var даной переменной выбирем массив МУПСов с питанием
      * @return
      */
-    std::map<int, mops> read_mops_status_return(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
+    std::map<int, mops> read_mops_status_return(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr, int cond_var);
 
     /**
      * @brief read_mups_status_return
      * @param modbusrtu_ptr
      * @param test_board_ptr
+     * @param cond_var данной переменной выбираем массив МУПСов спитанием
      * @return
      */
-    std::map<int, mups> read_mups_status_return(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr);
+    std::map<int, mups> read_mups_status_return(modbusRTU *modbusrtu_ptr, test_board *test_board_ptr, int cond_var);
 
     /**
      * @brief get_mops_checkbox_flag функция возвращает флаг который показывает установлен или хотя-бы один чекбокс МОПСов
