@@ -21984,7 +21984,7 @@
     <property name="title">
      <string>Ошибки при питании:</string>
     </property>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -21995,21 +21995,21 @@
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_15">
       <item>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="button_18v">
         <property name="text">
          <string>18v</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="button_24v">
         <property name="text">
          <string>24v</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="QPushButton" name="button_28v">
         <property name="text">
          <string>28v</string>
         </property>
@@ -22018,6 +22018,19 @@
      </layout>
     </widget>
    </widget>
+   <widget class="QLabel" name="test_label">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>10</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -22025,7 +22038,7 @@
      <x>0</x>
      <y>0</y>
      <width>1634</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

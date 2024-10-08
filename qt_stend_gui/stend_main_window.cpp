@@ -43,9 +43,13 @@ stend_main_window::stend_main_window(QWidget *parent)
     mups_checkboxes[9] = ui->checkBox_active_mups_10;
 
     // Подключаем сигналы кнопок к слотам
-    connect(ui->button_test_connection, &QPushButton::clicked, this, &stend_main_window::test_connection);
-    connect(ui->button_start_main_test, &QPushButton::clicked, this, &stend_main_window::start_main_test);
-    connect(ui->button_stop_main_test, &QPushButton::clicked, this, &stend_main_window::stop_main_test);
+    connect(ui->button_test_connection, &QPushButton::clicked, this, &stend_main_window::test_connection);  // тест соединения
+    connect(ui->button_start_main_test, &QPushButton::clicked, this, &stend_main_window::start_main_test);  // старт испытаний
+    connect(ui->button_stop_main_test, &QPushButton::clicked, this, &stend_main_window::stop_main_test);    // стоп испытаний
+
+    connect(ui->button_18v, &QPushButton::clicked, this, &stend_main_window::set_power_supply);             // 18v
+    connect(ui->button_24v, &QPushButton::clicked, this, &stend_main_window::set_power_supply);             // 24v
+    connect(ui->button_28v, &QPushButton::clicked, this, &stend_main_window::set_power_supply);             // 28v
 }
 
 /**
@@ -61,6 +65,27 @@ stend_main_window::~stend_main_window()
     delete ui;
 }
 
+/**
+ * @brief set_supply обработчик 3-х кнопок сразу, дает выбор показать ошибки питания
+ */
+void stend_main_window::set_power_supply()
+{
+    QPushButton* button = qobject_cast<QPushButton*>(sender()); // Определяем, какая кнопка была нажата
+
+    if (button == ui->button_18v)
+    {
+        //handle18vButton();  // Вызываем функцию для 18v
+        QMetaObject::invokeMethod(this, [this](){ui->test_label->setText("18v");});
+    } else if (button == ui->button_24v)
+    {
+        //handle24vButton();  // Вызываем функцию для 24v
+        QMetaObject::invokeMethod(this, [this](){ui->test_label->setText("24v");});
+    } else if (button == ui->button_28v)
+    {
+        //handle28vButton();  // Вызываем функцию для 28v
+        QMetaObject::invokeMethod(this, [this](){ui->test_label->setText("28v");});
+    }
+}
 
 /**
  * @brief update_mops_gui данный метод обновляет ГУИ всех вкладок МУПСов

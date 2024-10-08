@@ -62,6 +62,11 @@ private slots:
      */
     void stop_main_test();
 
+    /**
+     * @brief set_supply обработчик 3-х кнопок сразу, дает выбор показать ошибки питания
+     */
+    void set_power_supply();
+
 private:
     Ui::stend_main_window *ui;
 
