@@ -154,9 +154,9 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
                     online_label->setText("Online");
                     online_label->setStyleSheet("QLabel { color : green; }");
                 }
-                else
+                else    // online error
                 {
-                    online_label->setText("Online error !");
+                    online_label->setText(MACRO_SET_ONLINE_ERROR_STR(mops_obj.mops_stand_statment.mops_statment.mops_online_err));
                     online_label->setStyleSheet("QLabel { color : red; }");
                     continue;
                 }
@@ -171,21 +171,21 @@ void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
                 if (mops_obj.mops_stand_statment.mops_power_supply_error.mops_18v_error > 0)
                     {v18_label->setText("err"); v18_label->setStyleSheet("QLabel { color : red; }");}
                 else
-                    {v18_label->setText("ok"); v18_label->setStyleSheet("QLabel { color : green; }");}
+                    {v18_label->setText(" "); v18_label->setStyleSheet("QLabel { color : green; }");}
             }
             if (v24_label) // 24v
             {
                 if (mops_obj.mops_stand_statment.mops_power_supply_error.mops_24v_error > 0)
                     {v24_label->setText("err"); v24_label->setStyleSheet("QLabel { color : red; }");}
                 else
-                    {v24_label->setText("ok"); v24_label->setStyleSheet("QLabel { color : green; }");}
+                    {v24_label->setText(" "); v24_label->setStyleSheet("QLabel { color : green; }");}
             }
             if (v28_label) // 28v
             {
                 if (mops_obj.mops_stand_statment.mops_power_supply_error.mops_28v_error > 0)
                     {v28_label->setText("err"); v28_label->setStyleSheet("QLabel { color : red; }");}
                 else
-                    {v28_label->setText("ok"); v28_label->setStyleSheet("QLabel { color : green; }");}
+                    {v28_label->setText(" "); v28_label->setStyleSheet("QLabel { color : green; }");}
             }
 
 
@@ -298,7 +298,7 @@ void stend_main_window::clear_mops_gui()
             QLabel* v24_label = findChild<QLabel*>(QString("lable_24v_ans_mops_%1").arg(id + 1));
             QLabel* v28_label = findChild<QLabel*>(QString("lable_28v_ans_mops_%1").arg(id + 1));
 
-            if (v18_label)  {v18_label->setText(""); v18_label->setStyleSheet("QLabel { color : black; }");} // 18v
+            if (v18_label) {v18_label->setText(""); v18_label->setStyleSheet("QLabel { color : black; }");} // 18v
             if (v24_label) {v24_label->setText(""); v24_label->setStyleSheet("QLabel { color : black; }");}  // 24v
             if (v28_label) {v28_label->setText(""); v28_label->setStyleSheet("QLabel { color : black; }");}  // 28v
 
@@ -397,9 +397,9 @@ void stend_main_window::update_mups_gui(const std::map<int, mups>& mups_map)
                     online_label->setText("Online");
                     online_label->setStyleSheet("QLabel { color : green; }");
                 }
-                else
+                else    // online error
                 {
-                    online_label->setText("Online error !");
+                    online_label->setText(MACRO_SET_ONLINE_ERROR_STR(mups_obj.mups_stand_statment.mups_statment.mups_online_err));
                     online_label->setStyleSheet("QLabel { color : red; }");
                     continue;
                 }
@@ -415,21 +415,21 @@ void stend_main_window::update_mups_gui(const std::map<int, mups>& mups_map)
                 if(mups_obj.mups_stand_statment.mups_power_supply_error.mups_18v_error > 0)
                     {v18_label->setText("err"); v18_label->setStyleSheet("QLabel { color : red; }");}
                 else
-                    {v18_label->setText("Ok"); v18_label->setStyleSheet("QLabel { color : green; }");}
+                    {v18_label->setText(" "); v18_label->setStyleSheet("QLabel { color : green; }");}
             }
             if(v24_label)   // 24
             {
                 if(mups_obj.mups_stand_statment.mups_power_supply_error.mups_24v_error > 0)
                     {v24_label->setText("err"); v24_label->setStyleSheet("QLabel { color : red; }");}
                 else
-                    {v24_label->setText("Ok"); v24_label->setStyleSheet("QLabel { color : green; }");}
+                    {v24_label->setText(" "); v24_label->setStyleSheet("QLabel { color : green; }");}
             }
             if(v28_label) // 28
             {
                 if(mups_obj.mups_stand_statment.mups_power_supply_error.mups_28v_error > 0)
                     {v28_label->setText("err"); v28_label->setStyleSheet("QLabel { color : red; }");}
                 else
-                    {v28_label->setText("Ok"); v28_label->setStyleSheet("QLabel { color : green; }");}
+                    {v28_label->setText(" "); v28_label->setStyleSheet("QLabel { color : green; }");}
             }
 
             // Обновляем статус каналов
@@ -616,6 +616,11 @@ void stend_main_window::stop_main_test()
     // включаем кнопку тест соединения
     ui->button_test_connection->setEnabled(true);
 
+    // включаем кнопки 18v 24v 28v
+    ui->button_18v->setEnabled(true);
+    ui->button_24v->setEnabled(true);
+    ui->button_28v->setEnabled(true);
+
     // Обновляем статус лейбла
     ui->answer_connection_lable->setText("Test stopped.");
 }
@@ -723,6 +728,10 @@ void stend_main_window::start_main_test()
     ui->button_start_main_test->setEnabled(false);
     // Отключаем кнопку тест соединения
     ui->button_test_connection->setEnabled(false);
+    // отключаем кнопки 18v 24v 28v
+    ui->button_18v->setEnabled(false);
+    ui->button_24v->setEnabled(false);
+    ui->button_28v->setEnabled(false);
 
     // Сбрасываем счетчики при новом запуске теста
     mops_num = 0;

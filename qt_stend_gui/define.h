@@ -36,5 +36,15 @@
      (cond_var) == 1 ? mups_map_24v :         \
                        mups_map_28v)
 
+/**
+ * @brief выбор строки ошибки онлайн
+ */
+#define MACRO_SET_ONLINE_ERROR_STR(statment)    \
+    ((statment) == 1 ? "Online error !"     :   \
+     (statment) == 2 ? "crc error !"        :   \
+     (statment) == 3 ? "illegal function !" :   \
+     (statment) == 4 ? "illegal addr !"     :   \
+     (statment) == 5 ? "illegal val !"      :   \
+                       "online error !")
 
 #endif // DEFINE_H
