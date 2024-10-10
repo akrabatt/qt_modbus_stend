@@ -9,6 +9,7 @@
 #include <QTabBar>
 #include "devices/mops.h"
 #include "devices/mups.h"
+#include "globals.h"
 
 // GUI КЛАСС
 QT_BEGIN_NAMESPACE
@@ -27,13 +28,13 @@ public:
      * @brief update_mops_gui данный метод обновляет ГУИ всех вкладок МОПСов
      * @param mops_map
      */
-    void update_mops_gui(const std::map<int, mops> &mops_map);
+    void update_mops_gui(std::map<int, mops> &mops_map);
 
     /**
      * @brief update_mups_gui данный метод обновляет ГУИ всех вкладок МУПСов
      * @param mups_map
      */
-    void update_mups_gui(const std::map<int, mups> &mups_map);
+    void update_mups_gui(std::map<int, mups> &mups_map);
 
     /**
      * @brief clear_mops_gui данный метод очищает интерфейс МОПСов

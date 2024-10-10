@@ -9,6 +9,7 @@
 #include <numeric>
 #include <thread>
 #include <mutex>
+#include "globals.h"
 
 
 stend_main_window::stend_main_window(QWidget *parent)
@@ -76,14 +77,22 @@ void stend_main_window::set_power_supply()
     {
         //handle18vButton();  // Вызываем функцию для 18v
         QMetaObject::invokeMethod(this, [this](){ui->test_label->setText("18v");});
-    } else if (button == ui->button_24v)
+        this->update_mops_gui(global_map_mops_18v);   // показать состояние при питании 18v
+        this->update_mups_gui(globla_map_mups_18v);   //
+    }
+    else if (button == ui->button_24v)
     {
         //handle24vButton();  // Вызываем функцию для 24v
         QMetaObject::invokeMethod(this, [this](){ui->test_label->setText("24v");});
-    } else if (button == ui->button_28v)
+        this->update_mops_gui(global_map_mops_24v);   // показать состояние при питании 24v
+        this->update_mups_gui(globla_map_mups_24v);   //
+    }
+    else if (button == ui->button_28v)
     {
         //handle28vButton();  // Вызываем функцию для 28v
         QMetaObject::invokeMethod(this, [this](){ui->test_label->setText("28v");});
+        this->update_mops_gui(global_map_mops_28v);   // показать состояние при питании 28v
+        this->update_mups_gui(globla_map_mups_28v);   //
     }
 }
 
@@ -91,7 +100,7 @@ void stend_main_window::set_power_supply()
  * @brief update_mops_gui данный метод обновляет ГУИ всех вкладок МУПСов
  * @param mops_map
  */
-void stend_main_window::update_mops_gui(const std::map<int, mops>& mops_map)
+void stend_main_window::update_mops_gui(std::map<int, mops>& mops_map)
 {
     QMetaObject::invokeMethod(this, [this, mops_map]()
     {
@@ -333,7 +342,7 @@ void stend_main_window::clear_mops_gui()
  * @brief update_mups_gui данный метод обновляет ГУИ всех вкладок МУПСов
  * @param mups_map
  */
-void stend_main_window::update_mups_gui(const std::map<int, mups>& mups_map)
+void stend_main_window::update_mups_gui(std::map<int, mups>& mups_map)
 {
     QMetaObject::invokeMethod(this, [this, mups_map]()
     {
@@ -729,9 +738,9 @@ void stend_main_window::start_main_test()
     // Отключаем кнопку тест соединения
     ui->button_test_connection->setEnabled(false);
     // отключаем кнопки 18v 24v 28v
-    ui->button_18v->setEnabled(false);
-    ui->button_24v->setEnabled(false);
-    ui->button_28v->setEnabled(false);
+//    ui->button_18v->setEnabled(false);
+//    ui->button_24v->setEnabled(false);
+//    ui->button_28v->setEnabled(false);
 
     // Сбрасываем счетчики при новом запуске теста
     mops_num = 0;
@@ -802,12 +811,12 @@ void stend_main_window::start_main_test()
                         if (status == true)
                         {
                             // считываем результаты тестирования МОПСов
-                            stand_test_board.mops_map_18v = stand_test_board.read_mops_status_return(&modbus_stand_board, &stand_test_board, 0); // 18v
-                            stand_test_board.mops_map_24v = stand_test_board.read_mops_status_return(&modbus_stand_board, &stand_test_board, 1); // 24v
-                            stand_test_board.mops_map_28v = stand_test_board.read_mops_status_return(&modbus_stand_board, &stand_test_board, 2); // 28v
+                            global_map_mops_18v = stand_test_board.read_mops_status_return(&modbus_stand_board, &stand_test_board, 0); // 18v
+                            global_map_mops_24v = stand_test_board.read_mops_status_return(&modbus_stand_board, &stand_test_board, 1); // 24v
+                            global_map_mops_28v = stand_test_board.read_mops_status_return(&modbus_stand_board, &stand_test_board, 2); // 28v
 
                             // обновляем ГУИ
-                            this->update_mops_gui(stand_test_board.mops_map_24v);   // по стандарту будем показывать ошибки при 24v
+                            this->update_mops_gui(global_map_mops_24v);   // по стандарту будем показывать ошибки при 24v
 
                             // Устанавливаем лейбл, что ничего не тестируется
                             QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
@@ -848,12 +857,12 @@ void stend_main_window::start_main_test()
                         if (status == true)
                         {
                             // считываем результаты тестирования МYПСов
-                            stand_test_board.mups_map_18v = stand_test_board.read_mups_status_return(&modbus_stand_board, &stand_test_board, 0); // 18v
-                            stand_test_board.mups_map_24v = stand_test_board.read_mups_status_return(&modbus_stand_board, &stand_test_board, 1); // 24v
-                            stand_test_board.mups_map_28v = stand_test_board.read_mups_status_return(&modbus_stand_board, &stand_test_board, 2); // 28v
+                            globla_map_mups_18v = stand_test_board.read_mups_status_return(&modbus_stand_board, &stand_test_board, 0); // 18v
+                            globla_map_mups_24v = stand_test_board.read_mups_status_return(&modbus_stand_board, &stand_test_board, 1); // 24v
+                            globla_map_mups_28v = stand_test_board.read_mups_status_return(&modbus_stand_board, &stand_test_board, 2); // 28v
 
                             // обновляем ГУИ
-                            this->update_mups_gui(stand_test_board.mups_map_24v);   // по стандарту будем показывать ошибки при 24v
+                            this->update_mups_gui(globla_map_mups_24v);   // по стандарту будем показывать ошибки при 24v
 
                             // Устанавливаем лейбл, что ничего не тестируется
                             QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
