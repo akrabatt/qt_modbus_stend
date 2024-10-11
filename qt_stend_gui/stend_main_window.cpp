@@ -631,7 +631,7 @@ void stend_main_window::stop_main_test()
     ui->button_28v->setEnabled(true);
 
     // Обновляем статус лейбла
-    ui->answer_connection_lable->setText("Test stopped.");
+    ui->answer_connection_lable->setText("Тест завершен.");
 }
 
 /**
@@ -684,7 +684,7 @@ void stend_main_window::test_connection()
                 QMetaObject::invokeMethod(this, [this]()
                 {
                     ui->answer_connection_lable->setStyleSheet("QLabel { color : green; }"); // зеленый цвет лейбла
-                    ui->answer_connection_lable->setText("Successful connection!"); // текст лейбла
+                    ui->answer_connection_lable->setText("Соединение успешно!"); // текст лейбла
                     QMessageBox::information(this, "Success", "Successful connection!");
                 });
             }
@@ -695,7 +695,7 @@ void stend_main_window::test_connection()
             {
                 QMessageBox::critical(this, "Error", QString("Failed connection: %1").arg(e.what())); // ошибка соединения
                 ui->answer_connection_lable->setStyleSheet("QLabel { color : red; }"); // красный цвет лейбла
-                ui->answer_connection_lable->setText("Connection error");
+                ui->answer_connection_lable->setText("Ошибка соединения !");
             });
         }
     });
@@ -799,6 +799,8 @@ void stend_main_window::start_main_test()
                     // Устанавливаем лейбл, что в данный момент тестируется МОПС
                     QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("МОПС");});
 
+                    QMetaObject::invokeMethod(this, [this](){ui->answer_connection_lable->setText("Тест в процессе.");});
+
                     // Цикл проверки МОПСов
                     while (isTestRunning)
                     {
@@ -817,6 +819,8 @@ void stend_main_window::start_main_test()
 
                             // обновляем ГУИ
                             this->update_mops_gui(global_map_mops_24v);   // по стандарту будем показывать ошибки при 24v
+                            this->update_mups_gui(globla_map_mups_24v);   //
+                            QMetaObject::invokeMethod(this, [this](){ui->test_label->setText("24v");});
 
                             // Устанавливаем лейбл, что ничего не тестируется
                             QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});
@@ -863,6 +867,8 @@ void stend_main_window::start_main_test()
 
                             // обновляем ГУИ
                             this->update_mups_gui(globla_map_mups_24v);   // по стандарту будем показывать ошибки при 24v
+                            this->update_mops_gui(global_map_mops_24v);   //
+                            QMetaObject::invokeMethod(this, [this](){ui->test_label->setText("24v");});
 
                             // Устанавливаем лейбл, что ничего не тестируется
                             QMetaObject::invokeMethod(this, [this](){ui->just_lable_in_test_ans->setText("");});

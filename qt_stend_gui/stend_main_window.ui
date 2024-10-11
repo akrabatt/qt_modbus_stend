@@ -22018,18 +22018,31 @@
      </layout>
     </widget>
    </widget>
-   <widget class="QLabel" name="test_label">
+   <widget class="QGroupBox" name="groupBox_6">
     <property name="geometry">
      <rect>
-      <x>400</x>
+      <x>340</x>
       <y>710</y>
-      <width>51</width>
-      <height>31</height>
+      <width>71</width>
+      <height>71</height>
      </rect>
     </property>
-    <property name="text">
-     <string/>
+    <property name="title">
+     <string>питание</string>
     </property>
+    <widget class="QLabel" name="test_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
